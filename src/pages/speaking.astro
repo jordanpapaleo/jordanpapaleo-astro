@@ -1,0 +1,42 @@
+---
+import Heading from '@components/Heading.astro'
+import Layout from '../layouts/Layout.astro'
+import { SITE } from '@common/config'
+---
+
+<Layout title={`${SITE.title}: Speaking`} activeNav="speaking">
+  <main>
+    <Heading level="h1">speaking</Heading>
+    <ul>
+      <li style={{ listStyleType: 'none' }}>
+        <h2>D3 + Hooks + Function Components</h2>
+        <h3><strong>Jun 13, 2019</strong>: Lightning Talk for BeerJS Reno</h3>
+        <p>
+          This was for a lightning talk presentation I did at a local meetup.
+          The tldr version is that there is a very eloquent way to write react
+          and d3. You can accomplish this by using function components and
+          hooks. YOu will have to check out the show it you want to see more.
+        </p>
+        <div>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://d3reacthooks-beerjsreno.surge.sh/#/0"
+            >Presentation Slides</a
+          >
+          <span>&nbsp;|&nbsp;</span>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/jordanpapaleo/presentation-d3-hooks"
+            >Repo</a
+          >
+        </div>
+      </li>
+    </ul>
+  </main>
+</Layout>
+
+<style lang="less">
+
+</style>

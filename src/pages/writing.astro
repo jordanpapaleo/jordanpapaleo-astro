@@ -1,0 +1,62 @@
+---
+import Heading from '@components/Heading.astro'
+import Layout from '@layouts/Layout.astro'
+import { SITE } from '@common/config'
+import { lighten } from 'polished'
+import HorzRule from '@components/HorzRule.astro'
+import format from 'date-fns/format'
+
+// https://docs.astro.build/en/reference/api-reference/#astroglob
+const posts = await Astro.glob<Frontmatter>('../content/*.md')
+---
+
+<Layout title={`${SITE.title}: Writing`} activeNav="writing">
+  <main>
+    <Heading level="h1">Writing</Heading>
+
+    <p>
+      Below you will find... well I cannot guarantee what you will find. It
+      changes A LOT. There are journals, tutorials, pro tips, rants, ramblings,
+      and maybe some theology.
+    </p>
+
+    <HorzRule />
+
+    <ul class="flex flex-col gap-10">
+      {
+        posts
+          .sort((a, b) => {
+            var dateA = new Date(a.frontmatter.date)
+            var dateB = new Date(b.frontmatter.date)
+            // @ts-ignore
+            return dateB - dateA
+          })
+          .map((post) => {
+            const tags = post.frontmatter.tags.split(', ')
+            return (
+              <li>
+                <h2 class="m-0">
+                  <small class="text-sm block uppercase">
+                    {format(new Date(post.frontmatter.date), 'MMMM dd, yyyy')}:
+                    {post.frontmatter.type}
+                  </small>
+                  {post.frontmatter.title}
+                </h2>
+                <p class="m-0">{post.frontmatter.description}</p>
+                <ul class="flex gap-2 m-0 p-0">
+                  {tags.map((tag) => (
+                    <li
+                      class="rounded px-1 py-1 bg-primaryUltraLight text-primary uppercase text-xs font-sans"
+                      style={{ lineHeight: 1 }}
+                    >
+                      {tag}
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            )
+          })
+      }
+    </ul>
+  </main>
+</Layout>

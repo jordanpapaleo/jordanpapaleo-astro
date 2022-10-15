@@ -1,0 +1,25 @@
+---
+export interface Props {
+  tight?: boolean
+  loose?: boolean
+}
+
+const { tight, loose } = Astro.props
+---
+
+<hr class:list={[{ tight, loose }]} />
+
+<style lang="less">
+  hr {
+    height: 1px;
+    @apply mt-8 mb-8 bg-border-light dark:bg-crimson;
+
+    &.tight {
+      @apply mt-4 mb-4;
+    }
+
+    &.loose {
+      @apply mt-12 mb-12;
+    }
+  }
+</style>

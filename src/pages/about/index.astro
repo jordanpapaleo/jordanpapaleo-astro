@@ -1,0 +1,313 @@
+---
+import Blockquote from '@components/Blockquote.astro'
+import Heading from '@components/Heading.astro'
+import HorzRule from '@components/HorzRule.astro'
+import Layout from '@layouts/Layout.astro'
+import AboutListItem from './AboutListItem.astro'
+import { SITE } from '@common/config'
+
+const importantStuff = [
+  ['Church'],
+  [
+    'Going to the batting cages with my kids; heck yeah I go in and crush some balls too (then go home complain about an old back)',
+  ],
+  ['Snowboarding with The Fam in the winter'],
+  ['Working on my orchard and vineyard'],
+  ['Good coffee and good whiskey'],
+  ['Figuring out the next part of my tattoo'],
+  // ['Building out my home gym'],
+]
+
+const tools = [
+  ['JavaScript, JavaScript, JavaScript'],
+  ['All of the standard FE stuff'],
+  ['React'],
+  ['SlateJS (React document editor)'],
+  ['Playing with Astro'],
+]
+
+const interests = [
+  ['Leadership'],
+  ['Astro'],
+  ['Flutter'],
+  ['Enterprise Node Exp'],
+  ['Data Science'],
+]
+
+const listeningTo = [
+  ['Bob Moses: The Silence in Between'],
+  ['Hot Water Music: Feel the Void'],
+  ['Iron Maiden: Senjutsu'],
+  ['Bad Brains: I Against I'],
+  ['Apple Music Profile', 'https://music.apple.com/profile/jordanpapaleo'],
+]
+
+const favMusic = [
+  ['Thrice'],
+  ['Gloryhammer (original singer)'],
+  ['David Crowder'],
+  ['BT'],
+  ['Stephan Bodzin'],
+]
+
+const tyingToRead = []
+
+const goodBooks = [
+  [
+    'Circle Trilogy by Ted Dekker',
+    'https://teddekker.com/products/the-circle-trilogy',
+  ],
+  ['Extreme Ownership'],
+  ['Radical Candor by Kim Scott', 'https://www.radicalcandor.com'],
+  // ['Code Simplicity'],
+]
+
+const playing = [['Diablo 3'], ['Final Fantasy VII Remake']]
+
+const favGames = [
+  ['Final Fantasy VII'],
+  ['Legend of Zelda: BOTW'],
+  ['The Legend of Zelda: A Link to the Past'],
+]
+---
+
+<Layout title={`${SITE.title}: About`} activeNav="about">
+  <main>
+    <Heading level="h1">ski bum turned engineer</Heading>
+
+    <div class="columns">
+      <img src="images/jp.png" />
+
+      <div>
+        <Heading level="h2">In the beginning, there was code</Heading>
+
+        <p>
+          Well, not for me but I am sure there was some pretty serious
+          engineering required to birth existence. I didn't start my web path in
+          2005 while trying to make a career in the ski industry. Who knew the
+          path to a software engineer would start by bumping chairs in
+          Breckenridge, CO after dropping out of college. I mean, I just wanted
+          to build a website for my dad, I had no clue this was coming.
+        </p>
+      </div>
+    </div>
+
+    <HorzRule />
+
+    <article class="columns">
+      <div>
+        <Heading level="h2">Code Community</Heading>
+
+        <section>
+          <Heading level="h3">TahoeJS</Heading>
+
+          <p>
+            I love code communities; I really do. The first JavaScript community
+            I started eventually became
+            <a
+              href="http://www.tahoejs.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              TahoeJS
+            </a>
+            but it did not start that way. Go back a few thousand years in developer
+            time, way back to the days of angular 0.FML.whatevs. These were the days
+            when you could email the angular team with questions. These were the
+            days when Brad Green would send you official angular t-shirts for being
+            an early adopter. Yes, we were super early adopters of this Angular where
+            I was working. I rallied a group of engineers to hangout in a conference
+            room after work with some beers so we could watch google's live stream
+            of their angular meetup to help us learn. Go figure, the live stream
+            barely ever worked so we started learning and sharing what we learned
+            to each other.
+          </p>
+          <Blockquote title="ProTip">Beer + Devs = Meetup</Blockquote>
+          <p>
+            One day my dev buddy Garrett told me about BeerJS and I instantly
+            "applied" for my very own repo under BeerJS. Somehow, BeerJS birthed
+            a parent (very unnatural), you guessed it, TahoeJS. TahoeJS turned
+            into the parent community and ran BeerJS events. We made stickers
+            (most imporant part of building community), got a few speakers, a
+            beer sponsor (thank you FiftFifty Brewing), and almost threw a
+            conference. This was great as it really contributed to creating a
+            tech community in Truckee, CA. After I moved to Reno, NV, TahoeJS
+            migrated to the south side of the lake is now located in South Lake
+            Tahoe.
+          </p>
+        </section>
+
+        <section>
+          <Heading level="h3">BeerJS</Heading>
+          <p>
+            I am the current curator (curator just sounds cool) of the entire
+            <a
+              target="_blank"
+              href="https://github.com/beerjs/meta"
+              rel="noopener noreferrer"
+            >
+              BeerJS
+            </a>
+            community. It may look just like a GitHub repo but its actually a JavaScript
+            community that is present in 50 cities around the world. Many many moons
+            ago, there was a request for someone to take over running the community
+            repos. I completely jumped at that chance and have been doing it since.
+            Its totally a Dread Pirate Roberts thing. But let's be honest good code
+            and good beer; you can't beat that.
+          </p>
+          <p>
+            After moving to Reno, NV, and being the curator of BeerJS, I had no
+            choice but to start one in Reno. This quickly turned into a revival
+            movement for RenoJS too. I would say that the JavaScript community
+            in Reno is now growing and its pretty much great.
+          </p>
+        </section>
+
+        <section>
+          <Heading level="h3">Lessons Learned</Heading>
+          <ul>
+            <li>
+              Community has to come before code. People need to feel accountable
+              to the other people in your meetup. Its much easier to guilt
+              people for missing a month. I like publicly shaming those that
+              skip an event
+            </li>
+            <li>
+              Don't try to do everything yourself. You WILL burn out. Community
+              is not a one man show. Get everyone involved.
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="column-right">
+        <Heading level="h2">Whats up today</Heading>
+
+        <section>
+          <Heading level="h3">Important Stuff</Heading>
+          <ul>
+            {
+              importantStuff.map(([name, link]) => (
+                <AboutListItem name={name} link={link} />
+              ))
+            }
+          </ul>
+        </section>
+
+        <section>
+          <Heading level="h3">tools in the belt</Heading>
+          <ul>
+            {
+              tools.map(([name, link]) => (
+                <AboutListItem name={name} link={link} />
+              ))
+            }
+          </ul>
+        </section>
+
+        <section>
+          <Heading level="h3">interests</Heading>
+          <ul>
+            {
+              interests.map(([name, link]) => (
+                <AboutListItem name={name} link={link} />
+              ))
+            }
+          </ul>
+        </section>
+
+        <section>
+          <Heading level="h3">listening to</Heading>
+          <ul>
+            {
+              listeningTo.map(([name, link]) => (
+                <AboutListItem name={name} link={link} />
+              ))
+            }
+          </ul>
+        </section>
+
+        <section>
+          <Heading level="h3">All time fav music</Heading>
+          <ul>
+            {
+              favMusic.map(([name, link]) => (
+                <AboutListItem name={name} link={link} />
+              ))
+            }
+          </ul>
+        </section>
+
+        <section>
+          <Heading level="h3">Trying to read</Heading>
+          <p>
+            Reading is something I really want to like but honestly do not, I
+            still try
+          </p>
+          <ul>
+            {
+              tyingToRead.map(([name, link]) => (
+                <AboutListItem name={name} link={link} />
+              ))
+            }
+          </ul>
+        </section>
+
+        <section>
+          <Heading level="h3">Great books</Heading>
+          <ul>
+            {
+              goodBooks.map(([name, link]) => (
+                <AboutListItem name={name} link={link} />
+              ))
+            }
+          </ul>
+        </section>
+
+        <section>
+          <Heading level="h3">Currently playing</Heading>
+          <ul>
+            {
+              playing.map(([name, link]) => (
+                <AboutListItem name={name} link={link} />
+              ))
+            }
+          </ul>
+        </section>
+
+        <section>
+          <Heading level="h3">Favorite games</Heading>
+          <ul>
+            {
+              favGames.map(([name, link]) => (
+                <AboutListItem name={name} link={link} />
+              ))
+            }
+          </ul>
+        </section>
+      </div>
+    </article>
+  </main>
+</Layout>
+
+<style lang="less">
+  .columns {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .column-right > section {
+    margin-bottom: 2.5rem;
+  }
+
+  ul {
+    list-style-type: disc;
+    margin-left: 2vw;
+  }
+
+  li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+  }
+</style>

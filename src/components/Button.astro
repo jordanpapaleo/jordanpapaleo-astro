@@ -1,0 +1,83 @@
+---
+export interface Props {
+  inverse?: boolean
+  large?: boolean
+  small?: boolean
+  text?: boolean
+  type?: 'button' | 'submit' | 'reset'
+  href?: string
+}
+const {
+  href,
+  inverse,
+  large,
+  small,
+  text,
+  type = 'button',
+  ...restProps
+} = Astro.props
+---
+
+{
+  href ? (
+    <a
+      href={href}
+      class:list={['button-component', { inverse, large, small, text }]}
+      {...restProps}
+    >
+      <slot />
+    </a>
+  ) : (
+    <button
+      type={type}
+      class:list={['button-component', { inverse, large, small, text }]}
+      {...restProps}
+    >
+      <slot />
+    </button>
+  )
+}
+
+<style>
+  .button-component {
+    @apply text-base font-medium uppercase text-center py-3 px-5 leading-4
+      bg-background text-copy border-2 border-solid border-copy;
+    @apply dark:bg-dm-background dark:text-dm-copy;
+    @apply hover:text-white hover:bg-copy;
+    /* @apply dark:hover:text-white dark:hover:bg-copy; */
+  }
+
+  .inverse,
+  .inverse:visited {
+    @apply text-white bg-transparent border-white;
+  }
+
+  .inverse:hover {
+    @apply text-copy bg-white border-white;
+  }
+
+  .small {
+    @apply text-xs px-4 py-2;
+  }
+
+  .large {
+    @apply text-lg px-3 py-4;
+  }
+
+  .text,
+  .text:hover {
+    @apply bg-transparent p-0 border-none;
+  }
+  .text {
+    @apply font-medium text-copy-light;
+  }
+  .text:hover {
+    @apply text-black;
+  }
+  .text.inverse {
+    @apply text-white;
+  }
+  .text.inverse:hover {
+    @apply text-copy;
+  }
+</style>

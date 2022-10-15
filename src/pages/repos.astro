@@ -1,0 +1,23 @@
+---
+import Heading from '@components/Heading.astro'
+import Layout from '@layouts/Layout.astro'
+import { SITE } from '@common/config'
+---
+
+<Layout title={`${SITE.title}: Code Repositories`} activeNav="repos">
+  <main>
+    <Heading level="h1">repos</Heading>
+    <p>
+      These are some of the public things I do. Here you will find all of the
+      public repos I have on GitHub since 2014. Some are good, some are bad,
+      some are really bad... if I really think about it, most of them are long
+      forgotten ideas that were never completed. Thats because I am a great
+      starter, not so great of a finisher. Thank God for teams!
+    </p>
+    <p>Good, bad, or ugly, this is my code story.</p>
+  </main>
+</Layout>
+
+<style lang="less">
+
+</style>

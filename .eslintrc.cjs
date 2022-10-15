@@ -3,9 +3,13 @@ module.exports = {
   extends: [
     // ...
     'plugin:astro/recommended',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
   ],
   plugins: ['prettier'],
+  parserOptions: {
+    sourceType: 'module',
+    ecmaVersion: 2020,
+  },
   overrides: [
     {
       // Define the configuration for `.astro` file.

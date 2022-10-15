@@ -1,0 +1,55 @@
+---
+import HorzRule from './HorzRule.astro'
+
+export interface Props {
+  level?: 'h1' | 'h2' | 'h3'
+}
+
+const { level = 'h1' } = Astro.props
+---
+
+{
+  level === 'h1' && (
+    <h1>
+      <slot />
+      <HorzRule />
+    </h1>
+  )
+}
+{
+  level === 'h2' && (
+    <h2>
+      <slot />
+    </h2>
+  )
+}
+{
+  level === 'h3' && (
+    <h3>
+      <slot />
+    </h3>
+  )
+}
+
+<style is:global>
+  h1,
+  h2,
+  h3 {
+    @apply my-4 antialiased font-sans;
+  }
+
+  h1 {
+    @apply text-h1 my-4 mx-0 uppercase leading-4 text-copy-dark1;
+    @apply dark:text-dm-copy-dark1;
+  }
+
+  h2 {
+    @apply text-h2 my-3 text-copy-dark1;
+    @apply dark:text-dm-copy-dark1;
+  }
+
+  h3 {
+    @apply text-h3 uppercase my-4 text-copy-dark0;
+    @apply dark:text-dm-copy-dark0;
+  }
+</style>

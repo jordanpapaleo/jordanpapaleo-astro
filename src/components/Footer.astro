@@ -1,0 +1,40 @@
+---
+import { Icon } from 'astro-icon'
+---
+
+<footer>
+  <nav>
+    <a href="https://github.com/jordanpapaleo" target="_blank">
+      <Icon name="fa:github-square" />
+    </a>
+    <a href="https://www.linkedin.com/in/jordanpapaleo" target="_blank">
+      <Icon name="fa:linkedin-square" />
+    </a>
+    <a href="https://twitter.com/JordanPapaleo" target="_blank">
+      <Icon name="fa:twitter-square" />
+    </a>
+  </nav>
+</footer>
+
+<!-- https://github.com/natemoo-re/astro-icon/blob/main/packages/core/lib/Props.ts#L308 -->
+<style>
+  [astro-icon] {
+    @apply text-copy dark:text-dm-copy;
+  }
+
+  [astro-icon]:hover {
+    @apply text-primary;
+  }
+
+  footer {
+    @apply flex mb-8 sm:justify-around justify-end;
+  }
+
+  nav {
+    @apply flex gap-4;
+  }
+
+  nav a {
+    @apply w-8 h-8;
+  }
+</style>

@@ -1,0 +1,117 @@
+---
+import { Icon } from 'astro-icon'
+
+export interface Props {
+  activeNav?: 'writing' | 'repos' | 'speaking' | 'about' | 'search'
+}
+
+const { activeNav } = Astro.props
+---
+
+<header class="page-heading">
+  <h1>
+    <a href="/">Jordan Papaleo</a>
+  </h1>
+  <nav class="main-nav">
+    <a href="/writing" class:list={{ active: activeNav === 'writing' }}
+      >writing</a
+    >
+    <a href="/repos" class:list={{ active: activeNav === 'repos' }}>repos</a>
+    <a href="/speaking" class:list={{ active: activeNav === 'speaking' }}
+      >speaking</a
+    >
+    <a href="/about" class:list={{ active: activeNav === 'about' }}>about</a>
+    <button type="button">
+      <Icon name="carbon:search" />
+    </button>
+    <button type="button" id="theme-button">
+      <Icon name="carbon:moon" id="moon-icon" />
+      <Icon name="carbon:sun" id="sun-icon" />
+    </button>
+  </nav>
+</header>
+
+<script>
+  const themeEl = document.getElementById('theme-button')
+  const htmlEl = document.querySelector('html')
+
+  themeEl?.addEventListener('click', () => {
+    if (htmlEl.classList.contains('dark')) {
+      localStorage.removeItem('theme')
+      // localStorage.setItem('theme', 'light')
+      htmlEl.classList.remove('dark')
+    } else {
+      localStorage.setItem('theme', 'dark')
+      htmlEl.classList.add('dark')
+    }
+  })
+</script>
+
+<style lang="less">
+  button {
+    @apply w-5 h-12;
+  }
+
+  [astro-icon] {
+    @apply text-copy-light;
+  }
+
+  [astro-icon]:hover {
+    @apply text-link;
+  }
+
+  .page-heading {
+    @apply flex mt-6 mb-10 items-center;
+  }
+
+  h1 {
+    @apply m-0;
+    line-height: 1;
+  }
+
+  h1 a {
+    font-family: 'Arial Black';
+    font-size: clamp(1.25rem, 3vw, 2.25rem);
+    @apply uppercase font-bold leading-3;
+
+    &:hover {
+      // @apply // @apply text-link;
+    }
+  }
+
+  #sun-icon {
+    @apply hidden;
+  }
+
+  :global(.dark) {
+    #moon-icon {
+      @apply hidden;
+    }
+
+    #sun-icon {
+      @apply block;
+    }
+  }
+
+  .main-nav {
+    @apply flex justify-end items-center gap-4;
+    flex: 1 1 0%;
+
+    a {
+      @apply text-base font-normal leading-12 text-copy-light dark:text-dm-copy-white;
+
+      &.active {
+        @apply border-b border-copy-dark1 border-solid;
+        @apply dark:border-dm-copy-dark1;
+      }
+
+      &:hover {
+        @apply text-copy-dark1 dark:text-dm-copy-dark1;
+      }
+    }
+  }
+
+  .hide {
+    @apply hidden;
+  }
+</style>
