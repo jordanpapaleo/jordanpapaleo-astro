@@ -54,7 +54,9 @@ const { activeNav, title, fullscreen } = Astro.props
     ) : (
       <div id="wrapper">
         <PageHeading activeNav={activeNav} />
-        <slot />
+        <main class="flex-1">
+          <slot />
+        </main>
         <HorzRule />
         <Footer />
       </div>
@@ -74,11 +76,11 @@ const { activeNav, title, fullscreen } = Astro.props
   }
 
   #wrapper {
-    @apply mx-auto max-w-4xl min-h-screen pr-4 pl-4;
+    @apply mx-auto max-w-4xl min-h-screen pr-4 pl-4 flex flex-col;
   }
 </style>
 
-<style lang="css" is:global>
+<style is:global>
   * {
     @apply box-border;
   }
@@ -90,8 +92,9 @@ const { activeNav, title, fullscreen } = Astro.props
   h2,
   h3,
   h4,
+  button,
   [astro-icon] {
-    @apply ease-linear transition-colors duration-300;
+    @apply ease-out transition-colors duration-300;
   }
 
   *:focus {

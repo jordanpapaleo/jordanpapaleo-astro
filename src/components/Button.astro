@@ -40,10 +40,11 @@ const {
 
 <style>
   .button-component {
-    @apply text-base font-medium uppercase text-center py-3 px-5 leading-4
-      bg-background text-copy border-2 border-solid border-copy;
+    @apply text-base font-medium uppercase text-center py-3 px-5 leading-4 border-2 border-solid;
+    @apply bg-background text-copy border-copy;
     @apply dark:bg-dm-background dark:text-dm-copy;
-    @apply hover:text-white hover:bg-copy;
+
+    /* @apply hover:text-white hover:bg-copy; */
     /* @apply dark:hover:text-white dark:hover:bg-copy; */
   }
 
@@ -64,9 +65,8 @@ const {
     @apply text-lg px-3 py-4;
   }
 
-  .text,
-  .text:hover {
-    @apply bg-transparent p-0 border-none;
+  .text {
+    @apply bg-transparent p-0 border-none hover:bg-transparent;
   }
   .text {
     @apply font-medium text-copy-light;

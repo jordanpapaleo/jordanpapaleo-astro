@@ -1,0 +1,24 @@
+---
+export interface Props {
+  href: string
+  active: boolean
+}
+
+const { href, active } = Astro.props
+---
+
+<a href={href} class:list={{ active }}><slot /></a>
+
+<style>
+  a {
+    font-family: 'Arial Black';
+    font-size: clamp(1.25rem, 3vw, 2.25rem);
+    @apply uppercase font-bold leading-3;
+    @apply hover:text-copy-dark1 hover:dark:text-white;
+  }
+
+  .active {
+    @apply border-b border-copy-dark1 border-solid;
+    @apply dark:border-white dark:text-white;
+  }
+</style>

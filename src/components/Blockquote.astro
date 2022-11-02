@@ -10,7 +10,7 @@ const { title } = Astro.props
   {
     title && (
       <figcaption>
-        <strong>{title}</strong>
+        <strong class="text-copy-dark1 dark:text-dm-copy">{title}</strong>
       </figcaption>
     )
   }
@@ -29,7 +29,6 @@ const { title } = Astro.props
   }
 
   figcaption strong {
-    @apply uppercase text-base leading-6 font-medium tracking-widest text-copy-dark1;
-    @apply dark:text-dm-copy;
+    @apply uppercase text-base leading-6 font-medium tracking-widest;
   }
 </style>

@@ -8,34 +8,32 @@ import { SITE } from '@common/config'
 ---
 
 <Layout title={`${SITE.title}: Style Guide`}>
-  <main style={{ padding: '20px' }}>
-    <Heading level="h1">h1: Style Guide</Heading>
-    <Heading level="h2">h2: Buttons and Link Buttons</Heading>
-    <p>
-      Buttons can be any combination of the folling properties: small, large, or
-      text. Text button removes all borders, backgrounds, and padding.
-    </p>
-    <Heading level="h3">h3: Standard buttons</Heading>
-    <div class="p-1">
-      <Button small>Button small</Button>
-      <Button>Button</Button>
-      <Button large>Button large</Button>
-      <Button text>Button text</Button>
-    </div>
+  <Heading level="h1">h1: Style Guide</Heading>
+  <Heading level="h2">h2: Buttons and Link Buttons</Heading>
+  <p>
+    Buttons can be any combination of the folling properties: small, large, or
+    text. Text button removes all borders, backgrounds, and padding.
+  </p>
+  <Heading level="h3">h3: Standard buttons</Heading>
+  <div class="p-1">
+    <Button small>Button small</Button>
+    <Button>Button</Button>
+    <Button large>Button large</Button>
+    <!-- <Button text>Button text</Button> -->
+  </div>
 
-    <Heading level="h3">h3: Inverse buttons</Heading>
+  <!-- <Heading level="h3">h3: Inverse buttons</Heading>
     <div class="bg-nobel p-1">
       <Button inverse small>Button small</Button>
       <Button inverse>Button</Button>
       <Button inverse large>Button large</Button>
       <Button inverse text>Button text</Button>
-    </div>
+    </div> -->
 
-    <HorzRule />
-    <HorzRule tight />
+  <HorzRule />
+  <HorzRule tight />
 
-    <Blockquote title="Block quote title"
-      >Inspirational things to be said</Blockquote
-    >
-  </main>
+  <Blockquote title="Block quote title"
+    >Inspirational things to be said</Blockquote
+  >
 </Layout>
