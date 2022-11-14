@@ -14,15 +14,20 @@ const { activeNav } = Astro.props
     <a class="text-copy-dark1 dark:text-white" href="/">Jordan Papaleo</a>
   </h1>
   <nav class="main-nav">
+    <PageHeadingLink href="/about" active={activeNav === 'about'}>
+      about
+    </PageHeadingLink>
     <PageHeadingLink href="/writing" active={activeNav === 'writing'}>
       writing
     </PageHeadingLink>
-    <a href="/repos" class:list={{ active: activeNav === 'repos' }}>repos</a>
-    <a href="/speaking" class:list={{ active: activeNav === 'speaking' }}
-      >speaking</a
-    >
-    <a href="/about" class:list={{ active: activeNav === 'about' }}>about</a>
-    <button type="button">
+    <!-- <PageHeadingLink href="/repos" active={activeNav === 'repos'}>
+      repos
+    </PageHeadingLink> -->
+    <PageHeadingLink href="/speaking" active={activeNav === 'speaking'}>
+      speaking
+    </PageHeadingLink>
+
+    <button type="button" disabled>
       <Icon name="carbon:search" />
     </button>
     <button type="button" id="theme-button">

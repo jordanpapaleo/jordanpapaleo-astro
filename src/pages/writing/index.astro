@@ -2,12 +2,14 @@
 import Heading from '@components/Heading.astro'
 import Layout from '@layouts/Layout.astro'
 import { SITE } from '@common/config'
-import { lighten } from 'polished'
+// import { lighten } from 'polished'
 import HorzRule from '@components/HorzRule.astro'
 import format from 'date-fns/format'
+import { Frontmatter } from 'src/types'
 
 // https://docs.astro.build/en/reference/api-reference/#astroglob
-const posts = await Astro.glob<Frontmatter>('../content/*.md')
+const posts = await Astro.glob('../../content/*.md')
+console.log(posts)
 ---
 
 <Layout title={`${SITE.title}: Writing`} activeNav="writing">
@@ -39,16 +41,18 @@ const posts = await Astro.glob<Frontmatter>('../content/*.md')
                   {format(new Date(post.frontmatter.date), 'MMMM dd, yyyy')}:
                   {post.frontmatter.type}
                 </small>
-                {post.frontmatter.title}
+                <a href={post.url}>{post.frontmatter.title}</a>
               </h2>
               <p class="m-0">{post.frontmatter.description}</p>
               <ul class="flex gap-2 m-0 p-0">
                 {tags.map((tag) => (
-                  <li
-                    class="rounded px-1 py-1 bg-primary-ultraLight text-primary uppercase text-xs font-sans"
-                    style={{ lineHeight: 1 }}
-                  >
-                    {tag}
+                  <li>
+                    <small
+                      class="bg-primary-soft px-2 py-1 bg-primary-ultraLight text-primary lowercase text-xs font-sans"
+                      style={{ lineHeight: 1 }}
+                    >
+                      {tag}
+                    </small>
                   </li>
                 ))}
               </ul>

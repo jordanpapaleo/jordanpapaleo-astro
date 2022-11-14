@@ -36,12 +36,13 @@ const copyLight = nobel
 const copyDark1 = nero
 const copyDark0 = black
 const linkColor = copy
-const primary = dodgerBlue
-const primary30 = transparentize(0.3, dodgerBlue)
-const primaryDark = darken(0.2, dodgerBlue)
-const primaryLight = lighten(0.2, dodgerBlue)
-const primaryUltraLight = lighten(0.42, dodgerBlue)
-const accent = complement(lighten(0.2, dodgerBlue))
+const primary = crimson
+// const primary = dodgerBlue
+const primary30 = transparentize(0.3, primary)
+const primaryDark = darken(0.2, primary)
+const primaryLight = lighten(0.2, primary)
+const primaryUltraLight = lighten(0.42, primary)
+const accent = complement(lighten(0.2, primary))
 
 const COLORS = {
   black,
