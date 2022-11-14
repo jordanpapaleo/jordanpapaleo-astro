@@ -128,11 +128,6 @@ module.exports = {
         12: '3rem',
       },
       fontSize: {
-        // sm: '0.8rem',
-        // base: '1rem',
-        // medium: '1.1rem',
-        // large: '1.5rem',
-        // xl: '2rem',
         p: [
           '1.1rem',
           {
@@ -153,7 +148,7 @@ module.exports = {
           {
             fontWeight: 300,
             letterSpacing: '0.06em',
-            lineHeight: '2em',
+            lineHeight: '1.5em',
           },
         ],
         h2: [

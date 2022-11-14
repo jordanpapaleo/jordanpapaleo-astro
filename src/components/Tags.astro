@@ -1,0 +1,19 @@
+---
+import Tag from '@components/Tag.astro'
+
+export interface Props {
+  tags: string
+}
+
+const { tags } = Astro.props
+---
+
+<ul class="flex gap-2 m-0 p-0 tags">
+  {
+    tags.split(', ').map((tag) => (
+      <li>
+        <Tag>{tag}</Tag>
+      </li>
+    ))
+  }
+</ul>

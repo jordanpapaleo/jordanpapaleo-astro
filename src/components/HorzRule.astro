@@ -5,14 +5,14 @@ export interface Props {
 }
 
 const { tight, loose } = Astro.props
+const classes = 'mt-8 mb-8 bg-border-light dark:bg-dm-border-light'
 ---
 
-<hr class:list={[{ tight, loose }]} />
+<hr class:list={[classes, { tight, loose }]} />
 
 <style>
   hr {
     height: 1px;
-    @apply mt-8 mb-8 bg-border-light dark:bg-crimson;
   }
   .tight {
     @apply mt-4 mb-4;

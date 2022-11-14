@@ -1,0 +1,30 @@
+---
+import slugify from '@common/slugify'
+import { SITE } from '@common/config'
+import Layout from '@layouts/Layout.astro'
+import type { MarkdownInstance } from 'astro'
+import PostHeader from '@components/PostHeader.astro'
+
+export interface Props {
+  post: MarkdownInstance<Frontmatter>
+}
+
+export async function getStaticPaths() {
+  const posts = await Astro.glob('../../content/*.md')
+
+  return posts.map((post) => ({
+    // @ts-ignore
+    params: { slug: slugify(post.frontmatter) },
+    props: { post },
+  }))
+}
+
+// const { slug } = Astro.params
+// const { post } = Astro.props
+const { frontmatter, Content } = Astro.props.post
+---
+
+<Layout title={`${SITE.title}: Writing`} activeNav="writing">
+  <PostHeader {...frontmatter} author="Jordan Papaleo" />
+  <Content />
+</Layout>

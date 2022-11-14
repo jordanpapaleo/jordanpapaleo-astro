@@ -91,7 +91,7 @@ So most of the webpack stuff I used was a straight out of the box setup.  I took
 
 Here is our current project setup:
 
-![IMAGE](resources/3C019EA49AA04822A6350599642E1EDE.jpg)
+![IMAGE](/images/posts/wtf-webpack/3C019EA49AA04822A6350599642E1EDE.jpg)
 
 Here is our `package.json` file so far:
 

@@ -7,7 +7,7 @@ type: protip
 
 Having pre commit hooks can be awesome and can suck at the same time.  My work project implements pre commit hooks using husky and  lint-staged.  These hooks are for coding standards.
 
-```
+```json
 {
   "author": "Theorem.co",
   "scripts": {
@@ -39,8 +39,8 @@ I’m sure you can imagine how difficult this could be if we are running eslint 
 
 Enter the `--no-verify` or `-n` commit flag.
 
-```
+```bash
 git commit -nm "Message for a no verify commit"
 ```
 
-This will skip my commit hooks.  Yeah its totally cheating but I totally run all my format commands before I do this so its ok.
+This will skip my commit hooks.  Yeah its basically cheating but like a responsible engineer, I run all my format commands before I do this.

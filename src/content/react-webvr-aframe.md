@@ -31,7 +31,7 @@ So some of you may be asking why not react-vr.  Its super new and is still getti
 
 Open up Google Chrome and put `chrome://gpu/` in the address bar.  This will open our Chrome GPU info.  It looks at your chrome version as well as your graphic hardware to determine what feature support you have.  We need to see happy green words next to WebGL.
 
-![IMAGE](resources/1689D9F244148D00F7824FB50768AE5F.jpg)
+![IMAGE](/images/posts/webvr/1689D9F244148D00F7824FB50768AE5F.jpg)
 
 ## Create React App
 
@@ -65,7 +65,7 @@ npm start # run your app
 
 So everything should be wonderful now and you should have a react application running in your browser.
 
-![IMAGE](resources/9829F819AC1C6CF10C978F824F95AF81.jpg)
+![IMAGE](/images/posts/webvr/9829F819AC1C6CF10C978F824F95AF81.jpg)
 
 Go ahead and open this project in your favorite development tool.  Open up `src/App.js` so we can remove some code.
 
@@ -74,7 +74,7 @@ Go ahead and open this project in your favorite development tool.  Open up `src/
 
 Your resulting code should look like this:
 
-```
+```javascript
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -112,7 +112,7 @@ We now need to import aframe into our react component so its on the page then ad
 - Adds an ambient light
 - And a few other cool things too
 
-```
+```javascript
 import 'aframe'
 import React, {Component} from 'react'
 
@@ -131,7 +131,7 @@ When you run this, you may see a warning in from aframe requesting that you put 
 
 Congratulations, you officially made a VR world.  Time to do something really cool.  With your bowser active, go ahead hit the following keys together: `<ctrl> + <alt> + i`.  This will open the visual inspector and dev tools.  On the left side of the screen you will see all of the components we just created.
 
-![IMAGE](resources/7C28C4131872124DD963E40687414B05.jpg)
+![IMAGE](/images/posts/webvr/7C28C4131872124DD963E40687414B05.jpg)
 
 Click on the components on the left side and then check out the Aframe component in the inspector.  You will hopefully notice that our scene is not empty.  Remember those lights and the camera we mentioned above?  Thats them.  Click on the entities and move them around, zoom in and out, have a little fun.  Cool isn't it?  But it doesnt really do anything yet. I agree, lets add some more stuff.
 
@@ -145,7 +145,7 @@ We are going to compose a few entities aand add them to the scene.  You can thin
 
 Update the render function of your component by adding some entities:
 
-```
+```javascript
 class App extends Component {
   render () {
     return (
@@ -162,7 +162,7 @@ class App extends Component {
 
 Aframe gives you access to a lot of primitive entities out of the box so we can add a sphere by just using the `<a-sphere>` tag.  Let's update our render function one more time.  Go to the Aframe [docs](https://aframe.io/docs/0.5.0/components/material.html) page and find one more primitive to add yo your scene
 
-```
+```javascript
 class App extends Component {
   render() {
     return (
@@ -179,7 +179,7 @@ class App extends Component {
 
 You should really play with the inspector again `ctrl+alt+i`.  Look as the details while you drag the scene around.  Notice the shading and the light reflection.  Cool stuff!
 
-![IMAGE](resources/580BC7A967E9C86C98AF78BCD2BF5E8E.jpg)
+![IMAGE](/images/posts/webvr/580BC7A967E9C86C98AF78BCD2BF5E8E.jpg)
 
 
 ## Adding 360 photo
@@ -190,7 +190,7 @@ We have one more step for this super basic project.  We need to add our equirect
 
 First we need to find an image.  A simple search on [flickr](https://www.flickr.com/groups/equirectangular/) will give us a ton of images to use but not all of them are available for download.  Respect the rules and just keep looking until you find one that can be downloaded.  I agree, this may be the hardest part of the entire project.  Save the image to your src directory in our project.  We are going to use a new primitive called a-sky and set its' src to be the image using a require statement.  The sky is a large sphere entity with the a color or in our case a image mapped to the inside.
 
-```
+```javascript
 class App extends Component {
   render () {
     return (
@@ -209,7 +209,7 @@ class App extends Component {
 
 Here is mine:
 
-![IMAGE](resources/0F234BCC78719C2603C0B452B396791C.jpg)
+![IMAGE](/images/posts/webvr/0F234BCC78719C2603C0B452B396791C.jpg)
 
 That's it!  You have successfully created an augmented reality immersive experience using ReactJS and Aframe.io.  I really hope that I was able to spark some creativity in you projects.
 

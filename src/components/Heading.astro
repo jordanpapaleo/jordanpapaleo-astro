@@ -10,7 +10,7 @@ const { level = 'h1' } = Astro.props
 
 {
   level === 'h1' && (
-    <h1>
+    <h1 class="h1">
       <slot />
       <HorzRule />
     </h1>
@@ -18,14 +18,14 @@ const { level = 'h1' } = Astro.props
 }
 {
   level === 'h2' && (
-    <h2>
+    <h2 class="h2">
       <slot />
     </h2>
   )
 }
 {
   level === 'h3' && (
-    <h3>
+    <h3 class="h3">
       <slot />
     </h3>
   )
@@ -39,7 +39,7 @@ const { level = 'h1' } = Astro.props
   }
 
   h1 {
-    @apply text-h1 my-4 mx-0 uppercase leading-4 text-copy-dark1;
+    @apply text-h1 my-4 mx-0 uppercase text-copy-dark1;
     @apply dark:text-dm-copy-dark1;
   }
 

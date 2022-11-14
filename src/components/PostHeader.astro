@@ -1,0 +1,36 @@
+---
+import format from 'date-fns/format'
+import Heading from '@components/Heading.astro'
+import Tags from '@components/Tags.astro'
+
+export interface Props {
+  author: string
+  date: Date
+  tags: string
+  title: string
+  type: string
+}
+
+const { author, title, type, date, tags } = Astro.props
+---
+
+<header class="bg-black25 dark:bg-black px-4 py-8 mb-8 post-header">
+  <Heading level="h3">
+    <strong>{type}:</strong>
+    {format(new Date(date), 'MM/dd/yyyy')}
+  </Heading>
+  <h1 class="text-6xl">{title}</h1>
+  <div class="flex">
+    <Tags tags={tags} />
+    <div class="flex-1 text-right">by {author}</div>
+  </div>
+</header>
+
+<style is:global>
+  .post-header .h3 {
+    @apply mt-0;
+  }
+  .post-header .tag {
+    @apply border-none bg-transparent p-0 font-bold uppercase;
+  }
+</style>
