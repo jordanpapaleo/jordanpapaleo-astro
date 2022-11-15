@@ -11,7 +11,12 @@ const { activeNav } = Astro.props
 
 <header class="page-heading">
   <h1>
-    <a class="text-copy-dark1 dark:text-white" href="/">Jordan Papaleo</a>
+    <a
+      class="text-copy hover:text-copy dark:text-white dark:hover:text-white"
+      href="/"
+    >
+      Jordan Papaleo
+    </a>
   </h1>
   <nav class="main-nav">
     <PageHeadingLink href="/about" active={activeNav === 'about'}>
@@ -72,6 +77,14 @@ const { activeNav } = Astro.props
   h1 {
     @apply m-0;
     line-height: 1;
+  }
+
+  h1 a {
+    font-family: 'Arial Black';
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: larger;
   }
 
   #sun-icon {
