@@ -5,7 +5,9 @@ import Layout from '@layouts/Layout.astro'
 ---
 
 <Layout title="Jordan Papaleo: Welcome" fullscreen>
-  <main>
+  <main
+    class="bg-center bg-no-repeat bg-black05 bg-cover bg-fixed text-white items-center flex flex-col text-center w-screen h-screen py-10"
+  >
     <h1>Jordan Papaleo</h1>
 
     <div class="flex-1 flex flex-col items-center justify-center">
@@ -26,9 +28,7 @@ import Layout from '@layouts/Layout.astro'
 
 <style>
   main {
-    background-image: url('images/cover_background.jpg');
-    @apply bg-center bg-no-repeat bg-black05 bg-cover bg-fixed text-white;
-    @apply items-center flex flex-col text-center w-screen h-screen py-10;
+    background-image: url('/images/cover_background.jpg');
   }
 
   h1 {
