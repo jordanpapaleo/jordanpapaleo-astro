@@ -1,11 +1,11 @@
 ---
+import { format } from 'date-fns'
+import { SITE } from '@common/config'
 import Heading from '@components/Heading.astro'
 import Layout from '@layouts/Layout.astro'
-import { SITE } from '@common/config'
-import truncate from 'lodash/truncate'
-import format from 'date-fns/format'
 import slugify from '@common/slugify'
 import Tags from '@components/Tags.astro'
+import truncate from 'lodash/truncate'
 
 // https://docs.astro.build/en/reference/api-reference/#astroglob
 const posts = await Astro.glob('../../content/*.md')

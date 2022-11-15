@@ -43,7 +43,7 @@ const { activeNav } = Astro.props
 
   themeEl?.addEventListener('click', () => {
     if (htmlEl.classList.contains('dark')) {
-      localStorage.removeItem('theme')
+      localStorage.setItem('theme', 'ligth')
       htmlEl.classList.remove('dark')
     } else {
       localStorage.setItem('theme', 'dark')

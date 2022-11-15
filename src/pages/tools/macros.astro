@@ -8,8 +8,9 @@ import TextField from '@components/TextField.astro'
 ---
 
 <Layout title={SITE.title + ': Macros'}>
-  <Heading level="h1">Macros</Heading>
-  <div class="grid gap-8 grid-cols-2">
+  <Heading level="h1">Low Carb Macros</Heading>
+  <p>Carbs are set to 50g for all cases</p>
+  <div class="flex gap-8 flex-col sm:flex-row">
     <form id="macros" class="flex flex-col gap-4">
       <TextField label="height (inches)" name="height" value="71" />
       <TextField label="weight (lbs)" name="weight" value="195" />
@@ -58,7 +59,7 @@ import TextField from '@components/TextField.astro'
           Extreme 2x a day many days a week.
         </div>
       </RadioMenu>
-      <Button inverse type="submit" class="mt-4">Calculate</Button>
+      <Button type="submit" class="mt-4">Calculate</Button>
     </form>
 
     <div id="results"></div>
@@ -67,8 +68,56 @@ import TextField from '@components/TextField.astro'
 
 <script>
   import { atom } from 'nanostores'
-  import { getRestingMetabolicRate, getMacros } from './macros.utils'
   import { sentencecase } from 'stringcase'
+
+  const getRestingMetabolicRate = (isMale, heightIn, weightLbs, ageYears) => {
+    const weightKg = weightLbs / 2.205
+    const heightCm = heightIn * 2.54
+    return isMale
+      ? 10 * weightKg + 6.25 * heightCm - 5 * ageYears + 5
+      : 10 * weightKg + 6.25 * heightCm - 5 * ageYears - 161
+  }
+
+  const getCalories = (rmr, activityLevel) => Math.round(rmr * activityLevel)
+
+  const getMacros = (weightLbs, rmr, phase, activityLevel) => {
+    const activityAdjustedCals = rmr * activityLevel
+    const weightInKg = weightLbs / 2.205
+    const carbs = 50
+    let protein
+    let calories
+
+    switch (phase) {
+      case 'bulk': {
+        calories = activityAdjustedCals * 1.2
+        protein = weightInKg * 2
+        break
+      }
+      case 'cut': {
+        calories = activityAdjustedCals * 0.8
+        protein = weightInKg * 1.4
+        break
+      }
+      default: {
+        calories = activityAdjustedCals * 1
+        protein = weightInKg * 1.7
+      }
+    }
+
+    const proteinCal = Math.round(protein * 4)
+    const carbCal = Math.round(carbs * 4)
+    const fatCal = Math.round(calories - carbCal - proteinCal)
+
+    return {
+      cal: Math.round(calories),
+      carbCal,
+      carbGram: carbs,
+      fatCal,
+      fatGram: Math.round(fatCal / 9),
+      proteinCal,
+      proteinGram: Math.round(protein),
+    }
+  }
 
   const activityLevels = [
     { name: 'sedentary', value: '1.2' },
