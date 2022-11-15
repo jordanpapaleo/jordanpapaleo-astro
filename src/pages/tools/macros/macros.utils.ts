@@ -8,26 +8,24 @@ Men: (10 × weight in kg) + (6.25 × height in cm) – (5 × age in years) + 5
 Women: (10 × weight in kg) + (6.25 × height in cm) – (5 × age in years) – 161
 */
 
-const getRestingMetabolicRate = (isMale, heightIn, weightLbs, ageYears) => {
+export const getRestingMetabolicRate = (
+  isMale,
+  heightIn,
+  weightLbs,
+  ageYears,
+) => {
   const weightKg = weightLbs / 2.205
   const heightCm = heightIn * 2.54
   return isMale
-    ? (10 * weightKg) + (6.25 * heightCm) - (5 * ageYears) + 5
-    : (10 * weightKg) + (6.25 * heightCm) - (5 * ageYears) - 161
+    ? 10 * weightKg + 6.25 * heightCm - 5 * ageYears + 5
+    : 10 * weightKg + 6.25 * heightCm - 5 * ageYears - 161
 }
 
-const activityLevels = {
-  sedentary: 1.2,
-  light: 1.375, // 1 - 3 workouts
-  moderate: 1.55, // 4 - 5
-  heavy: 1.725, // 6 - 7
-  extreme: 1.9, // 2x day
-}
+export const getCalories = (rmr, activityLevel) =>
+  Math.round(rmr * activityLevel)
 
-const getCalories = (rmr, activityLevel) => Math.round(rmr * activityLevel)
-
-const getMacros = (weightLbs, cals, phase, activityLevel) => {
-  const activityAdjustedCals = cals * activityLevel
+export const getMacros = (weightLbs, rmr, phase, activityLevel) => {
+  const activityAdjustedCals = rmr * activityLevel
   const weightInKg = weightLbs / 2.205
   const carbs = 50
   let protein
@@ -64,27 +62,29 @@ const getMacros = (weightLbs, cals, phase, activityLevel) => {
     proteinGram: Math.round(protein),
   }
 }
+/*
+const plop = () => {
+  const plop = {}
+  const phases = ['bulk', 'cut', 'maintain']
 
-const plop = {}
-const phases = ['bulk', 'cut', 'maintain']
+  const restingMetabolicRate = getRestingMetabolicRate(true, 71, 195, 42.5)
+  console.log(restingMetabolicRate)
 
-const restingMetabolicRate = getRestingMetabolicRate(true, 71, 195, 42.5)
-console.log(restingMetabolicRate)
+  // Print everything out
+  Object.keys(activityLevels).forEach((level) => {
+    const calories = getCalories(restingMetabolicRate, activityLevels[level])
 
-// Print everything out
-Object.keys(activityLevels).forEach((level) => {
-  const calories = getCalories(restingMetabolicRate, activityLevels[level])
-
-  phases.forEach((phase) => {
-    const key = `${level}-${phase}`
-    const macros = getMacros(
-      195,
-      restingMetabolicRate,
-      phase,
-      activityLevels[level],
-    )
-    plop[key] = macros
+    phases.forEach((phase) => {
+      const key = `${level}-${phase}`
+      const macros = getMacros(
+        195,
+        restingMetabolicRate,
+        phase,
+        activityLevels[level],
+      )
+      plop[key] = macros
+    })
   })
-})
 
-console.log(JSON.stringify(plop, null, 2))
+  // console.log(JSON.stringify(plop, null, 2))
+} */

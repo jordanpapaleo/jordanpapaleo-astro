@@ -6,8 +6,10 @@ export interface Props {
   text?: boolean
   type?: 'button' | 'submit' | 'reset'
   href?: string
+  class?: string
 }
 const {
+  class: className,
   href,
   inverse,
   large,
@@ -22,7 +24,11 @@ const {
   href ? (
     <a
       href={href}
-      class:list={['button-component', { inverse, large, small, text }]}
+      class:list={[
+        'button-component',
+        className,
+        { inverse, large, small, text },
+      ]}
       {...restProps}
     >
       <slot />
@@ -30,7 +36,11 @@ const {
   ) : (
     <button
       type={type}
-      class:list={['button-component', { inverse, large, small, text }]}
+      class:list={[
+        'button-component',
+        className,
+        { inverse, large, small, text },
+      ]}
       {...restProps}
     >
       <slot />

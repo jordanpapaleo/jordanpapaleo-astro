@@ -1,0 +1,35 @@
+---
+import TextField from './TextField.astro'
+
+export interface Props {
+  as: HTMLInputElement
+  label?: string
+  name: string
+  options: { name: string; value: string }[]
+  helpText?: string
+  error?: boolean
+  value?: string
+}
+
+const { label, error, name, options, helpText, value, ...restProps } =
+  Astro.props
+---
+
+<div>
+  {label && <strong class="block">{label}</strong>}
+  <div class="flex gap-3">
+    {
+      options.map((option) => (
+        <TextField
+          inline
+          name={name}
+          label={option.name}
+          type="radio"
+          value={option.value}
+          checked={option.value === value}
+        />
+      ))
+    }
+  </div>
+  <small class="block"><slot /></small>
+</div>

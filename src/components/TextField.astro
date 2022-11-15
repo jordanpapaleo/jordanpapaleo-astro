@@ -1,0 +1,27 @@
+---
+export interface Props {
+  as: HTMLInputElement
+  error?: boolean
+  helpText?: string
+  inline?: boolean
+  label?: string
+}
+
+const { label, error, inline, helpText, ...restProps } = Astro.props
+---
+
+<label class:list={{ error, inline }}>
+  {label && <strong class="block">{label}</strong>}
+  <input {...restProps} />
+  <small class="block"><slot /></small>
+</label>
+
+<style lang="text/css">
+  .inline {
+    display: flex;
+    gap: 5px;
+  }
+  input {
+    @apply border border-border-light px-3 py-1 text-black;
+  }
+</style>
