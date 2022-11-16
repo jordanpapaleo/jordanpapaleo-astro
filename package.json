@@ -22,6 +22,8 @@
     "astro-icon": "0.7.3",
     "clsx": "1.2.1",
     "date-fns": "2.29.3",
+    "flowbite": "1.5.4",
+    "flowbite-react": "0.3.4",
     "github-slugger": "1.4.0",
     "lodash": "4.17.21",
     "nanostores": "0.7.1",

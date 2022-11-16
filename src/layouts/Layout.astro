@@ -36,13 +36,10 @@ const { activeNav, title, fullscreen } = Astro.props
       let theme
 
       if (localSavedTheme) {
-        console.log('local')
         theme = localSavedTheme
       } else if (darkModeMediaQuery) {
         theme = 'dark'
       }
-
-      console.log({ theme })
 
       if (theme) document.querySelector('html').classList.add(theme)
     })()
