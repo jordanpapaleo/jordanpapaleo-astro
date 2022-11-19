@@ -4,6 +4,7 @@
     "baseUrl": ".",
     "paths": {
       "@components/*": ["src/components/*"],
+      "@componentsReact/*": ["src/componentsReact/*"],
       "@layouts/*": ["src/layouts/*"],
       "@images/*": ["src/images/*"],
       "@common/*": ["src/common/*"],

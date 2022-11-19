@@ -1,10 +1,7 @@
 import React from 'react'
-import {
-  Button as FlowButton,
-  Label as FlowLabel,
-  Radio as FlowRadio,
-  TextInput as FlowTextInput,
-} from 'flowbite-react'
+import TextInput from '@componentsReact/TextInput'
+import RadioGroup from '@componentsReact/RadioGroup'
+import Button from '@componentsReact/Button'
 
 const SEX = [
   { name: 'male', value: 'male' },
@@ -74,49 +71,21 @@ const getMacros = (weightLbs, rmr, phase, activityLevel) => {
   }
 }
 
-const TextInput = ({ id, label, ...rest }) => (
-  <div>
-    <FlowLabel
-      htmlFor={id}
-      value={label}
-    />
-    <FlowTextInput
-      id={id}
-      type="text"
-      {...rest}
-    />
-  </div>
-)
-
-const RadioGroup = ({ id, label, options, onChange, value: fieldValue, ...rest }) => (
-  <fieldset className="flex flex-col gap-4 border-none" id={id}>
-    <legend>
-      {label}
-    </legend>
-    {options.map(({ name, value }) => (
-      <FlowLabel className="flex items-center gap-2" key={value}>
-        <FlowRadio
-          id={name}
-          name={id}
-          onChange={onChange}
-          defaultChecked={value === fieldValue}
-          value={value}
-          {...rest}
-        />
-        {name}
-      </FlowLabel>
-    ))}
-  </fieldset>
-)
-
 const validateSubmit = ({ activityLevel, age, height, phase, sex, weight }) => {
   if (
-    (activityLevel && typeof +activityLevel === 'number') &&
-    (age && typeof +age === 'number') &&
-    (height && typeof +height === 'number') &&
-    (weight && typeof +weight === 'number') &&
-    phase && sex && activityLevel
-  ) return true
+    activityLevel &&
+    typeof +activityLevel === 'number' &&
+    age &&
+    typeof +age === 'number' &&
+    height &&
+    typeof +height === 'number' &&
+    weight &&
+    typeof +weight === 'number' &&
+    phase &&
+    sex &&
+    activityLevel
+  )
+    return true
 
   return false
 }
@@ -141,14 +110,14 @@ const MacroApp = (props) => {
   const handleChange = (e) => {
     setFormState({
       ...formState,
-      [e.target.id]: e.target.value
+      [e.target.id]: e.target.value,
     })
   }
 
   const handleRadioChange = (e) => {
     setFormState({
       ...formState,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     })
   }
 
@@ -172,7 +141,9 @@ const MacroApp = (props) => {
 
   return (
     <div className="MacroApp">
-      <p>Carbs are set to 50g for all cases following low carb recommendations</p>
+      <p>
+        Carbs are set to 50g for all cases following low carb recommendations
+      </p>
 
       <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 ">
         <form
@@ -225,19 +196,23 @@ const MacroApp = (props) => {
             className="text-copy-light dark:dm-text-copy-light"
             style={{ lineHeight: 1 }}
           >
-            Sedentary is minimal activity<br />
-            Light is 1-3 workouts a week<br />
-            Moderate 4-5 workouts a week<br />
-            Heavy 6-7 workouts a week<br />
+            Sedentary is minimal activity
+            <br />
+            Light is 1-3 workouts a week
+            <br />
+            Moderate 4-5 workouts a week
+            <br />
+            Heavy 6-7 workouts a week
+            <br />
             Extreme 2x a day many days a week.
           </small>
 
-          <FlowButton type="submit" disabled={!valid}>
+          <Button type="submit" disabled={!valid}>
             Calculate
-          </FlowButton>
-          <FlowButton type="reset" color="gray">
+          </Button>
+          <Button type="reset" color="gray">
             Reset
-          </FlowButton>
+          </Button>
         </form>
 
         <div>
@@ -250,7 +225,7 @@ const MacroApp = (props) => {
           </pre>
         </div>
       </div>
-    </div >
+    </div>
   )
 }
 

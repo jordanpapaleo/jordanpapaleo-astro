@@ -1,11 +1,11 @@
 module.exports = {
-  // ...
   extends: [
-    // ...
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
     'plugin:astro/recommended',
     'plugin:prettier/recommended',
   ],
-  plugins: ['prettier'],
+  plugins: ['jsx-a11y', 'react', 'prettier'],
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: 2020,
@@ -30,4 +30,12 @@ module.exports = {
     },
     // ...
   ],
+  rules: {
+    'react/prop-types': 0,
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
 }

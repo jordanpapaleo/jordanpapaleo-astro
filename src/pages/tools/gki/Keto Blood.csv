@@ -1,0 +1,47 @@
+Created At,User,Ketones,Glucose,GKI
+6/28/2018,Jordan,1,99,5.50
+6/29/2018,Jordan,0.8,94,6.53
+6/30/2018,Jordan,0.8,99,6.88
+7/31/2018,Jordan,1.0,103,5.72
+"Sep 2, 2018",Jordan,1.0,93,5.17
+"Sep 8, 2018",Jordan,0.8,98,6.81
+"Jan 30, 2019",Jordan,1.0,96,5.33
+7/10/2019,Jordan,0.9,103,6.36
+"Aug 28, 2019",Jordan,0.9,101,6.23
+"Sep 3, 2019",Jordan,0.9,91,5.62
+"Sep 23, 2019",Jordan,0.01,102,566.67
+"Sep 24, 2019",Jordan,0.5,99,11.00
+"Sep 25, 2019",Jordan,0.5,98,10.89
+"Sep 26, 2019",Jordan,0.4,94,13.06
+12/6/2019 8:00 AM,Jordan,1,105,5.83
+12/6/2019 3:00 PM,Jordan,1.7,91,2.97
+12/29/2019 5:22 PM,Jordan,0.8,97,6.74
+"Jul 14, 2020",Jordan,1,106,5.89
+,Jordan,0.1,98,54.44
+5/13,Jordan,0.7,99,7.86
+"Feb 25, 2022",,0.9,111,6.85
+,,1,113,6.28
+
+
+Created At,User,Ketones,Glucose,GKI
+6/29,Andrea,0.8,105,7.29
+6/30,Andrea,1.4,89,3.53
+7/31,Andrea,0.8,94,6.53
+"Sep 2, 2018",Andrea,1.1,91,4.60
+"Sep 8, 2018",Andrea,0.6,132,12.22
+"Jan 30, 2019",Andrea,1.0,85,4.72
+7/10/2019,Andrea,1.2,94,4.35
+"Aug 28, 2019",Andrea,0.7,103,8.17
+"Sep 3, 2019",Andrea,0.9,89,5.49
+"Sep 23, 2019",Andrea,0.8,136,9.44
+"Sep 26, 2019",Andrea,0.6,87,8.06
+12/6/2019 8:00 AM,Andrea,2,93,2.58
+12/29/2019 5:22 PM,Andrea,2.1,85,2.25
+"Jul 14, 2020",Andrea,0.4,113,15.69
+"Feb 10, 2021",,113,0.4,
+"Feb 25, 2022",,0.7,103,
+
+< 1,Therapeutic Ketosis
+< 3,Optimal Ketosis
+< 9,Nutritional Ketosis
+> 9,Not in Ketosis

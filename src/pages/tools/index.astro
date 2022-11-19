@@ -1,0 +1,33 @@
+---
+import Layout from '@layouts/Layout.astro'
+import { SITE } from '@common/config'
+import Heading from '@components/Heading.astro'
+import Blockquote from '@components/Blockquote.astro'
+import HorzRule from '@components/HorzRule.astro'
+---
+
+<Layout title={`${SITE.title}: Tools`}>
+  <Heading level="h1">Tools</Heading>
+
+  <Blockquote title="Marshall McLuhan">
+    We shape our tools and then our tools shape us
+  </Blockquote>
+  <HorzRule />
+  <div class="grid gap-4 grid-cols-1 sm:grid-cols-2">
+    <div class="border p-4 border-border-light dark:border-dm-border-light">
+      <Heading level="h2">
+        <a href="/tools/macros">Low Carb Macros</a>
+      </Heading>
+      <p>
+        This will calculate your macros based on vitals, life style, and goals.
+      </p>
+    </div>
+
+    <div class="border p-4 border-border-light dark:border-dm-border-light">
+      <Heading level="h2">
+        <a href="/tools/gki">Glucose Ketone Index</a>
+      </Heading>
+      <p>Used to calculate your GKI.</p>
+    </div>
+  </div>
+</Layout>
