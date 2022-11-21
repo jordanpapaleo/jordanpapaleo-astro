@@ -2,6 +2,7 @@
 export interface Props {
   href: string
   active: boolean
+  class?: string
 }
 
 const { href, active } = Astro.props
@@ -11,4 +12,8 @@ const activeClass =
   'border-b border-copy-dark1 border-solid dark:border-white dark:text-white'
 ---
 
-<a href={href} class:list={[baseClass, { [activeClass]: active }]}><slot /></a>
+<a
+  href={href}
+  class:list={[baseClass, Astro.props.class, { [activeClass]: active }]}
+  ><slot />
+</a>

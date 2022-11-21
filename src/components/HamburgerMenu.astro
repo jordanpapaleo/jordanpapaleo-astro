@@ -1,0 +1,51 @@
+---
+export interface Props {
+  class: string
+}
+const spanClass = 'bg-dm-border dark: bg-border'
+---
+
+<button class:list={['hamburger-menu', Astro.props.class]}>
+  <span class={spanClass}></span>
+  <span class={spanClass}></span>
+  <span class={spanClass}></span>
+</button>
+
+<style>
+  button {
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    width: 25px;
+  }
+
+  span {
+    cursor: pointer;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    transition: top 0.25s;
+    user-select: none;
+    width: 100%;
+  }
+
+  span:first-of-type {
+    top: 0px;
+  }
+
+  span:last-of-type {
+    top: 16px;
+  }
+
+  .active span:first-of-type {
+    top: 8px;
+  }
+
+  .active span:last-of-type {
+    top: 8px;
+  }
+</style>

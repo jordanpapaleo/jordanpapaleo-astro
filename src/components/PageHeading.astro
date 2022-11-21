@@ -1,6 +1,7 @@
 ---
 import { Icon } from 'astro-icon'
 import PageHeadingLink from './PageHeadingLink.astro'
+import HamburgerMenu from './HamburgerMenu.astro'
 
 export interface Props {
   activeNav?: 'writing' | 'repos' | 'speaking' | 'about' | 'search'
@@ -12,52 +13,121 @@ const { activeNav } = Astro.props
 <header class="page-heading">
   <h1 class="text-h1">
     <a
-      class="text-copy hover:text-copy dark:text-white dark:hover:text-white"
+      class="text-copy hover:text-copy dark:text-white dark:hover:text-white hidden md:block"
       href="/"
     >
       Jordan Papaleo
     </a>
+    <a
+      class="text-copy hover:text-copy dark:text-white dark:hover:text-white block md:hidden"
+      href="/"
+    >
+      JP
+    </a>
   </h1>
+
   <nav class="main-nav">
-    <PageHeadingLink href="/about" active={activeNav === 'about'}>
+    <PageHeadingLink
+      href="/about"
+      active={activeNav === 'about'}
+      class="hidden md:block"
+    >
       about
     </PageHeadingLink>
-    <PageHeadingLink href="/writing" active={activeNav === 'writing'}>
+    <PageHeadingLink
+      href="/writing"
+      active={activeNav === 'writing'}
+      class="hidden md:block"
+    >
       writing
     </PageHeadingLink>
-    <!-- <PageHeadingLink href="/repos" active={activeNav === 'repos'}>
-      repos
-    </PageHeadingLink> -->
-    <PageHeadingLink href="/speaking" active={activeNav === 'speaking'}>
+    <PageHeadingLink
+      href="/speaking"
+      active={activeNav === 'speaking'}
+      class="hidden md:block"
+    >
       speaking
     </PageHeadingLink>
 
-    <button type="button" disabled>
+    <button type="button" disabled class="hidden md:block">
       <Icon name="carbon:search" />
     </button>
-    <button type="button" id="theme-button">
+    <button type="button" class="hidden md:block theme-button">
       <Icon name="carbon:moon" id="moon-icon" />
       <Icon name="carbon:sun" id="sun-icon" />
     </button>
+
+    <div
+      class="mobile-nav flex flex-col absolute md:hidden bg-white drop-shadow-sm dark:bg-dm-background"
+    >
+      <PageHeadingLink href="/about" active={activeNav === 'about'}>
+        about
+      </PageHeadingLink>
+      <PageHeadingLink href="/writing" active={activeNav === 'writing'}>
+        writing
+      </PageHeadingLink>
+      <PageHeadingLink href="/speaking" active={activeNav === 'speaking'}>
+        speaking
+      </PageHeadingLink>
+
+      <div class="text-center">
+        <button type="button" disabled>
+          <Icon name="carbon:search" />
+        </button>
+        <button type="button" class="theme-button">
+          <Icon name="carbon:moon" id="moon-icon" />
+          <Icon name="carbon:sun" id="sun-icon" />
+        </button>
+      </div>
+    </div>
+
+    <HamburgerMenu class="md:hidden" />
   </nav>
 </header>
 
 <script>
-  const themeEl = document.getElementById('theme-button')
-  const htmlEl = document.querySelector('html')
+  // import { atom } from 'nanostores'
+  // const showMenu = atom(false)
+  const mobileNav = document.querySelector('.mobile-nav')
+  const button = document.querySelector('.hamburger-menu')
+  button.addEventListener('click', (e) => {
+    button.classList.toggle('active')
+    mobileNav.classList.toggle('active')
+    // showMenu.set(!showMenu.get())
+  })
 
-  themeEl?.addEventListener('click', () => {
-    if (htmlEl.classList.contains('dark')) {
-      localStorage.setItem('theme', 'ligth')
-      htmlEl.classList.remove('dark')
-    } else {
-      localStorage.setItem('theme', 'dark')
-      htmlEl.classList.add('dark')
-    }
+  // THEMES
+  const themeButtons = document.querySelectorAll('.theme-button')
+  const htmlEl = document.querySelector('html')
+  themeButtons.forEach((themeButton) => {
+    themeButton?.addEventListener('click', () => {
+      if (htmlEl.classList.contains('dark')) {
+        localStorage.setItem('theme', 'ligth')
+        htmlEl.classList.remove('dark')
+      } else {
+        localStorage.setItem('theme', 'dark')
+        htmlEl.classList.add('dark')
+      }
+    })
   })
 </script>
 
 <style>
+  .mobile-nav {
+    top: 75px;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid gray;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.25s;
+  }
+
+  .mobile-nav.active {
+    opacity: 1;
+    height: 225px;
+  }
   button {
     @apply w-5 h-12;
   }
