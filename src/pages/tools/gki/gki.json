@@ -1,0 +1,254 @@
+[
+  {
+    "id": "d30bc6cf-2aff-4426-b3a3-9e15a40fca87",
+    "date": "01/30/2019",
+    "user": "Andrea",
+    "ketones": 1,
+    "glucose": 85
+  },
+  {
+    "id": "4da81c02-972c-42f9-8259-9fe23d59b36b",
+    "date": "01/30/2019",
+    "user": "Jordan",
+    "ketones": 1,
+    "glucose": 96
+  },
+  {
+    "id": "52773d4e-70b7-4315-a563-42f71339e1d0",
+    "date": "02/10/2021",
+    "user": "Andrea",
+    "ketones": 0.4,
+    "glucose": 113
+  },
+  {
+    "id": "9a3d7d33-4d9c-4ff0-a110-601690c08d57",
+    "date": "02/25/2022",
+    "user": "Andrea",
+    "ketones": 0.9,
+    "glucose": 111
+  },
+  {
+    "id": "b947153f-f7c1-405c-babe-d320dfb056ac",
+    "date": "02/25/2022",
+    "user": "Andrea",
+    "ketones": 0.7,
+    "glucose": 103
+  },
+  {
+    "id": "44e0b63b-a720-4bfe-8285-b5057cd3b664",
+    "date": "05/13/2021",
+    "user": "Jordan",
+    "ketones": 0.7,
+    "glucose": 99
+  },
+  {
+    "id": "2a4d9f58-caff-4a6a-a3d8-d1b9f2a28583",
+    "date": "06/28/2018",
+    "user": "Jordan",
+    "ketones": 1,
+    "glucose": 99
+  },
+  {
+    "id": "63d76c29-1c0b-4152-9d9b-d5e99a4af643",
+    "date": "06/29/2018",
+    "user": "Andrea",
+    "ketones": 0.8,
+    "glucose": 105
+  },
+  {
+    "id": "453ad540-ce2d-4db5-ab18-3f09ed3174ad",
+    "date": "06/29/2018",
+    "user": "Jordan",
+    "ketones": 0.8,
+    "glucose": 94
+  },
+  {
+    "id": "ff41f1c0-9388-4305-b4b1-d197b473c375",
+    "date": "06/30/2018",
+    "user": "Andrea",
+    "ketones": 1.4,
+    "glucose": 89
+  },
+  {
+    "id": "5cecbebc-8270-468a-b2e6-9b8908a4b89b",
+    "date": "06/30/2018",
+    "user": "Jordan",
+    "ketones": 0.8,
+    "glucose": 99
+  },
+  {
+    "id": "1ea5b56a-38b1-4d15-b86d-091aa80085e5",
+    "date": "07/10/2019",
+    "user": "Andrea",
+    "ketones": 1.2,
+    "glucose": 94
+  },
+  {
+    "id": "69e663e8-f7a1-4ae5-9921-787c3cf9cacc",
+    "date": "07/10/2019",
+    "user": "Jordan",
+    "ketones": 0.9,
+    "glucose": 103
+  },
+  {
+    "id": "06066da2-b380-4159-9cfb-4a606ef585e7",
+    "date": "07/14/2020",
+    "user": "Andrea",
+    "ketones": 0.4,
+    "glucose": 113
+  },
+  {
+    "id": "36a8a8bc-471b-494a-b28a-5f0423f85736",
+    "date": "07/14/2020",
+    "user": "Jordan",
+    "ketones": 1,
+    "glucose": 106
+  },
+  {
+    "id": "1fe43060-047d-49b0-bc15-5089b85f81e1",
+    "date": "07/31/2018",
+    "user": "Andrea",
+    "ketones": 0.8,
+    "glucose": 94
+  },
+  {
+    "id": "9ef41617-8435-45a5-87ae-03efb02f692c",
+    "date": "07/31/2018",
+    "user": "Jordan",
+    "ketones": 1,
+    "glucose": 103
+  },
+  {
+    "id": "bf8be16e-34a9-44df-aa76-d7b3dfcbca88",
+    "date": "08/28/2019",
+    "user": "Andrea",
+    "ketones": 0.7,
+    "glucose": 103
+  },
+  {
+    "id": "96d4ad4e-fc0e-42ec-acd8-1a4e355b9044",
+    "date": "08/28/2019",
+    "user": "Jordan",
+    "ketones": 0.9,
+    "glucose": 101
+  },
+  {
+    "id": "fab91b25-f7fb-4ddc-a7d9-54ad70f2686c",
+    "date": "09/02/2018",
+    "user": "Andrea",
+    "ketones": 1.1,
+    "glucose": 91
+  },
+  {
+    "id": "6abe6ba2-646b-4f1a-bd3a-0f1c1dd50ed4",
+    "date": "09/23/2019",
+    "user": "Andrea",
+    "ketones": 0.8,
+    "glucose": 136
+  },
+  {
+    "id": "47ec98ef-5991-4b87-a63b-f8a3b95afbb9",
+    "date": "09/26/2019",
+    "user": "Andrea",
+    "ketones": 0.6,
+    "glucose": 87
+  },
+  {
+    "id": "e223438e-b79c-4a5e-9ef5-12b8ec67b50f",
+    "date": "09/03/2019",
+    "user": "Andrea",
+    "ketones": 0.9,
+    "glucose": 89
+  },
+  {
+    "id": "111936ab-265b-41b8-b48a-36eaccc7ea22",
+    "date": "09/08/2018",
+    "user": "Andrea",
+    "ketones": 0.6,
+    "glucose": 132
+  },
+  {
+    "id": "79c22734-c2cd-466f-8d8d-ff38df0dfbcd",
+    "date": "10/02/2018",
+    "user": "Jordan",
+    "ketones": 1,
+    "glucose": 93
+  },
+  {
+    "id": "9ca0c496-3c31-47e7-b2cc-ec8d688cc83e",
+    "date": "10/08/2018",
+    "user": "Jordan",
+    "ketones": 0.8,
+    "glucose": 98
+  },
+  {
+    "id": "9d5af547-c2f0-4ac1-9cd7-0d0c4e4e6c7f",
+    "date": "10/23/2019",
+    "user": "Jordan",
+    "ketones": 0.1,
+    "glucose": 102
+  },
+  {
+    "id": "368cd99b-7b1c-4688-893f-7601470caaf4",
+    "date": "10/24/2019",
+    "user": "Jordan",
+    "ketones": 0.5,
+    "glucose": 99
+  },
+  {
+    "id": "ce5efd90-aeb9-43bb-bd09-1326de059b97",
+    "date": "10/25/2019",
+    "user": "Jordan",
+    "ketones": 0.5,
+    "glucose": 98
+  },
+  {
+    "id": "6fc4d924-730d-410c-aece-5bef589f340a",
+    "date": "10/26/2019",
+    "user": "Jordan",
+    "ketones": 0.4,
+    "glucose": 94
+  },
+  {
+    "id": "1fb662bd-86e5-4b4b-a476-b22313d31a33",
+    "date": "10/03/2019",
+    "user": "Jordan",
+    "ketones": 0.9,
+    "glucose": 91
+  },
+  {
+    "id": "c84b55be-05f9-4747-a3dc-2068dfa2846f",
+    "date": "12/06/2019",
+    "user": "Jordan",
+    "ketones": 1,
+    "glucose": 105
+  },
+  {
+    "id": "365b2e9d-11d2-44f5-b6f5-e37a9a88fc46",
+    "date": "12/06/2019",
+    "user": "Jordan",
+    "ketones": 1.7,
+    "glucose": 91
+  },
+  {
+    "id": "31535698-4aeb-42a1-83ce-bc02b5532891",
+    "date": "12/29/2019",
+    "user": "Andrea",
+    "ketones": 2.1,
+    "glucose": 85
+  },
+  {
+    "id": "ab6bae9d-518b-4fce-bd21-0631f9e5447d",
+    "date": "12/29/2019",
+    "user": "Jordan",
+    "ketones": 0.8,
+    "glucose": 97
+  },
+  {
+    "id": "7738b9bf-d2da-4276-8a16-78826b7e47a2",
+    "date": "12/06/2019",
+    "user": "Andrea",
+    "ketones": 2,
+    "glucose": 93
+  }
+]
