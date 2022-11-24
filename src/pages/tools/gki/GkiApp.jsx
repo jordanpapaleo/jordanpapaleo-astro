@@ -4,7 +4,7 @@ import TextInput from '@componentsReact/TextInput'
 import RadioGroup from '@componentsReact/RadioGroup'
 import Button from '@componentsReact/Button'
 import { v4 as uuidv4 } from 'uuid'
-import format from 'date-fns/format'
+import { format } from 'date-fns'
 
 const customFetch = async (url, options = {}) => {
   const baseUrl = 'https://api.jsonbin.io/v3/b'
