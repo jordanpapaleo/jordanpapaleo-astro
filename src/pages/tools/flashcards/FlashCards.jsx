@@ -48,6 +48,12 @@ const Flashcards = (props) => {
     }
   }, [filters])
 
+  const shuffle = () => {
+    const shuffled = [...questions].sort(() => (Math.random() > 0.5 ? 1 : -1))
+    setQuestions(shuffled)
+    setCardIndex(0)
+  }
+
   const fsClass =
     'fixed top-0 left-0 w-[100vw] h-[100vh] bg-background dark:bg-dm-background'
 
@@ -67,11 +73,15 @@ const Flashcards = (props) => {
       <br />
       Cards: {questions.length}
       <div className={clsx('flex gap-2 w-[100%]', fullScreen && fsClass)}>
-        <Button
-          onClick={() => {
-            if (cardIndex > 0) setCardIndex(cardIndex - 1)
-          }}
-        >{`<< `}</Button>
+        <div className="flex flex-col gap-1">
+          <Button
+            onClick={() => {
+              if (cardIndex > 0) setCardIndex(cardIndex - 1)
+            }}
+          >{`<< `}</Button>
+          <span className="flex-1" />
+          <Button onClick={() => shuffle()}>SH</Button>
+        </div>
         {questions
           .filter((meh, i) => i === cardIndex)
           .map((question) => {
