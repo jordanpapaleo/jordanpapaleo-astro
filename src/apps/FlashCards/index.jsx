@@ -3,6 +3,17 @@ import initQuestions from './questions.json'
 import CheckboxGroup from '@componentsReact/CheckboxGroup'
 import Button from '@componentsReact/Button'
 import clsx from 'clsx'
+import {
+  FaExpand,
+  FaExpandArrowsAlt,
+  FaExpandAlt,
+  FaCompressAlt,
+  FaCompressArrowsAlt,
+  FaCompress,
+  FaChevronRight,
+  FaChevronLeft,
+} from 'react-icons/fa'
+import { RxShuffle } from 'react-icons/rx'
 
 const Flashcards = (props) => {
   const [cardIndex, setCardIndex] = React.useState(0)
@@ -75,12 +86,17 @@ const Flashcards = (props) => {
       <div className={clsx('flex gap-2 w-[100%]', fullScreen && fsClass)}>
         <div className="flex flex-col gap-1">
           <Button
+            title="Previous Question"
             onClick={() => {
               if (cardIndex > 0) setCardIndex(cardIndex - 1)
             }}
-          >{`<< `}</Button>
+          >
+            <FaChevronLeft />
+          </Button>
           <span className="flex-1" />
-          <Button onClick={() => shuffle()}>SH</Button>
+          <Button onClick={() => shuffle()} title="Shuffle Questions">
+            <RxShuffle />
+          </Button>
         </div>
         {questions
           .filter((meh, i) => i === cardIndex)
@@ -89,12 +105,21 @@ const Flashcards = (props) => {
           })}
         <div className="flex flex-col gap-1">
           <Button
+            title="Next Question"
             onClick={() => {
               if (cardIndex < questions.length - 1) setCardIndex(cardIndex + 1)
             }}
-          >{`>> `}</Button>
+          >
+            <FaChevronRight />
+          </Button>
           <span className="flex-1" />
-          <Button onClick={() => setFullScreen(!fullScreen)}>FS</Button>
+          <Button
+            onClick={() => setFullScreen(!fullScreen)}
+            title={fullScreen ? 'Compress Cards' : 'Expand Cards'}
+          >
+            {!fullScreen && <FaExpand />}
+            {fullScreen && <FaCompress />}
+          </Button>
         </div>
       </div>
     </>
