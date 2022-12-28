@@ -2,11 +2,13 @@ import React from 'react'
 import initQuestions from './questions.json'
 import CheckboxGroup from '@componentsReact/CheckboxGroup'
 import Button from '@componentsReact/Button'
+import clsx from 'clsx'
 
 const Flashcards = (props) => {
   const [cardIndex, setCardIndex] = React.useState(0)
   const [filters, setFilters] = React.useState([])
   const [questions, setQuestions] = React.useState(initQuestions)
+  const [fullScreen, setFullScreen] = React.useState(false)
   const [tags] = React.useState(
     initQuestions.reduce((allTags, q) => {
       if (q.tags) {
@@ -46,6 +48,9 @@ const Flashcards = (props) => {
     }
   }, [filters])
 
+  const fsClass =
+    'fixed top-0 left-0 w-[100vw] h-[100vh] bg-background dark:bg-dm-background'
+
   return (
     <>
       <div>
@@ -61,10 +66,8 @@ const Flashcards = (props) => {
       </div>
       <br />
       Cards: {questions.length}
-      <div className="flex gap-2 w-[100%]">
+      <div className={clsx('flex gap-2 w-[100%]', fullScreen && fsClass)}>
         <Button
-          className="border-nobel p-2"
-          style={{ borderRadius: '4px', borderWidth: 1 }}
           onClick={() => {
             if (cardIndex > 0) setCardIndex(cardIndex - 1)
           }}
@@ -74,13 +77,15 @@ const Flashcards = (props) => {
           .map((question) => {
             return <Card key={question.id} {...question} />
           })}
-        <Button
-          className="border-nobel p-2"
-          style={{ borderRadius: '4px', borderWidth: 1 }}
-          onClick={() => {
-            if (cardIndex < questions.length - 1) setCardIndex(cardIndex + 1)
-          }}
-        >{`>> `}</Button>
+        <div className="flex flex-col gap-1">
+          <Button
+            onClick={() => {
+              if (cardIndex < questions.length - 1) setCardIndex(cardIndex + 1)
+            }}
+          >{`>> `}</Button>
+          <span className="flex-1" />
+          <Button onClick={() => setFullScreen(!fullScreen)}>FS</Button>
+        </div>
       </div>
     </>
   )
