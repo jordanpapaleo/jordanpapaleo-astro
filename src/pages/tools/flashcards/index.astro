@@ -1,0 +1,11 @@
+---
+import { SITE } from 'src/config'
+import Heading from '@components/Heading.astro'
+import Layout from '@layouts/Layout.astro'
+import FlashCards from './FlashCards'
+---
+
+<Layout title={`${SITE.title}: Flash Cards`}>
+  <Heading level="h1">Flash Cards</Heading>
+  <FlashCards client:load />
+</Layout>

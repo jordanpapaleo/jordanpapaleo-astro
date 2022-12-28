@@ -1,0 +1,1109 @@
+[
+  {
+    "question": "Obesity",
+    "answer": "A complex disease involving an excessive amount of body fat; classified by a body mass index of 30 or greater.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "29edf895-7641-4428-ba49-f878dfde8d4f"
+  },
+  {
+    "question": "Kinesiology",
+    "answer": "Study of movement as it relates to anatomy and physiology.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "150a4913-8750-47f9-ac8c-8b43f856baa4"
+  },
+  {
+    "question": "Evidence-based practice",
+    "answer": "A practice that relies on evidence for guidance and decision-making and includes developing individual expertise, staying current on the best sources of external evidence (e.g., peer-reviewed research), and prioritizing client values and expectations.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "f072c99f-9947-4780-8051-8fd89e5719f8"
+  },
+  {
+    "question": "Musculoskeletal system",
+    "answer": "The combined, interworking system of all muscles and bones in the body.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "8223ebf2-c318-4812-bed0-8b4f72537776"
+  },
+  {
+    "question": "Deconditioned",
+    "answer": "A state of lost physical fitness, which may include muscle imbalances, decreased flexibility, and a lack of core and joint stability.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "cbd5ba5f-2dcb-46d0-8220-ddfc55f7c3b6"
+  },
+  {
+    "question": "Overweight",
+    "answer": "A body weight greater than what is considered within normal standards; a body mass index of 25.0 to 29.9.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "8e5b4c91-1ebb-413c-a06e-4b0a4015f641"
+  },
+  {
+    "question": "Muscle imbalance",
+    "answer": "When muscles on each side of a joint have altered length-tension relationships.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "4d1ef540-309a-422a-a1de-8473422acd02"
+  },
+  {
+    "question": "Joint stability",
+    "answer": "The support provided by tissues surrounding a joint to maintain and provide control during movement.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "6fe1d4c5-2c5d-459e-a9c2-7fc8ba42dc07"
+  },
+  {
+    "question": "Socioeconomic status",
+    "answer": "The social standing of a person or group that includes education, income, and occupation.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "290b8ace-7947-4d83-80dd-d7d9059f6b3a"
+  },
+  {
+    "question": "Morbidity",
+    "answer": "The state of having a disease.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "b53081fb-df7f-47aa-aa80-dc86235b6044"
+  },
+  {
+    "question": "Mortality",
+    "answer": "A state or a risk of death or dying.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "caf72cee-bb4f-4d49-9793-2da71805b8f2"
+  },
+  {
+    "question": "Homeostasis",
+    "answer": "The process by which the human body strives to maintain a relatively stable equilibrium.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "fa9efcfa-d147-4d7e-a682-959edf6bfa10"
+  },
+  {
+    "question": "Risk factor",
+    "answer": "Any attribute, characteristic, or exposure of an individual that increases the likelihood of developing a disease or injury.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "93d16f8b-edee-427d-af5a-29bb9602f61a"
+  },
+  {
+    "question": "Cholesterol",
+    "answer": "A waxy, fatlike substance found in bodily cells.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "e6a12f97-44cd-4432-8c54-b99e33032fbc"
+  },
+  {
+    "question": "Stroke",
+    "answer": "A sudden lack of blood supply to the brain, caused by either a blockage in an artery or ruptured blood vessel.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "99a2fe68-4e8c-4421-a3da-d8f0396165ea"
+  },
+  {
+    "question": "Heart attack",
+    "answer": "The action that occurs when an artery supplying the heart with blood and oxygen becomes blocked; medically known as a myocardial infarction.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "f016959b-6801-4a33-891c-456e0800ca56"
+  },
+  {
+    "question": "Heart failure",
+    "answer": "A condition in which the heart can’t pump enough blood to meet the body’s needs.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "18a12918-da97-4a31-98b6-2d468ee04d77"
+  },
+  {
+    "question": "Heart valve problem",
+    "answer": "A condition that occurs when one or more heart valves do not function properly, causing shortness of breath and reduced oxygen supply to the body.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "ad9e630b-b2fa-4f23-ae2f-bc96531b5ce7"
+  },
+  {
+    "question": "Arrhythmia",
+    "answer": "A problem with the rate or rhythm of a person’s heartbeat. The heart beats too quickly, too slowly, or with an irregular pattern.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "6c7d12ad-5b6b-4605-8cbc-dae1bcc597ca"
+  },
+  {
+    "question": "Ischemic heart disease",
+    "answer": "A category of heart-related problems caused by the narrowing of coronary arteries, which supply blood and oxygen to the heart muscle.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "7044cb24-ed4d-4de1-9d16-987bb9e38008"
+  },
+  {
+    "question": "Atherosclerosis",
+    "answer": "The processes by which plaque is formed in arteries leading to reduced blood flow.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "40fffdb5-029b-4cc1-b965-651c42024577"
+  },
+  {
+    "question": "Physical activity",
+    "answer": "Bodily movement that results in energy expenditure and encompasses many modes and intensities. Movement that is not structured exercise such as recreational pursuits (e.g., golfing, gardening, and walking a dog).",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "a983b16e-3a62-4c1a-af6e-d7c1b4f77d07"
+  },
+  {
+    "question": "Hypertension",
+    "answer": "Consistently elevated blood pressure.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "b2134297-8fd7-4d94-bad9-29db44b14623"
+  },
+  {
+    "question": "Systolic blood pressure (SBP)",
+    "answer": "The pressure in arteries and other blood vessels when the heart is contracting; the first (top) number recorded.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "aaf15560-4cf3-45e2-a952-cca9b2eee98f"
+  },
+  {
+    "question": "Diastolic blood pressure (DBP)",
+    "answer": "The pressure in arteries and other blood vessels when heart is at rest or between beats; the second (bottom) number recorded.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "79fa3fff-c58f-4abb-a12e-4ce7178af596"
+  },
+  {
+    "question": "Diabetes",
+    "answer": "Chronic metabolic disorder, caused by insulin deficiency, which impairs carbohydrate usage and enhances usage of fat and protein.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "98745e9c-4ac5-4b92-b56f-65ba3cf31ad9"
+  },
+  {
+    "question": "Glucose",
+    "answer": "The simplest form of carbohydrate used by the body for energy.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "630f3101-2718-45e0-8d40-f0f400f49468"
+  },
+  {
+    "question": "Insulin resistance",
+    "answer": "The inability of the cells to respond to insulin; occurs in type 2 diabetes.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "95778306-5459-48b9-9218-07ecceba5e15"
+  },
+  {
+    "question": "Cancer",
+    "answer": "A group of diseases involving abnormal cell growth with the potential to invade or spread to other parts of the body.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "57ae5916-318d-4e18-af79-bee8d6661e2d"
+  },
+  {
+    "question": "Chronic obstructive pulmonary disease (COPD)",
+    "answer": "A general term used to describe progressive lung diseases, including emphysema, chronic bronchitis, and refractory (nonreversible) asthma.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "bec91005-491f-41cc-8a7d-c3cab0b5cc9c"
+  },
+  {
+    "question": "Endorphins",
+    "answer": "A group of hormones secreted by the brain that provides a variety of physiological functions, such as reducing the perception of pain.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "2e291338-fc76-466f-859c-8f3daa7dc63d"
+  },
+  {
+    "question": "Skeletal muscle",
+    "answer": "The type of muscle tissue that connects to bones and generates the forces that create movement.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "8d94654d-5a53-40fb-8911-6915a6dfb023"
+  },
+  {
+    "question": "Sprain",
+    "answer": "A stretching or tearing of ligaments.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "37b972e1-7c26-4cdd-9bb0-30f9892778e5"
+  },
+  {
+    "question": "Plantar fasciitis",
+    "answer": "An inflammation of the fibrous tissue (plantar fascia) along the bottom of the foot, which often results in intense heel pain.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "7b227137-734c-45ed-af77-19a43c3c1c23"
+  },
+  {
+    "question": "Patellar tendonitis",
+    "answer": "An injury or inflammation of the tendon that connects the patella (kneecap) to the tibia (shin bone).",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "1980cf6c-6579-43cf-bff6-be4d2cc2ec71"
+  },
+  {
+    "question": "Anterior cruciate ligament (ACL) tear",
+    "answer": "A stretch, partial tear, or complete tear of the anterior cruciate ligament of the knee.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "addcc6fb-9b95-40c8-a5d0-47ed18fec6c2"
+  },
+  {
+    "question": "Medial collateral ligament (MCL) tear",
+    "answer": "A stretch, partial tear, or complete tear of the medial collateral ligament of the knee.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "2e80f5c8-6ef8-4e3e-812b-6b6c1238f5a5"
+  },
+  {
+    "question": "Shoulder impingement syndrome",
+    "answer": "Shoulder pain caused by rotator cuff tissues rubbing against the acromion bone of the shoulder.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "f17cc22c-9c0a-4f3f-a99d-e1cb6aefb051"
+  },
+  {
+    "question": "Operational costs",
+    "answer": "The various monetary requirements associated with the day-to-day running of a business.",
+    "tags": [
+      "cpt",
+      "chapter 2"
+    ],
+    "id": "d467d9ca-c150-4f38-81dc-870e486e2c46"
+  },
+  {
+    "question": "High-intensity interval training (HIIT)",
+    "answer": "An exercise training method defined by intervals of near-maximal intensity broken up by relatively short rest periods.",
+    "tags": [
+      "cpt",
+      "chapter 2"
+    ],
+    "id": "366bf96d-02f5-43a1-97cf-200c8cad2b28"
+  },
+  {
+    "question": "Adherence",
+    "answer": "The level of commitment to a behavior or plan of action.",
+    "tags": [
+      "cpt",
+      "chapter 2"
+    ],
+    "id": "961bcc61-a853-4689-81bf-c705cff2b2c3"
+  },
+  {
+    "question": "Prospect",
+    "answer": "An individual who has been identified as a potential client.",
+    "tags": [
+      "cpt",
+      "chapter 2"
+    ],
+    "id": "d6f78073-8b12-476e-bb2b-58451042bb12"
+  },
+  {
+    "question": "Sales process",
+    "answer": "A system for learning about the needs of a potential client to be able to identify and present a number of solutions for those needs.",
+    "tags": [
+      "cpt",
+      "chapter 2"
+    ],
+    "id": "826878b8-555c-4ff3-85d9-4b68f2852a55"
+  },
+  {
+    "question": "Open-ended questions",
+    "answer": "Nondirective questions that can’t be answered with a simple yes or no answer; they require critical thinking to formulate a response.",
+    "tags": [
+      "cpt",
+      "chapter 2"
+    ],
+    "id": "72ffc64b-f062-4212-a293-1af7bd8e1970"
+  },
+  {
+    "question": "Working the ﬂoor",
+    "answer": "A rapport-building technique where fitness professionals walk around the gym floor talking to members without overtly presenting a sale.",
+    "tags": [
+      "cpt",
+      "chapter 2"
+    ],
+    "id": "89ee3823-c600-4507-9a40-4d7bad82e297"
+  },
+  {
+    "question": "Rapport",
+    "answer": "A relationship in which two people understand each other’s ideas, have respect for one another, and communicate well.",
+    "tags": [
+      "cpt",
+      "chapter 2"
+    ],
+    "id": "1f572134-16ed-4e84-bac2-87b441fc4cd3"
+  },
+  {
+    "question": "Forecasting",
+    "answer": "A business management technique that helps predict how much work is needed to meet a revenue goal.",
+    "tags": [
+      "cpt",
+      "chapter 2"
+    ],
+    "id": "5cbc4883-2848-4d5c-be00-8da4ac4a2d00"
+  },
+  {
+    "question": "Unique selling proposition (USP)",
+    "answer": "Highlighting unique skills or traits during a sales presentation that allow an individual to stand out from the competition.",
+    "tags": [
+      "cpt",
+      "chapter 2"
+    ],
+    "id": "f96b3f62-b944-4369-b2b3-ec99e969c6b1"
+  },
+  {
+    "question": "Brand",
+    "answer": "A product or service identified by specific, unique characteristics.",
+    "tags": [
+      "cpt",
+      "chapter 2"
+    ],
+    "id": "f5cde662-c981-42e6-99d2-44b518e11864"
+  },
+  {
+    "question": "SWOT analysis",
+    "answer": "A professional development technique that helps individuals identify their personal strengths and weaknesses, opportunities for growth, and potential threats to success.",
+    "tags": [
+      "cpt",
+      "chapter 2"
+    ],
+    "id": "f9f91de4-e6f2-4421-8523-fd2e56063eb0"
+  },
+  {
+    "question": "Psychology",
+    "answer": "An area of science that focuses on people, and in particular, how the mind and feelings may influence behaviors.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "cf596cc1-6e00-44bf-86b9-fed92a5e1ebd"
+  },
+  {
+    "question": "Adherence",
+    "answer": "The level of commitment to a behavior or plan of action.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "4da115f2-06a3-4ed0-8f48-14081c14ae2a"
+  },
+  {
+    "question": "Motivation",
+    "answer": "The intensity and direction of someone’s effort to participate in an activity or engage in a behavior.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "841ff8ea-b542-45f4-b42b-347927bbce30"
+  },
+  {
+    "question": "Socioeconomic status",
+    "answer": "The social standing of a person or group that includes education, income, and occupation.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "df9c1d17-4f6a-4b51-adfc-c40882d95de8"
+  },
+  {
+    "question": "Amotivation",
+    "answer": "Describes when someone is not motivated to engage in an activity or behavior.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "54eb20bc-447b-4a9b-8f1e-dd7f70652e23"
+  },
+  {
+    "question": "Extrinsic motivation",
+    "answer": "When someone participates in an activity or behavior for some type of reward or recognition from others.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "bc4bed17-266e-4a8b-9ca3-88c4950b6440"
+  },
+  {
+    "question": "Intrinsic motivation",
+    "answer": "When people engage in an activity or behavior because they feel a sense of satisfaction or enjoyment",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "4b6f2ab7-b85c-4c99-8973-c55100e5ff17"
+  },
+  {
+    "question": "Outcome goals",
+    "answer": "Goals focused on the end result.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "88f4f817-217d-4fbf-aedc-a93d64c872bb"
+  },
+  {
+    "question": "Process goals",
+    "answer": "Refers to the process of goal pursuit.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "666242ca-00bd-4ba2-a137-ac8176a2223e"
+  },
+  {
+    "question": "Social support",
+    "answer": "The intentional ways that people assist others in achieving a specific behavior.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "dfcfa326-8099-4aaa-af93-519667116d2a"
+  },
+  {
+    "question": "Social physique anxiety",
+    "answer": "A specific form of anxiety that occurs in individuals who perceive that others could be negatively evaluating their physique.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "3ef44b17-d965-43fe-8828-0a922d5b035e"
+  },
+  {
+    "question": "Ambivalence",
+    "answer": "Describes a person’s state of mixed feelings about a situation.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "ee0a8f53-dd9b-4f52-be72-abc373a7ed8e"
+  },
+  {
+    "question": "Instrumental support",
+    "answer": "The actions that directly facilitate a behavior to happen. In the context of exercise, instrumental support can include driving a person to a health club or paying for the gym membership.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "e6d2866d-9130-4497-90d7-2441003e69ab"
+  },
+  {
+    "question": "Emotional support",
+    "answer": "The encouragement and positive reinforcement that is provided from an individual to another, which includes being caring, empathetic, and showing concern.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "8e8adcde-e9ad-4b07-bccc-e62094e2deac"
+  },
+  {
+    "question": "Empathy",
+    "answer": "The ability to identify with another person’s feelings, attitudes, or thoughts.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "c63de1b9-b10f-48c4-9a13-d03a4dda9791"
+  },
+  {
+    "question": "Informational support",
+    "answer": "Providing accurate, current, and informative information.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "0d602d36-97a6-4900-a57e-c344a52f1961"
+  },
+  {
+    "question": "Companionship support",
+    "answer": "When someone engages in a behavior with an individual. This type of support is often observed in an exercise setting where people exercise with a friend or partner.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "20e5cecd-694a-4e59-8f6e-16ad921712d0"
+  },
+  {
+    "question": "Self-esteem",
+    "answer": "The way someone evaluates their own self-worth physically, emotionally, and socially.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "c88503a1-735c-477d-b643-cf9dff76bbcd"
+  },
+  {
+    "question": "Body image",
+    "answer": "The way someone views their physical self or visualizes their body.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "b41fd45d-5a8e-4053-8acb-88d9bcc0c9cc"
+  },
+  {
+    "question": "Sleep apnea",
+    "answer": "A sleep disorder in which a person’s breathing repeatedly stops and starts, which disrupts the body’s natural sleep cycle.",
+    "tags": [
+      "cpt",
+      "chapter 3"
+    ],
+    "id": "85571652-074b-495c-839d-0bc19b0d813a"
+  },
+  {
+    "question": "Physical activity",
+    "answer": "Bodily movement that results in energy expenditure and encompasses many modes and intensities. Movement that is not structured exercise such as recreational pursuits (e.g., golfing, gardening, and walking a dog).",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "0971bc92-5c1e-46e0-bc57-4a80001068fd"
+  },
+  {
+    "question": "Adherence",
+    "answer": "The level of commitment to a behavior or plan of action.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "8811c7c1-135b-4eb7-b947-d75f569755bb"
+  },
+  {
+    "question": "Autonomy",
+    "answer": "Acting in accordance with how one wants to behave.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "21631779-aff6-4b9d-bcd0-e019640e97f9"
+  },
+  {
+    "question": "Intrinsic motivation",
+    "answer": "When people engage in an activity or behavior because they feel a sense of satisfaction.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "d7d445bb-e065-4770-b8d8-fa9380b1a62e"
+  },
+  {
+    "question": "Third space",
+    "answer": "A communal space, separate from home or work, where the client experiences their own sense of identity and relationship to others.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "ff9fb11b-0d30-44b1-8f17-5db34704293f"
+  },
+  {
+    "question": "Behavior change techniques (BCTs)",
+    "answer": "Client interventions that are used to change some determinant of behavior.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "0898cc75-a520-4cca-8969-b40fe070c96d"
+  },
+  {
+    "question": "Self-efficacy",
+    "answer": "One’s belief that they can complete a task, goal, or performance; also known as self-confidence.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "493ddf0e-fd05-4ca6-ad42-54b8d2dd6bc3"
+  },
+  {
+    "question": "Ambivalence",
+    "answer": "Describes a person’s state of mixed feelings about a situation.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "76dce5fb-a96a-41ad-b639-6ff60850157a"
+  },
+  {
+    "question": "Self-monitoring",
+    "answer": "Observing, measuring, and evaluating one’s own behavior, often in the form of a diary or log.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "0279cac1-65fd-4771-a106-346ed4502279"
+  },
+  {
+    "question": "Determinants of behavior",
+    "answer": "Refers to the psychological, social, or environmental factors that influence behavior.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "23cfa55f-b385-4e2c-acd5-7595ee4aebdf"
+  },
+  {
+    "question": "Intention",
+    "answer": "A construct that captures motivational factors that influence behavior. It indicates how hard people are willing to try and how much effort they are planning to exert.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "347bde9f-61d1-406a-8f31-57d25e6ede82"
+  },
+  {
+    "question": "Self-determination theory",
+    "answer": "A broad theoretical framework for the study of human motivation.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "37cf87cc-1c3d-4869-a7b2-53cba0b64622"
+  },
+  {
+    "question": "Autonomous motivation",
+    "answer": "When motives for exercise relate to valuing the outcome, when exercise is consistent with the client’s identity, or when the client enjoys exercise.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "f0a9a8dc-4781-44d1-a79c-ceb5948dd4dc"
+  },
+  {
+    "question": "Planning",
+    "answer": "A concrete representation of when and where exercise will occur.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "a875a7f7-0108-446f-894d-fea4cee56fe9"
+  },
+  {
+    "question": "Attitude",
+    "answer": "The degree to which a person has a favorable or unfavorable evaluation of the behavior of interest.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "f1c449aa-a6d4-4d70-ad81-cb77ed6a117c"
+  },
+  {
+    "question": "Outcome expectations",
+    "answer": "The expected positive and negative consequences of a behavior.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "5bd033c3-8952-485c-a6e5-c726dd981395"
+  },
+  {
+    "question": "Stress",
+    "answer": "The state of mental or emotional tension from demanding circumstances.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "6f1ae42e-ad8b-4c70-ac7e-ccb6f09ecfb8"
+  },
+  {
+    "question": "Perceived behavioral control",
+    "answer": "An evaluation of whether one has the means, resources, and opportunities to perform a behavior.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "e74116a7-2857-4bbc-9912-82a633effd19"
+  },
+  {
+    "question": "Affective judgment",
+    "answer": "Referring to expected pleasure or enjoyment.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "4bf35b60-1493-4422-a73e-b1740207bd7d"
+  },
+  {
+    "question": "Subjective norms",
+    "answer": "Belief that an important person or group of people will approve and support a behavior.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "0bf96b53-1573-4769-beb6-484109d51aa3"
+  },
+  {
+    "question": "Precontemplation",
+    "answer": "Client does not exercise and is not planning to start exercising within 6 months.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "aa938e0f-bf52-4e5d-9a8c-9212586e4860"
+  },
+  {
+    "question": "Contemplation",
+    "answer": "When a person is thinking about implementing change but has not yet taken any steps to get started; an individual may take action within the next 6 months.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "9204ffe8-ecdb-4369-8650-41d0e16269b1"
+  },
+  {
+    "question": "Preparation",
+    "answer": "The client intends to act in the near future, usually within the next month.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "302d8861-1749-4841-a4c6-d971e2af6249"
+  },
+  {
+    "question": "Action",
+    "answer": "The client has made specific modifications in their exercise routine within the past 6 months.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "44f6b745-9df7-43f5-ab87-23befa1a64dc"
+  },
+  {
+    "question": "Maintenance",
+    "answer": "The client has been exercising for more than 6 months and is working to prevent relapse.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "e7ac43c8-aea8-453a-b300-ee12bfb95401"
+  },
+  {
+    "question": "Decisional balance",
+    "answer": "Reflects the clients’ weighing of the pros and cons of changing.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "3ef11872-8a63-41cd-a556-3187dba16ee7"
+  },
+  {
+    "question": "Empathy",
+    "answer": "The ability to identify with another person’s feelings, attitudes, or thoughts.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "0a633589-2caf-4888-9c68-34c39deda491"
+  },
+  {
+    "question": "Rapport",
+    "answer": "A relationship in which two people understand each other’s ideas, have respect for one another, and communicate well.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "48fb970d-fbcc-4de4-b026-d84b2c723189"
+  },
+  {
+    "question": "Reflective listening",
+    "answer": "The process of seeking to understand the meaning of the speaker’s words and restating the idea back to the speaker to confirm that they were understood correctly.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "aacf3716-4e3c-49f4-b2fd-980c6cf2da33"
+  },
+  {
+    "question": "Active listening",
+    "answer": "Listening style that involves having genuine interest in what the speaker is saying; requires the listener to fully concentrate to understand the speaker’s message.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "9166673a-3437-425c-b13a-ab73a81083f3"
+  },
+  {
+    "question": "Closed-ended questions",
+    "answer": "Directive questions that can be answered with one word, typically a yes or no.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "c3d2cb39-a658-4bfe-9943-c0af95cfa333"
+  },
+  {
+    "question": "Open-ended questions",
+    "answer": "Nondirective questions that can’t be answered with a simple yes or no; they require critical thinking to formulate a response.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "d9fb8d53-af67-4600-999e-d78242bd87f5"
+  },
+  {
+    "question": "Collecting summaries",
+    "answer": "Short sentences that continue the client’s thoughts and add momentum to the conversation.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "f9aeed50-7c06-4943-af69-d63792f5bdab"
+  },
+  {
+    "question": "Linking summaries",
+    "answer": "Summaries that tie together information the client has presented, perhaps even from previous sessions.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "8d8164e6-9f00-4ca5-b75e-1852abcda00a"
+  },
+  {
+    "question": "Transitional summaries",
+    "answer": "Summaries used to wrap up a session or announce a shift in focus.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "c5c086c2-379f-4c6b-8874-2dd27bb90ea8"
+  },
+  {
+    "question": "Affirmations",
+    "answer": "Positive statements about character strengths.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "d34db93d-7c7e-47d2-972b-f8ab8a53b54b"
+  },
+  {
+    "question": "Motivational interviewing",
+    "answer": "Client-centered, directive method for enhancing intrinsic motivation to change by exploring and resolving ambivalence.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "b0f30393-f448-44dc-8043-915d2b40ff1e"
+  },
+  {
+    "question": "Self-discrepancy",
+    "answer": "An internal conflict that occurs when an individual compares their actual self with their ideal self.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "4c919115-719f-49ac-8a68-1aa72a679cbf"
+  },
+  {
+    "question": "Sustain talk",
+    "answer": "Talk that represents and predicts movement away from change.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "aa1a4c48-918b-4546-84d6-31e831e0a8f0"
+  },
+  {
+    "question": "Change talk",
+    "answer": "Talk that reflects movement of the person toward behavior change.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "11229e27-2bba-4f85-8f7d-8ec83a0f2686"
+  },
+  {
+    "question": "Outcome goals",
+    "answer": "Goals focused on the end result.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "4ebcd8b1-bbe3-4d09-a916-e51fbc32c786"
+  },
+  {
+    "question": "Process goals",
+    "answer": "Tasks that are pursued to reach a final outcome.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "637e60e9-0be4-4d78-b641-3f71ffa36d90"
+  },
+  {
+    "question": "Implementation intentions",
+    "answer": "A behavior change technique that links a goal-directed response to situational cues by specifying when, where, and how to act.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "a14e0b64-0abb-4665-9e3a-f6c4c40e58c1"
+  },
+  {
+    "question": "Coping plans",
+    "answer": "A behavior change technique that involves anticipating barriers to goal action and proactively preparing strategies that prioritize intentional behavior over counterproductive habitual responses.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "fa194f48-036b-4eec-a5f5-40f0b68e4646"
+  },
+  {
+    "question": "Self-talk",
+    "answer": "Internal dialogue in which the individual interprets feelings and perceptions, regulates and changes evaluations and convictions, and gives himself or herself instructions and reinforcement.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "982851b5-7274-47a9-994f-c276a8a7924d"
+  },
+  {
+    "question": "Reverse listing",
+    "answer": "Replacing negative statements with positive statements.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "58eee537-dcb5-4b19-a190-8fc192c94544"
+  },
+  {
+    "question": "Stopping",
+    "answer": "The act of saying “stop” out loud to undesired statements.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "9c172e04-ae81-4e3b-98e1-d0c0fa95a8a1"
+  },
+  {
+    "question": "Cognitive fusion",
+    "answer": "When people believe the exact content of their own thoughts.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "917c1c9f-3791-4b0c-bcce-f61c47236c93"
+  },
+  {
+    "question": "Imagery",
+    "answer": "The process created to produce internalized experiences.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "294477d9-f06f-4413-ad5c-59bd0104e217"
+  },
+  {
+    "question": "Appearance imagery",
+    "answer": "When a person imagines appearance or health related outcomes.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "1adf9bbf-3f97-4daa-afe2-4752aef3d79a"
+  },
+  {
+    "question": "Energy imagery",
+    "answer": "When a person creates mental images that increase energy and/or relieve stress.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "55928365-7a24-4198-9623-64a9057a5a82"
+  },
+  {
+    "question": "Technique imagery",
+    "answer": "When individuals mentally rehearse their technique.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "2b0d7ad0-dd27-4274-bddf-9326d303a651"
+  },
+  {
+    "question": "Psyching up",
+    "answer": "The process to get oneself into a state of psychological readiness for performance.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "7d8e625a-d112-40c7-bd08-da2fbe925d1b"
+  }
+]
