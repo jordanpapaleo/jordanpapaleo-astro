@@ -2,10 +2,10 @@
 import { SITE } from 'src/config'
 import Heading from '@components/Heading.astro'
 import Layout from '@layouts/Layout.astro'
-import GkiApp from './GkiApp'
+import Gki from '@apps/Gki'
 ---
 
 <Layout title={`${SITE.title}: Glucose Ketone Index`}>
   <Heading level="h1">Glucose Ketone Index</Heading>
-  <GkiApp client:load />
+  <Gki client:load />
 </Layout>

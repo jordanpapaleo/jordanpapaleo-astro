@@ -8,7 +8,7 @@
       "@layouts/*": ["src/layouts/*"],
       "@images/*": ["src/images/*"],
       "@common/*": ["src/common/*"],
-      "@content/*": ["src/content/*"]
+      "@apps/*": ["src/apps/*"]
     }
   }
 }

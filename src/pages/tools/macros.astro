@@ -2,10 +2,10 @@
 import { SITE } from 'src/config'
 import Heading from '@components/Heading.astro'
 import Layout from '@layouts/Layout.astro'
-import MacroApp from './MacroApp'
+import Macros from '@apps/Macros'
 ---
 
 <Layout title={`${SITE.title}: Low Carb Macros Calculator`}>
   <Heading level="h1">Low Carb Macros</Heading>
-  <MacroApp client:load />
+  <Macros client:load />
 </Layout>
