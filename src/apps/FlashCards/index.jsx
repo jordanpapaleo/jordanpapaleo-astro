@@ -3,25 +3,14 @@ import initQuestions from './questions.json'
 import CheckboxGroup from '@componentsReact/CheckboxGroup'
 import Button from '@componentsReact/Button'
 import clsx from 'clsx'
-// import // FaExpand,
-// FaExpandArrowsAlt,
-// FaExpandAlt,
-// FaCompressAlt,
-// FaCompressArrowsAlt,
-// FaCompress,
-// FaChevronRight,
-// FaChevronLeft,
-// FaThumbsDown,
-// FaThumbsUp,
-// 'react-icons/fa'
-// import { RxShuffle } from 'react-icons/rx'
-import FaExpand from '@images/Expand'
-import FaCompress from '@images/Collapse'
-import FaChevronRight from '@images/ChevronRight'
-import FaChevronLeft from '@images/ChevronLeft'
-import FaThumbsDown from '@images/Expand'
-import FaThumbsUp from '@images/Expand'
-import RxShuffle from '@images/Shuffle'
+import ExpandIcon from '@images/Expand'
+import CompressIcon from '@images/Collapse'
+import ChevronRightIcon from '@images/ChevronRight'
+import ChevronLeftIcon from '@images/ChevronLeft'
+import ThumbsDownIcon from '@images/ThumbUp'
+import ThumbsUpIcon from '@images/ThumbDown'
+import ShuffleIcon from '@images/Shuffle'
+import { disableScroll, enableScroll } from '@common/scrollHandler'
 
 const initTags = initQuestions.reduce((allTags, q) => {
   if (q.tags) {
@@ -69,6 +58,14 @@ const Flashcards = (props) => {
     }
   }, [filters])
 
+  React.useEffect(() => {
+    if (fullScreen) {
+      disableScroll()
+    } else {
+      enableScroll()
+    }
+  }, [fullScreen])
+
   const handleFilter = (checked, value) => {
     if (checked) {
       setFilters([...filters, value])
@@ -84,11 +81,19 @@ const Flashcards = (props) => {
   }
 
   const handleNext = () => {
-    if (cardIndex < questions.length - 1) setCardIndex(cardIndex + 1)
+    if (cardIndex < questions.length - 1) {
+      setCardIndex(cardIndex + 1)
+    } else {
+      setCardIndex(0)
+    }
   }
 
   const handlePrev = () => {
-    if (cardIndex > 0) setCardIndex(cardIndex - 1)
+    if (cardIndex > 0) {
+      setCardIndex(cardIndex - 1)
+    } else {
+      setCardIndex(questions.length - 1)
+    }
   }
 
   const handleUpVote = () => {
@@ -115,7 +120,11 @@ const Flashcards = (props) => {
     saveLsVotes(votes)
   }
 
-  const fsClass =
+  const handleFullScreen = () => {
+    setFullScreen(!fullScreen)
+  }
+
+  const FS_CLASS =
     'fixed top-0 left-0 w-[100vw] h-[100vh] bg-background dark:bg-dm-background'
 
   return (
@@ -134,20 +143,23 @@ const Flashcards = (props) => {
 
       <div className="mb-2">Cards: {questions.length}</div>
 
-      <div className={clsx('flex gap-2 w-[100%]', fullScreen && fsClass)}>
+      <div className={clsx('flex gap-2 w-[100%]', fullScreen && FS_CLASS)}>
         <CardGutter>
-          <Button color="gray" title="Previous Question" onClick={handlePrev}>
-            <FaChevronLeft />
+          <Button
+            color="gray"
+            className="flex-grow"
+            title="Previous Question"
+            onClick={handlePrev}
+          >
+            <ChevronLeftIcon />
           </Button>
 
-          <Button color="crimson" onClick={handleDownVote}>
-            <FaThumbsDown />
+          <Button onClick={handleDownVote} color="gray" title="">
+            <ThumbsDownIcon />
           </Button>
-
-          <span className="flex-1" />
 
           <Button color="gray" onClick={shuffle} title="Shuffle Questions">
-            <RxShuffle />
+            <ShuffleIcon />
           </Button>
         </CardGutter>
 
@@ -158,23 +170,26 @@ const Flashcards = (props) => {
           ))}
 
         <CardGutter>
-          <Button color="gray" title="Next Question" onClick={handleNext}>
-            <FaChevronRight />
+          <Button
+            color="gray"
+            title="Next Question"
+            className="flex-grow"
+            onClick={handleNext}
+          >
+            <ChevronRightIcon />
           </Button>
 
-          <Button color="kellyGreen" title="Up vote" onClick={handleUpVote}>
-            <FaThumbsUp />
+          <Button color="gray" title="Up vote" onClick={handleUpVote}>
+            <ThumbsUpIcon />
           </Button>
-
-          <span className="flex-1" />
 
           <Button
             color="gray"
-            onClick={() => setFullScreen(!fullScreen)}
+            onClick={handleFullScreen}
             title={fullScreen ? 'Compress Cards' : 'Expand Cards'}
           >
-            {!fullScreen && <FaExpand />}
-            {fullScreen && <FaCompress />}
+            {!fullScreen && <ExpandIcon />}
+            {fullScreen && <CompressIcon />}
           </Button>
         </CardGutter>
       </div>
@@ -183,7 +198,7 @@ const Flashcards = (props) => {
 }
 
 const CardGutter = ({ children }) => (
-  <div className="flex flex-col gap-1">{children}</div>
+  <div className="flex flex-col gap-2">{children}</div>
 )
 
 const Card = ({ question, answer, tags = [] }) => {
@@ -193,14 +208,23 @@ const Card = ({ question, answer, tags = [] }) => {
     <button
       onClick={() => setShowAnswer(!showAnswer)}
       style={{ borderRadius: '4px', borderWidth: 1 }}
-      className="border-nobel p-2 flex-1 relative"
+      className="border py-2 px-4 flex-1 relative"
     >
-      {!showAnswer && <h1 className="text-center">{question}</h1>}
-      {showAnswer && <p className="text-left">{answer}</p>}
+      <h2 className="text-center">{question}</h2>
+      <p
+        className={clsx('text-left leading-5 pb-4', !showAnswer && 'invisible')}
+      >
+        {answer}
+      </p>
 
       <small className="flex gap-1 absolute left-1 bottom-1">
         {tags.map((t, i) => (
-          <span key={i}>{t}</span>
+          <span
+            key={i}
+            className="inline-block px-1 border border-primary-light bg-primary-ultraLight text-xs text-primary"
+          >
+            {t}
+          </span>
         ))}
       </small>
     </button>
