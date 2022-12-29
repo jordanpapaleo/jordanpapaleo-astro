@@ -3,19 +3,25 @@ import initQuestions from './questions.json'
 import CheckboxGroup from '@componentsReact/CheckboxGroup'
 import Button from '@componentsReact/Button'
 import clsx from 'clsx'
-import {
-  FaExpand,
-  FaExpandArrowsAlt,
-  FaExpandAlt,
-  FaCompressAlt,
-  FaCompressArrowsAlt,
-  FaCompress,
-  FaChevronRight,
-  FaChevronLeft,
-  FaThumbsDown,
-  FaThumbsUp,
-} from 'react-icons/fa'
-import { RxShuffle } from 'react-icons/rx'
+// import // FaExpand,
+// FaExpandArrowsAlt,
+// FaExpandAlt,
+// FaCompressAlt,
+// FaCompressArrowsAlt,
+// FaCompress,
+// FaChevronRight,
+// FaChevronLeft,
+// FaThumbsDown,
+// FaThumbsUp,
+// 'react-icons/fa'
+// import { RxShuffle } from 'react-icons/rx'
+import FaExpand from '@images/Expand'
+import FaCompress from '@images/Collapse'
+import FaChevronRight from '@images/ChevronRight'
+import FaChevronLeft from '@images/ChevronLeft'
+import FaThumbsDown from '@images/Expand'
+import FaThumbsUp from '@images/Expand'
+import RxShuffle from '@images/Shuffle'
 
 const initTags = initQuestions.reduce((allTags, q) => {
   if (q.tags) {
