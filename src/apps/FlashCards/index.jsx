@@ -212,7 +212,7 @@ const Card = ({ question, answer, tags = [] }) => {
     >
       <h2 className="text-center">{question}</h2>
       <p
-        className={clsx('text-left leading-5 pb-4', !showAnswer && 'invisible')}
+        className={clsx('text-left leading-5 pb-4', !showAnswer && 'opacity-0')}
       >
         {answer}
       </p>
