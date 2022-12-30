@@ -1,5 +1,6 @@
 import React from 'react'
 import initQuestions from './questions.json'
+import zoeQuestions from './multiplication.json'
 import CheckboxGroup from '@componentsReact/CheckboxGroup'
 import Button from '@componentsReact/Button'
 import clsx from 'clsx'
@@ -12,7 +13,7 @@ import ThumbsUpIcon from '@images/ThumbDown'
 import ShuffleIcon from '@images/Shuffle'
 import { disableScroll, enableScroll } from '@common/scrollHandler'
 
-const initTags = initQuestions.reduce((allTags, q) => {
+const initTags = [...initQuestions, ...zoeQuestions].reduce((allTags, q) => {
   if (q.tags) {
     q.tags.forEach((t) => {
       const plop = allTags.some(({ name }) => name === t)
@@ -41,17 +42,22 @@ const saveLsVotes = (d) => {
 const Flashcards = (props) => {
   const [cardIndex, setCardIndex] = React.useState(0)
   const [filters, setFilters] = React.useState([])
-  const [questions, setQuestions] = React.useState(initQuestions)
+  const [questions, setQuestions] = React.useState([
+    ...initQuestions,
+    ...zoeQuestions,
+  ])
   const [fullScreen, setFullScreen] = React.useState(false)
   const [tags] = React.useState(initTags)
 
   React.useEffect(() => {
     if (!filters.length) {
-      setQuestions(initQuestions)
+      setQuestions(initQuestions.concat(zoeQuestions))
     } else {
-      const filteredQuestions = initQuestions.filter((question) => {
-        return question.tags.some((t) => filters.includes(t))
-      })
+      const filteredQuestions = [...initQuestions, ...zoeQuestions].filter(
+        (question) => {
+          return question.tags.some((t) => filters.includes(t))
+        },
+      )
 
       setCardIndex(0)
       setQuestions(filteredQuestions)
@@ -211,9 +217,7 @@ const Card = ({ question, answer, tags = [] }) => {
       className="border py-2 px-4 flex-1 relative"
     >
       <h2 className="text-center">{question}</h2>
-      <p
-        className={clsx('text-left leading-5 pb-4', !showAnswer && 'opacity-0')}
-      >
+      <p className={clsx('leading-5 pb-4', !showAnswer && 'opacity-0')}>
         {answer}
       </p>
 
