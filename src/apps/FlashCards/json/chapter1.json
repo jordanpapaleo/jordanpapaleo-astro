@@ -1,0 +1,344 @@
+[
+  {
+    "question": "Obesity",
+    "answer": "A complex disease involving an excessive amount of body fat; classified by a body mass index of 30 or greater.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "c80cc5bc-9d78-432b-b18f-9b694cf152ed"
+  },
+  {
+    "question": "Kinesiology",
+    "answer": "Study of movement as it relates to anatomy and physiology.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "3cd75731-6c88-4d64-845b-75c6699b4735"
+  },
+  {
+    "question": "Evidence-based practice",
+    "answer": "A practice that relies on evidence for guidance and decision-making and includes developing individual expertise, staying current on the best sources of external evidence (e.g., peer-reviewed research), and prioritizing client values and expectations.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "29c9bb78-9a72-4ded-ba45-20140a74ae16"
+  },
+  {
+    "question": "Musculoskeletal system",
+    "answer": "The combined, interworking system of all muscles and bones in the body.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "b8b07602-2047-4222-a04d-aedcbae0fbe6"
+  },
+  {
+    "question": "Deconditioned",
+    "answer": "A state of lost physical fitness, which may include muscle imbalances, decreased flexibility, and a lack of core and joint stability.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "1e74bca9-73a8-4b5a-b02e-91d2e7fe06c1"
+  },
+  {
+    "question": "Overweight",
+    "answer": "A body weight greater than what is considered within normal standards; a body mass index of 25.0 to 29.9.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "ade92659-26ef-4ee6-ac41-773d0e5ec17f"
+  },
+  {
+    "question": "Muscle imbalance",
+    "answer": "When muscles on each side of a joint have altered length-tension relationships.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "94bac908-0080-4fc8-8933-1f44bf87f4e3"
+  },
+  {
+    "question": "Joint stability",
+    "answer": "The support provided by tissues surrounding a joint to maintain and provide control during movement.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "87450177-211f-4206-bad5-df229f1127af"
+  },
+  {
+    "question": "Socioeconomic status",
+    "answer": "The social standing of a person or group that includes education, income, and occupation.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "3361a7f9-e3a9-49bb-9614-c0de951635ec"
+  },
+  {
+    "question": "Morbidity",
+    "answer": "The state of having a disease.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "96b79423-b7d4-4b24-81f2-6cba7aa31fb9"
+  },
+  {
+    "question": "Mortality",
+    "answer": "A state or a risk of death or dying.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "7b30da04-8bb0-453c-ae5a-fbc771728e25"
+  },
+  {
+    "question": "Homeostasis",
+    "answer": "The process by which the human body strives to maintain a relatively stable equilibrium.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "6c450cd6-7105-4f16-9ac1-f3e8e82ede2b"
+  },
+  {
+    "question": "Risk factor",
+    "answer": "Any attribute, characteristic, or exposure of an individual that increases the likelihood of developing a disease or injury.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "a66d4242-5cf9-4843-8123-db9843a50e7b"
+  },
+  {
+    "question": "Cholesterol",
+    "answer": "A waxy, fatlike substance found in bodily cells.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "160bbaac-174e-4593-87a7-8edd57de3875"
+  },
+  {
+    "question": "Stroke",
+    "answer": "A sudden lack of blood supply to the brain, caused by either a blockage in an artery or ruptured blood vessel.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "bcf823db-da80-440f-bbbf-8c8ac9ffae48"
+  },
+  {
+    "question": "Heart attack",
+    "answer": "The action that occurs when an artery supplying the heart with blood and oxygen becomes blocked; medically known as a myocardial infarction.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "d98c0a59-17c2-474a-a3d7-d029a558f30b"
+  },
+  {
+    "question": "Heart failure",
+    "answer": "A condition in which the heart can’t pump enough blood to meet the body’s needs.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "f293217c-ce64-4169-a9a5-d61fa2f6533d"
+  },
+  {
+    "question": "Heart valve problem",
+    "answer": "A condition that occurs when one or more heart valves do not function properly, causing shortness of breath and reduced oxygen supply to the body.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "176f672f-e77a-4ad8-8adb-3107c52bd863"
+  },
+  {
+    "question": "Arrhythmia",
+    "answer": "A problem with the rate or rhythm of a person’s heartbeat. The heart beats too quickly, too slowly, or with an irregular pattern.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "bbff8423-6b46-46d5-8cdc-3b6dfbeac0ee"
+  },
+  {
+    "question": "Ischemic heart disease",
+    "answer": "A category of heart-related problems caused by the narrowing of coronary arteries, which supply blood and oxygen to the heart muscle.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "d410df47-03a6-4cc3-9443-4d5adc836c98"
+  },
+  {
+    "question": "Atherosclerosis",
+    "answer": "The processes by which plaque is formed in arteries leading to reduced blood flow.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "7114ace0-53af-413b-85c8-d876412ac280"
+  },
+  {
+    "question": "Physical activity",
+    "answer": "Bodily movement that results in energy expenditure and encompasses many modes and intensities. Movement that is not structured exercise such as recreational pursuits (e.g., golfing, gardening, and walking a dog).",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "155035ca-3659-4294-9b08-7cc5a4b7272d"
+  },
+  {
+    "question": "Hypertension",
+    "answer": "Consistently elevated blood pressure.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "6bff1015-37b1-4c1b-a146-91ab8d41fd32"
+  },
+  {
+    "question": "Systolic blood pressure (SBP)",
+    "answer": "The pressure in arteries and other blood vessels when the heart is contracting; the first (top) number recorded.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "1957d631-b95a-4951-a1f7-a49ca403c3df"
+  },
+  {
+    "question": "Diastolic blood pressure (DBP)",
+    "answer": "The pressure in arteries and other blood vessels when heart is at rest or between beats; the second (bottom) number recorded.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "4f154bf6-ef91-402a-b814-c0e742226686"
+  },
+  {
+    "question": "Diabetes",
+    "answer": "Chronic metabolic disorder, caused by insulin deficiency, which impairs carbohydrate usage and enhances usage of fat and protein.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "dbe18aa6-1cea-4dc1-8ee1-84fcd8e5f996"
+  },
+  {
+    "question": "Glucose",
+    "answer": "The simplest form of carbohydrate used by the body for energy.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "9f66a646-6228-4ee5-ac46-672a2f6e9f4c"
+  },
+  {
+    "question": "Insulin resistance",
+    "answer": "The inability of the cells to respond to insulin; occurs in type 2 diabetes.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "949004be-3961-41cb-8db2-def5a89714ad"
+  },
+  {
+    "question": "Cancer",
+    "answer": "A group of diseases involving abnormal cell growth with the potential to invade or spread to other parts of the body.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "50091610-999f-4ecb-a34c-d364be022cd6"
+  },
+  {
+    "question": "Chronic obstructive pulmonary disease (COPD)",
+    "answer": "A general term used to describe progressive lung diseases, including emphysema, chronic bronchitis, and refractory (nonreversible) asthma.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "c7e224b2-b737-42d3-b6ae-200b3871253d"
+  },
+  {
+    "question": "Endorphins",
+    "answer": "A group of hormones secreted by the brain that provides a variety of physiological functions, such as reducing the perception of pain.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "cbc4becb-1bc9-406d-a242-0fbe9e8d479c"
+  },
+  {
+    "question": "Skeletal muscle",
+    "answer": "The type of muscle tissue that connects to bones and generates the forces that create movement.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "5e9a4786-bf9b-457d-b7d8-0f2ef0ba12f7"
+  },
+  {
+    "question": "Sprain",
+    "answer": "A stretching or tearing of ligaments.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "2572f86b-1839-4242-8b44-10b422747f02"
+  },
+  {
+    "question": "Plantar fasciitis",
+    "answer": "An inflammation of the fibrous tissue (plantar fascia) along the bottom of the foot, which often results in intense heel pain.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "8f0481ac-0afd-4904-9c1a-91de81b8f9e0"
+  },
+  {
+    "question": "Patellar tendonitis",
+    "answer": "An injury or inflammation of the tendon that connects the patella (kneecap) to the tibia (shin bone).",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "5c8d66f4-b52d-4018-b347-1e3758047ce0"
+  },
+  {
+    "question": "Anterior cruciate ligament (ACL) tear",
+    "answer": "A stretch, partial tear, or complete tear of the anterior cruciate ligament of the knee.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "b040de3d-3f81-4f85-ad0a-6df4555fb7d4"
+  },
+  {
+    "question": "Medial collateral ligament (MCL) tear",
+    "answer": "A stretch, partial tear, or complete tear of the medial collateral ligament of the knee.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "0e24790e-9259-4e2f-9c62-703fc5418adc"
+  },
+  {
+    "question": "Shoulder impingement syndrome",
+    "answer": "Shoulder pain caused by rotator cuff tissues rubbing against the acromion bone of the shoulder.",
+    "tags": [
+      "cpt",
+      "chapter 1"
+    ],
+    "id": "dbca43db-0fbc-47b6-9086-e0b45e4c155c"
+  }
+]

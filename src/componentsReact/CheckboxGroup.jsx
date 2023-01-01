@@ -13,7 +13,7 @@ const CheckboxGroup = ({
 }) => (
   <fieldset className="flex flex-col gap-4 border-none" id={id}>
     <legend>{label}</legend>
-    <div className={clsx(inline && 'flex gap-3')}>
+    <div className={clsx(inline && 'flex flex-wrap gap-3')}>
       {options.map(({ name, value }) => (
         <FlowLabel className="flex items-center gap-2" key={value}>
           <FlowCheckbox

@@ -1,0 +1,479 @@
+[
+  {
+    "question": "Physical activity",
+    "answer": "Bodily movement that results in energy expenditure and encompasses many modes and intensities. Movement that is not structured exercise such as recreational pursuits (e.g., golfing, gardening, and walking a dog).",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "416ea330-b294-42c6-a382-3fd7ad264822"
+  },
+  {
+    "question": "Adherence",
+    "answer": "The level of commitment to a behavior or plan of action.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "33def5df-cd5c-4376-b5c2-0938560944e7"
+  },
+  {
+    "question": "Autonomy",
+    "answer": "Acting in accordance with how one wants to behave.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "fb713b3b-58ca-437e-ac9a-bf9673318004"
+  },
+  {
+    "question": "Intrinsic motivation",
+    "answer": "When people engage in an activity or behavior because they feel a sense of satisfaction.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "7f06d0d6-43c8-40ae-8623-dee69f3d846c"
+  },
+  {
+    "question": "Third space",
+    "answer": "A communal space, separate from home or work, where the client experiences their own sense of identity and relationship to others.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "f43e7ce9-2a39-4568-94b4-bd2ab3572d29"
+  },
+  {
+    "question": "Behavior change techniques (BCTs)",
+    "answer": "Client interventions that are used to change some determinant of behavior.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "77007333-a2f4-4bbe-9541-a21257d21730"
+  },
+  {
+    "question": "Self-efficacy",
+    "answer": "One’s belief that they can complete a task, goal, or performance; also known as self-confidence.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "1f4ba56d-6fe1-4ba0-a241-273d0811c787"
+  },
+  {
+    "question": "Ambivalence",
+    "answer": "Describes a person’s state of mixed feelings about a situation.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "d99eb90d-37fd-48e2-bcfb-47b0ca7a500f"
+  },
+  {
+    "question": "Self-monitoring",
+    "answer": "Observing, measuring, and evaluating one’s own behavior, often in the form of a diary or log.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "de0c8da2-28a2-4f1d-b2d3-bd702a4ec256"
+  },
+  {
+    "question": "Determinants of behavior",
+    "answer": "Refers to the psychological, social, or environmental factors that influence behavior.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "dd365b68-e836-472d-85dd-47cbeb7525aa"
+  },
+  {
+    "question": "Intention",
+    "answer": "A construct that captures motivational factors that influence behavior. It indicates how hard people are willing to try and how much effort they are planning to exert.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "25d3b468-abd3-4b42-8970-64003dd74a1b"
+  },
+  {
+    "question": "Self-determination theory",
+    "answer": "A broad theoretical framework for the study of human motivation.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "8feb08ef-2ab6-4300-a0b8-d9a618f3beb3"
+  },
+  {
+    "question": "Autonomous motivation",
+    "answer": "When motives for exercise relate to valuing the outcome, when exercise is consistent with the client’s identity, or when the client enjoys exercise.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "8f0abdec-8866-497c-aa81-5046619c37bf"
+  },
+  {
+    "question": "Planning",
+    "answer": "A concrete representation of when and where exercise will occur.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "bd3d6e90-47c6-4ffb-a802-a4d79ca2c88c"
+  },
+  {
+    "question": "Attitude",
+    "answer": "The degree to which a person has a favorable or unfavorable evaluation of the behavior of interest.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "625d508c-4252-4137-b670-9eb2dc0d8ad8"
+  },
+  {
+    "question": "Outcome expectations",
+    "answer": "The expected positive and negative consequences of a behavior.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "72544ca5-6585-46db-9ff0-c54683eb2b7e"
+  },
+  {
+    "question": "Stress",
+    "answer": "The state of mental or emotional tension from demanding circumstances.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "b7b34594-8b19-4773-97b6-f5e25d464e23"
+  },
+  {
+    "question": "Perceived behavioral control",
+    "answer": "An evaluation of whether one has the means, resources, and opportunities to perform a behavior.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "600abfa5-665f-4155-a4cc-9d52161089e8"
+  },
+  {
+    "question": "Affective judgment",
+    "answer": "Referring to expected pleasure or enjoyment.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "555894a6-2e6b-4aec-8577-1142b43a1fbd"
+  },
+  {
+    "question": "Subjective norms",
+    "answer": "Belief that an important person or group of people will approve and support a behavior.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "32e2bfa2-7021-44a5-85b3-3f5fc2088674"
+  },
+  {
+    "question": "Precontemplation",
+    "answer": "Client does not exercise and is not planning to start exercising within 6 months.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "a03c19f5-969f-4d1e-a33d-9eb6afdcf4ca"
+  },
+  {
+    "question": "Contemplation",
+    "answer": "When a person is thinking about implementing change but has not yet taken any steps to get started; an individual may take action within the next 6 months.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "765bdc1e-ff29-4fc7-969e-1cf036c319dc"
+  },
+  {
+    "question": "Preparation",
+    "answer": "The client intends to act in the near future, usually within the next month.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "1d4e66ef-22e6-4c40-a7f2-40775e741044"
+  },
+  {
+    "question": "Action",
+    "answer": "The client has made specific modifications in their exercise routine within the past 6 months.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "e2d75e5c-a814-4c9c-bdb7-cccc4424f726"
+  },
+  {
+    "question": "Maintenance",
+    "answer": "The client has been exercising for more than 6 months and is working to prevent relapse.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "8ce877d2-75c3-4266-b911-fd587909fe57"
+  },
+  {
+    "question": "Decisional balance",
+    "answer": "Reflects the clients’ weighing of the pros and cons of changing.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "ac11e9a3-66e3-4ea0-899c-3197743ed410"
+  },
+  {
+    "question": "Empathy",
+    "answer": "The ability to identify with another person’s feelings, attitudes, or thoughts.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "d8f13091-6e1d-45ce-9eb4-b4e9a8a028c3"
+  },
+  {
+    "question": "Rapport",
+    "answer": "A relationship in which two people understand each other’s ideas, have respect for one another, and communicate well.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "d4b50d5b-6c2b-4d9b-9524-3ef357f13955"
+  },
+  {
+    "question": "Reflective listening",
+    "answer": "The process of seeking to understand the meaning of the speaker’s words and restating the idea back to the speaker to confirm that they were understood correctly.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "d1db84c1-ec52-4f9d-ad17-df84ea6b0497"
+  },
+  {
+    "question": "Active listening",
+    "answer": "Listening style that involves having genuine interest in what the speaker is saying; requires the listener to fully concentrate to understand the speaker’s message.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "40e8a188-c5d1-4354-8d75-d3e4338ae3ac"
+  },
+  {
+    "question": "Closed-ended questions",
+    "answer": "Directive questions that can be answered with one word, typically a yes or no.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "cf098100-0a6b-4dc7-a488-e21b8b65966f"
+  },
+  {
+    "question": "Open-ended questions",
+    "answer": "Nondirective questions that can’t be answered with a simple yes or no; they require critical thinking to formulate a response.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "0c76f0e2-874c-42d1-a316-beee393ebe8a"
+  },
+  {
+    "question": "Collecting summaries",
+    "answer": "Short sentences that continue the client’s thoughts and add momentum to the conversation.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "d6fe39da-c779-4bd5-a5be-4f612a7171b7"
+  },
+  {
+    "question": "Linking summaries",
+    "answer": "Summaries that tie together information the client has presented, perhaps even from previous sessions.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "bf553f3d-6ef7-44e9-8925-d9959fe961bc"
+  },
+  {
+    "question": "Transitional summaries",
+    "answer": "Summaries used to wrap up a session or announce a shift in focus.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "ef9eb8b0-2774-4c68-99e1-48e7e0bcbcb6"
+  },
+  {
+    "question": "Affirmations",
+    "answer": "Positive statements about character strengths.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "33bdc338-a347-482a-84f4-175c9b25e969"
+  },
+  {
+    "question": "Motivational interviewing",
+    "answer": "Client-centered, directive method for enhancing intrinsic motivation to change by exploring and resolving ambivalence.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "5c258e08-aa2f-40c5-9983-c0c12e6e617f"
+  },
+  {
+    "question": "Self-discrepancy",
+    "answer": "An internal conflict that occurs when an individual compares their actual self with their ideal self.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "83afb7b2-605f-4659-8c85-73f396113430"
+  },
+  {
+    "question": "Sustain talk",
+    "answer": "Talk that represents and predicts movement away from change.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "876a7051-7a24-48cd-8cfc-d96865cef022"
+  },
+  {
+    "question": "Change talk",
+    "answer": "Talk that reflects movement of the person toward behavior change.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "57271fc0-08fd-4f74-8e45-b55ff627daeb"
+  },
+  {
+    "question": "Outcome goals",
+    "answer": "Goals focused on the end result.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "1050df15-3ab9-44a1-a492-afb9eb2f560c"
+  },
+  {
+    "question": "Process goals",
+    "answer": "Tasks that are pursued to reach a final outcome.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "a925a072-16b9-41c0-9490-d6fbe75adc17"
+  },
+  {
+    "question": "Implementation intentions",
+    "answer": "A behavior change technique that links a goal-directed response to situational cues by specifying when, where, and how to act.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "bfc66cc2-0f81-4a6a-9466-1a08ac08fcc3"
+  },
+  {
+    "question": "Coping plans",
+    "answer": "A behavior change technique that involves anticipating barriers to goal action and proactively preparing strategies that prioritize intentional behavior over counterproductive habitual responses.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "b598bcd2-9132-4c23-a4b4-2da3c08d2116"
+  },
+  {
+    "question": "Self-talk",
+    "answer": "Internal dialogue in which the individual interprets feelings and perceptions, regulates and changes evaluations and convictions, and gives himself or herself instructions and reinforcement.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "86ef883c-bf69-48bc-a670-be8d8415caa4"
+  },
+  {
+    "question": "Reverse listing",
+    "answer": "Replacing negative statements with positive statements.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "b2c2a742-bc04-4884-bbd7-4f131f4a6f2c"
+  },
+  {
+    "question": "Stopping",
+    "answer": "The act of saying “stop” out loud to undesired statements.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "3a29bc81-03eb-4c13-96d3-b9816fd91359"
+  },
+  {
+    "question": "Cognitive fusion",
+    "answer": "When people believe the exact content of their own thoughts.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "d3bc1cec-3152-462e-a5ff-4b69e4b73111"
+  },
+  {
+    "question": "Imagery",
+    "answer": "The process created to produce internalized experiences.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "9b2af2f8-9604-4c5e-a307-b5ad6bea6119"
+  },
+  {
+    "question": "Appearance imagery",
+    "answer": "When a person imagines appearance or health related outcomes.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "4f7b5ef3-b53e-4411-b6c2-db0822a748ab"
+  },
+  {
+    "question": "Energy imagery",
+    "answer": "When a person creates mental images that increase energy and/or relieve stress.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "9180f76b-0a4f-42ce-a83f-9f0f19f4acbd"
+  },
+  {
+    "question": "Technique imagery",
+    "answer": "When individuals mentally rehearse their technique.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "e908831e-e299-464b-9bad-0a5b0a47ea26"
+  },
+  {
+    "question": "Psyching up",
+    "answer": "The process to get oneself into a state of psychological readiness for performance.",
+    "tags": [
+      "cpt",
+      "chapter 4"
+    ],
+    "id": "3f43d08e-78b7-4501-97a3-421bcb4cc999"
+  }
+]

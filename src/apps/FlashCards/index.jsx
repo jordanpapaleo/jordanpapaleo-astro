@@ -1,6 +1,10 @@
 import React from 'react'
-import initQuestions from './questions.json'
-import zoeQuestions from './multiplication.json'
+import chapter1 from './json/chapter1.json'
+import chapter2 from './json/chapter2.json'
+import chapter3 from './json/chapter3.json'
+import chapter4 from './json/chapter4.json'
+import chapter5 from './json/chapter5.json'
+import multiplication from './json/multiplication.json'
 import CheckboxGroup from '@componentsReact/CheckboxGroup'
 import Button from '@componentsReact/Button'
 import clsx from 'clsx'
@@ -8,12 +12,22 @@ import ExpandIcon from '@images/Expand'
 import CompressIcon from '@images/Collapse'
 import ChevronRightIcon from '@images/ChevronRight'
 import ChevronLeftIcon from '@images/ChevronLeft'
-import ThumbsDownIcon from '@images/ThumbUp'
-import ThumbsUpIcon from '@images/ThumbDown'
+import StarIcon from '@images/Star'
+import OutlineStarIcon from '@images/OutlineStar'
 import ShuffleIcon from '@images/Shuffle'
 import { disableScroll, enableScroll } from '@common/scrollHandler'
+// import { AiFillStar, AiOutlineStar } from 'react-icons/ai'
 
-const initTags = [...initQuestions, ...zoeQuestions].reduce((allTags, q) => {
+const initQuestions = [
+  ...chapter1,
+  ...chapter2,
+  ...chapter3,
+  ...chapter4,
+  ...chapter5,
+  ...multiplication,
+]
+
+const initTags = initQuestions.reduce((allTags, q) => {
   if (q.tags) {
     q.tags.forEach((t) => {
       const plop = allTags.some(({ name }) => name === t)
@@ -29,40 +43,42 @@ const initTags = [...initQuestions, ...zoeQuestions].reduce((allTags, q) => {
   return allTags
 }, [])
 
-const getLsVotes = () => {
-  const ls = localStorage.getItem('flashcard')
-  return ls ? JSON.parse(ls) : {}
-}
-
-const saveLsVotes = (d) => {
-  console.log(d)
-  localStorage.setItem('flashcard', JSON.stringify(d))
-}
-
 const Flashcards = (props) => {
   const [cardIndex, setCardIndex] = React.useState(0)
   const [filters, setFilters] = React.useState([])
-  const [questions, setQuestions] = React.useState([
-    ...initQuestions,
-    ...zoeQuestions,
-  ])
+  const [questions, setQuestions] = React.useState(initQuestions)
   const [fullScreen, setFullScreen] = React.useState(false)
+  const [favorites, setFavorites] = React.useState([])
+  const [filterFavorites, setFitlerFavorites] = React.useState(false)
   const [tags] = React.useState(initTags)
 
   React.useEffect(() => {
-    if (!filters.length) {
-      setQuestions(initQuestions.concat(zoeQuestions))
-    } else {
-      const filteredQuestions = [...initQuestions, ...zoeQuestions].filter(
-        (question) => {
-          return question.tags.some((t) => filters.includes(t))
-        },
-      )
+    const favs = localStorage.getItem('fc_favorites')
+    setFavorites(favs ? JSON.parse(favs) : [])
+  }, [])
 
-      setCardIndex(0)
-      setQuestions(filteredQuestions)
+  React.useEffect(() => {
+    localStorage.setItem('fc_favorites', JSON.stringify(favorites))
+  }, [favorites])
+
+  React.useEffect(() => {
+    let filteredQuestions = [...initQuestions]
+
+    if (filters.length) {
+      filteredQuestions = filteredQuestions.filter((question) => {
+        return question.tags.some((t) => filters.includes(t))
+      })
     }
-  }, [filters])
+
+    if (filterFavorites) {
+      filteredQuestions = filteredQuestions.filter((question) => {
+        return favorites.includes(question.id)
+      })
+    }
+
+    setCardIndex(0)
+    setQuestions(filteredQuestions)
+  }, [filters, favorites, filterFavorites])
 
   React.useEffect(() => {
     if (fullScreen) {
@@ -102,28 +118,18 @@ const Flashcards = (props) => {
     }
   }
 
-  const handleUpVote = () => {
-    const id = questions[cardIndex].id
-    const votes = getLsVotes()
+  const handleFavorite = () => {
+    const id = questions[cardIndex]?.id
 
-    if (votes[id]) {
-      votes[id] = votes[id] + 1
+    if (favorites.includes(id)) {
+      setFavorites(favorites.filter((fId) => fId !== id))
     } else {
-      votes[id] = 1
+      setFavorites([...favorites, id])
     }
-
-    saveLsVotes(votes)
   }
 
-  const handleDownVote = () => {
-    const id = questions[cardIndex].id
-    const votes = getLsVotes()
-
-    if (votes[id]) {
-      votes[id] = votes[id] === 1 ? 0 : votes[id] - 1
-    }
-
-    saveLsVotes(votes)
+  const handleToggleFilterFavorite = () => {
+    setFitlerFavorites(!filterFavorites)
   }
 
   const handleFullScreen = () => {
@@ -137,13 +143,20 @@ const Flashcards = (props) => {
     <>
       <div className="mb-2">
         <CheckboxGroup
-          label={`Filter: ${filters.join(' | ')}`}
+          label={`Filter: ${filters.join(' OR ')}`}
           options={tags}
           value={[]}
           inline
           onChange={(e) => {
             handleFilter(e.target.checked, e.target.value)
           }}
+        />
+        <CheckboxGroup
+          label={`Favorites`}
+          options={[{ name: '⭐', value: 'favorite' }]}
+          value={[]}
+          inline
+          onChange={handleToggleFilterFavorite}
         />
       </div>
 
@@ -160,16 +173,13 @@ const Flashcards = (props) => {
             <ChevronLeftIcon />
           </Button>
 
-          <Button onClick={handleDownVote} color="gray" title="">
-            <ThumbsDownIcon />
-          </Button>
-
           <Button color="gray" onClick={shuffle} title="Shuffle Questions">
             <ShuffleIcon />
           </Button>
         </CardGutter>
 
         {questions
+
           .filter((meh, i) => i === cardIndex)
           .map((question) => (
             <Card key={question.id} {...question} />
@@ -185,8 +195,12 @@ const Flashcards = (props) => {
             <ChevronRightIcon />
           </Button>
 
-          <Button color="gray" title="Up vote" onClick={handleUpVote}>
-            <ThumbsUpIcon />
+          <Button color="gray" title="Up vote" onClick={handleFavorite}>
+            {favorites.includes(questions[cardIndex]?.id) ? (
+              <StarIcon />
+            ) : (
+              <OutlineStarIcon />
+            )}
           </Button>
 
           <Button

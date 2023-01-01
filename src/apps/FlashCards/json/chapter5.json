@@ -1,0 +1,1152 @@
+[
+  {
+    "question": "Human movement system (HMS)",
+    "answer": "The collective components and structures that work together to move the body: muscular, skeletal, and nervous systems.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "d6df0258-f495-4a8a-b48c-619040520db6"
+  },
+  {
+    "question": "Kinetic chain",
+    "answer": "A concept that describes the human body as a chain of interdependent links that work together to perform movement.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "6f6a438f-5072-42ef-b210-dc36a2b1c00c"
+  },
+  {
+    "question": "Nervous system",
+    "answer": "A network of specialized cells called neurons that transmit and coordinate signals, providing a communication network within the human body.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "72c794b3-b582-41df-b5b3-8335e6c5f25d"
+  },
+  {
+    "question": "Neuron",
+    "answer": "Specialized cell that is the functional unit of the nervous system.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "985e3369-a51e-4961-a0f5-8811fadc6771"
+  },
+  {
+    "question": "Nucleus",
+    "answer": "Cellular structure or organelle that contains the majority of the cell’s genetic material in the form of chromosomes.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "44af32c3-eebe-4dd8-90f3-12bb47757f0f"
+  },
+  {
+    "question": "Organelles",
+    "answer": "Tiny cellular structures that perform specific functions within a cell. Examples include nuclei, mitochondria, lysosomes, ribosomes, and the endoplasmic reticulum.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "d1ae7860-b4fc-46cc-ba38-0eec349d0ec4"
+  },
+  {
+    "question": "Mitochondria",
+    "answer": "The parts of the cell that use nutrients to create energy for the cell; commonly known as the powerhouses of the cell.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "72c67afb-54d6-423e-9037-22fb6adb6c01"
+  },
+  {
+    "question": "Effector sites",
+    "answer": "A part of the body, such as a muscle or organ, that receives a signal from a neuron to produce a physiological response.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "2f6bbc0b-9bd1-4129-a4ee-0a556ef72594"
+  },
+  {
+    "question": "Electrolytes",
+    "answer": "Minerals that have an electrical charge to help transmit nerve impulses throughout the body, such as sodium, potassium, and magnesium.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "31bab310-89bd-4c71-8e42-40fd991fc732"
+  },
+  {
+    "question": "Central nervous system (CNS)",
+    "answer": "A division of the nervous system that includes the brain and spinal cord.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "e7ccc3f5-2861-4619-a5a8-2596a26d4738"
+  },
+  {
+    "question": "Peripheral nervous system (PNS)",
+    "answer": "Nerves that connect the rest of the body to the central nervous system.   12 Cranial nerves and 31 pairs of spinal nerves",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "29fb7f85-91c7-4e29-9a35-4c2d140d7487"
+  },
+  {
+    "question": "Afferent pathway",
+    "answer": "Sensory pathway that relays information to the central nervous system. PNS -> CNS",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "d43e15b1-87fa-4752-8be4-2c0773be52eb"
+  },
+  {
+    "question": "Efferent pathway",
+    "answer": "A motor pathway that relays information from the central nervous system to the rest of the body. CNS -> PNS",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "913f37e6-9548-46e2-8113-f00ea69b6c83"
+  },
+  {
+    "question": "Interneurons",
+    "answer": "Neurons located within the spinal cord and brain that transmit impulses between afferent and efferent neurons.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "6821a205-a46c-4498-8033-621c2e942f4e"
+  },
+  {
+    "question": "Mechanoreceptors",
+    "answer": "Specialized structures that respond to mechanical forces (touch and pressure) within tissues and then transmit signals through sensory nerves.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "e1205410-bf02-4570-9b24-0a0841a17c83"
+  },
+  {
+    "question": "Somatic nervous system",
+    "answer": "Nerves that serve the outer areas of the body and skeletal muscle and are largely responsible for the voluntary control of movement.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "c6aa06f5-0e78-4388-9ea6-544902e7e15d"
+  },
+  {
+    "question": "Autonomic nervous system",
+    "answer": "A division of the peripheral nervous system that supplies neural input to organs that run the involuntary processes of the body (e.g., circulating blood, digesting food, producing hormones).",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "113c441e-2789-47dd-8eef-407fd56c1449"
+  },
+  {
+    "question": "Sympathetic nervous system",
+    "answer": "Subdivision of the autonomic nervous system that works to increase neural activity and put the body in a heightened state.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "d369379e-d797-43b4-a7f8-f86cfed465aa"
+  },
+  {
+    "question": "Parasympathetic nervous system",
+    "answer": "Subdivision of the autonomic nervous system that works to decrease neural activity and put the body in a more relaxed state.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "4b1d8c28-97da-4f7c-9638-bf8e574b8ebd"
+  },
+  {
+    "question": "Sensory function",
+    "answer": "Ability of the nervous system to sense changes in either the internal or external environment.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "57a4e45d-e9aa-4150-8ca9-b777af6dea25"
+  },
+  {
+    "question": "Proprioception",
+    "answer": "The body’s ability to naturally sense its general orientation and relative position of its parts.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "a44e1b45-747a-4ee7-84f6-67cf2af79c9b"
+  },
+  {
+    "question": "Integrative function",
+    "answer": "The ability of the nervous system to analyze and interpret the sensory information to allow for proper decision-making, which produces an appropriate response.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "41e5e3ae-91de-4ca8-9d75-46bd1228337c"
+  },
+  {
+    "question": "Motor function",
+    "answer": "The neuromuscular (or nervous and muscular systems) response to the integrated sensory information.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "684cb179-f64f-4acc-95c4-213daca6af4c"
+  },
+  {
+    "question": "Muscle spindles",
+    "answer": "Sensory receptors sensitive to change in length of the muscle and the rate of that change.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "f58b09eb-06f6-4652-83c4-0f7cfa04b5fb"
+  },
+  {
+    "question": "Stretch reﬂex",
+    "answer": "Neurological signal from the muscle spindle that causes a muscle to contract to prevent excessive lengthening.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "82e9cff8-45e5-4483-9363-eecdbaed6020"
+  },
+  {
+    "question": "Golgi tendon organ (GTO)",
+    "answer": "A specialized sensory receptor located at the point where skeletal muscle fibers insert into the tendons of skeletal muscle; sensitive to changes in muscular tension and rate of tension change.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "4cb2332b-e0f1-47cd-851a-ebfca5d85622"
+  },
+  {
+    "question": "Joint receptors",
+    "answer": "Receptors located in and around the joint capsule that respond to pressure, acceleration, and deceleration of the joint.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "f4a233af-31aa-4b0b-b6ce-f7fd61bd1092"
+  },
+  {
+    "question": "Neuroplasticity",
+    "answer": "The concept that the brain will continually change or grow, reforming neural pathways throughout an individual’s entire life span.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "901f2063-baa3-45bd-9704-5c0bd57081bd"
+  },
+  {
+    "question": "Neurocircuitry",
+    "answer": "The interconnection of neurons in the brain and spinal cord.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "2bcf2164-9356-4cde-bf20-80dcc61340b3"
+  },
+  {
+    "question": "Motor skills",
+    "answer": "Specific movements through the coordinated effort of the sensory and motor subsystems.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "nervous"
+    ],
+    "id": "99017375-2f57-4449-bff6-70ec466b9e79"
+  },
+  {
+    "question": "Skeletal system",
+    "answer": "A description of the bones of the body.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "d79e9544-f5d2-4e77-9dd1-c979398c6b7d"
+  },
+  {
+    "question": "Osteoporosis",
+    "answer": "A condition of reduced bone mineral density, which increases risk of bone fracture.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "7d82982c-2083-407e-a34e-01c8d19039b4"
+  },
+  {
+    "question": "Joints",
+    "answer": "The sites where two bones meet and movement occurs as a result of muscle contraction.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "6e7a8179-a1fe-4180-8276-ad056490f753"
+  },
+  {
+    "question": "Axial skeleton",
+    "answer": "A division of the skeletal system consisting of the skull, the rib cage, and the vertebral column.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "011498a6-4880-4a01-ae74-ee7b21f33b97"
+  },
+  {
+    "question": "Appendicular skeleton",
+    "answer": "A division of the skeletal system consisting of the arms, legs, and pelvic girdle.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "0589cdfe-6e5c-4ae5-841e-89e92dda0ddd"
+  },
+  {
+    "question": "Levers",
+    "answer": "Rigid rods where muscles attach.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "804b8338-1bd8-4b7b-93c0-a57979d52eaa"
+  },
+  {
+    "question": "Remodeling",
+    "answer": "The process by which bone is constantly renewed by the resorption and formation of the bone structure.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "53c2f312-905c-4e75-8811-2fd2e9d684f3"
+  },
+  {
+    "question": "Osteoclasts",
+    "answer": "Special cells that break down and remove old bone tissue.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "4795cdea-b79d-4ec8-9a0c-9b3305d9d7cd"
+  },
+  {
+    "question": "Osteoblasts",
+    "answer": "Special cells that form and lay down new bone tissue.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "91bd061b-db03-469b-988d-7a2bec2eaacc"
+  },
+  {
+    "question": "Wolff’s law",
+    "answer": "Scientific explanation of how remodeling (new bone growth) occurs along the lines of stress placed on the bone.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "d7007ac3-10e4-4b25-a253-bad41ad656fc"
+  },
+  {
+    "question": "Bone Types",
+    "answer": "Long: Humerus, femur. Short carparks and tarsals. Flat: scapulae, sternum, pelvis, etc. Irregular: vertebrae, sacrum, coccyx . Sesamoid: patella",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "20b998ad-4b1a-4fe7-844d-d15b5d75cd2b"
+  },
+  {
+    "question": "Depressions",
+    "answer": "Flattened or indented portions of bone. Fossa and sulcus",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "5b7a2cd0-3238-4dcf-9c4d-21093d19f8c4"
+  },
+  {
+    "question": "Processes",
+    "answer": "Projections protruding from the bone where tendons and ligaments can attach. process, condyle, epicondyle, tubercle, and trochanter",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "ae455d5a-436f-4939-ab00-4e582c806441"
+  },
+  {
+    "question": "Vertebral column",
+    "answer": "Bones that house the spinal cord; consists of the cervical, thoracic, and lumbosacral regions.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "37d41a48-5664-4b16-b56b-6b8dd2a46dac"
+  },
+  {
+    "question": "Spinal cord",
+    "answer": "Bundle of nerves housed within the vertebrae.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "7b5936ba-99ff-4716-95e2-2ff5b33b4cf6"
+  },
+  {
+    "question": "Intervertebral discs",
+    "answer": "Fibrous cartilage structures between vertebrae that act as shock absorbers and assist with movement.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "6475a5d0-aa9d-4207-851d-9bb650bfdfc5"
+  },
+  {
+    "question": "Neutral Spine",
+    "answer": "Represents a position in which the vertebrae and associated structures are under the least amount of load and can most optimally support functional movement.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "41a12cb3-dc97-48f9-a539-bf4510a7aa8e"
+  },
+  {
+    "question": "Osteokinematics",
+    "answer": "Movement of a limb that is visible.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "a0f5fe97-7711-4506-a37a-1e44325e6d6a"
+  },
+  {
+    "question": "Arthrokinematics",
+    "answer": "The description of joint surface movement; consists of three major types: roll, slide, and spin.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "e0d1900f-7c65-4bb0-87d0-7955863262e5"
+  },
+  {
+    "question": "Synovial joints",
+    "answer": "A joint with a fluid-filled joint capsule. Most common associated with movement",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "dc33f21a-a24b-4cb5-b493-845fd294e68b"
+  },
+  {
+    "question": "Nonaxial",
+    "answer": "A gliding joint that moves in only one plane, either back and forth or side to side",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "69d3acad-4e09-424a-833f-2a4c75ecd3b7"
+  },
+  {
+    "question": "Nonsynovial joints",
+    "answer": "Joints that have no joint capsule, fibrous connective tissue, or cartilage in the uniting structure. Skull",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "d31288c9-0049-40f7-b210-6cc73ed0dc51"
+  },
+  {
+    "question": "Ligament",
+    "answer": "A fibrous connective tissue that connects bone to bone.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "b2485b02-0d07-4dc1-8b4c-393608816851"
+  },
+  {
+    "question": "Collagen",
+    "answer": "A protein found in connective tissue, muscles, and skin that provides strength and structure. It is the most abundant protein in the human body.  Situated in parallel fashion to typical joint forces",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "4aa9773c-29aa-4e95-845b-468fc593cde6"
+  },
+  {
+    "question": "Elastin",
+    "answer": "A protein that provides elasticity to skin, tendons, ligaments, and other structures.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "1253e63c-805b-459c-94bb-b0a06380db06"
+  },
+  {
+    "question": "Growth plate",
+    "answer": "A specialized cartilage disc located in the epiphysis that is responsible for longitudinal bone growth.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "skeletal"
+    ],
+    "id": "5e553bd5-0f34-4355-a854-f17ee264dfb3"
+  },
+  {
+    "question": "Skeletal muscle",
+    "answer": "The type of muscle tissue that connects to bones and generates the forces that create movement.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "e7e98c9e-b166-4381-a41b-48a21835cbcb"
+  },
+  {
+    "question": "Fascia",
+    "answer": "Connective tissue that surrounds muscles and bones.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "33b56d74-954a-4aa0-82f8-f1a802b9bb7b"
+  },
+  {
+    "question": "Epimysium",
+    "answer": "Inner layer of fascia that directly surrounds an entire muscle, commonly referred to as the “deep fascia.”",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "06dcc5b9-aba3-48eb-bdb2-820b6f44964c"
+  },
+  {
+    "question": "Fascicles",
+    "answer": "Largest bundles of fibers within a muscle. Fascicles are surrounded by perimysium.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "a7205917-3e00-4257-b23d-7e04db64cb0b"
+  },
+  {
+    "question": "Perimysium",
+    "answer": "Connective tissue surrounding a muscle fascicle.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "c62d03aa-5703-446e-b1b5-88c71bf56013"
+  },
+  {
+    "question": "Endomysium",
+    "answer": "Connective tissue that wraps around individual muscle fibers within a fascicle.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "e614cf7b-c081-4578-8acb-b3e247a45f29"
+  },
+  {
+    "question": "Glycogen",
+    "answer": "Glucose that is deposited and stored in bodily tissues, such as the liver and muscle cells; the storage form of carbohydrate.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "25b0ddb5-5d7d-48d4-8d8f-8f4b34566f41"
+  },
+  {
+    "question": "Myoglobin",
+    "answer": "Protein-based molecule that carries oxygen molecules into the muscles.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "a150eb63-33e0-4140-aea1-58d459a47ff2"
+  },
+  {
+    "question": "Myofibrils",
+    "answer": "The contractile components of a muscle cell; the myofilaments (actin and myosin) are contained within a myofibril.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "e176e05d-ad62-4b27-b7c8-32b643ead666"
+  },
+  {
+    "question": "Myofilaments",
+    "answer": "The filaments of a myofibril; include actin and myosin.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "654410a7-503d-4bc0-b9f1-08561ca570ab"
+  },
+  {
+    "question": "Actin",
+    "answer": "The thin, stringlike, myofilament that acts along with myosin to produce muscular contraction.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "3b2fbfb6-d1a2-480d-b453-433a8808cd7d"
+  },
+  {
+    "question": "Myosin",
+    "answer": "The thick myofilament that acts along with actin to produce muscular contraction.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "5f684a07-07af-4dbd-985b-9f650c96c2de"
+  },
+  {
+    "question": "Sarcomere",
+    "answer": "The structural unit of a myofibril composed of actin and myosin filaments between two Z-lines.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "06db90b5-960a-48a5-889c-bcea58c8b7fb"
+  },
+  {
+    "question": "Z-line",
+    "answer": "The meeting point of each sarcomere.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "509ed131-175e-4acb-bee9-0a40e65f5fb0"
+  },
+  {
+    "question": "Neural activation",
+    "answer": "The nervous system’s signal that tells a muscle to contract.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "8469a26b-15e4-44de-9516-c610b212a9dd"
+  },
+  {
+    "question": "Neuromuscular junction",
+    "answer": "The specialized site where the nervous system communicates directly with muscle fibers.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "da11e915-4107-420c-9e20-a0d51a30b2b5"
+  },
+  {
+    "question": "Synapse",
+    "answer": "A junction or small gap between the motor neuron and muscle cells.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "9d59b283-215d-41b3-af0f-9eefdc256ab4"
+  },
+  {
+    "question": "Motor unit",
+    "answer": "A motor neuron and all of the muscle fibers that it innervates.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "9ec2a9dc-9be8-4b74-ae0f-294560321cad"
+  },
+  {
+    "question": "Action potential",
+    "answer": "Nerve impulse that is relayed from the central nervous system, through the peripheral nervous system, and into the muscle across the neuromuscular junction.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "5fc4af4c-f4ad-4ab5-a12c-8420f8c08931"
+  },
+  {
+    "question": "Neurotransmitters",
+    "answer": "Chemical messengers that cross the synapse between neuron and muscle and assist with nerve transmission.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "35d307f4-77ed-4b17-aa62-f446c3102b8f"
+  },
+  {
+    "question": "Acetylcholine (ACh)",
+    "answer": "A neurotransmitter that helps the action potential cross the synapse into the muscle, which initiates the steps in a muscle contraction.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "0ce5c939-62ee-41dc-a29b-8e5d10e41fdf"
+  },
+  {
+    "question": "Sliding ﬁlament theory",
+    "answer": "The series of steps in muscle contraction involving how myosin (thick) and actin (thin) filaments slide past one another to produce a muscle contraction, shortening the entire length of the sarcomere.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "d8097302-cd41-4cad-8a0d-cc7ab2995e5e"
+  },
+  {
+    "question": "Excitation-contraction coupling",
+    "answer": "The physiological process of converting an electrical stimulus to a muscle contraction.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "86f7068b-9426-48ea-a125-5dd4f9aa0938"
+  },
+  {
+    "question": "Power stroke",
+    "answer": "The myosin heads bind to actin and pull them toward the sarcomere center, which slides the filaments past each other, shortening the muscle.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "bdf711cb-a06d-49c7-8409-1431f0bc9a1a"
+  },
+  {
+    "question": "Adenosine triphosphate (ATP)",
+    "answer": "A high-energy molecule that serves as the main form of energy in the human body; known as the energy currency of the body.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "d84f31a2-fb8d-467a-b2cc-2e9ca2a06c13"
+  },
+  {
+    "question": "Resting length",
+    "answer": "The length of a muscle when it is not actively contracting or being stretched.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "71fa3ea5-2922-4203-a459-031e6c542421"
+  },
+  {
+    "question": "Type I muscle ﬁbers",
+    "answer": "Slow Twitch, Muscle fibers that are small in size, generate lower amounts of force, and are more resistant to fatigue.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "65563310-8622-4a90-97fc-9b127a477c76"
+  },
+  {
+    "question": "Type II muscle ﬁbers",
+    "answer": "Fast Twitch, Muscle fibers that are larger in size, generate higher amounts of force, and are faster to fatigue.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "18a48fc5-e16b-4a24-ac93-25d2fe664fbe"
+  },
+  {
+    "question": "All-or-nothing principle",
+    "answer": "Motor units cannot vary the amount of force they generate; they either contract maximally or not at all.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "17ee4a84-f073-430b-b7eb-ed91511f4598"
+  },
+  {
+    "question": "Capillaries",
+    "answer": "The smallest blood vessels and the site of exchange of elements between the blood and the tissues.Skeletal muscle,The type of muscle tissue that connects to bones and generates the forces that create movement.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "7fe1abe9-3af2-4b41-a3b4-9a3c2136171c"
+  },
+  {
+    "question": "Fascia",
+    "answer": "Connective tissue that surrounds muscles and bones.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "fd235f83-0729-4c62-8b18-bbbbb09e56b0"
+  },
+  {
+    "question": "Epimysium",
+    "answer": "Inner layer of fascia that directly surrounds an entire muscle, commonly referred to as the “deep fascia.”",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "54ba20a9-c7ac-4bde-bbd0-71e3209d0609"
+  },
+  {
+    "question": "Fascicles",
+    "answer": "Largest bundles of fibers within a muscle. Fascicles are surrounded by perimysium.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "9d7a1499-912a-48cd-9e0d-56893ad3188a"
+  },
+  {
+    "question": "Perimysium",
+    "answer": "Connective tissue surrounding a muscle fascicle.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "b9f5fbdd-0d0b-4c10-8479-7e0cdeda50fd"
+  },
+  {
+    "question": "Endomysium",
+    "answer": "Connective tissue that wraps around individual muscle fibers within a fascicle.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "d6a20c53-c09e-4754-ac0b-ebb4659dfb0a"
+  },
+  {
+    "question": "Glycogen",
+    "answer": "Glucose that is deposited and stored in bodily tissues, such as the liver and muscle cells; the storage form of carbohydrate.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "352c32c1-5eb7-4a3f-9e4c-c9a9bf8a3c7d"
+  },
+  {
+    "question": "Myoglobin",
+    "answer": "Protein-based molecule that carries oxygen molecules into the muscles.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "ff778d5d-13f3-4c65-9a04-06435c25fdf4"
+  },
+  {
+    "question": "Myofibrils",
+    "answer": "The contractile components of a muscle cell; the myofilaments (actin and myosin) are contained within a myofibril.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "cf7b75fd-5f5b-4f84-898d-caa51c089aa1"
+  },
+  {
+    "question": "Myofilaments",
+    "answer": "The filaments of a myofibril; include actin and myosin.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "800ba17a-08c2-4f7a-87d0-afb388d40c93"
+  },
+  {
+    "question": "Actin",
+    "answer": "The thin, stringlike, myofilament that acts along with myosin to produce muscular contraction.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "6f9a6921-4009-4d7a-8f49-bd559538e631"
+  },
+  {
+    "question": "Myosin",
+    "answer": "The thick myofilament that acts along with actin to produce muscular contraction.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "a31f7d23-6700-4bcd-963d-a4db293414af"
+  },
+  {
+    "question": "Sarcomere",
+    "answer": "The structural unit of a myofibril composed of actin and myosin filaments between two Z-lines.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "0c9fc9e1-6cca-4912-94f3-0a8c9c2d9845"
+  },
+  {
+    "question": "Z-line",
+    "answer": "The meeting point of each sarcomere.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "9be6c634-6f9e-485c-a97a-e3dc06e4579c"
+  },
+  {
+    "question": "Neural activation",
+    "answer": "The nervous system’s signal that tells a muscle to contract.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "90b51d67-e066-450f-a6ff-9801f16a6773"
+  },
+  {
+    "question": "Neuromuscular junction",
+    "answer": "The specialized site where the nervous system communicates directly with muscle fibers.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "66174917-676a-4917-8276-3c9f3dd3e4ba"
+  },
+  {
+    "question": "Synapse",
+    "answer": "A junction or small gap between the motor neuron and muscle cells.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "a66b9c7d-7a88-4620-aa84-6766c04730fa"
+  },
+  {
+    "question": "Motor unit",
+    "answer": "A motor neuron and all of the muscle fibers that it innervates.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "27ac4e5a-88f6-4dad-a6e0-13b561d60653"
+  },
+  {
+    "question": "Action potential",
+    "answer": "Nerve impulse that is relayed from the central nervous system, through the peripheral nervous system, and into the muscle across the neuromuscular junction.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "14133b25-3187-4c72-95b6-1de911685946"
+  },
+  {
+    "question": "Neurotransmitters",
+    "answer": "Chemical messengers that cross the synapse between neuron and muscle and assist with nerve transmission.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "49c8b743-6621-4db8-be00-c35fbee89b26"
+  },
+  {
+    "question": "Acetylcholine (ACh)",
+    "answer": "A neurotransmitter that helps the action potential cross the synapse into the muscle, which initiates the steps in a muscle contraction.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "81eb89e9-388a-4dad-a1a5-238192556015"
+  },
+  {
+    "question": "Sliding ﬁlament theory",
+    "answer": "The series of steps in muscle contraction involving how myosin (thick) and actin (thin) filaments slide past one another to produce a muscle contraction, shortening the entire length of the sarcomere.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "3030def3-c01d-4aae-a41c-b2280673ed75"
+  },
+  {
+    "question": "Excitation-contraction coupling",
+    "answer": "The physiological process of converting an electrical stimulus to a muscle contraction.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "5e6de297-57ac-4890-8325-ecb89feb9220"
+  },
+  {
+    "question": "Power stroke",
+    "answer": "The myosin heads bind to actin and pull them toward the sarcomere center, which slides the filaments past each other, shortening the muscle.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "7b875e02-a9fb-4339-acc3-3ee654a4ef05"
+  },
+  {
+    "question": "Adenosine triphosphate (ATP)",
+    "answer": "A high-energy molecule that serves as the main form of energy in the human body; known as the energy currency of the body.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "22a58948-323c-4e0e-b649-925ebd81a8f4"
+  },
+  {
+    "question": "Resting length",
+    "answer": "The length of a muscle when it is not actively contracting or being stretched.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "4960bddd-db96-449b-85ef-72079af7964f"
+  },
+  {
+    "question": "Type I muscle ﬁbers",
+    "answer": "Slow Twitch, Muscle fibers that are small in size, generate lower amounts of force, and are more resistant to fatigue.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "c34a441c-875e-4dc0-a7a2-bdb0534ab71b"
+  },
+  {
+    "question": "Type II muscle ﬁbers",
+    "answer": "Fast Twitch, Muscle fibers that are larger in size, generate higher amounts of force, and are faster to fatigue.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "655d9146-1a0b-4aa6-9e88-d993cbecbf3a"
+  },
+  {
+    "question": "All-or-nothing principle",
+    "answer": "Motor units cannot vary the amount of force they generate; they either contract maximally or not at all.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "a41ae5a6-8e6e-454e-ab9e-c910e78dd9bc"
+  },
+  {
+    "question": "Capillaries",
+    "answer": "The smallest blood vessels and the site of exchange of elements between the blood and the tissues.",
+    "tags": [
+      "cpt",
+      "chapter 5",
+      "muscular"
+    ],
+    "id": "5ced58d2-1acc-4080-bcdd-21294bccd90d"
+  }
+]
