@@ -4,12 +4,16 @@ import csv from 'csvtojson'
 import { v4 as uuidv4 } from 'uuid'
 
 const files = [
-  'multiplication',
-  'chapter1',
-  'chapter2',
-  'chapter3',
-  'chapter4',
-  'chapter5',
+  // 'multiplication',
+  // 'chapter1',
+  // 'chapter2',
+  // 'chapter3',
+  // 'chapter4',
+  // 'chapter5',
+  'chapter6',
+  // 'section1Quiz',
+  // 'section2Quiz',
+  // 'section3Quiz',
 ]
 
 files.forEach((file) => {

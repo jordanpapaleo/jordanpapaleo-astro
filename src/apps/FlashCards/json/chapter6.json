@@ -1,0 +1,785 @@
+[
+  {
+    "question": "Gall bladder",
+    "answer": "An organ found below the liver, on the right side of the body, that receives bile from the liver and secretes it into the duodenum.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "c9975982-f501-4ffd-87e6-b31a69e386cb"
+  },
+  {
+    "question": "Liver",
+    "answer": "An organ in the upper-right abdominal cavity with numerous functions, including the production and secretion of bile, which is stored and concentrated in the gall bladder prior to release into the duodenum.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "088f9369-12f6-42d1-9b78-fcd8bd4bcaae"
+  },
+  {
+    "question": "Motility",
+    "answer": "In the digestive system, refers to movements of the anatomical structures that allow contents to pass through.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "49484884-720b-417a-836b-45d567474fbf"
+  },
+  {
+    "question": "Mastication",
+    "answer": "The mechanical process whereby the oral muscles break down food.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "0b0ddf99-7a5d-476f-b12a-ab57701ec112"
+  },
+  {
+    "question": "Peristalsis",
+    "answer": "The muscle action of the gastrointestinal system that pushes food through the body during digestion.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "f2b61b5a-82f3-4fc7-992b-9863fda148b4"
+  },
+  {
+    "question": "Digestion",
+    "answer": "Multistep process that describes the passage of food through the body.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "3064235a-e7b0-44e0-b063-b431dbe0d5fd"
+  },
+  {
+    "question": "Absorption",
+    "answer": "The process of nutrients being absorbed into the body during the digestive process.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "3af6eec4-a505-4514-be65-e374122e0c96"
+  },
+  {
+    "question": "Esophagus",
+    "answer": "The anatomical part of the digestive tract that allows food to pass from oral cavity to stomach.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "24aaa511-39a1-44b6-99b4-108ca719e325"
+  },
+  {
+    "question": "Ingestion",
+    "answer": "The act of taking food, liquid, or other substances into the body in preparation for digestion.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "07618a09-2093-4593-90ef-d2a41806ee1b"
+  },
+  {
+    "question": "Chyme",
+    "answer": "A semifluid mass of digested food that is passed from the stomach to the small intestine.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "b79622dc-75d9-498c-8431-d5211b5c02bf"
+  },
+  {
+    "question": "Duodenum",
+    "answer": "Part of the small intestine that resides between the stomach and the jejunum.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "2c1ccd52-ae3c-451c-bed8-cdf5a855c004"
+  },
+  {
+    "question": "Jejunum",
+    "answer": "Part of the small intestine that resides between the duodenum and the ileum.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "0c025faa-ef54-4aa7-ac91-95d2d8499e40"
+  },
+  {
+    "question": "Ileum",
+    "answer": "The final section of the small intestine, located between the jejunum and the cecum and leads to the large intestine.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "14c28f85-cdd4-49cc-919d-0ba6a32c1420"
+  },
+  {
+    "question": "Lipolysis",
+    "answer": "The breakdown and utilization of fat for energy.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "e391b4d5-e0eb-4138-a5f9-06d4c4a9ba39"
+  },
+  {
+    "question": "Enzyme",
+    "answer": "A substance in the body that causes a specific reaction or change.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "0b0dbc12-cedc-4f14-baf4-d932bda3ecb3"
+  },
+  {
+    "question": "Glands",
+    "answer": "Cells that release substances into the bloodstream (such as hormones) or other surface of the body.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "509eee0c-67de-4495-b84e-69110bfce7e0"
+  },
+  {
+    "question": "Hormone",
+    "answer": "Chemical messenger released from a gland that travels to cells to activate a specific function.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "046bc275-5ce1-4884-84e2-aa2690765ffb"
+  },
+  {
+    "question": "Target (receptor) cell",
+    "answer": "Cell that receives a message from a hormone or enzyme. Target cells exert an action after being stimulated or activated.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "60cbb973-b7ab-4017-9550-b42fbde6c5b6"
+  },
+  {
+    "question": "Hypothalamus",
+    "answer": "A gland located in the brain that communicates with the pituitary gland.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "756ee423-bb61-4b50-bd64-fa163fd3318c"
+  },
+  {
+    "question": "Pineal gland",
+    "answer": "A small gland in the brain that secretes the hormone melatonin, which helps regulate sleep cycles.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "bb3d4b1b-531c-4a4c-864c-27470ec74140"
+  },
+  {
+    "question": "Pancreas",
+    "answer": "An organ with numerous functions, including the production of insulin, glucagon, and digestive juices.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "2c96761f-8d53-4d27-bf40-e63922248f52"
+  },
+  {
+    "question": "Thyroid gland",
+    "answer": "An endocrine gland, located in the anterior neck, responsible for the secretion of many hormones, including thyroxin and calcitonin.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "5dbf9ead-114a-45af-9b64-5620c785651f"
+  },
+  {
+    "question": "Pituitary gland",
+    "answer": "An endocrine gland that controls the secretion of many hormones, including growth hormone.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "3af27487-bfb0-4f5d-9771-cf2aafebe5fa"
+  },
+  {
+    "question": "Adrenal gland",
+    "answer": "A gland, located just above the kidneys, responsible for the secretion of catecholamines and cortisol.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "4ee33662-8337-4457-b084-f718acaff5bb"
+  },
+  {
+    "question": "Reproductive glands",
+    "answer": "Glands, such as the ovaries or testes, that serve sex-specific functions.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "f7668043-0317-4d18-ba0d-cac0b0f80e93"
+  },
+  {
+    "question": "Insulin",
+    "answer": "A hormone secreted by the pancreas that is responsible for glucose metabolism.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "dfd6711d-915e-43b6-8428-5f2f37b83d23"
+  },
+  {
+    "question": "Glucagon",
+    "answer": "A hormone secreted by the pancreas that regulates blood glucose and functions opposite to insulin.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "ea6e627e-8a79-4055-a5b5-b0e9b35b3dfc"
+  },
+  {
+    "question": "Substrates",
+    "answer": "Intermediate forms of nutrients used in metabolic reactions to create adenosine triphosphate.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "74c836cd-e359-40c6-ae8b-5344c4f612c4"
+  },
+  {
+    "question": "Glycogen",
+    "answer": "Glucose that is deposited and stored in bodily tissues, such as the liver and muscle cells; the storage form of carbohydrate.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "633f6e1c-1d8f-451b-8608-3fea3401f626"
+  },
+  {
+    "question": "Growth hormone",
+    "answer": "An anabolic hormone produced by the pituitary gland that is responsible for growth and development.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "e70f14f1-d35c-4cca-8652-8b04624b2fa6"
+  },
+  {
+    "question": "Catecholamines",
+    "answer": "Hormones produced by the adrenal glands that are part of the stress response known as the fight-or-flight response.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "7edbb143-242f-4205-a290-cb6fe42b69b8"
+  },
+  {
+    "question": "Catabolic",
+    "answer": "Metabolic process that breaks down molecules into smaller units used for energy.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "ce5d828b-f75d-48a1-8304-8dfdcaf56d6d"
+  },
+  {
+    "question": "Gluconeogenesis",
+    "answer": "The formation of glucose from noncarbohydrate sources (proteins and fats).",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "7b0072d7-82ce-4fc4-85d0-fe0791db556a"
+  },
+  {
+    "question": "Overtraining",
+    "answer": "Excessive frequency, volume, or intensity of training, resulting in reduction of performance, which is also caused by a lack of proper rest and recovery.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "3eb0ae8f-e165-475a-abba-4daf18b20824"
+  },
+  {
+    "question": "Testosterone",
+    "answer": "A hormone producing secondary male sex characteristics.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "6f1cae8d-eddb-46eb-bc8a-115c9edd0575"
+  },
+  {
+    "question": "Anabolic",
+    "answer": "Metabolic process that synthesizes smaller molecules into larger units used for building and repairing tissues.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "339c68a6-d73d-4728-b409-059ecc0464b8"
+  },
+  {
+    "question": "Insulin-like growth factors (IGF)",
+    "answer": "Anabolic hormone produced by the liver, which is responsible for growth and development.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "4d8d988f-2698-4592-be82-3df562785ff5"
+  },
+  {
+    "question": "Basal metabolic rate (BMR)",
+    "answer": "The amount of energy required to maintain the body at rest.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "c511d7a4-09c8-4807-959e-3421cd231d42"
+  },
+  {
+    "question": "Calcitonin",
+    "answer": "Thyroid hormone that helps the body use calcium properly to aid with maintaining bone mineral density.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "bd854c7c-c922-4c96-b19a-f4a130418747"
+  },
+  {
+    "question": "Glucose intolerance",
+    "answer": "A condition that results in elevated blood glucose levels.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "d07e227b-ebb1-4586-88a8-b9b6ffdb38b7"
+  },
+  {
+    "question": "Respiratory system",
+    "answer": "A bodily system, also known as the pulmonary system, that brings oxygen into the lungs from breathed air while removing carbon dioxide from the lungs into the outside air; includes airways, lungs, and the respiratory muscles.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "0d2c1599-62ab-4ef1-8511-d9368694a9c2"
+  },
+  {
+    "question": "Respiratory pump",
+    "answer": "Composed of skeletal structures (bones) and soft tissues (muscles) that work together to allow for proper respiratory mechanics as well as pumping blood back to the heart during inspiration.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "2bf1f1d5-1ea2-4e55-98ed-1505dd3cad0e"
+  },
+  {
+    "question": "Inspiration",
+    "answer": "The process of contracting the inspiratory muscles to move air into the body.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "8a1f253d-d0fb-4600-9bc8-e1e91367c73b"
+  },
+  {
+    "question": "Expiration",
+    "answer": "The process of actively or passively relaxing the inspiratory muscles to move air out of the body.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "7190da5c-6c84-4ea9-aa3f-b7d8ee773c1c"
+  },
+  {
+    "question": "Valsalva maneuver",
+    "answer": "A process that involves expiring against a closed windpipe, creating additional intra-abdominal pressure and spinal stability.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "6b78dbcc-1934-4784-8d58-806f67235a48"
+  },
+  {
+    "question": "Diffusion",
+    "answer": "The process of getting oxygen from the environment to the tissues of the body.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "3b1ecd3f-6d2c-4ad6-bb65-dbbe7d678f72"
+  },
+  {
+    "question": "Tachypnea",
+    "answer": "Respiratory rate that is too fast; greater than 24 breaths per minute.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "5cf3a7e0-0310-4eaa-b46b-93e9bd70fd31"
+  },
+  {
+    "question": "Bradypnea",
+    "answer": "Respiratory rate that is too slow; fewer than 8 breaths per minute.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "32d82132-1b01-4e16-b738-445592158d8c"
+  },
+  {
+    "question": "Dyspnea",
+    "answer": "Shortness of breath or labored breathing.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "a246ffbf-1dcc-4b9e-a151-33c3d285515d"
+  },
+  {
+    "question": "Diaphragmatic breathing",
+    "answer": "Breathing deeply by allowing the expansion of the abdominal area.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "0cf8b97d-4624-4c9c-9114-a254ecd9cf7b"
+  },
+  {
+    "question": "Cardiorespiratory system",
+    "answer": "A system of the body composed of the heart, blood, blood vessels, lungs, and airways.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "266aab49-a0af-41ed-9bb9-5380d7393305"
+  },
+  {
+    "question": "Cardiovascular system",
+    "answer": "A system of the body, also known as the circulatory system, that transports blood to tissues of the body.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "253b2101-cd3d-45f4-bad3-9cbdc125c4af"
+  },
+  {
+    "question": "Thoracic cavity",
+    "answer": "Chamber within the chest that contains the heart and lungs.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "fc5524b9-8a75-47ba-bdca-aa68ba0e2d10"
+  },
+  {
+    "question": "Mediastinum",
+    "answer": "The space in the chest between the lungs that contains all the internal organs of the chest (e.g., heart, esophagus) except the lungs.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "b1d3ec50-ecf9-4b2f-9e7f-73f466217f1c"
+  },
+  {
+    "question": "Cardiac muscle",
+    "answer": "Muscle of the heart.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "403e2753-0932-4544-a4b2-3f9868541f23"
+  },
+  {
+    "question": "Skeletal muscle",
+    "answer": "The type of muscle tissue that connects to bones and generates the forces that create movement.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "80adbaf1-9427-42ea-ae4f-2e1971f8d5f2"
+  },
+  {
+    "question": "Smooth muscle",
+    "answer": "An involuntary nonstriated muscle type that is found in organs.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "98aa37e7-a5c5-4fb2-b38c-1764d90cf143"
+  },
+  {
+    "question": "Myofibrils",
+    "answer": "The contractile components of a muscle cell; the myofilaments (actin and myosin) are contained within a myofibril.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "627abfc2-a578-420b-94de-920de132c290"
+  },
+  {
+    "question": "Sarcomere",
+    "answer": "The structural unit of a myofibril, composed of actin and myosin filaments between two Z-lines.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "cf8799be-3eac-4aec-87dc-f4321f1e1ec2"
+  },
+  {
+    "question": "Atrium (atria)",
+    "answer": "Superior chamber(s) of the heart that gathers blood returning to the heart.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "7f5c98e5-b2f7-459f-8f48-31729dedd51e"
+  },
+  {
+    "question": "Ventricle",
+    "answer": "Inferior chamber of the heart that pumps blood to the lungs and body.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "772d52cf-d749-481b-bd1c-22c70553ffcb"
+  },
+  {
+    "question": "Intercalated discs",
+    "answer": "Found in the heart, these formations help hold together muscle cells.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "830b65ea-c269-46e3-850c-6bb7190f2d18"
+  },
+  {
+    "question": "Resting heart rate (RHR)",
+    "answer": "The number of heart beats per minute while at complete rest.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "7a56e54e-e5e6-4f36-8df4-1ed418bbaefa"
+  },
+  {
+    "question": "Sinoatrial (SA) node",
+    "answer": "Located in the right atrium, this node initiates an electrical signal that causes the heart to beat.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "4da6bd42-56e8-42f1-8d91-f9481cbaebf5"
+  },
+  {
+    "question": "Atrioventricular (AV) node",
+    "answer": "Located between the atria and ventricles, this node delays the impulse from the sinoatrial node before allowing it to pass to the ventricles.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "3395ac27-dc29-45f6-b3f1-ab4561f83c12"
+  },
+  {
+    "question": "Stroke volume",
+    "answer": "The amount of blood pumped out of the heart with each contraction.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "6e480f29-cd33-4bba-a004-275972baa99e"
+  },
+  {
+    "question": "End-diastolic volume",
+    "answer": "The filled volume of the ventricle before contraction.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "d72d24d4-b27d-49b2-8d50-d59916c45465"
+  },
+  {
+    "question": "End-systolic volume",
+    "answer": "The volume of blood remaining in the ventricle after ejection.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "72cc5e1c-7bbe-46f0-9f95-ca15f36e2dfb"
+  },
+  {
+    "question": "Heart rate (HR)",
+    "answer": "The measurement of the number of times a heart beats within a specified time period (usually 1 minute).",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "6e2a6a0d-009a-4286-b999-9a45f7d85cb2"
+  },
+  {
+    "question": "Bradycardia",
+    "answer": "When the heart rate is less than 60 beats per minute.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "fb76cf9c-467e-4bda-af8c-ccd2eb25de95"
+  },
+  {
+    "question": "Tachycardia",
+    "answer": "When the heart rate is greater than 100 beats per minute.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "34d796c0-780f-4a92-bd9b-ae10e10699a8"
+  },
+  {
+    "question": "Cardiac output (Q)",
+    "answer": "The overall performance of the heart (heart rate × stroke volume).",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "46eb29fe-9eb5-40a4-951d-626aee9dde60"
+  },
+  {
+    "question": "Blood",
+    "answer": "Fluid that circulates in the heart, arteries, capillaries, and veins; it carries nutrients and oxygen to all parts of the body and also transports waste products from the body to other compartments or organs for either processing (e.g., liver) or excretion (e.g., kidney).",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "580d1e02-1721-481b-838c-db13c3ab5a2f"
+  },
+  {
+    "question": "Growth factors",
+    "answer": "Substances within the blood that attach to cells, aid in growth and development, and help with healing after injury",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "891ab118-d8d5-420a-a6e0-cec5a98b589a"
+  },
+  {
+    "question": "Stem cells",
+    "answer": "Cells within the body that divide and develop into specialized cells, such as brain cells, blood cells, heart cells, and bone cells.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "a392e68c-e942-4bcc-a1c1-23980062f3ca"
+  },
+  {
+    "question": "Blood vessels",
+    "answer": "Network of hollow tubes that circulates blood throughout the body.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "b69467df-f4fd-41fb-b38e-74e081c631d9"
+  },
+  {
+    "question": "Arteries",
+    "answer": "Vessels that transport blood away from the heart.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "b18a951d-cd91-4d00-85e9-d08ea8bf03a0"
+  },
+  {
+    "question": "Capillaries",
+    "answer": "The smallest blood vessels and the site of exchange of elements between the blood and the tissues.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "0ad02d71-1fcb-4d96-95ea-9c92d48a097b"
+  },
+  {
+    "question": "Veins",
+    "answer": "Vessels that transport blood back to the heart.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "6849230b-e31d-44ab-a9ed-752454e609eb"
+  },
+  {
+    "question": "Arterioles",
+    "answer": "Small arteries that eventually divide into capillaries.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "414bd3c5-f110-4f22-9b65-28412cc69c93"
+  },
+  {
+    "question": "Venules",
+    "answer": "Small veins that allows blood to drain from capillaries into the larger veins.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "af75f1a2-60f7-4e2b-be5d-be6ad5cdc0f1"
+  },
+  {
+    "question": "Vasculogenesis",
+    "answer": "The formation of new capillaries.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "9f1f2aa1-aa9c-4805-917c-795e5e680f2d"
+  },
+  {
+    "question": "Angiogenesis",
+    "answer": "The formation of new capillaries from existing blood vessels.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "02351b2b-1f11-4012-be90-9d4a4f94127d"
+  },
+  {
+    "question": "Venous pooling",
+    "answer": "The accumulation of blood into the extremities due to slow blood flow though the veins (venous return) or backflow.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "21215f92-5534-47ee-9a7f-32a43eb3657f"
+  },
+  {
+    "question": "Blood pressure (BP)",
+    "answer": "The outward pressure exerted by the blood on the vessel walls; reported as systolic/ diastolic.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "38f43ac4-96a9-4092-ba5c-095aa7b79320"
+  },
+  {
+    "question": "Peripheral resistance",
+    "answer": "The amount of resistance in the arteries that must be overcome for blood to flow.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "e74e8728-f935-4111-8d35-e080da63c6cb"
+  },
+  {
+    "question": "Hypertension",
+    "answer": "Consistently elevated blood pressure.",
+    "tags": [
+      "cpt",
+      "chapter 6"
+    ],
+    "id": "1e9f4f0e-3b37-4c95-9271-c6f5a7fa9960"
+  }
+]

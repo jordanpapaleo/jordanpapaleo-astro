@@ -4,6 +4,10 @@ import chapter2 from './json/chapter2.json'
 import chapter3 from './json/chapter3.json'
 import chapter4 from './json/chapter4.json'
 import chapter5 from './json/chapter5.json'
+import chapter6 from './json/chapter6.json'
+import section1Quiz from './json/section1Quiz.json'
+import section2Quiz from './json/section2Quiz.json'
+import section3Quiz from './json/section3Quiz.json'
 import multiplication from './json/multiplication.json'
 import CheckboxGroup from '@componentsReact/CheckboxGroup'
 import Button from '@componentsReact/Button'
@@ -24,6 +28,10 @@ const initQuestions = [
   ...chapter3,
   ...chapter4,
   ...chapter5,
+  ...chapter6,
+  ...section1Quiz,
+  ...section2Quiz,
+  ...section3Quiz,
   ...multiplication,
 ]
 
