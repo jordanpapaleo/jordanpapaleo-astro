@@ -10,10 +10,10 @@ const files = [
   // 'chapter3',
   // 'chapter4',
   // 'chapter5',
-  'chapter6',
+  // 'chapter6',
   // 'section1Quiz',
   // 'section2Quiz',
-  // 'section3Quiz',
+  'section3Quiz',
 ]
 
 files.forEach((file) => {

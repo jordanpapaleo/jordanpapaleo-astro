@@ -74,7 +74,9 @@ const Flashcards = (props) => {
 
     if (filters.length) {
       filteredQuestions = filteredQuestions.filter((question) => {
-        return question.tags.some((t) => filters.includes(t))
+        if (!question.tags) return false
+
+        return question?.tags.some((t) => filters.includes(t))
       })
     }
 
@@ -151,6 +153,13 @@ const Flashcards = (props) => {
     <>
       <div className="mb-2">
         <CheckboxGroup
+          options={[{ name: '⭐', value: 'favorite' }]}
+          value={[]}
+          inline
+          onChange={handleToggleFilterFavorite}
+        />
+
+        <CheckboxGroup
           label={`Filter: ${filters.join(' OR ')}`}
           options={tags}
           value={[]}
@@ -158,13 +167,6 @@ const Flashcards = (props) => {
           onChange={(e) => {
             handleFilter(e.target.checked, e.target.value)
           }}
-        />
-        <CheckboxGroup
-          label={`Favorites`}
-          options={[{ name: '⭐', value: 'favorite' }]}
-          value={[]}
-          inline
-          onChange={handleToggleFilterFavorite}
         />
       </div>
 
