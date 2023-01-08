@@ -1,0 +1,434 @@
+[
+  {
+    "question": "Adenosine triphosphate (ATP)",
+    "answer": "A high-energy molecule that serves as the main form of energy in the human body; known as the energy currency of the body.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "c8004dfe-d3a6-46fd-aa3c-40ddb6ec7105"
+  },
+  {
+    "question": "Bioenergetics",
+    "answer": "The study of energy in the human body.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "25effb53-87b1-4232-aaf7-7ea6a05faa6c"
+  },
+  {
+    "question": "Metabolism",
+    "answer": "All of the chemical reactions that occur in the body to maintain itself.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "6a272974-f21e-4dcb-941b-580a2db7d05c"
+  },
+  {
+    "question": "Exercise metabolism",
+    "answer": "The examination of bioenergetics as it relates to the unique physiologic changes and demands placed on the body during exercise.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "6255e458-d215-4f29-9399-ce8473985763"
+  },
+  {
+    "question": "First law of thermodynamics",
+    "answer": "Energy cannot be created or destroyed but merely converted from one form to another.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "7f6011e7-ffb9-41c8-989c-2455e4b522da"
+  },
+  {
+    "question": "Macronutrients",
+    "answer": "Food substances required in large amounts to supply energy and include protein, carbohydrate, and fat.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "7493b174-373a-4883-98d2-a1e063d8f2bc"
+  },
+  {
+    "question": "Substrates",
+    "answer": "Intermediate forms of nutrients used in metabolic reactions to create adenosine triphosphate.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "186405b7-059b-4aad-9826-5f5499917c98"
+  },
+  {
+    "question": "Glucose",
+    "answer": "The simplest form of carbohydrate used by the body for energy.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "ed7a08de-ba4b-40fc-aa9b-15c32a2c4ef2"
+  },
+  {
+    "question": "Glycogen",
+    "answer": "Glucose that is deposited and stored in bodily tissues, such as the liver and muscle cells; the storage form of carbohydrate.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "96c9fa60-0cf4-46c9-8b9f-77466001c834"
+  },
+  {
+    "question": "Ventilatory threshold 1 (VT1)",
+    "answer": "The point at which the body uses an equal mix of carbohydrate and fat as fuel sources.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "83bde6fd-690f-42cc-bbac-00debe79e2aa"
+  },
+  {
+    "question": "Ventilatory threshold 2 (VT2)",
+    "answer": "The point where glucose provides nearly all of the energy for the activity.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "7c24288b-8772-4c24-b95a-23c7838dd48e"
+  },
+  {
+    "question": "Fats",
+    "answer": "One of the three main classes of foods and a source of energy in the body. Fats help the body use some vitamins and keep the skin healthy. They also serve as energy stores for the body. In food, there are two types of fats: saturated and unsaturated.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "87b6c28b-c303-4157-bde4-cd73a52dc279"
+  },
+  {
+    "question": "Triglyceride",
+    "answer": "The chemical or substrate form in which most fat exists in food as well as in the body.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "76d0c612-5f4c-485d-8ede-8cd136c15ced"
+  },
+  {
+    "question": "Free fatty acids",
+    "answer": "The by-products of the breakdown of stored or consumed fats, metabolized exclusively via the aerobic pathway, which uses oxygen to create adenosine triphosphate.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "d2641e0d-5a41-4f6d-b591-d2865e647ed2"
+  },
+  {
+    "question": "Protein",
+    "answer": "Amino acids linked by peptide bonds; the building blocks of body tissues.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "bdeb2309-bef2-4d8e-8ea0-eb27af95e9ee"
+  },
+  {
+    "question": "Essential amino acid (EAA)",
+    "answer": "Amino acid that must be obtained through the diet as the body does not make it; there are nine essential amino acids.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "863a3c0d-b281-4343-80b3-47e0159b53f9"
+  },
+  {
+    "question": "Nonessential amino acids",
+    "answer": "Amino acids that can be synthesized by the body and do not, under normal circumstances, need to be obtained in the diet.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "48b65455-d732-43f0-b0f1-64e26845ac34"
+  },
+  {
+    "question": "Negative energy balance",
+    "answer": "When calorie intake is lower than the number of calories expended.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "a6351648-e4c7-480a-ac95-071a475f4ae2"
+  },
+  {
+    "question": "Gluconeogenesis",
+    "answer": "The formation of glucose from noncarbohydrate sources (proteins and fats).",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "671acfbe-4cde-41cd-971b-193eb7c3b371"
+  },
+  {
+    "question": "Ketogenesis",
+    "answer": "The formation of ketone bodies from nonfat sources, such as certain amino acids.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "d8420b79-2d67-4e25-9adc-3233215592b9"
+  },
+  {
+    "question": "Ketone bodies",
+    "answer": "Water-soluble molecules produced in the liver as a result of fatty acid oxidation. They can then be oxidized in the mitochondria to produce adenosine triphosphate.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "f2b4d492-b57a-4f8a-a663-0129bd0c4a11"
+  },
+  {
+    "question": "Ketosis",
+    "answer": "A state of carbohydrate depletion where the liver manufactures ketone bodies to meet energy demands that free fatty acid oxidation cannot support.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "535b857f-9770-423a-84ef-3258991257fc"
+  },
+  {
+    "question": "Exogenous ketones",
+    "answer": "Isolated ketone bodies usually consumed in supplement form.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "038aea86-1431-4926-8e7b-e03992fde57d"
+  },
+  {
+    "question": "Insulin resistance",
+    "answer": "The inability of the cells to respond to insulin; occurs in type 2 diabetes.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "1fd78026-ae24-462d-b127-3b31642d4951"
+  },
+  {
+    "question": "Ketoacidosis",
+    "answer": "Metabolic acidosis induced by very high levels of ketone bodies such as seen in type 1 diabetes or severe insulin resistance.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "0490b79f-7059-43c9-91ab-6261f06c1bdc"
+  },
+  {
+    "question": "Mechanical work",
+    "answer": "The physical processes that move the body and keep it alive, such as muscle contraction.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "b444ebb7-4944-4b7c-99b4-d102380ac059"
+  },
+  {
+    "question": "Adenosine diphosphate (ADP)",
+    "answer": "A high-energy compound occurring in all cells from which adenosine triphosphate is formed.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "d667cf34-da9f-4444-9925-e24dfcdd5cf6"
+  },
+  {
+    "question": "Phosphorylation",
+    "answer": "The addition of a phosphate group to a molecule, such as in the transfer of a phosphate group to adenosine diphosphate to create adenosine triphosphate.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "69bf3263-f9fa-4d05-bbce-c069b87e00dd"
+  },
+  {
+    "question": "ATP-PC System",
+    "answer": "An energy system that provides energy very rapidly, for approximately 10–15 seconds, via anaerobic metabolism.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "35ef31fb-3081-4e9c-bed4-be44aa707136"
+  },
+  {
+    "question": "Anaerobic",
+    "answer": "Processes relating to the absence of oxygen.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "86c2e77e-05dd-423a-bddb-36ccd5e13a0d"
+  },
+  {
+    "question": "Glycolysis",
+    "answer": "A metabolic process that occurs in the cytosol of a cell that converts glucose into pyruvate and adenosine triphosphate. Anaerobic glycolysis refers to when this process occurs in the absence of oxygen.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "e7545dcb-6a37-4feb-bcbd-f1ab08e9f9fe"
+  },
+  {
+    "question": "Oxidative phosphorylation",
+    "answer": "A series of reactions inside the mitochondria that uses oxygen to produce adenosine triphosphate.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "1e7d6a78-8342-4ff0-ba3d-f3cb1b803d31"
+  },
+  {
+    "question": "Aerobic",
+    "answer": "Processes relating to, involving, or requiring oxygen.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "b68ec344-dd78-4ae6-9b7c-dc98b59081f0"
+  },
+  {
+    "question": "Deamination",
+    "answer": "The breakdown of amino acids into substrates that can be used for energy metabolism.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "a892eefc-ea1b-4a95-9ce5-904a14b8aec0"
+  },
+  {
+    "question": "Mitochondria",
+    "answer": "The parts of the cell that use nutrients to create energy for the cell; commonly known as the powerhouses of the cell.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "22718a57-ae45-4528-a819-b831ddcbaccf"
+  },
+  {
+    "question": "Electron transport chain (ETC)",
+    "answer": "A series of protein complexes that transfer protons and electrons received from the citric acid cycle through a series of reactions to create adenosine triphosphate.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "c312f4e6-b70d-4e3d-b91f-719bc6aae5df"
+  },
+  {
+    "question": "Acetyl coenzyme A",
+    "answer": "Produced by the breakdown of carbohydrates through glycolysis and by the fatty acids through beta-oxidation and is the precursor for these substrates to the citric acid cycle.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "3ee65fdc-5094-41e9-8cc8-e030ccae42ac"
+  },
+  {
+    "question": "Beta-oxidation",
+    "answer": "The first step in the process to break down fats via oxidative phosphorylation.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "0538dbf4-4f42-4e3d-ba71-39b1ef1dbab9"
+  },
+  {
+    "question": "Steady-state aerobic exercise",
+    "answer": "Aerobic exercise that remains at a relatively constant intensity, including a stable heart rate and oxygen consumption.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "5d7a32b1-5cc7-4e44-8a79-b201274d380d"
+  },
+  {
+    "question": "Excess postexercise oxygen consumption (EPOC)",
+    "answer": "The state in which the body’s metabolism is elevated after exercise.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "705592fc-be01-4e01-99c5-85eae9aaa256"
+  },
+  {
+    "question": "Total daily energy expenditure (TDEE)",
+    "answer": "The total amount of energy expended in one day.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "29b7bc30-26ee-4bb5-9edd-5a9264825b4c"
+  },
+  {
+    "question": "Kilocalorie (kcal)",
+    "answer": "One food calorie. Also, the amount of energy needed to raise one kilogram of water by one degree Celsius.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "e1ca6689-97ef-4f0e-a770-d17a6ee497ec"
+  },
+  {
+    "question": "Resting metabolic rate (RMR)",
+    "answer": "The rate at which the body expends energy (calories) when fasted and at complete rest, such as asleep or lying quietly.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "6b5f3d39-dc6b-4424-bb52-5ac15981ad4e"
+  },
+  {
+    "question": "Exercise activity thermogenesis (EAT)",
+    "answer": "The calories expended through structured exercise or training.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "8093def2-f0ab-432a-9ac0-70d82f67592e"
+  },
+  {
+    "question": "Thermic effect of food (TEF)",
+    "answer": "The energy required to digest, absorb, and process nutrients that are consumed.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "5d6b136b-b2b3-4dac-8d5a-db7850b206db"
+  },
+  {
+    "question": "Nonexercise activity thermogenesis (NEAT)",
+    "answer": "Energy expenditure through daily activities outside of structured exercise, such as walking, completing household chores, and taking the stairs.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "710c73ed-04fc-49c8-8a03-bb8793ce116d"
+  },
+  {
+    "question": "Physical activity level (PAL)",
+    "answer": "The number of calories a person expends through physical activity and structured exercise.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "11011c42-ae3a-4314-a0ac-5e680afc62e6"
+  },
+  {
+    "question": "Metabolic equivalent (MET)",
+    "answer": "A measurement used to describe the energy cost of physical activity as multiples of resting metabolic rate. One MET is 3.5 mL of oxygen consumption per kilogram per minute.",
+    "tags": [
+      "cpt",
+      "chapter 8"
+    ],
+    "id": "80d62069-0781-4484-96e9-12f479dfcea0"
+  }
+]

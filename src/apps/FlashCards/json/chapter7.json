@@ -3,720 +3,810 @@
     "question": "Human movement system (HMS)",
     "answer": "The collective components and structures that work together to move the body: muscular, skeletal, and nervous systems.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "568291b7-2eb5-425b-a96d-e1a1f73adc8f"
+    "id": "ebb77a2b-8e2f-41fb-b75a-a3a5fbcef8fc"
   },
   {
     "question": "Kinetic chain",
     "answer": "A concept that describes the human body as a chain of interdependent links that work together to perform movement.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "86a66ffc-a87e-4ab5-8f88-a0ad0bdea69b"
+    "id": "6cf6d927-56c4-420b-a447-9722e61fff40"
   },
   {
     "question": "Regional interdependence model",
     "answer": "The concept describing the integrated functioning of multiple body systems or regions of the body.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "1731158d-e9be-4dfe-88c2-aece9d050052"
+    "id": "1f43a096-db23-4a41-b5b8-295dec873334"
   },
   {
     "question": "Biomechanics",
     "answer": "The science concerned with the internal and external forces acting on the human body and the effects produced by these forces.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "1dbed701-338a-461a-8ffa-e1757b5bd4fb"
+    "id": "66699fbd-089d-4266-b0eb-0550dfd4152f"
   },
   {
     "question": "Kinesiology",
     "answer": "Study of movement as it relates to anatomy and physiology.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "901d7392-c89d-4321-875f-381afaeddb4f"
+    "id": "446556cd-0bde-45ab-9db3-621b1e280acc"
   },
   {
     "question": "Anatomic position",
     "answer": "The position with the body erect, the arms at the sides, and the palms forward. It is the position of reference for anatomic nomenclature.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "37326ab5-4e48-4de4-a58f-20599de8948a"
+    "id": "938cd944-d2ad-416b-bf81-d37cedf149c7"
   },
   {
     "question": "Osteokinematics",
     "answer": "Movement of a limb that is visible.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "65a7d359-b0c2-49a5-b3bc-7bcb98f77db4"
+    "id": "42cf7209-0818-4138-993e-f41345296ab0"
   },
   {
     "question": "Arthrokinematics",
     "answer": "The description of joint surface movement; consists of three major types: roll, slide, and spin.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "66129777-4ca6-4870-b1c1-927a2ae83ecd"
+    "id": "b0dee1f1-f4ae-446e-bf99-fc3a9a60995a"
   },
   {
     "question": "Sagittal plane",
     "answer": "An imaginary bisector that divides the body into left and right halves.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "e11e88f8-a800-43d3-bcae-8b7d0d30675e"
+    "id": "b8d4c9cb-3f4e-4b38-9451-811ee7302fb2"
   },
   {
     "question": "Flexion",
     "answer": "A bending movement in which the relative angle between two adjacent segments decreases.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "2cd0116b-3d1a-414c-8e10-13dd43a8654e"
+    "id": "d8664b37-2c6b-4895-b95c-e14b6e126a6c"
   },
   {
     "question": "Extension",
     "answer": "A straightening movement in which the relative angle between two adjacent segments increases.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "46eea61e-a9d9-4aca-93ac-8f3cd15169b9"
+    "id": "10136997-67ca-48b6-b708-b9344cfcb75d"
   },
   {
     "question": "Hyperextension",
     "answer": "Extension of a joint beyond the normal limit or range of motion.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "4280e00a-8c1d-48e1-b6c5-cdec4b395455"
+    "id": "68ae7e1b-e3ea-4691-95e8-826e88789592"
   },
   {
     "question": "Dorsiflexion",
     "answer": "Flexion occurring at the ankle.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "3932dce5-24b3-4edc-bb8c-1d80b6b68580"
+    "id": "f4865603-a52b-470c-bbe7-1354646cf9b9"
   },
   {
     "question": "Plantar flexion",
     "answer": "Extension occurring at the ankle. Pointing the foot downwards.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "34166d5a-ccb3-42f0-b82d-c094515a6570"
+    "id": "2467fb88-4321-49b2-8c8b-871a65401021"
   },
   {
     "question": "Frontal plane",
     "answer": "An imaginary bisector that divides the body into front and back halves. Movement in the frontal plane includes abduction, adduction, and side-to-side motions.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "997714a5-749d-4b47-a46b-b16071ae61b9"
+    "id": "7814672e-e965-4d41-bbd3-4b85604f6864"
   },
   {
     "question": "Abduction",
     "answer": "A movement in the frontal plane away from the midline of the body.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "d9783033-0578-4307-8911-497762a83b50"
+    "id": "2e82ef96-322e-4221-920e-1e93b4a519e5"
   },
   {
     "question": "Adduction",
     "answer": "Movement in the frontal plane back toward the midline of the body.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "a662853f-ae23-4540-8073-794a77e63295"
+    "id": "f5194d45-5cad-454b-aec2-05ea1c0c524d"
   },
   {
     "question": "Lateral flexion",
     "answer": "Bending of the spine from side to side.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "f1f03165-f552-473b-a501-9a18f0f531c3"
+    "id": "680843dc-f168-4ba2-8c48-848539b0fe1d"
   },
   {
     "question": "Eversion",
     "answer": "A movement in which the inferior calcaneus (heel bone) moves laterally. The bottom of foot faces outward.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "359bf5d2-e709-4e6d-bafb-f4a55de89675"
+    "id": "9a53b2af-b57b-4b58-854d-88e1e8e2e158"
   },
   {
     "question": "Inversion",
     "answer": "A movement in which the inferior calcaneus (heel bone) moves medially. Bottom of foot faces inward.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "20e65d83-4170-4ca8-9a5b-e87b14ef82e9"
+    "id": "1876a3b5-31b4-45db-b45d-e3f6b6d3b34e"
   },
   {
     "question": "Transverse plane",
     "answer": "An imaginary bisector that divides the body into top and bottom halves.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "dbee9776-9f2c-4891-9203-ba4d473df6f2"
+    "id": "d6989013-1533-488c-8bb7-00561d3089a7"
   },
   {
     "question": "Internal rotation",
     "answer": "Rotation of a body segment toward the middle of the body.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "768d4f71-c2b5-4829-b63e-e841ab5b7083"
+    "id": "04969a2d-b411-49a4-a5d0-22c16e252ee0"
   },
   {
     "question": "External rotation",
     "answer": "Rotation of a body segment away from the middle of the body.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "a7c9b8f1-b6d6-4ae0-8976-7fcc2e61472b"
+    "id": "4dd0032d-236e-406f-8cb0-2772c46e01d7"
   },
   {
     "question": "Horizontal abduction",
     "answer": "Movement of the arm or thigh in the transverse plane from an anterior position to a lateral position.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "dc3516ad-0977-4964-a4d2-b99df112f757"
+    "id": "4873124a-830e-4b43-80d0-fe6ff5f3806f"
   },
   {
     "question": "Horizontal adduction",
     "answer": "Movement of the arm or thigh in the transverse plane from a lateral position to an anterior position.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "fc98e3f8-67fd-41cf-b5d9-8a27c392bb2a"
+    "id": "4256b7b5-819a-489f-b90b-4725aae1c7a0"
   },
   {
     "question": "Radioulnar pronation",
     "answer": "Inward rotation of the forearm from a palm-up position to a palm-down position.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "83a646e7-14fd-483d-9b68-9c804e0d2995"
+    "id": "88b3428c-9fc8-462f-b024-c9bb06558402"
   },
   {
     "question": "Radioulnar supination",
     "answer": "Outward rotation of the forearm from a palm-down position to a palm-up position.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "0d1afc9e-919a-4050-b721-bafecc1ca814"
+    "id": "f302e3d8-5c48-4082-8e9e-8eaceecc02b3"
   },
   {
     "question": "Pronation of the foot",
     "answer": "Multiplanar movement of the foot and ankle complex consisting of eversion, dorsiflexion, and ankle abduction; associated with force reduction.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "a9875f3f-dc5a-4c5f-8510-d232ec7bf46b"
+    "id": "d15450fd-01a7-40b7-90e7-46e9c8bc9a93"
   },
   {
     "question": "Supination of the foot",
     "answer": "Multiplanar movement of the foot and ankle complex consisting of inversion, plantar flexion, and ankle adduction; associated with force production.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "a5c1551f-d977-465a-ad23-4109e369a8f2"
+    "id": "243fd927-ad71-42b9-97a7-92b55ef6ecd4"
   },
   {
     "question": "Gait",
     "answer": "Biomechanical motion of the lower extremities during walking, running, and sprinting.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "4eef0bb7-0a16-4dae-83fc-4ce20e9bf006"
+    "id": "00f8ac8f-b107-4354-86af-cbdbc357af64"
   },
   {
     "question": "Scapular retraction",
     "answer": "Adduction of scapulae; shoulder blades move toward the midline.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "a5b8d97a-9552-4660-9d41-2d1be31e4748"
+    "id": "46a9bd98-41b0-4c57-9682-1f2d486e6e46"
   },
   {
     "question": "Scapular protraction",
     "answer": "Abduction of scapulae; shoulder blades move away from the midline.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "e20f809b-6aae-4ea4-b451-bf1221bbebf6"
+    "id": "bdcd4253-ffe8-420e-ae6f-421b7f37e94d"
   },
   {
     "question": "Scapular depression",
     "answer": "Downward (inferior) motion of the scapulae.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "79e8436b-bec6-48f9-8c60-02f14d54a235"
+    "id": "e225362c-5c4b-415e-a3ec-ed6bed9db9a0"
   },
   {
     "question": "Scapular elevation",
     "answer": "Upward (superior) motion of the scapulae.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "10fca196-0b26-4e00-8cf5-2f24c88d8e17"
+    "id": "ab4055a0-8054-4415-aa2c-cda3e85d9aca"
   },
   {
     "question": "Elasticity",
     "answer": "The ability of soft tissues to return to resting length after being stretched.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "e95c5c69-9e62-4467-b8b4-63d93fca8d36"
+    "id": "1b3200a4-97fc-44b8-87d3-db4d723ad096"
   },
   {
     "question": "Ligament",
     "answer": "A fibrous connective tissue that connects bone to bone.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "75041cc3-58bc-4017-9808-a371d4a655b8"
+    "id": "bcc121db-1411-4f98-84f3-274c99f6cc05"
   },
   {
     "question": "Flexibility",
     "answer": "The normal extensibility of soft tissues that allows for full range of motion of a joint.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "f127a072-ecde-47b2-8a1f-74ec193141cb"
+    "id": "fa3be8b8-edfd-425b-8834-61af3942c644"
   },
   {
     "question": "Hypermobility",
     "answer": "A state where a lack of neuromuscular support leads to a joint having more range of motion than it should, greatly increasing the risk of injury at that joint.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "1961c636-fadb-47ed-9f60-119eaaf2e312"
+    "id": "975b7413-2534-4e3e-abeb-f233419380da"
   },
   {
     "question": "Hypomobility",
     "answer": "When range of motion at a joint is limited.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "728c0a8a-3d11-498e-bc7e-3b784b603283"
+    "id": "b83cc76e-9ad0-4b89-8106-294b7b69a611"
   },
   {
     "question": "Eccentric muscle action",
     "answer": "A muscle action that occurs when a muscle develops tension while lengthening | returning to starting point | lowering | negative | E for ease it down",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "ff7adc79-c441-4ffc-add9-d7ff98c55222"
+    "id": "151cac42-020c-4250-9900-aba6e9757466"
   },
   {
     "question": "Concentric muscle action",
     "answer": "A muscle action that occurs when a muscle is exerting force greater than the resistive force, resulting in a shortening of the muscle. | lifting | positive | C contra force",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "b539af05-b5ec-4a23-ab8a-303178f3ee02"
+    "id": "aa2a9afe-1320-475c-ad03-abff70c25b6a"
   },
   {
     "question": "Three types of muscle action",
     "answer": "sotonic, Isokinetic, Isometric",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "3f7e655c-5626-4a40-a622-a9fe2e19898d"
+    "id": "fa5481b6-1581-40b9-aa4a-547ed0981951"
   },
   {
     "question": "Isotonic muscle action",
     "answer": "Force is produced, muscle tension is developed, and movement occurs through a given range of motion. Isotonic muscle actions are subdivided into concentric and eccentric muscle actions.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "dedcfaea-d302-4661-b30a-033af933f61e"
+    "id": "68d0d3ba-2305-4030-8c4a-2117ca2b60b5"
   },
   {
     "question": "Isokinetic",
     "answer": "The speed of movement is fixed, and resistance varies with the force exerted.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "b9ea9a33-2105-4b61-b003-3778f6ed2738"
+    "id": "a4c946dc-d4e3-4bfa-b052-764a8d70a1cd"
   },
   {
     "question": "Isometric muscle action",
     "answer": "When a muscle is exerting force equal to the force being placed on it leading to no visible change in the muscle length.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "b4dedb38-9b2b-4327-a208-e1afe0239a06"
+    "id": "9a4ea169-e0ac-46c9-b45e-5ccbe4ea4f25"
   },
   {
     "question": "Motor unit",
     "answer": " motor neuron and all of the muscle fibers that it innervates.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "08e24603-f549-4f38-934a-c3cf64627d48"
+    "id": "7638e316-f746-4d60-8fdb-c51cfd2df813"
   },
   {
     "question": "Core",
     "answer": "The structures that make up the lumbo-pelvic-hip complex (LPHC), including the lumbar spine, pelvic girdle, abdomen, and hip joint.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "c11c0c94-79b7-4838-8c37-317ddede1119"
+    "id": "f9df5c57-8b5a-4b6b-8762-35b32edbb937"
   },
   {
     "question": "Muscle action spectrum",
     "answer": "The full range of eccentric, isometric, and concentric muscle contractions required to perform a movement.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "6f820e35-38bc-4d56-b228-ccef7afaa05f"
+    "id": "534474e2-e218-423c-9658-fe9ba2c8430f"
   },
   {
     "question": "Agonists",
     "answer": "The primary muscles providing force for a movement.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "89fdda6b-9913-4379-ab75-914fd98cdf95"
+    "id": "22d4ffab-5ee6-42da-937c-9487dd0a0330"
   },
   {
     "question": "Synergists",
     "answer": "Muscles that assist agonists to produce a movement.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "45fc3539-6c97-4ab7-9587-623f792ebdb8"
+    "id": "0d985873-b8fe-49be-81f0-e4fb7f4171f5"
   },
   {
     "question": "Stabilizers",
     "answer": "Muscles that contract isometrically to stabilize the trunk and joints as the body moves.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "861fd512-4df4-4f5d-aa2b-97de1a07be5a"
+    "id": "638ec59e-a8cf-49c2-8df6-1279bad682c9"
   },
   {
     "question": "Feed-forward activation",
     "answer": "When a muscle is automatically activated in anticipation of a movement.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "f2f25505-e002-4fad-a3b1-e4013f11e871"
+    "id": "171fe421-0962-469f-807f-36f9cd413ab8"
   },
   {
     "question": "Antagonists",
     "answer": "Muscles on the opposite side of a joint that are in direct opposition of agonist muscles. | F2B muscles",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "4da7f3e3-c36d-45d9-9ddf-26799fea2921"
+    "id": "b3bf3268-7a31-4a37-a306-94dde6beec58"
   },
   {
     "question": "Closed chain movements",
     "answer": "Body moves, hands or feet stay in place | apply force to immovable object | pull-up, squat, pushup, lunges.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "a122512a-ca55-4e75-ad4b-3653056a7f10"
+    "id": "3b1f0d68-019a-4a7e-a5ff-169cfed3f3c8"
   },
   {
     "question": "Open chain movements",
     "answer": "ands and feet are not fixed and move during the exercise | LPD, leg press, curls",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "6825a37f-f62f-4480-8f6e-008c2ffe5700"
+    "id": "71061f68-1909-49c4-82f6-09054b9ffcd7"
   },
   {
     "question": "Force",
     "answer": "An influence applied by one object to another, which results in an acceleration or deceleration of the second object.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "601cab5d-c672-40d9-8e04-b70e849eb2a5"
+    "id": "df80c131-42bb-4c12-ad95-1d7f493082d2"
   },
   {
     "question": "Length-tension relationship",
     "answer": "The resting length of a muscle and the tension the muscle can produce at this resting length.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "759342bb-db8f-4583-ae66-193ed448157a"
+    "id": "2438e3c6-92d3-4a6f-994a-c4db67433f3b"
   },
   {
     "question": "Resting length",
     "answer": "The length of a muscle when it is not actively contracting or being stretched.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "52606dee-51c5-45c7-92c5-9d8fec87785f"
+    "id": "18dc51ff-770e-4415-aeca-81ea5860e56a"
   },
   {
     "question": "Actin",
     "answer": "The thin, stringlike, myofilament that acts along with myosin to produce muscular contraction.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "a11cae87-c085-4de8-a66c-ece74615a74b"
+    "id": "f1c061d6-43fe-4bc0-83bf-e755a0bc50ec"
   },
   {
     "question": "Myosin",
     "answer": "The thick myofilament that acts along with actin to produce muscular contraction.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "574af339-1035-4f7b-8ed0-708c84213c30"
+    "id": "25adb40a-40a4-4de8-ac1c-bbd5b1d4cd05"
   },
   {
     "question": "Sarcomere",
     "answer": "The structural unit of a myofibril composed of actin and myosin filaments between two Z-lines.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "efa8e092-5a8b-4568-8c27-f91bbe41d1fa"
+    "id": "cab6675e-a406-49eb-845d-bc3a8cac9a9c"
   },
   {
     "question": "Muscle balance",
     "answer": "When all muscles surrounding a joint have optimal length-tension relationships, allowing the joint to rest in a neutral position.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "7e459eb9-383a-4941-85b9-43b5d3368b03"
+    "id": "d6975d01-c376-4d64-ada2-308aa570e95e"
   },
   {
     "question": "Altered length-tension relationship",
     "answer": "When a muscle’s resting length is too short or too long, reducing the amount of force it can produce.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "145f0fb5-b3ca-4bd7-b4b3-472b632bf97d"
+    "id": "5ed9ba94-9d7e-4e99-8982-5424a542994b"
   },
   {
     "question": "Reciprocal inhibition",
     "answer": "When an agonist receives a signal to contract, its functional antagonist also receives an inhibitory signal allowing it to lengthen.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "924bada7-2480-4d63-995f-cb8fe9026415"
+    "id": "3fececba-8689-4f0a-9b91-2616df7129bd"
   },
   {
     "question": "Altered reciprocal inhibition",
     "answer": "Occurs when an overactive agonist muscle decreases the neural drive to its functional antagonist.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "f5b4e2e2-cc6a-4792-a0dd-da5dbfecf389"
+    "id": "1c839ab8-3ab3-47b7-9052-0e1d9ac86878"
   },
   {
     "question": "Muscle imbalance",
     "answer": "When muscles on each side of a joint have altered length-tension relationships.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "243e0a78-19f3-4086-a82f-17775971c0f8"
+    "id": "d144de96-ec31-4d7f-aa74-a1263cdbddf4"
   },
   {
     "question": "Neutral position",
     "answer": "The optimal resting position of a joint that allows it to function efficiently through its entire normal range of motion.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "7cef298c-e73a-4693-9662-de9b77a78802"
+    "id": "3cb9407b-2fdc-4bec-a2e8-d00fb44dcea7"
   },
   {
     "question": "Stretch-shortening cycle",
     "answer": "Loading of a muscle eccentrically to prepare it for a rapid concentric contraction.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "71f19035-55f9-4a0d-ace4-a67a4c2bca6a"
+    "id": "2251a21d-396f-439d-a4f7-9cd6699f64c6"
   },
   {
     "question": "Series elastic component",
     "answer": "Springlike noncontractile component of muscle and tendon that stores elastic energy.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "0eec7781-61c9-4676-91a2-bbecd8f400cc"
+    "id": "5f63d65c-cc89-43e7-add6-6bc28fb71105"
   },
   {
     "question": "Amortization phase",
     "answer": "The transition from eccentric loading to concentric unloading during the stretch-shortening cycle.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "ade0bfe3-175d-4b2d-8a47-d23bb5549205"
+    "id": "43751d9c-7d8b-42ee-b79e-4d97b0713b64"
   },
   {
     "question": "Stretch reflex",
     "answer": "Neurological signal from the muscle spindle that causes a muscle to contract to prevent excessive lengthening.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "e8cc4c02-9228-4f2b-9496-eaa4d5a57dad"
+    "id": "662cbd1a-279a-45b9-b8f9-8deb31897fd3"
   },
   {
     "question": "Integrated performance paradigm",
     "answer": "To move with efficiency, forces must be dampened (eccentrically), stabilized (isometrically), and then accelerated (concentrically).",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "7774fee2-3a74-4fd0-a38c-662af02c67a2"
+    "id": "345778b4-37d1-48e9-91aa-fedb5cc3d4e4"
   },
   {
     "question": "Tendon",
     "answer": "A fibrous connective tissue that connects muscle to bone.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "8a59d054-ea0a-484c-8ae2-2044fe027890"
+    "id": "b8e03f90-5ad0-42af-932a-3b2d841e7148"
   },
   {
     "question": "Force-couple relationship",
     "answer": "The synergistic action of multiple muscles working together to produce movement around a joint.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "f5cb8f89-a878-4e94-a0da-a221d0495201"
+    "id": "6dc921e7-299c-4aff-9a59-a3605a51c433"
   },
   {
     "question": "Joint support systems",
     "answer": "Muscular stabilization systems located in joints distal of the spine.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "8a8cdf8e-5af4-4c0b-8c5e-d029a5e5e1e2"
+    "id": "6ead222d-ec48-4cdb-84e8-c3ae98674dab"
   },
   {
     "question": "Rotary motion",
     "answer": "Movement of the bones around the joints.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "c3e7d5ee-9ced-4860-b117-c5fd114629e9"
+    "id": "30549ac0-3c7b-43e9-b36f-962890ec690d"
   },
   {
     "question": "Torque",
     "answer": "A force that produces rotation; common unit of measurement is the Newton meter (Nm).",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "d163a605-a8e6-49c3-bc30-336a38882ddd"
+    "id": "db226d66-f2c5-4a10-b3ab-53037178d359"
   },
   {
     "question": "Motor behavior",
     "answer": "Motor response to internal and external environmental stimuli.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "c94b1b76-95f1-4d9f-af5f-2eb6f90f84ef"
+    "id": "6e993682-4209-488f-bd32-bf74722cbb90"
   },
   {
     "question": "Motor control",
     "answer": "How the central nervous system integrates internal and external sensory information with previous experiences to produce a motor response.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "160b9892-0410-40cc-9da0-dc812792f9ea"
+    "id": "eb7bfd71-021c-4bbd-b571-04d0d7ae50ea"
   },
   {
     "question": "Motor learning",
     "answer": "Integration of motor control processes through practice and experience, leading to a relatively permanent change in the capacity to produce skilled motor behavior.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "cb3b380a-d338-4fbb-bdab-77db28520b1a"
+    "id": "552d9e38-f998-464c-9998-40b0bead5f1a"
   },
   {
     "question": "Motor development",
     "answer": "Change in skilled motor behavior over time throughout the life span.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "d25a73cb-f639-4dfb-b736-3c2e65b416d9"
+    "id": "9f8c1f22-a041-44ad-818e-6cb228d9f659"
   },
   {
     "question": "Muscle synergies",
     "answer": "Groups of muscles that are recruited simultaneously by the central nervous system to provide movement.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "2ca34e65-8a7a-465a-bcb8-2995484aac4e"
+    "id": "3edfa7ca-0ab7-423e-a4e2-ced0d048c8b1"
   },
   {
     "question": "Mechanoreceptors",
     "answer": "Specialized structures that respond to mechanical forces (touch and pressure) within tissues and then transmit signals through sensory nerves.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "b713b9cb-1475-4eca-8c3d-d214656175f5"
+    "id": "a539c11f-4f4b-4c23-8ebc-6011d7717927"
   },
   {
     "question": "Proprioception",
     "answer": "The body’s ability to naturally sense its general orientation and relative position of its parts.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "b2e86dcb-a040-44fa-87c4-9d3cd478f66a"
+    "id": "371e76ad-02f0-4396-8644-39bfe15f9a14"
   },
   {
     "question": "Sensorimotor integration",
     "answer": "Cooperation of the nervous and muscular system in gathering and interpreting information and executing movement.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "10eb6f22-2bb1-4e80-b662-6a29170502e5"
+    "id": "8d2c82d1-0349-406b-bf1b-7b2a69f7d0fb"
   },
   {
     "question": "Feedback",
     "answer": "Use of sensory information and sensorimotor integration to help the human movement system in motor learning.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "60a445d2-8bbd-47b9-a81a-c76026d687ab"
+    "id": "9b97e7d3-1168-49e4-969c-c8f39116f611"
   },
   {
     "question": "Internal feedback",
     "answer": "Process whereby sensory information is used by the body to reactively monitor movement and the environment.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "4b3ee502-9d8e-4461-8e9f-c7853a00e05c"
+    "id": "7cf46c43-af8b-4644-926b-68c67e994e34"
   },
   {
     "question": "External feedback",
     "answer": "Information provided by some external source, such as a fitness professional, video, mirror, or heart rate monitor, to supplement the internal environment.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "6499964e-8775-4443-92c5-409515f74ebe"
+    "id": "f6b2a513-0c0f-42e9-a396-80d178596b0d"
   },
   {
     "question": "Neuromuscular efficiency",
     "answer": "The ability of the nervous system to recruit the correct muscles to produce force, reduce force, and dynamically stabilize the body’s structure in all three planes of motion.",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "4f1fd3dd-b2c6-4cb3-b93f-ddf954b42214"
+    "id": "11222d88-f2fb-4f1e-a6dc-238b9df35bf0"
   },
   {
     "question": "Result of incorrect form",
     "answer": "ltered length-tension relationships of muscles, altered force-couple relationships, and altered arthrokinematics, ultimately leading to shoulder injury",
     "tags": [
+      "cpt",
       "chapter 7"
     ],
-    "id": "0b014f7b-43da-4833-822e-e8a2135a134e"
+    "id": "2ebc8e39-5ccd-419f-85f2-5577bbdd0949"
   }
 ]

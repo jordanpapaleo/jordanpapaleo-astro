@@ -12,6 +12,7 @@ const files = [
   // 'chapter5',
   // 'chapter6',
   'chapter7',
+  'chapter8',
   // 'section1Quiz',
   // 'section2Quiz',
   'section3Quiz',
