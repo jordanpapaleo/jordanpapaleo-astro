@@ -1,75 +1,5 @@
 [
   {
-    "question": "What effect of the cardiovascular system occurs during exercise?",
-    "answer": "Increased ventricular filling",
-    "tags": [
-      "cpt",
-      "chapter 6 quiz",
-      "section 3 quiz"
-    ],
-    "id": "369acf5c-8678-4fe5-a4a5-ee10034cdf48"
-  },
-  {
-    "question": "What is cardiac output?",
-    "answer": "The volume of blood pumped by the heart per minute",
-    "tags": [
-      "cpt",
-      "chapter 6 quiz",
-      "section 3 quiz"
-    ],
-    "id": "1f751706-1435-4626-8a78-56a8079e4535"
-  },
-  {
-    "question": "Which heart chamber gathers deoxygenated blood returning to the heart from the superior and inferior vena cava veins?",
-    "answer": "Right atrium",
-    "tags": [
-      "cpt",
-      "chapter 6 quiz",
-      "section 3 quiz"
-    ],
-    "id": "477e33f7-c2bf-4bb0-9f05-1973d54d47c0"
-  },
-  {
-    "question": "Which heart chamber gathers oxygenated blood coming to the heart from the lungs?",
-    "answer": "Left atrium",
-    "tags": [
-      "cpt",
-      "chapter 6 quiz",
-      "section 3 quiz"
-    ],
-    "id": "68635c0b-fb54-47d7-9629-6e4df5382059"
-  },
-  {
-    "question": "What component of breathing improves blood flow back to the heart?",
-    "answer": "Inspiration with a decrease in intrathoracic pressure",
-    "tags": [
-      "cpt",
-      "chapter 6 quiz",
-      "section 3 quiz"
-    ],
-    "id": "8aa41cbf-0f5c-4370-9b83-e014ebfb2754"
-  },
-  {
-    "question": "What is end-diastolic volume?",
-    "answer": "The amount of blood in the ventricle before contraction",
-    "tags": [
-      "cpt",
-      "chapter 6 quiz",
-      "section 3 quiz"
-    ],
-    "id": "be9f9d40-8023-495a-8e24-ab170ea2aa8c"
-  },
-  {
-    "question": "Where in the digestive system are most fluids absorbed?",
-    "answer": "Small Intestine",
-    "tags": [
-      "cpt",
-      "chapter 6 quiz",
-      "section 3 quiz"
-    ],
-    "id": "f0b9a221-fa16-40b9-9298-8b5604f25979"
-  },
-  {
     "question": "What are the two components of a sarcomere?",
     "answer": "Actin and myosin",
     "tags": [
@@ -77,7 +7,7 @@
       "chapter 5 quiz",
       "section 3 quiz"
     ],
-    "id": "967d373b-44bb-4165-93fc-e10c8bcb47cc"
+    "id": "53569e1c-27c4-46cd-927b-b45de03073de"
   },
   {
     "question": "What surrounds the skeletal muscles and connects them to other surrounding muscles?",
@@ -87,7 +17,7 @@
       "chapter 5 quiz",
       "section 3 quiz"
     ],
-    "id": "51f6a08e-e236-4477-a977-9450bc36d3d5"
+    "id": "11d74766-6b9f-4d82-8117-096f53d1fd35"
   },
   {
     "question": "What is the concept that describes the human body as a chain of interdependent links that work together to perform movement?",
@@ -97,7 +27,7 @@
       "chapter 5 quiz",
       "section 3 quiz"
     ],
-    "id": "5f1d0646-be93-4dcc-91ca-f1c2535c0997"
+    "id": "dd281fd3-a0be-4356-a226-43fa27a3d15f"
   },
   {
     "question": "When a client's heart rate is raised during cardio activities, this is being caused by which system?",
@@ -107,7 +37,7 @@
       "chapter 5 quiz",
       "section 3 quiz"
     ],
-    "id": "e41a8be7-0df6-4b16-bea4-a6206550e3f9"
+    "id": "fc4d6fda-8be1-4bc5-a4ce-1a74670cdf3c"
   },
   {
     "question": "Which of the following is the functional unit of a muscle cell?",
@@ -117,7 +47,7 @@
       "chapter 5 quiz",
       "section 3 quiz"
     ],
-    "id": "718ba5a9-ac90-483a-b179-4a2e6cd4f2a0"
+    "id": "a2a8fc9a-2a0c-4503-b49e-3c122ff584ad"
   },
   {
     "question": "What is the function of the neuromuscular junction?",
@@ -127,7 +57,7 @@
       "chapter 5 quiz",
       "section 3 quiz"
     ],
-    "id": "4a23c5e4-a154-4415-9095-e979c0628367"
+    "id": "5b62ca29-4083-4638-8c4c-e937fe13060a"
   },
   {
     "question": "Which system supplies neural input to organs that run the involuntary processes of the body?",
@@ -137,7 +67,7 @@
       "chapter 5 quiz",
       "section 3 quiz"
     ],
-    "id": "ca962a4f-9b5e-4ecb-933e-4b8131118555"
+    "id": "edd75dcc-0b69-4b47-b552-71322965d612"
   },
   {
     "question": "What is the name of the specialized cell that is the functional unit of the nervous system?",
@@ -147,7 +77,7 @@
       "chapter 5 quiz",
       "section 3 quiz"
     ],
-    "id": "5f8481f6-a084-4636-a02e-27b12adb7918"
+    "id": "db44153b-6257-4ca3-8f8b-890d32e9859e"
   },
   {
     "question": "Which mechanoreceptor is sensitive to changes in muscular tension and rate of that tension change, causing the muscle to relax, which prevents the muscle from excessive stress and possible injury?",
@@ -157,7 +87,7 @@
       "chapter 5 quiz",
       "section 3 quiz"
     ],
-    "id": "a3d2ae2e-ae95-4a70-955c-1fbd95e0aa70"
+    "id": "2135e75e-3a3d-4387-9afc-bb63aca3d5f6"
   },
   {
     "question": "Which system supplies neural input to organs that run the involuntary processes of the body?",
@@ -167,7 +97,7 @@
       "chapter 5 quiz",
       "section 3 quiz"
     ],
-    "id": "37033141-d300-453c-9908-44fd25290cae"
+    "id": "813b8982-d7f1-4f8f-baa0-eb63cc884ca6"
   },
   {
     "question": "At what age is the adolescent brain considered to be fully developed?",
@@ -177,7 +107,7 @@
       "chapter 5 quiz",
       "section 3 quiz"
     ],
-    "id": "842d930f-f15f-4b41-b938-29fcff6dc26b"
+    "id": "37618245-574d-47a2-9da1-3bdaddcd73da"
   },
   {
     "question": "Which joints are most associated with human movement?",
@@ -187,7 +117,7 @@
       "chapter 5 quiz",
       "section 3 quiz"
     ],
-    "id": "050d5b68-e768-4309-a83f-571ed36bd7f3"
+    "id": "062f682e-7605-460a-af61-eac40e7cdf2c"
   },
   {
     "question": "At what age is total peak bone mass reached?",
@@ -197,6 +127,286 @@
       "chapter 5 quiz",
       "section 3 quiz"
     ],
-    "id": "fa539c4d-be61-4817-bef1-b662277f1825"
+    "id": "58aaa512-fb11-4d48-9ab9-90e183f11411"
+  },
+  {
+    "question": "What effect of the cardiovascular system occurs during exercise?",
+    "answer": "Increased ventricular filling",
+    "tags": [
+      "cpt",
+      "chapter 6 quiz",
+      "section 3 quiz"
+    ],
+    "id": "756aa348-c30a-4773-9e3f-71daa71f6380"
+  },
+  {
+    "question": "What is cardiac output?",
+    "answer": "The volume of blood pumped by the heart per minute",
+    "tags": [
+      "cpt",
+      "chapter 6 quiz",
+      "section 3 quiz"
+    ],
+    "id": "76145c0b-2813-4cf0-b3bd-d51e93dd4cb7"
+  },
+  {
+    "question": "Which heart chamber gathers deoxygenated blood returning to the heart from the superior and inferior vena cava veins?",
+    "answer": "Right atrium",
+    "tags": [
+      "cpt",
+      "chapter 6 quiz",
+      "section 3 quiz"
+    ],
+    "id": "fd17799c-33b1-4a4e-95a5-646926fd5243"
+  },
+  {
+    "question": "Which heart chamber gathers oxygenated blood coming to the heart from the lungs?",
+    "answer": "Left atrium",
+    "tags": [
+      "cpt",
+      "chapter 6 quiz",
+      "section 3 quiz"
+    ],
+    "id": "5cacbbb6-bc44-449e-877f-764019653433"
+  },
+  {
+    "question": "What component of breathing improves blood flow back to the heart?",
+    "answer": "Inspiration with a decrease in intrathoracic pressure",
+    "tags": [
+      "cpt",
+      "chapter 6 quiz",
+      "section 3 quiz"
+    ],
+    "id": "0fb3edcc-1666-4892-a2e4-3ee90aa469a1"
+  },
+  {
+    "question": "What is end-diastolic volume?",
+    "answer": "The amount of blood in the ventricle before contraction",
+    "tags": [
+      "cpt",
+      "chapter 6 quiz",
+      "section 3 quiz"
+    ],
+    "id": "1517105f-2f3d-42fe-bf97-cb0d3c26b665"
+  },
+  {
+    "question": "Where in the digestive system are most fluids absorbed?",
+    "answer": "Small Intestine",
+    "tags": [
+      "cpt",
+      "chapter 6 quiz",
+      "section 3 quiz"
+    ],
+    "id": "f5adc89e-88b8-4a98-bb0f-370e67088d1e"
+  },
+  {
+    "question": "Which type of exercise accommodates effort whereby the harder the individual pushes or pulls, the more resistance they feel, despite the movement speed remaining constant?",
+    "answer": "Isokinetic",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "306b3d89-03ed-47ec-902f-c6533cc143bf"
+  },
+  {
+    "question": "What is the most accurate description of motor control?",
+    "answer": "The ability to initiate and correct purposeful controlled movements",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "373a8294-654b-4880-a00f-dcafc705f681"
+  },
+  {
+    "question": "What is the anatomical term that describes something positioned above an identified reference point?",
+    "answer": "Superior",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "877f078a-8599-4323-b130-3da97bbcebbc"
+  },
+  {
+    "question": "What is the anatomical term that describes something positioned below an identified reference point?",
+    "answer": "Inferior",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "eb29893c-3997-4dcf-8432-5b550a8dd418"
+  },
+  {
+    "question": "What is the anatomical term that describes something positioned to the front of identified reference point?",
+    "answer": "Anterior",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "8f706379-7d51-4143-884f-5ea5688ebc39"
+  },
+  {
+    "question": "What is the anatomical term that describes something positioned to the back of identified reference point?",
+    "answer": "Posterior",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "1ead33d9-1860-47ac-8fa9-040e78955127"
+  },
+  {
+    "question": "Overactive hip flexors may lead to which of the following postural compensations?",
+    "answer": "Anterior tilting of the pelvis and an increased low-back arch",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "bb277ce7-1a3d-4191-9305-5cb142d2f0db"
+  },
+  {
+    "question": "Which of the following muscle groups work both eccentrically and concentrically in the sagittal plane during a squat?",
+    "answer": "Quadriceps",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "fe7ec846-5e59-4571-9a0a-00c4df568849"
+  },
+  {
+    "question": "Movements that take place within a joint and are not visible to the human eye may be classified in what way?",
+    "answer": "Arthrokinematic",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "e3a6e19f-7cec-4a58-a4eb-4d4f9d071fc9"
+  },
+  {
+    "question": "How should an eccentric muscle action be described?",
+    "answer": "The development of muscle tension during lengthening of the contractile tissue",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "7fdd3384-a522-40b1-af66-639102ec79c4"
+  },
+  {
+    "question": "Stored energy from an efficiently functioning stretch-shortening cycle is released during which muscle action?",
+    "answer": "Concentric",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "3f171d68-065e-4cc6-bc0d-7eb34d44109b"
+  },
+  {
+    "question": "In what plane of movement do shoulder horizontal adduction and abduction occur?",
+    "answer": "Transverse",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "94d4d042-1c9b-4b7d-9d50-0cb037c5110a"
+  },
+  {
+    "question": "What scientific term is used to describe the concept whereby a loaded eccentric contraction prepares the muscles for a rapid concentric contraction?",
+    "answer": "Stretch-shortening cycle",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "4b9f06c4-7036-4dab-ac84-b85328048905"
+  },
+  {
+    "question": "What is the anatomical term that describes something positioned on the opposite side of the body?",
+    "answer": "Contralateral",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "09a15bec-6d03-4cdf-95d7-c13745d7cd46"
+  },
+  {
+    "question": "What measurement is dependent upon the length of the lever arm and the angle between the force application and the lever arm?",
+    "answer": "Torque",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "2a4749db-44a2-448a-9dd1-430f9ee135d2"
+  },
+  {
+    "question": "What type of lever could be described as having a fulcrum in the middle like a seesaw?",
+    "answer": "First Class",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "707e730e-aa0b-4383-bdc2-9e51539ad415"
+  },
+  {
+    "question": "Pronation of the foot describes what multiplanar movements?",
+    "answer": "Eversion, dorsiflexion, and ankle abduction",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "84a9ac8f-35c4-46be-9fec-acc3328557be"
+  },
+  {
+    "question": "During normal walking, the pelvis rotates in what plane to facilitate the necessary momentum for the swing phase?",
+    "answer": "Transverse",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "0dc419b7-1718-4185-8042-c2eabdd9cac5"
+  },
+  {
+    "question": "What is the scientific term that describes the nervous system’s role in the contract/relax relationship between agonists and antagonists?",
+    "answer": "Reciprocal inhibition",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "10599c2e-7198-415b-ab1e-f96011587212"
+  },
+  {
+    "question": "Which of the following statements would be accurate with regard to muscle force and velocity during an eccentric muscle action?",
+    "answer": "As the contraction velocity increases the ability to develop force also increases.",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "257d655b-63a5-4c59-9eeb-dcd9b1660a3e"
+  },
+  {
+    "question": "What is the concept used to describe the action of muscles that have the ability to contract automatically in anticipation of movement?",
+    "answer": "Feed-forward",
+    "tags": [
+      "cpt",
+      "chapter 7 quiz",
+      "section 3 quiz"
+    ],
+    "id": "98c83d2d-93c1-4222-b51e-7b79a85a52b1"
   }
 ]

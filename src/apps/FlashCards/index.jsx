@@ -5,6 +5,7 @@ import chapter3 from './json/chapter3.json'
 import chapter4 from './json/chapter4.json'
 import chapter5 from './json/chapter5.json'
 import chapter6 from './json/chapter6.json'
+import chapter7 from './json/chapter7.json'
 import section1Quiz from './json/section1Quiz.json'
 import section2Quiz from './json/section2Quiz.json'
 import section3Quiz from './json/section3Quiz.json'
@@ -29,6 +30,7 @@ const initQuestions = [
   ...chapter4,
   ...chapter5,
   ...chapter6,
+  ...chapter7,
   ...section1Quiz,
   ...section2Quiz,
   ...section3Quiz,

@@ -11,6 +11,7 @@ const files = [
   // 'chapter4',
   // 'chapter5',
   // 'chapter6',
+  'chapter7',
   // 'section1Quiz',
   // 'section2Quiz',
   'section3Quiz',
