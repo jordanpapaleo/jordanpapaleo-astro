@@ -1,0 +1,794 @@
+[
+  {
+    "question": "Nutrition",
+    "answer": "A process of obtaining nutrients through food and/or food products to support energy requirements and cellular processes, including growth, repair and maintenance of tissues, reproduction, digestive processes, and respiration.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "b4f16b47-9a9a-4440-a12e-1feb093abf5e"
+  },
+  {
+    "question": "CDN",
+    "answer": "Certified Dietitian Nutritionist: state certified dietitian/nutritionist.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "176ac239-7d0a-4a9d-8313-ad0d8c6db4ad"
+  },
+  {
+    "question": "Scope of practice",
+    "answer": "The actions that a professional is permitted to undertake in keeping with the terms of their license or certification.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "3ae3edbb-d0cd-40f2-88a5-e5c4a19fe150"
+  },
+  {
+    "question": "Nutrition claim",
+    "answer": "Claim that a food has a specific nutritional property or provides a specific benefit.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "0fbd7c0c-7490-434d-b0b6-2a04ea464df5"
+  },
+  {
+    "question": "Macronutrients",
+    "answer": "Food substances required in large amounts to supply energy; include protein, carbohydrate, and fat.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "71d87ab2-89f6-4fa1-884d-3a5871ca257d"
+  },
+  {
+    "question": "Micronutrients",
+    "answer": "Vitamins, minerals, and phytonutrients. These are nonenergy yielding nutrients that have important regulatory functions in metabolic pathways.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "09a1a60f-0b91-4dd9-9a29-bdb4ed0c6d94"
+  },
+  {
+    "question": "Vitamins",
+    "answer": "Group of organic compounds required in small quantities in the diet to support growth and metabolic processes.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "4cdc8e6a-b387-4abc-aa6b-073fc83911bc"
+  },
+  {
+    "question": "Minerals",
+    "answer": "Inorganic, natural substances, some of which are essential in human nutrition. There are two kinds of minerals: major minerals (aka, macrominerals) and trace minerals.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "6bfd67b9-793f-49ac-bc2d-d98ecded5d13"
+  },
+  {
+    "question": "Protein",
+    "answer": "Amino acids linked by peptide bonds; the building blocks of body tissues.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "24ff7abc-ea27-457f-8dd2-d54f9824568d"
+  },
+  {
+    "question": "Amino acids",
+    "answer": "Organic building blocks of proteins containing both a carboxyl and an amino group.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "1936b278-a83a-42ca-a54f-601780f77998"
+  },
+  {
+    "question": "Peptide bond",
+    "answer": "A chemical bond that connects two amino acids.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "fbbe1f93-22fd-4fcc-869f-0ea4dfd23427"
+  },
+  {
+    "question": "Essential amino acid (EAA)",
+    "answer": "Amino acid that must be obtained through the diet as the body does not make it; there are nine essential amino acids.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "9d020b70-604a-46d6-b530-ec1e3117efc3"
+  },
+  {
+    "question": "Substrates",
+    "answer": "Intermediate forms of nutrients used in metabolic reactions to create adenosine triphosphate.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "8868bfae-f05a-4308-a51b-a4f510f54967"
+  },
+  {
+    "question": "Protein turnover",
+    "answer": "A process in which the body breaks down existing proteins and recycles the component amino acids for incorporation into new proteins or other nitrogen-containing compounds.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "9d7b2ae6-bd87-4534-81f9-a90ada070fe3"
+  },
+  {
+    "question": "Complete protein",
+    "answer": "A protein source that provides all essential amino acids.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "09dd39da-c395-46bd-9b5f-d887db28bdc3"
+  },
+  {
+    "question": "Incomplete protein",
+    "answer": "A protein that lacks one or more of the amino acids required to build cells.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "3d658d22-5376-4b94-a0d4-aa8a3dae28fa"
+  },
+  {
+    "question": "Omnivorous diet",
+    "answer": "A diet that consists of both animals and plants.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "a3abfa4c-23fa-4568-9028-c163d47e9b1f"
+  },
+  {
+    "question": "Mutual supplementation",
+    "answer": "Combination of two incomplete protein sources that together provide all of the essential amino acids.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "062cb9b2-5af6-49c4-9625-96e3f998244d"
+  },
+  {
+    "question": "Protein quality",
+    "answer": "Refers to the amino acid profile and the digestibility of a protein source.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "536fc7a6-12b5-428a-b428-01265c9d1d6f"
+  },
+  {
+    "question": "Low biological value (LBV) proteins",
+    "answer": "Foods missing one or more of the essential amino acids.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "9eea75ec-1dd1-4347-ad51-383b11dea638"
+  },
+  {
+    "question": "High biological value (HBV) proteins",
+    "answer": "Foods containing all the essential amino acids.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "da4fff75-8004-4bb5-92e6-a181e4fbb4c0"
+  },
+  {
+    "question": "Protein efficiency ratio (PER)",
+    "answer": "A measure of assessing proteins, based on the amount of weight gained by a test subject divided by the amount of intake of a protein food.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "e89cd230-0d15-4920-8f86-afe1733ecf03"
+  },
+  {
+    "question": "Biological value (BV)",
+    "answer": "A reference amount used to describe the extent to which the amino acids in a protein source are absorbed.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "522ba7e0-db3d-4de8-8356-e072ce3ab354"
+  },
+  {
+    "question": "Protein digestibility– corrected amino acid score (PDCAAS)",
+    "answer": "A measure for evaluating a protein source based on the composition of amino acids and its digestibility.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "a14b108a-e951-41a3-b673-bbc981c0ece5"
+  },
+  {
+    "question": "Net protein utilization (NPU)",
+    "answer": "The ratio of amino acid mass turned into proteins compared to the total amino acid mass consumed in the diet.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "6237efe9-71d2-4c79-8373-9cd33d2de7f4"
+  },
+  {
+    "question": "Enterocyte",
+    "answer": "Intestinal cells that absorb nutrients.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "01ccf0e7-135f-4a09-a7a4-c6f34da858fe"
+  },
+  {
+    "question": "Gluconeogenesis",
+    "answer": "The formation of glucose from noncarbohydrate sources (proteins and fats).",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "21d04bf1-9f1b-4ede-8597-dd9fbc3efc59"
+  },
+  {
+    "question": "Recommended dietary allowance (RDA)",
+    "answer": "The recommended amount of a nutrient that meets the needs of most healthy individuals within specific age and gender groups.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "cf08b6d7-453e-4634-bc6a-7519ad986ea5"
+  },
+  {
+    "question": "Negative energy balance",
+    "answer": "When calorie intake is lower than the number of calories expended.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "53e68023-2a75-4de0-ab09-6afce42f4d96"
+  },
+  {
+    "question": "Acceptable macronutrient distribution range (AMDR)",
+    "answer": "Ranges of intake for nutrients that are estimated to meet the needs of 97–98% of the population and that are associated with a reduced risk of chronic disease. AMDRs are established by the National Academy of Medicine.Aerobic,\"Processes relating to, involving, or requiring oxygen.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "1afbf468-d5ff-4f66-b785-2d528657ce9b"
+  },
+  {
+    "question": "Anaerobic",
+    "answer": "Processes relating to the absence of oxygen",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "f08e76e0-6c2d-4d81-88eb-572419ce2120"
+  },
+  {
+    "question": "Thermic effect of food (TEF)",
+    "answer": "The energy required to digest, absorb, and process nutrients that are consumed.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "ae699747-f473-4ddf-8107-d19898110eee"
+  },
+  {
+    "question": "Carbohydrates",
+    "answer": "Compounds composed of carbon, hydrogen, and oxygen molecules that include simple sugars, complex carbohydrates, glycogen, and fiber.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "b010842d-e63d-435a-8df8-38c875a2b4e5"
+  },
+  {
+    "question": "Simple sugars",
+    "answer": "Include the monosaccharides and disaccharides; easily absorbed into the bloodstream.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "0767cae5-3632-4484-a1d2-d51d7e8ba2fb"
+  },
+  {
+    "question": "Monosaccharides",
+    "answer": "Simplest form of carbohydrate; single sugar molecules (e.g., glucose).",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "c41b136a-4b5a-4719-a319-09e99b75e1d1"
+  },
+  {
+    "question": "Disaccharides",
+    "answer": "Two monosaccharides joined together to form a simple sugar. The three disaccharides of nutritional importance include lactose, sucrose, and maltose.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "31743411-8438-453b-a7d3-540e0d986e68"
+  },
+  {
+    "question": "Polysaccharides",
+    "answer": "A type of carbohydrate composed of long chains of glucose units; starch and glycogen are examples of polysaccharides.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "825fc333-70c0-471e-b2dd-6c68965f7cf8"
+  },
+  {
+    "question": "Starch",
+    "answer": "Storage form of carbohydrate in plants.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "b6c95ae6-4bd6-4808-b434-1a33e8346631"
+  },
+  {
+    "question": "Glycogen",
+    "answer": "Glucose that is deposited and stored in bodily tissues, such as the liver and muscle cells; the storage form of carbohydrate.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "6a7348b4-be03-4684-bf00-4623e6fcb854"
+  },
+  {
+    "question": "Fiber",
+    "answer": "An indigestible carbohydrate present in plant foods, such as fruit, vegetables, and legumes.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "d2814365-a78e-40ff-b8e8-abe6897cb00d"
+  },
+  {
+    "question": "Adipose tissue",
+    "answer": "An alternative term for fat, used primarily to store energy.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "5eea09ac-f1da-4c9b-b6a0-da141186248f"
+  },
+  {
+    "question": "Complex carbohydrates",
+    "answer": "Polysaccharides; long chains of simple sugars. Examples include whole grains, legumes, and vegetables.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "fc732004-d590-4413-b70d-9e03f2fde39e"
+  },
+  {
+    "question": "Glycemic index (GI)",
+    "answer": "Number (0–100) assigned to a food source that represents the rise in blood sugar after consuming the food.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "1b55266f-9b0e-40f7-a5cb-fe20f4cf9935"
+  },
+  {
+    "question": "Glycemic load (GL)",
+    "answer": "Similar to glycemic index but takes into account the amount of food (carbohydrate) eaten.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "a9760eac-cff6-41e2-b385-7a2ee36b316c"
+  },
+  {
+    "question": "Muscle protein synthesis",
+    "answer": "Process by which new muscle proteins are formed and a muscle grows or repairs at the molecular level.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "9fde1f26-6ae3-4a5a-85ce-56cbe85f5ab3"
+  },
+  {
+    "question": "Lipids",
+    "answer": "Group of fats/fatty acids and their derivatives, including triglycerides, phospholipids, and sterols.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "288efe4e-7a00-412d-bc07-132ee9256118"
+  },
+  {
+    "question": "Triglycerides",
+    "answer": "The chemical or substrate form in which most fat exists in food as well as in the body.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "28bb7590-f6f6-45c2-8fff-bf096eb3f9ea"
+  },
+  {
+    "question": "Phospholipids",
+    "answer": "Type of lipid (fat) comprised of glycerol, two fatty acid chains, and a phosphate group.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "e953ae80-64a1-4a69-afa2-84179a9ecc47"
+  },
+  {
+    "question": "Sterols",
+    "answer": "A group of lipids with a ringlike structure. Cholesterol is a type of sterol.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "e95bd504-ea5f-4b33-a0aa-44fa409a8ca1"
+  },
+  {
+    "question": "Unsaturated fats",
+    "answer": "Fatty acids with one or more points of unsaturation (double bond) in their chemical structure.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "242774fe-a423-43d0-923f-9ee2ca6f4b5a"
+  },
+  {
+    "question": "Saturated fat",
+    "answer": "A type of triglyceride; chemical structure has no double bonds (points of unsaturation); usually solid at room temperature. Examples: butter, lard, whole milk, beef, processed meats, and tropical oils.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "ec189abe-c4e7-447b-ae9e-8ffd8ae3ca77"
+  },
+  {
+    "question": "Pancreatic enzymes",
+    "answer": "Digestive enzymes produced by the body to help digest fats, starches, and proteins.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "ada747c0-66d9-464d-8605-19cc8739a9fb"
+  },
+  {
+    "question": "Lingual lipase",
+    "answer": "An enzyme in saliva that begins the process of lipid digestion in the mouth.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "aa4173b1-53aa-409f-b3cb-d050b57a71a4"
+  },
+  {
+    "question": "Lipase",
+    "answer": "Enzyme that digests lipids.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "c91de40e-0f41-4e4f-aa73-7135a8e1d172"
+  },
+  {
+    "question": "Chylomicrons",
+    "answer": "Molecules of fat that contain triglycerides, phospholipids, cholesterol, fat-soluble vitamins, and protein. They are formed by intestinal cells after the digestion of lipid-containing foods.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "04ba8d17-0ad8-4207-8c52-44a34347f5a7"
+  },
+  {
+    "question": "Lipoprotein",
+    "answer": "A group of soluble proteins that combine with and transport fat or other lipids in the blood plasma.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "4d00eb17-7c80-4a40-8af2-5a0b70fe3ff9"
+  },
+  {
+    "question": "Lipoprotein lipase (LPL)",
+    "answer": "An enzyme that breaks down triglycerides into fatty acids.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "04e2023c-f849-4907-8a24-6fafd9881f17"
+  },
+  {
+    "question": "Metabolites",
+    "answer": "The formation of a substance required for metabolism.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "88a04c12-093e-4374-baeb-7bac9226e9ed"
+  },
+  {
+    "question": "Metabolism",
+    "answer": "All of the chemical reactions that occur in the body to maintain itself.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "bebb1423-19cf-4665-9ab8-903c331e15e8"
+  },
+  {
+    "question": "Major minerals",
+    "answer": "Minerals present in the body in larger amounts.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "adaba96b-ab8a-4693-a28a-aef75c0525ab"
+  },
+  {
+    "question": "Trace minerals",
+    "answer": "Minerals present in small amounts in the body. They include iron, zinc, copper, selenium, iodine, manganese, chromium, fluoride, and molybdenum.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "00a64185-10ec-4822-85de-694a0b95ff5a"
+  },
+  {
+    "question": "Heat exhaustion",
+    "answer": "A condition that occurs when the body becomes overheated. It can occur from dehydration in a hot climate, and symptoms include heavy sweating, rapid pulse, low blood pressure, nausea, dizziness, and muscle cramps.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "29cf95f0-6aac-4d00-bdcc-2aa86c5b37c6"
+  },
+  {
+    "question": "Heatstroke",
+    "answer": "A condition that can develop if heat exhaustion is not treated quickly. Heatstroke symptoms include headache, fever, confusion and disorientation, and flushed skin. Heatstroke is a medical emergency and can be fatal if not quickly treated.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "a9a6bcf9-3cd9-491d-8c8a-ede0b3575d9c"
+  },
+  {
+    "question": "Sports drink",
+    "answer": "Drink with a combination of carbohydrate and/or electrolytes used for rehydration and carbohydrate replenishment during physical activity; may be isotonic, hypotonic, or hypertonic.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "a0634c16-6b8b-4c9b-ba04-2e3ae8c8d8ef"
+  },
+  {
+    "question": "Electrolytes",
+    "answer": "Minerals that have an electrical charge to help transmit nerve impulses throughout the body, such as sodium, potassium, and chloride.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "428fc673-7f46-4560-9d62-b5634d195b32"
+  },
+  {
+    "question": "Hypotonic",
+    "answer": "A solution with a lower solute load/concentration than body fluids.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "74c67713-c3e7-4220-96d8-e589cdcc63d0"
+  },
+  {
+    "question": "Isotonic",
+    "answer": "A solution with a similar solute load/concentration as body fluids.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "0c864f4d-6d9e-42c9-96aa-3928664abe3a"
+  },
+  {
+    "question": "Hypertonic",
+    "answer": "A solution with a higher solute load/concentration than body fluids.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "a516ee17-40b9-41a9-9106-0a291a4a31c9"
+  },
+  {
+    "question": "Basal metabolic rate (BMR)",
+    "answer": "The amount of energy required to maintain the body at rest.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "7be867e6-acde-40b8-96b1-adf272989363"
+  },
+  {
+    "question": "Endocrine (hormonal) disorders",
+    "answer": "When the body produces too little or too much of an endocrine hormone.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "07351116-3e0a-4500-827c-e288f047600c"
+  },
+  {
+    "question": "First law of thermodynamics",
+    "answer": "Energy cannot be created or destroyed but merely converted from one form to another.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "269f04d4-9f9d-4a23-b14c-270b3839322f"
+  },
+  {
+    "question": "Added sugars",
+    "answer": "Sugars that are not naturally found in food but have been added to a food product.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "5428d59b-cff6-4ba3-84d6-90387d74a055"
+  },
+  {
+    "question": "Satiating",
+    "answer": "Satisfying; feeling of fullness.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "b2156c35-1a80-44a7-b1a2-5c34628a4e85"
+  },
+  {
+    "question": "Total daily energy expenditure (TDEE)",
+    "answer": "The total amount of energy expended in one day.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "a7ffc316-a3d2-4c32-a629-5c6e13c15336"
+  },
+  {
+    "question": "Peptide YY",
+    "answer": "Called peptide tyrosine and is a peptide that is released in the colon during feeding.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "294d8e2c-71dc-4d05-8532-11a6025adabd"
+  },
+  {
+    "question": "Ghrelin",
+    "answer": "The hunger hormone that stimulates appetite.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "4c0cc096-bb28-4ad2-be46-0812d656b3ca"
+  },
+  {
+    "question": "Hypothyroidism",
+    "answer": "Low activity of the thyroid gland that can disrupt heart rate, body temperature, and metabolism.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "29abd11a-09dc-45dc-b247-db476c22c4a4"
+  },
+  {
+    "question": "Cushing’s syndrome",
+    "answer": "A hormone disorder that causes abnormally high levels of cortisol in the body.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "3c9ccb75-0667-4271-936f-8a58a15947b9"
+  },
+  {
+    "question": "Polycystic ovarian syndrome (PCOS)",
+    "answer": "A hormone disorder that occurs in women of childbearing age that causes irregular periods, excess levels of the male hormone androgen, small cysts on the outer edges of the ovaries, and obesity.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "876b6ef5-ef11-4252-a0da-b095b56d3372"
+  },
+  {
+    "question": "Nonexercise activity thermogenesis (NEAT)",
+    "answer": "Energy expenditure through daily activities outside of structured exercise, such as walking, completing household chores, and taking the stairs.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "ba634bc8-0148-4ee5-a9e9-fa92ae05afce"
+  },
+  {
+    "question": "Exercise activity thermogenesis (EAT)",
+    "answer": "The calories expended through structured exercise or training.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "2f75d7c0-b03c-49fb-af4a-c927923cd155"
+  },
+  {
+    "question": "Adaptive thermogenesis",
+    "answer": "Metabolic adaptations and changes in energy expenditure as a result of changes in energy intake.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "c4d8a2c5-a720-474f-bf00-e74ecff3c79b"
+  },
+  {
+    "question": "Ingredients list",
+    "answer": "A list of all included ingredients in a food product, in descending order of amount by weight, on a food label.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "b01979da-3a87-49cc-87d5-9ca88a17564a"
+  },
+  {
+    "question": "Nutrition facts panel",
+    "answer": "Label on food products that provides information on the nutrient content of the food. Lists servings per container, serving size, and the amount of specific nutrients.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "43a2fd26-a964-4b7b-b82a-f9f29967d21c"
+  },
+  {
+    "question": "Serving size",
+    "answer": "A reference amount based on the quantity of the product consumers are thought to typically consume at one sitting.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "ab7e4619-1615-407b-b455-958fe3f61454"
+  },
+  {
+    "question": "Percent daily value (%DV)",
+    "answer": "A reference value on the nutrition label that indicates what percentage of the recommended daily value for a nutrient is met by the specified serving size of a food product, based on a 2,000-calorie diet.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "6f6e8a55-7a06-4588-b3ec-2d4467de911e"
+  },
+  {
+    "question": "Percent reference intake (% RI)",
+    "answer": "Used on food labels in the United Kingdom and the European Union. It is a reference value that indicates what percentage of the recommend amount of a nutrient is met by the specified amount (100 g or 100 mL) of the food product.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "64564f4c-a246-4b01-bfc2-31cf9dcc280b"
+  },
+  {
+    "question": "Hypertrophy",
+    "answer": "Enlargement of an organ or tissue; in the context of fitness, it is often used to describe the enlargement of skeletal muscle.",
+    "tags": [
+      "cpt",
+      "chapter 9"
+    ],
+    "id": "59a28ee1-7669-48f6-a9dd-2915f75f42d9"
+  }
+]

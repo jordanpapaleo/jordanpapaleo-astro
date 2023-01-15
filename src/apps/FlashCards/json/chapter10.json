@@ -1,0 +1,632 @@
+[
+  {
+    "question": "Dietary supplement",
+    "answer": "A product (other than tobacco) intended to supplement the diet that bears or contains one or more of the following dietary ingredients: vitamin; mineral; herb or other botanical; amino acid; substance used by man to supplement the diet by increasing the total dietary intake; or concentrate, metabolite, constituent, extract, or combination of any previously described ingredient.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "07a3a8fd-9928-461b-b796-86d53fbde26f"
+  },
+  {
+    "question": "Essential nutrient",
+    "answer": "Must be obtained in the diet, as the body is incapable of producing the nutrient on its own.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "355eed22-f3d5-48b3-89f4-e0763dc298b9"
+  },
+  {
+    "question": "Toxicity",
+    "answer": "When too much of a vitamin or mineral accumulates within the body, resulting in illness or other symptoms.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "10c9081a-c57b-4a37-928a-5d85b54cdc85"
+  },
+  {
+    "question": "Dietary Supplement Health and Education Act of 1994",
+    "answer": "The primary legislation of the U.S. government regulating dietary supplements.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "22597677-08de-4bcd-95a0-aed4ce75534c"
+  },
+  {
+    "question": "Code of Federal Regulations",
+    "answer": "Describes the laws and regulations for dietary supplements, including how supplements are labeled, manufactured, and brought to or removed from market.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "c45372ac-9bbf-41e1-86e2-569880fe48e2"
+  },
+  {
+    "question": "Tolerable upper limit",
+    "answer": "The greatest quantity of a vitamin or mineral that may be consumed in a day without risk of an adverse health effect.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "db9627d9-002d-4dbc-8436-706698b7112e"
+  },
+  {
+    "question": "Adverse effect",
+    "answer": "Any unfavorable medical occurrence associated with the use of a medication, medical intervention, or dietary supplement.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "f21f0c14-fa7c-4972-b599-37805c214de5"
+  },
+  {
+    "question": "Stimulant",
+    "answer": "An agent that increases physiologic or metabolic activity. Common stimulants include caffeine and nicotine.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "247d9d20-f6ef-4d96-8104-6d4b89c76644"
+  },
+  {
+    "question": "Creatine",
+    "answer": "Molecule made from amino acids and used as a dietary supplement to facilitate adenosine triphosphate regeneration for improved training capacity, strength, power, and muscle mass.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "a5cb978d-f7a7-4209-bfd1-48d2fb1bfc13"
+  },
+  {
+    "question": "Banned",
+    "answer": "A dietary supplement that may be prohibited from use in a specific sport or sport league. These supplements may not be illegal or prohibited at all times during the year.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "fa1c34c2-6a44-425c-bb9f-b23b887bf6c2"
+  },
+  {
+    "question": "Anabolic steroid",
+    "answer": "Compound made from testosterone or another hormone that acts on hormone receptors to produce increases in muscle size or strength.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "9a2beb97-cb81-4737-8920-3807dfcf47fb"
+  },
+  {
+    "question": "Active ingredient",
+    "answer": "Any component of a dietary supplement included for the purpose of causing a physiologic effect; displayed on the main body of the supplement facts panel.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "e785e563-4e82-4972-9231-49cc5f595f01"
+  },
+  {
+    "question": "Other ingredient",
+    "answer": "Any component of a dietary supplement included for taste, bulk, or as a preservative; displayed beneath the main body of the supplement facts panel.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "c76646b3-48fa-426f-b12f-dc31fa5e7539"
+  },
+  {
+    "question": "Supplement facts panel",
+    "answer": "Portion of a dietary supplement’s label that displays the active ingredients, other ingredients, serving size, number of servings, quantity of ingredients, and the percent daily value.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "f0b49e13-bd19-4f27-80b3-c619e107afa3"
+  },
+  {
+    "question": "Daily value (DV)",
+    "answer": "Amount of a nutrient recommended to be consumed each day to maintain good health. Based on a 2,000-calorie diet for those ages 4 years and older.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "6542d37f-a6e0-466c-b801-9f0eaf69db31"
+  },
+  {
+    "question": "Health supplement",
+    "answer": "A dietary supplement used to improve a component of well-being.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "d49e5023-f0da-406b-a5b8-cffea0f4fe8b"
+  },
+  {
+    "question": "Performance supplement",
+    "answer": "A dietary supplement that may enhance performance or body composition; may also be referred to as an ergogenic aid.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "fbe6805d-83f9-46d2-91fa-bca7bd8c1bbe"
+  },
+  {
+    "question": "Vitamins",
+    "answer": "Group of organic compounds required in small quantities in the diet to support growth and metabolic processes.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "bc933111-ccb2-4fa4-9b95-91ed08ff2958"
+  },
+  {
+    "question": "Minerals",
+    "answer": "Inorganic, natural substances, some of which are essential in human nutrition. There are two kinds of minerals: major minerals (aka, macrominerals) and trace minerals.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "9b1da2d8-c6e9-421c-bbaf-e273d99f5e5e"
+  },
+  {
+    "question": "Biologically active",
+    "answer": "The form in which a vitamin must be to exert an effect within the body.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "dc852afc-9430-4573-b599-3a7d4ec2b03d"
+  },
+  {
+    "question": "Biologically inactive",
+    "answer": "Any form of vitamin that cannot exert its effect within the body.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "03f36809-6808-446d-a5bf-1b0d243bd1d0"
+  },
+  {
+    "question": "Beta-carotene",
+    "answer": "The red-orange pigment found in vegetables and fruits that is converted to vitamin A in the body.\t",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "6c465823-8f3e-438d-a451-2fdece4938f0"
+  },
+  {
+    "question": "Lactose intolerance",
+    "answer": "A sensitivity to lactose (milk sugar) typically resulting in gastrointestinal distress.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "257592e6-2846-45ba-8838-ad8e0fd07a24"
+  },
+  {
+    "question": "Irritable bowel syndrome",
+    "answer": "Gastrointestinal discomfort, sometimes severe, triggered by certain foods but is not a food allergy.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "bef4dd1d-ce7d-4582-b793-926952d0d16e"
+  },
+  {
+    "question": "Rickets",
+    "answer": "A bone weakness disease caused by vitamin D deficiency.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "f0199ca7-514b-490f-827c-bf17de460ec1"
+  },
+  {
+    "question": "Osteoporosis",
+    "answer": "A condition of reduced bone mineral density, which increases risk of bone fracture.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "24aac48d-ed7c-48f2-92b6-f93c76978e4f"
+  },
+  {
+    "question": "Heart arrhythmias",
+    "answer": "Irregular heartbeat.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "c5c08498-38e3-4b10-b5f4-0d31970a7321"
+  },
+  {
+    "question": "Platelet aggregation",
+    "answer": "An accumulation of blood cells prior to a clot.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "3826c964-5d26-45f9-b0dd-563124da9078"
+  },
+  {
+    "question": "Immunodeﬁciency",
+    "answer": "A weakened immune system.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "bd410cdb-6108-48b5-9107-18c26f850efc"
+  },
+  {
+    "question": "Peripheral neuropathy",
+    "answer": "Nerve damage not occurring in the brain or spinal cord.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "78bcd339-97d7-44ed-92f6-615e6d17a4a6"
+  },
+  {
+    "question": "Skeletal myopathy",
+    "answer": "Muscle degeneration.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "8718b41f-ac9e-4b90-bc77-a2986b4dd35d"
+  },
+  {
+    "question": "Collagen",
+    "answer": "A protein found in connective tissue, muscles, and skin that provides strength and structure. It is the most abundant protein in the human body.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "6d60467f-089f-4609-84d9-7d71673233fc"
+  },
+  {
+    "question": "Scurvy",
+    "answer": "A disease resulting from insufficient vitamin C and characterized by spontaneous bleeding (usually of the gums), anemia, swelling, weakened joints, and loss of teeth.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "2b6a9c85-88e5-4fd2-8732-a0b078f0752d"
+  },
+  {
+    "question": "Beriberi",
+    "answer": "A thiamine deficiency that can result in inflammation or degeneration of the heart and nerves, peripheral neuropathy, and impaired motor function.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "901fb37a-80ba-4442-b956-59a05bfd6b9c"
+  },
+  {
+    "question": "Pellagra",
+    "answer": "A niacin or tryptophan deficiency that leads to a skin rash (dermatitis), digestive disorders (diarrhea), and mood or cognitive decline (dementia).",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "e721d493-8ec8-4036-ba84-8fe6ddb3ee76"
+  },
+  {
+    "question": "Anorexia",
+    "answer": "A loss of appetite or the conscious decision to avoid eating, often leading to dangerously low body weight and/or malnourishment.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "c60b4cdf-6f56-4c9d-9975-07d78c760196"
+  },
+  {
+    "question": "Anemia",
+    "answer": "A condition of poor iron status.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "952b514f-27f9-4ef1-9c19-633a0e8aa2ef"
+  },
+  {
+    "question": "Dermatitis",
+    "answer": "Inflammation of the skin, rashes, excessive dryness, and/or blistering.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "a414004e-d105-4790-9963-858c3ec9d8de"
+  },
+  {
+    "question": "Spina biﬁda",
+    "answer": "A birth defect, and type of neural tube defect, when the spine and spinal cord do not form properly.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "69fa8b2c-184f-4343-99c7-b6adbd7361f4"
+  },
+  {
+    "question": "Amenorrheic",
+    "answer": "Absence of menstruation.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "634ab80e-9c00-4d48-897c-3ca291c34c59"
+  },
+  {
+    "question": "Osteopenia",
+    "answer": "Lower than normal bone density and a precursor to osteoporosis.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "f80f0f8b-b2c3-482b-a724-b1b56e506514"
+  },
+  {
+    "question": "Lacto-ovo vegetarian",
+    "answer": "A vegetarian diet that also includes dairy and eggs.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "d0a90142-98a0-4c79-9d60-b10ce7918f27"
+  },
+  {
+    "question": "Ovo-vegetarian",
+    "answer": "A vegetarian diet that also includes eggs.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "41b3d1a8-36a1-4ca2-929f-30c3ea3d2629"
+  },
+  {
+    "question": "Hypercalcemia",
+    "answer": "Excess blood calcium levels.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "ed16949c-1b44-40d7-b218-12c778d85d9c"
+  },
+  {
+    "question": "Heme",
+    "answer": "A type of iron found in animal foods.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "1820d113-02c1-4bce-8821-1907a5245855"
+  },
+  {
+    "question": "Nonheme",
+    "answer": "A type of iron found in plant foods.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "c5b18358-78cd-497a-bdc6-889b66d9282b"
+  },
+  {
+    "question": "Hemochromatosis",
+    "answer": "A disease in which the body absorbs too much iron from consumed foods.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "880936ad-2380-4741-8658-0e1fd0066126"
+  },
+  {
+    "question": "Omega-3",
+    "answer": "The polyunsaturated fats, eicosapentaenoic acid (EPA), docosahexaenoic acid (DHA), and alpha-linolenic acid (ALA).",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "6468fad6-4c75-44ca-95d3-2145b9cba669"
+  },
+  {
+    "question": "Eicosapentaenoic acid (EPA)",
+    "answer": "A type of omega-3 fatty acid found in the flesh of cold-water fish, such as tuna, mackerel, salmon, and herring.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "0ad5f5ed-0c0b-4356-b476-72de8541baca"
+  },
+  {
+    "question": "Docosahexaenoic acid (DHA)",
+    "answer": "A type of omega-3 fatty acid that is found in seafood, such as fish and fish oils.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "2d100ea4-360e-4d50-94ec-43dc6e14b2a7"
+  },
+  {
+    "question": "Alpha-linolenic acid (ALA)",
+    "answer": "One type of omega-3 fatty acid found in seeds and oils, such as walnuts and flaxseed, and many common vegetable oils.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "67292534-625a-4556-9904-a85635f9c65d"
+  },
+  {
+    "question": "Triglycerides",
+    "answer": "The chemical or substrate form in which most fat exists in food as well as in the body.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "ad56bc17-388c-45ac-81d6-b010675d34d4"
+  },
+  {
+    "question": "Ergogenic aid",
+    "answer": "A dietary supplement that may enhance performance or body composition; it may also be referred to as a performance supplement.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "53a7b84b-9cb6-48b2-a22b-b7f68737ffcc"
+  },
+  {
+    "question": "Amino acids",
+    "answer": "Organic building blocks of proteins containing both a carboxyl and an amino group.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "16e06558-7b74-477c-bb2e-f46a1220348e"
+  },
+  {
+    "question": "Nonessential amino acids",
+    "answer": "Amino acids that can be synthesized by the body and do not, under normal circumstances, need to be obtained in the diet.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "3b729fa2-4675-46e2-88fb-68684116fbb1"
+  },
+  {
+    "question": "Essential amino acid (EAA)",
+    "answer": "Amino acid that must be obtained through the diet as the body does not make it; there are nine essential amino acids.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "11d64267-6038-4142-9de7-10532e1e6423"
+  },
+  {
+    "question": "Branched chain amino acids (BCAAs)",
+    "answer": "The three essential amino acids (leucine, isoleucine, and valine) that are abundant in skeletal muscle tissue and named for their branchlike structures.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "cb07d2cc-2cfe-484e-a493-1a3f4cf4e1e2"
+  },
+  {
+    "question": "Muscle protein synthesis (MPS)",
+    "answer": "Process by which new muscle proteins are formed and a muscle grows or repairs at the molecular level.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "83af958f-e317-4a58-b0c4-15440873fb41"
+  },
+  {
+    "question": "Phosphagen",
+    "answer": "High-energy molecule that releases energy when its bonds are broken.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "5d67d0df-f18b-4c15-ae89-87e4cf7989d0"
+  },
+  {
+    "question": "Creatine monohydrate",
+    "answer": "The most common, and likely most effective, form of creatine available as a dietary supplement.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "12a15e48-4bed-49be-a030-f423ed14253f"
+  },
+  {
+    "question": "Loading",
+    "answer": "Practice of using large doses of a supplement to saturate muscle tissues or other body stores prior to resorting to a lesser, maintenance dose.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "55676fda-4d00-4ead-bf86-be5fe120feeb"
+  },
+  {
+    "question": "Endogenous",
+    "answer": "Produced or synthesized within an organism.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "57d44489-0be2-4d69-9a57-6093c10e89af"
+  },
+  {
+    "question": "Adrenaline",
+    "answer": "Hormone, also known as epinephrine, that excites bodily processes, increasing alertness and cell metabolism.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "a0c73930-7fc7-48a6-bbd6-9a52eb6d5f73"
+  },
+  {
+    "question": "Caffeine anhydrous",
+    "answer": "A highly concentrated caffeine powder made from the seeds and leaves of coffee plants.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "c7269918-63ca-49ae-9a1d-ef111d3b27eb"
+  },
+  {
+    "question": "DMAA",
+    "answer": "Dimethylamylamine; a stimulant and amphetamine once legal for use as a dietary supplement.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "10c99fd5-4656-48b3-ba35-0ef68bfb2e3f"
+  },
+  {
+    "question": "Ephedra",
+    "answer": "A plant-sourced alkaloid with metabolism-enhancing effects. It is an illegal supplement in the United States and the European Union.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "c62707be-86a2-4b43-bc56-1b9ffe7c0399"
+  },
+  {
+    "question": "Serious adverse effect",
+    "answer": "Any adverse effect that results in any life-threatening situation, inpatient hospitalization, persistent incapacity of a person’s ability to conduct a normal life, a congenital anomaly, reproductive harm, or death.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "e99777ae-fbee-4fec-a54d-d9120cec6879"
+  },
+  {
+    "question": "Hormone precursor",
+    "answer": "A hormone used to create another hormone or hormone-like agent.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "48592562-c322-4f94-8e2c-910e86ed12aa"
+  },
+  {
+    "question": "Testosterone",
+    "answer": "A hormone producing secondary male sex characteristics.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "1e2bdf04-c01d-4e0d-87d0-8f25a6b7510c"
+  },
+  {
+    "question": "Gynecomastia",
+    "answer": "A condition in males characterized by breast tissue growth.",
+    "tags": [
+      "cpt",
+      "chapter 10"
+    ],
+    "id": "472422ea-f4f2-4f36-b635-8ed48ded03db"
+  }
+]

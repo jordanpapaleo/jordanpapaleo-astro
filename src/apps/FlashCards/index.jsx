@@ -33,6 +33,8 @@ const initQuestions = [
   ...chapter6,
   ...chapter7,
   ...chapter8,
+  ...chapter9,
+  ...chapter10,
   ...section1Quiz,
   ...section2Quiz,
   ...section3Quiz,
