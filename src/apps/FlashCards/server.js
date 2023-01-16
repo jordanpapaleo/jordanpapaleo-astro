@@ -1,9 +1,9 @@
+import { v4 as uuidv4 } from 'uuid'
+import bodyParser from 'body-parser'
+import cors from 'cors'
+import express from 'express'
 import fs from 'fs'
 import path from 'path'
-import express from 'express'
-import bodyParser from 'body-parser'
-import { v4 as uuidv4 } from 'uuid'
-import cors from 'cors'
 
 const app = express()
 const port = 4210
@@ -45,6 +45,7 @@ const updateDb = (req, res, fileName) => {
             err,
           })
         } else {
+          console.log('Success')
           res.status(200).send({
             message: 'Success',
           })

@@ -1,18 +1,7 @@
 import React from 'react'
-import chapter1 from './json/chapter1.json'
-import chapter2 from './json/chapter2.json'
-import chapter3 from './json/chapter3.json'
-import chapter4 from './json/chapter4.json'
-import chapter5 from './json/chapter5.json'
-import chapter6 from './json/chapter6.json'
-import chapter7 from './json/chapter7.json'
-import chapter8 from './json/chapter8.json'
-import chapter9 from './json/chapter9.json'
-import chapter10 from './json/chapter10.json'
-import section1Quiz from './json/section1Quiz.json'
-import section2Quiz from './json/section2Quiz.json'
-import section3Quiz from './json/section3Quiz.json'
-import multiplication from './json/multiplication.json'
+import quiz from './db/quiz.json'
+import vocab from './db/vocab.json'
+import multiplication from './db/multiplication.json'
 import CheckboxGroup from '@componentsReact/CheckboxGroup'
 import Button from '@componentsReact/Button'
 import clsx from 'clsx'
@@ -26,22 +15,7 @@ import ShuffleIcon from '@images/Shuffle'
 import { disableScroll, enableScroll } from '@common/scrollHandler'
 // import { AiFillStar, AiOutlineStar } from 'react-icons/ai'
 
-const initQuestions = [
-  ...chapter1,
-  ...chapter2,
-  ...chapter3,
-  ...chapter4,
-  ...chapter5,
-  ...chapter6,
-  ...chapter7,
-  ...chapter8,
-  ...chapter9,
-  ...chapter10,
-  ...section1Quiz,
-  ...section2Quiz,
-  ...section3Quiz,
-  ...multiplication,
-]
+const initQuestions = [...vocab, ...quiz, ...multiplication]
 
 const initTags = initQuestions.reduce((allTags, q) => {
   if (q.tags) {
@@ -66,6 +40,8 @@ const Flashcards = (props) => {
   const [fullScreen, setFullScreen] = React.useState(false)
   const [favorites, setFavorites] = React.useState([])
   const [filterFavorites, setFitlerFavorites] = React.useState(false)
+  const [filterVocab, setFilterVocab] = React.useState(false)
+  const [filterQuizes, setFitlerQuizes] = React.useState(false)
   const [tags] = React.useState(initTags)
 
   React.useEffect(() => {
@@ -83,8 +59,21 @@ const Flashcards = (props) => {
     if (filters.length) {
       filteredQuestions = filteredQuestions.filter((question) => {
         if (!question.tags) return false
-
         return question?.tags.some((t) => filters.includes(t))
+      })
+    }
+
+    if (filterVocab || filterQuizes) {
+      filteredQuestions = filteredQuestions.filter((question) => {
+        if (filterVocab && filterQuizes) {
+          return (
+            question.tags.includes('vocab') || question.tags.includes('quiz')
+          )
+        } else if (filterVocab) {
+          return question.tags.includes('vocab')
+        } else if (filterQuizes) {
+          return question.tags.includes('quiz')
+        }
       })
     }
 
@@ -96,7 +85,7 @@ const Flashcards = (props) => {
 
     setCardIndex(0)
     setQuestions(filteredQuestions)
-  }, [filters, favorites, filterFavorites])
+  }, [filters, favorites, filterFavorites, filterVocab, filterQuizes])
 
   React.useEffect(() => {
     if (fullScreen) {
@@ -149,6 +138,12 @@ const Flashcards = (props) => {
   const handleToggleFilterFavorite = () => {
     setFitlerFavorites(!filterFavorites)
   }
+  const handleToggleFilterVocab = () => {
+    setFilterVocab(!filterVocab)
+  }
+  const handleToggleFilterQuizes = () => {
+    setFitlerQuizes(!filterQuizes)
+  }
 
   const handleFullScreen = () => {
     setFullScreen(!fullScreen)
@@ -160,16 +155,32 @@ const Flashcards = (props) => {
   return (
     <>
       <div className="mb-2">
-        <CheckboxGroup
-          options={[{ name: '⭐', value: 'favorite' }]}
-          value={[]}
-          inline
-          onChange={handleToggleFilterFavorite}
-        />
+        <div className="flex gap-4">
+          <CheckboxGroup
+            options={[{ name: '⭐', value: 'favorite' }]}
+            value={[]}
+            inline
+            onChange={handleToggleFilterFavorite}
+          />
+          <CheckboxGroup
+            options={[{ name: 'Vocab', value: 'vocab' }]}
+            value={[]}
+            inline
+            onChange={handleToggleFilterVocab}
+          />
+          <CheckboxGroup
+            options={[{ name: 'Quiz', value: 'quiz' }]}
+            value={[]}
+            inline
+            onChange={handleToggleFilterQuizes}
+          />
+        </div>
 
         <CheckboxGroup
           label={`Filter: ${filters.join(' OR ')}`}
-          options={tags}
+          options={tags.filter(({ value }) => {
+            return value !== 'vocab' && value !== 'favorites'
+          })}
           value={[]}
           inline
           onChange={(e) => {
@@ -197,7 +208,6 @@ const Flashcards = (props) => {
         </CardGutter>
 
         {questions
-
           .filter((meh, i) => i === cardIndex)
           .map((question) => (
             <Card key={question.id} {...question} />

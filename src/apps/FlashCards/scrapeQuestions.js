@@ -32,7 +32,7 @@ const vocabWithApi = () => {
     }));
 
   const vocabJSON = JSON.stringify(vocab, null, 2);
-  await fetch('http:localhost:4210/vocab', { method: 'POST',  mode: 'cors', headers: { 'Content-Type': 'application/json' }, body: vocabJSON }).then(() => { console.log('save done') }).catch(() => { console.log('save fail') });
+  fetch('http:localhost:4210/vocab', { method: 'POST',  mode: 'cors', headers: { 'Content-Type': 'application/json' }, body: vocabJSON }).then(() => { console.log('save done') }).catch(() => { console.log('save fail') });
   navigator.clipboard.writeText(vocabJSON).then(() => {console.log('copy done')}).catch(() => {console.log('copy fail')});
 }
 
@@ -56,7 +56,7 @@ const withApi = () => {
   });
 
   const questionsJSON = JSON.stringify(questions, null, 2);
-  await fetch('http:localhost:4210/quiz', { method: 'POST',  mode: 'cors', headers: { 'Content-Type': 'application/json' }, body: questionsJSON }).then(() => { console.log('save done') }).catch(() => { console.log('save fail') });
+  fetch('http:localhost:4210/quiz', { method: 'POST',  mode: 'cors', headers: { 'Content-Type': 'application/json' }, body: questionsJSON }).then(() => { console.log('save done') }).catch(() => { console.log('save fail') });
   navigator.clipboard.writeText(questionsJSON).then(() => {console.log('copy done')}).catch(() => {console.log('copy fail')});
 }
 
