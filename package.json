@@ -10,6 +10,7 @@
     "format": "prettier --write src",
     "lint": "eslint 'src/**/*.{js,astro}'",
     "start": "astro dev",
+    "nasm": "(cd ./src/apps/FlashCards && node server.js)",
     "preview": "astro preview"
   },
   "dependencies": {
@@ -20,9 +21,12 @@
     "@types/react-dom": "^18.0.6",
     "astro": "^1.2.5",
     "astro-icon": "0.7.3",
+    "body-parser": "1.20.1",
     "clsx": "1.2.1",
+    "cors": "2.8.5",
     "csvtojson": "2.0.10",
     "date-fns": "2.29.3",
+    "express": "4.18.2",
     "firebase": "9.14.0",
     "flowbite": "1.5.4",
     "flowbite-react": "0.3.4",
