@@ -31,7 +31,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -46,11 +47,12 @@
       "The personality of the leader"
     ],
     "answer": "Leader's qualities",
-    "missed": true,
+    "missed": false,
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -69,7 +71,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -88,7 +91,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -107,7 +111,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -126,7 +131,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -145,7 +151,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -160,7 +167,7 @@
       "Positive self-talk"
     ],
     "answer": "Appearance imagery",
-    "missed": false,
+    "missed": true,
     "tags": [
       "cpt",
       "quiz",
@@ -183,7 +190,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -202,7 +210,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -255,7 +264,7 @@
       "Maintenance"
     ],
     "answer": "Preparation",
-    "missed": false,
+    "missed": true,
     "tags": [
       "cpt",
       "quiz",
@@ -278,7 +287,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -297,7 +307,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -335,7 +346,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -373,7 +385,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -392,7 +405,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -411,7 +425,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -430,7 +445,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -449,7 +465,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -468,7 +485,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -487,7 +505,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -544,7 +563,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -563,7 +583,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -578,11 +599,12 @@
       "Attitudes"
     ],
     "answer": "Determinants",
-    "missed": true,
+    "missed": false,
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -620,7 +642,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -658,7 +681,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -677,7 +701,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -692,11 +717,12 @@
       "Stating an outcome expectation"
     ],
     "answer": "Forming an implementation intention",
-    "missed": false,
+    "missed": true,
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -753,7 +779,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -791,7 +818,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -848,7 +876,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -886,7 +915,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -905,7 +935,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -943,7 +974,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -962,7 +994,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1019,7 +1052,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1057,7 +1091,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1072,7 +1107,7 @@
       "Outcome expectations"
     ],
     "answer": "Self-efficacy",
-    "missed": true,
+    "missed": false,
     "tags": [
       "cpt",
       "quiz",
@@ -1095,7 +1130,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1114,7 +1150,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1133,7 +1170,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1152,7 +1190,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1171,7 +1210,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1190,7 +1230,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1228,7 +1269,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1247,7 +1289,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1285,7 +1328,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1304,7 +1348,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1323,7 +1368,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1342,7 +1388,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1361,7 +1408,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1418,7 +1466,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1437,7 +1486,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1456,7 +1506,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1475,7 +1526,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1513,7 +1565,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1532,7 +1585,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1551,7 +1605,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1566,7 +1621,7 @@
       "Guided practice"
     ],
     "answer": "Implementation intention",
-    "missed": true,
+    "missed": false,
     "tags": [
       "cpt",
       "quiz",
@@ -1589,7 +1644,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1608,7 +1664,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1623,7 +1680,7 @@
       "Subjective norms"
     ],
     "answer": "Planning",
-    "missed": false,
+    "missed": true,
     "tags": [
       "cpt",
       "quiz",
@@ -1646,7 +1703,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1665,7 +1723,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1684,7 +1743,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1722,7 +1782,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1741,7 +1802,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1779,7 +1841,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 4"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1798,7 +1861,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 2 Review"
+      "Section 2 Review",
+      "Chapter 3"
     ],
     "title": "Review",
     "chapter": "Section 2 Review",
@@ -1817,7 +1881,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -1832,7 +1897,7 @@
       "80/120 mm Hg"
     ],
     "answer": "120/80 mm Hg",
-    "missed": false,
+    "missed": true,
     "tags": [
       "cpt",
       "quiz",
@@ -1855,7 +1920,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -1889,11 +1955,12 @@
       "It can lower both HDL and LDL cholesterol."
     ],
     "answer": "It can reduce LDL cholesterol and increase HDL cholesterol.",
-    "missed": true,
+    "missed": false,
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -1908,7 +1975,7 @@
       "Business practice"
     ],
     "answer": "Confidentiality",
-    "missed": true,
+    "missed": false,
     "tags": [
       "cpt",
       "quiz",
@@ -1931,7 +1998,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 2"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -1969,7 +2037,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -1988,7 +2057,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -2140,7 +2210,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 2"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -2174,7 +2245,7 @@
       "Core strength and stability"
     ],
     "answer": "Diet supplementation",
-    "missed": true,
+    "missed": false,
     "tags": [
       "cpt",
       "quiz",
@@ -2235,7 +2306,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 2"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -2288,7 +2360,7 @@
       "Maria worked as a camp counselor at a youth sports camp while in college."
     ],
     "answer": "Maria was repeatedly recognized as a top salesperson at the clothing store where she has been working.",
-    "missed": false,
+    "missed": true,
     "tags": [
       "cpt",
       "quiz",
@@ -2311,7 +2383,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 2"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -2330,7 +2403,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -2349,7 +2423,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 2"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -2368,7 +2443,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -2463,7 +2539,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -2611,7 +2688,7 @@
       "Roger, who has type 2 diabetes"
     ],
     "answer": "Jorge, who is sick with the flu",
-    "missed": true,
+    "missed": false,
     "tags": [
       "cpt",
       "quiz",
@@ -2634,7 +2711,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -2653,7 +2731,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -2767,7 +2846,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -2938,7 +3018,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -2995,7 +3076,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3014,7 +3096,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 2"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3052,7 +3135,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3090,7 +3174,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3105,7 +3190,7 @@
       "Working as an in-home independent personal trainer"
     ],
     "answer": "Conducting online coaching and personal training",
-    "missed": false,
+    "missed": true,
     "tags": [
       "cpt",
       "quiz",
@@ -3185,7 +3270,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 2"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3204,7 +3290,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3223,7 +3310,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3261,7 +3349,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3299,7 +3388,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3356,7 +3446,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3432,7 +3523,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 2"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3466,7 +3558,7 @@
       "Calling the health club, asking to speak to the hiring manager, and explaining he is perfect for the job"
     ],
     "answer": "Wearing a suit and tie to the health club to drop off a resume with the hiring manager and complete an application in person",
-    "missed": false,
+    "missed": true,
     "tags": [
       "cpt",
       "quiz",
@@ -3489,7 +3581,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3527,7 +3620,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 2"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3542,11 +3636,12 @@
       "Restricted blood flow"
     ],
     "answer": "The release of endorphins",
-    "missed": true,
+    "missed": false,
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3603,7 +3698,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3622,7 +3718,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 2"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3660,7 +3757,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3679,7 +3777,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 1 Review"
+      "Section 1 Review",
+      "Chapter 1"
     ],
     "title": "Review",
     "chapter": "Section 1 Review",
@@ -3698,7 +3797,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 8"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -3774,7 +3874,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 9"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -3812,7 +3913,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 7"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -3831,7 +3933,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 9"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -3850,7 +3953,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 5"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -3888,7 +3992,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 5"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -3907,7 +4012,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 5"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -3926,7 +4032,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 9"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -3945,7 +4052,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 5"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -3964,7 +4072,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 8"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -3983,7 +4092,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 6"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4021,7 +4131,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 6"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4059,7 +4170,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 10"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4078,7 +4190,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 10"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4154,7 +4267,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 8"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4192,7 +4306,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 5"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4230,7 +4345,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 7"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4249,7 +4365,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 5"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4287,7 +4404,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 9"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4325,7 +4443,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 9"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4420,7 +4539,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 8"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4515,7 +4635,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 5"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4534,7 +4655,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 6"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4553,7 +4675,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 6"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4572,7 +4695,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 10"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4610,7 +4734,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 5"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -4629,7 +4754,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Section 3 Review"
+      "Section 3 Review",
+      "Chapter 5"
     ],
     "title": "Review",
     "chapter": "Section 3 Review",
@@ -5081,7 +5207,7 @@
       "Right ventricle"
     ],
     "answer": "Right atrium",
-    "missed": false,
+    "missed": true,
     "tags": [
       "cpt",
       "quiz",
@@ -6107,7 +6233,7 @@
       "60 to 70 g"
     ],
     "answer": "20 to 40 g",
-    "missed": false,
+    "missed": true,
     "tags": [
       "cpt",
       "quiz",
@@ -6297,7 +6423,7 @@
       "Water-soluble vitamins"
     ],
     "answer": "B vitamins",
-    "missed": false,
+    "missed": true,
     "tags": [
       "cpt",
       "quiz",
@@ -6335,7 +6461,7 @@
       "Sugars that have been added to packaged foods"
     ],
     "answer": "Single- or double-molecule sugars that are easily absorbed by the body",
-    "missed": false,
+    "missed": true,
     "tags": [
       "cpt",
       "quiz",
@@ -6534,5 +6660,1107 @@
     "title": "The Modern State of Health and Fitness",
     "chapter": "Chapter 1",
     "id": "e0886ea9-d15c-4c19-a26a-60e49e569955"
+  },
+  {
+    "question": "When family members are not supportive of exercise-related behaviors, it can be viewed as which of the following?",
+    "options": [
+      "A barrier to exercise",
+      "An influence on exercise",
+      "Amotivation to exercise",
+      "Ambivalence toward exercise"
+    ],
+    "answer": "A barrier to exercise",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 3"
+    ],
+    "title": "Psychology of Exercise",
+    "chapter": "Chapter 3",
+    "id": "b543476b-fbaf-4c2d-bfd6-eb9650cbedc1"
+  },
+  {
+    "question": "Empathy is best described as?",
+    "options": [
+      "The ability to identify with how another person feels",
+      "Providing instrumental support to an individual",
+      "Listening to a client but not providing any support",
+      "Being positive and outgoing during training sessions"
+    ],
+    "answer": "The ability to identify with how another person feels",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 3"
+    ],
+    "title": "Psychology of Exercise",
+    "chapter": "Chapter 3",
+    "id": "e8baf3f6-7a55-4549-a16c-1d1b8dad3bc3"
+  },
+  {
+    "question": "The role of psychology in fitness and wellness is strongly rooted in which area?",
+    "options": [
+      "Behavioral change",
+      "Eating disorders",
+      "Social physique anxiety",
+      "Depression"
+    ],
+    "answer": "Behavioral change",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 3"
+    ],
+    "title": "Psychology of Exercise",
+    "chapter": "Chapter 3",
+    "id": "15161e9c-f76e-4a2f-b1b7-10e8accdc3fe"
+  },
+  {
+    "question": "Unrealistic goals can become a barrier when which of the following happens?",
+    "options": [
+      "When goals are not adjusted",
+      "When process goals are too specific",
+      "When outcome goals are objective",
+      "When only one goal is set"
+    ],
+    "answer": "When goals are not adjusted",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 3"
+    ],
+    "title": "Psychology of Exercise",
+    "chapter": "Chapter 3",
+    "id": "c206807a-817d-49a4-8a76-7b838b0a5670"
+  },
+  {
+    "question": "A known relationship between sleep and exercise is demonstrated by which statement?",
+    "options": [
+      "Increasing physical activity to at least 150 minutes per week at a moderate intensity can decrease symptoms of insomnia.",
+      "Resistance training has not been shown to have any positive effect on sleep disturbances.",
+      "In order for exercise to improve sleep, it must be coupled with medication.",
+      "Getting 10 minutes a day of physical activity is all that is needed to improve insomnia."
+    ],
+    "answer": "Increasing physical activity to at least 150 minutes per week at a moderate intensity can decrease symptoms of insomnia.",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 3"
+    ],
+    "title": "Psychology of Exercise",
+    "chapter": "Chapter 3",
+    "id": "a396545a-686d-4b51-b926-e3ae5b59441a"
+  },
+  {
+    "question": "What part of a SMART goal involves being able to track progress?",
+    "options": [
+      "Measurable",
+      "Specific",
+      "Attainable",
+      "Timely"
+    ],
+    "answer": "Measurable",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 4"
+    ],
+    "title": "Behavioral Coaching",
+    "chapter": "Chapter 4",
+    "id": "206583f0-027c-4c15-955e-181b76d4ab26"
+  },
+  {
+    "question": "What is the function of the neuromuscular junction?",
+    "options": [
+      "The site where the nervous system and muscle fibers communicate",
+      "The site of muscular contractions",
+      "The sliding filament theory",
+      "Exposing actin-binding sites"
+    ],
+    "answer": "The site where the nervous system and muscle fibers communicate",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "2eabfd48-fc26-416a-b695-f3b051cb800c"
+  },
+  {
+    "question": "A person walks differently when they move from a sidewalk onto the sand. This is regulated by what function?",
+    "options": [
+      "Motor function",
+      "Muscle function",
+      "Neuroplasticity",
+      "Wolff's law"
+    ],
+    "answer": "Motor function",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "11cf399c-754e-4a86-8a90-481474fb517b"
+  },
+  {
+    "question": "Which part of a cell is responsible for using nutrients to create energy for the cell?",
+    "options": [
+      "Mitochondria",
+      "Organelles",
+      "Effector sites",
+      "Electrolytes"
+    ],
+    "answer": "Mitochondria",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "a2e499a8-989c-4e79-97aa-d49d34c382cb"
+  },
+  {
+    "question": "Which type of muscle fiber is predominantly used during movements that require high levels of force and power, such as a sprint?",
+    "options": [
+      "Type II",
+      "Type I",
+      "Type III",
+      "Type Ia"
+    ],
+    "answer": "Type II",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "9a065274-cd31-4932-9f61-203eba7bbeb7"
+  },
+  {
+    "question": "What is the name of the specialized cell that is the functional unit of the nervous system?",
+    "options": [
+      "Neuron",
+      "Axon",
+      "Nucleus",
+      "Spindles"
+    ],
+    "answer": "Neuron",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "4da608e6-2538-489b-b9c3-c2cda724d176"
+  },
+  {
+    "question": "Which joint is the most mobile, able to move in all three directions?",
+    "options": [
+      "Ball-and-socket",
+      "Pivot",
+      "Saddle",
+      "Hinge"
+    ],
+    "answer": "Ball-and-socket",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "2e7ba7c9-c8f5-4e34-a220-679ccea94f34"
+  },
+  {
+    "question": "What are the two components of a sarcomere?",
+    "options": [
+      "Actin and myosin",
+      "Epimysium and endomysium",
+      "Tropomyosin and troponin",
+      "Muscle fiber and muscle cell"
+    ],
+    "answer": "Actin and myosin",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "7a10be32-aa16-422d-9d65-b77ac979a2ce"
+  },
+  {
+    "question": "Which type of joint includes the sutures of the skull?",
+    "options": [
+      "Nonsynovial",
+      "Ball-and-socket",
+      "Pivot",
+      "Condyloid"
+    ],
+    "answer": "Nonsynovial",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "4514c5e0-0934-415d-aa05-8e36354bc485"
+  },
+  {
+    "question": "What is the concept that describes the human body as a chain of interdependent links that work together to perform movement?",
+    "options": [
+      "Kinetic chain",
+      "Golgi tendon organ",
+      "Nervous system",
+      "Proprioception"
+    ],
+    "answer": "Kinetic chain",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "13c63ccb-db62-470f-ae5f-51d5b02b3aea"
+  },
+  {
+    "question": "When a client's heart rate is raised during cardio activities, this is being caused by which system?",
+    "options": [
+      "Sympathetic nervous system",
+      "Parasympathetic nervous system",
+      "Somatic nervous system",
+      "Central nervous system"
+    ],
+    "answer": "Sympathetic nervous system",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "2c02406a-4620-43cb-b711-329407ea8855"
+  },
+  {
+    "question": "What is the correct order of fascia, starting with the most superficial?",
+    "options": [
+      "Epimysium, perimysium, endomysium",
+      "Endomysium, perimysium, epimysium",
+      "Perimysium, endomysium, epimysium",
+      "Epimysium, endomysium, perimysium"
+    ],
+    "answer": "Epimysium, perimysium, endomysium",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "4d38d16e-be9e-4514-81f9-e5718ef5755a"
+  },
+  {
+    "question": "Humans can learn new things at any stage of life, due to which process that causes the brain to reform neural pathways?",
+    "options": [
+      "Neuroplasticity",
+      "Neurocircuitry",
+      "Neuromotor skills",
+      "Remodeling"
+    ],
+    "answer": "Neuroplasticity",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "5dd5454d-0f60-4b62-8aa9-1983fee983c9"
+  },
+  {
+    "question": "What is the purpose of the intervertebral discs?",
+    "options": [
+      "They act as shock absorbers.",
+      "They minimize movement of the spine.",
+      "They support most of the body's weight and are attached to many back muscles.",
+      "They provide support for the head."
+    ],
+    "answer": "They act as shock absorbers.",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "309259f8-5cc4-4bf0-bac0-e0fb717b1ad1"
+  },
+  {
+    "question": "Weight-bearing exercise helps strengthen bones through what process?",
+    "options": [
+      "Remodeling",
+      "Lengthening",
+      "Osteoporosis",
+      "Neuroplasticity"
+    ],
+    "answer": "Remodeling",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "9931b283-00c9-4fd1-b333-5c36de6b8943"
+  },
+  {
+    "question": "What is the fibrous tissue that connects bone to bone?",
+    "options": [
+      "Ligament",
+      "Collagen",
+      "Tendon",
+      "Elastin"
+    ],
+    "answer": "Ligament",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "0886c69b-bfed-45d6-a059-72b5718acdec"
+  },
+  {
+    "question": "What are the three types of muscles in the body?",
+    "options": [
+      "Skeletal, cardiac, and smooth",
+      "Actin, myosin, and sarcomere",
+      "Somatic, autonomic, and peripheral",
+      "Cervical, thoracic, and lumbar"
+    ],
+    "answer": "Skeletal, cardiac, and smooth",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "d21f98c8-20c5-4e66-be4d-d582e8987f53"
+  },
+  {
+    "question": "What is a characteristic of a type II muscle fiber?",
+    "options": [
+      "Short-term contractions",
+      "Increased oxygen delivery",
+      "Slow to fatigue",
+      "Smaller in size"
+    ],
+    "answer": "Short-term contractions",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "92c5855f-f0f2-46fe-8056-0aba388626f7"
+  },
+  {
+    "question": "Which of these is one of the major curvatures of the spine from a posterior view?\n",
+    "options": [
+      "Concave lumbar curve\n",
+      "Convex lumbar curve\n",
+      "Convex cervical curve\n",
+      "Concave thoracic curve\n"
+    ],
+    "answer": "Concave lumbar curve\n",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "9df0c600-2a26-4b85-a523-e908dcde5160"
+  },
+  {
+    "question": "Which division of the skeleton is made up of the arms, legs, and pelvic girdle?",
+    "options": [
+      "Appendicular",
+      "Axial",
+      "Lateral",
+      "Peripheral"
+    ],
+    "answer": "Appendicular",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "12f8a07f-e05a-46ff-98b2-0e4ad106d5e5"
+  },
+  {
+    "question": "What best describes the all-or-nothing principle?",
+    "options": [
+      "A motor unit will either contract maximally or not at all.",
+      "All muscle fibers contract, or none at all do.",
+      "The switch from type I to type II muscle fibers",
+      "The switch from type IIa to type IIx muscle fibers"
+    ],
+    "answer": "A motor unit will either contract maximally or not at all.",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 5"
+    ],
+    "title": "The Nervous, Skeletal, and Muscular Systems",
+    "chapter": "Chapter 5",
+    "id": "9ff9e670-4112-4019-b0b5-f02a266a41f2"
+  },
+  {
+    "question": "Which of the following hormones, if increased at baseline, may be indicative of overtraining?",
+    "options": [
+      "Cortisol",
+      "Testosterone",
+      "Growth hormone",
+      "Thyroxin"
+    ],
+    "answer": "Cortisol",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 6"
+    ],
+    "title": "The Cardiorespiratory, Endocrine, and Digestive Systems",
+    "chapter": "Chapter 6",
+    "id": "48c8a994-2773-4b9e-ad8e-f36da213a252"
+  },
+  {
+    "question": "Which of the following effects may be experienced with overtraining?",
+    "options": [
+      "High levels of cortisol, which lead to a catabolic environment",
+      "Elevated levels of cortisol, which lead to an anabolic environment",
+      "Lower levels of cortisol, which lead to an anabolic environment",
+      "Low levels of cortisol, which lead to an environment that is anabolic"
+    ],
+    "answer": "High levels of cortisol, which lead to a catabolic environment",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 6"
+    ],
+    "title": "The Cardiorespiratory, Endocrine, and Digestive Systems",
+    "chapter": "Chapter 6",
+    "id": "613c3652-80d9-4d2d-ac4c-acbbced292c4"
+  },
+  {
+    "question": "Which heart chamber gathers oxygenated blood coming to the heart from the lungs?",
+    "options": [
+      "Left atrium",
+      "Right atrium",
+      "Left ventricle",
+      "Pulmonary veins"
+    ],
+    "answer": "Left atrium",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 6"
+    ],
+    "title": "The Cardiorespiratory, Endocrine, and Digestive Systems",
+    "chapter": "Chapter 6",
+    "id": "c4cd6db0-bd00-431c-a772-3b32f9c8fa7b"
+  },
+  {
+    "question": "Food in the stomach is processed and then passes into what anatomical structure?",
+    "options": [
+      "Duodenum of the small intestine",
+      "Duodenum of the large intestine",
+      "The ileum of the small intestine",
+      "The ileum of the large intestine"
+    ],
+    "answer": "Duodenum of the small intestine",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 6"
+    ],
+    "title": "The Cardiorespiratory, Endocrine, and Digestive Systems",
+    "chapter": "Chapter 6",
+    "id": "f419faf0-b225-4b2d-9ded-6f7b187b8dd8"
+  },
+  {
+    "question": "Which of the following hormones have an anabolic function and have been shown to increase up to 48 hours following resistance training?",
+    "options": [
+      "Insulin-like growth factor (IGF)",
+      "Glucagon",
+      "Cortisol",
+      "Calcitonin"
+    ],
+    "answer": "Insulin-like growth factor (IGF)",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 6"
+    ],
+    "title": "The Cardiorespiratory, Endocrine, and Digestive Systems",
+    "chapter": "Chapter 6",
+    "id": "65e0b583-5384-4978-a6e8-b3057bf38274"
+  },
+  {
+    "question": "What structure in the heart transfers the electrical signal from the sinoatrial (SA) node to the atrioventricular (AV) node?",
+    "options": [
+      "Internodal pathway",
+      "Intercalated discs",
+      "Right bundle branch",
+      "Left bundle branch"
+    ],
+    "answer": "Internodal pathway",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 6"
+    ],
+    "title": "The Cardiorespiratory, Endocrine, and Digestive Systems",
+    "chapter": "Chapter 6",
+    "id": "d6b9862b-3b27-40ce-87cf-49b78d3085f1"
+  },
+  {
+    "question": "What mechanism is responsible for increasing the rate of heart conduction?",
+    "options": [
+      "Activation of the sympathetic nervous system",
+      "Activation of the parasympathetic nervous system",
+      "Activation of the intercalated discs",
+      "Activation of sarcomeres"
+    ],
+    "answer": "Activation of the sympathetic nervous system",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 6"
+    ],
+    "title": "The Cardiorespiratory, Endocrine, and Digestive Systems",
+    "chapter": "Chapter 6",
+    "id": "24c2949c-4fdc-4b16-b141-5f14908ad1c9"
+  },
+  {
+    "question": "Which two electrolytes are most commonly supplemented by athletes to replace those lost in sweat?",
+    "options": [
+      "Sodium and potassium",
+      "Sodium and calcium",
+      "Magnesium and sodium",
+      "Potassium and manganese"
+    ],
+    "answer": "Sodium and potassium",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "d26f5522-ea2d-454b-a3e5-1cd9eae48b3f"
+  },
+  {
+    "question": "Can supplements contain food allergens?",
+    "options": [
+      "Yes, and if they do contain allergens, they should be listed on the label.",
+      "No, because supplements are not food.",
+      "No, because supplements are not real food.",
+      "Yes, but only if the supplement is sourced from whole foods."
+    ],
+    "answer": "Yes, and if they do contain allergens, they should be listed on the label.",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "1b7b44ea-f302-43d3-b271-89771e303c7f"
+  },
+  {
+    "question": "What percentage of alpha-linolenic acid (ALA) converts to a biologically available form called eicosapentaenoic acid (EPA)?",
+    "options": [
+      "About 5-15%",
+      "About 30%",
+      "About 50%",
+      "About 90%"
+    ],
+    "answer": "About 5-15%",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "7fee9794-bdcc-47e9-9e1c-dd0deda29fb4"
+  },
+  {
+    "question": "Which vitamin is the most transient?",
+    "options": [
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin E",
+      "Vitamin A"
+    ],
+    "answer": "Vitamin C",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "82c27d01-1525-4571-be6d-a2832b70afb7"
+  },
+  {
+    "question": "The B vitamins have a primary role in what?",
+    "options": [
+      "Macronutrient metabolism",
+      "Muscle contraction",
+      "Hydration",
+      "Cancer prevention"
+    ],
+    "answer": "Macronutrient metabolism",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "ae3553e2-41d5-4971-a761-c1287dc6263e"
+  },
+  {
+    "question": "Which of the following is a banned substance in the United States?",
+    "options": [
+      "Dimethylamylamine (DMAA)",
+      "Caffeine",
+      "Creatine",
+      "Hordenine"
+    ],
+    "answer": "Dimethylamylamine (DMAA)",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "e17156df-e606-4abc-9198-a6fbf5470576"
+  },
+  {
+    "question": "The most well-known and well-researched effect of omega-3 fats relates to which of the following?",
+    "options": [
+      "Heart health",
+      "Athletic performance",
+      "Endocrine health",
+      "Bone health"
+    ],
+    "answer": "Heart health",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "80e0bd31-8e0f-4743-8220-ea84998318f4"
+  },
+  {
+    "question": "Accumulating too much of a vitamin or mineral in the body may lead to what?",
+    "options": [
+      "Toxicity",
+      "Improved performance",
+      "Deficiency",
+      "Better outcomes"
+    ],
+    "answer": "Toxicity",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "a12b8762-2421-4e7d-b858-d5c00b5d7f2d"
+  },
+  {
+    "question": "Which of the following is true about the biologically active forms of vitamins?",
+    "options": [
+      "Biologically active forms are most effective for augmenting body levels.",
+      "Biologically active forms lead to toxicity.",
+      "Biologically active forms lead to deficiency.",
+      "Biologically active forms are less efficient."
+    ],
+    "answer": "Biologically active forms are most effective for augmenting body levels.",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "3a2bdf20-aca9-4285-9057-623cd5dd086b"
+  },
+  {
+    "question": "Which of the following is true of protein shakes?",
+    "options": [
+      "They are convenient options for increasing protein intake.",
+      "They are required to build muscle.",
+      "They are dangerous and should be avoided.",
+      "They are a poor choice for recovery."
+    ],
+    "answer": "They are convenient options for increasing protein intake.",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "6f0041ce-7742-4d1f-aae0-0e8822aebcc6"
+  },
+  {
+    "question": "Which organization must approve a supplement prior to it being sold?",
+    "options": [
+      "Supplements do not require approval prior to sale.",
+      "Food and Drug Administration (FDA)",
+      "World Anti-Doping Agency (WADA)",
+      "European Food Safety Authority (EFSA)"
+    ],
+    "answer": "Supplements do not require approval prior to sale.",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "bdb343e2-63f5-4564-8762-c40c1516cb22"
+  },
+  {
+    "question": "Which vitamin has an increased risk of causing toxicity?",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin B12",
+      "Vitamin B6"
+    ],
+    "answer": "Vitamin A",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "07f3f9d7-13b9-4754-9986-305ec608edd2"
+  },
+  {
+    "question": "What is the best definition of essential when discussing human nutrition?",
+    "options": [
+      "Must be obtained in the diet, as the body is incapable of producing the nutrient on its own",
+      "Contained within healthy food items",
+      "Needed to build muscle",
+      "Another word for macronutrients"
+    ],
+    "answer": "Must be obtained in the diet, as the body is incapable of producing the nutrient on its own",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "cd66d4ae-fb92-4045-aa5a-32b9f84ab825"
+  },
+  {
+    "question": "Compared to water-soluble vitamins, which of the following is true about fat-soluble vitamins?",
+    "options": [
+      "Fat-soluble vitamins take longer to accumulate in and deplete from the body.",
+      "Fat-soluble vitamins are better for improving overall health.",
+      "Fat-soluble vitamins accumulate in and deplete quickly from the body.",
+      "Fat-soluble vitamins are not as healthy because fat is unhealthy."
+    ],
+    "answer": "Fat-soluble vitamins take longer to accumulate in and deplete from the body.",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "9a70fe8c-0081-408e-9223-a0507efce607"
+  },
+  {
+    "question": "Which of the following is a major nutritional contributor to muscle protein synthesis?",
+    "options": [
+      "The essential amino acids",
+      "Vitamins",
+      "Minerals",
+      "Caffeine"
+    ],
+    "answer": "The essential amino acids",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 10"
+    ],
+    "title": "Supplementation",
+    "chapter": "Chapter 10",
+    "id": "263f0a83-3cbc-47fd-b70b-f4675190c2f0"
+  },
+  {
+    "question": "For which population is the 1.5-mile (2.4-km) run test considered most valid?",
+    "options": [
+      "College-aged athletes",
+      "Older adults",
+      "Individuals recovering from an injury",
+      "Deconditioned individuals"
+    ],
+    "answer": "College-aged athletes",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 11"
+    ],
+    "title": "Health, Wellness, and Fitness Assessments",
+    "chapter": "Chapter 11",
+    "id": "f1ceb216-41a9-4526-bac0-02bc57843c22"
+  },
+  {
+    "question": "The PAR-Q+ and preparticipation process reflects what three health indicators?",
+    "options": [
+      "An individual's current level of physical activity, the presence of signs and symptoms of disease, and the individual's desired exercise intensity",
+      "An individual's current level of physical activity, age, and weight",
+      "An individual's desired exercise intensity, body composition, and gender",
+      "An individual's habits related to exercise, diet, and sleep"
+    ],
+    "answer": "An individual's current level of physical activity, the presence of signs and symptoms of disease, and the individual's desired exercise intensity",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 11"
+    ],
+    "title": "Health, Wellness, and Fitness Assessments",
+    "chapter": "Chapter 11",
+    "id": "94220023-824c-45d9-850b-4042a5ff76bf"
+  },
+  {
+    "question": "Which of the following represents a criterion for terminating an exercise test or exercise bout that involves exertion?",
+    "options": [
+      "Any indication of chest pain or angina-like symptoms",
+      "An elevation of systolic blood pressure to 220 mm Hg",
+      "Labored or heavy breathing associated with exertion",
+      "Failure of diastolic blood pressure to rise by more than 15 mm Hg"
+    ],
+    "answer": "Any indication of chest pain or angina-like symptoms",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 11"
+    ],
+    "title": "Health, Wellness, and Fitness Assessments",
+    "chapter": "Chapter 11",
+    "id": "b689ae0f-368e-4a05-82ef-8fb0991d9710"
+  },
+  {
+    "question": "Where is the appropriate location to take a waist circumference measurement?",
+    "options": [
+      "At the narrowest point of the waist, below the rib cage and just above the top of the hip bones (while standing)",
+      "At the widest portion of the buttocks (while standing with feet together)",
+      "At the largest circumference immediately below the gluteal fold (while standing)",
+      "At the widest point of the waist (while seated)"
+    ],
+    "answer": "At the narrowest point of the waist, below the rib cage and just above the top of the hip bones (while standing)",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 11"
+    ],
+    "title": "Health, Wellness, and Fitness Assessments",
+    "chapter": "Chapter 11",
+    "id": "fb3ea780-5835-40dc-aae8-d1143f792669"
+  },
+  {
+    "question": "Which of the following intensities best represents VT2 during the incremental test protocol?",
+    "options": [
+      "When the individual responds with \"no\" when asked, “Can you speak competently?”",
+      "When the individual responds with \"yes\" when asked, “Can you speak competently?”",
+      "When the individual says it is \"somewhat easy\" to talk during the activity",
+      "When the individual says it is \"challenging\" to speak during the activity"
+    ],
+    "answer": "When the individual responds with \"no\" when asked, “Can you speak competently?”",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 11"
+    ],
+    "title": "Health, Wellness, and Fitness Assessments",
+    "chapter": "Chapter 11",
+    "id": "4a11d3b7-9eb5-41a1-993b-a8e0c98c4053"
+  },
+  {
+    "question": "What does BMI (body mass index) assess for?",
+    "options": [
+      "Whether a person's weight is appropriate for their height",
+      "Body fat and lean mass composition",
+      "Overall level of physical fitness",
+      "An accurate measure of obesity status for all individuals"
+    ],
+    "answer": "Whether a person's weight is appropriate for their height",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 11"
+    ],
+    "title": "Health, Wellness, and Fitness Assessments",
+    "chapter": "Chapter 11",
+    "id": "6f69e175-52a9-445d-b515-1509633eb58e"
+  },
+  {
+    "question": "What step height is used for the YMCA 3-minute step test?",
+    "options": [
+      "12 inches",
+      "16 inches",
+      "14 inches",
+      "10 inches"
+    ],
+    "answer": "12 inches",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 11"
+    ],
+    "title": "Health, Wellness, and Fitness Assessments",
+    "chapter": "Chapter 11",
+    "id": "975eec29-a6c1-4ed3-afaa-0ebbf20d6877"
+  },
+  {
+    "question": "Which of the following blood pressure readings would classify an individual as having stage 1 hypertension?",
+    "options": [
+      "135/80 mm Hg",
+      "118/78 mm Hg",
+      "124/80 mm Hg",
+      "143/92 mm Hg"
+    ],
+    "answer": "135/80 mm Hg",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 11"
+    ],
+    "title": "Health, Wellness, and Fitness Assessments",
+    "chapter": "Chapter 11",
+    "id": "4a1fd524-82c2-435b-a61f-a17c09a920d6"
+  },
+  {
+    "question": "What is the most valid measurement of aerobic fitness?\n",
+    "options": [
+      "VO2max\n",
+      "YMCA 3-minute step test\n",
+      "Rockport walk test\n",
+      "1.5-mile (2.4-km) run test\n"
+    ],
+    "answer": "VO2max\n",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 11"
+    ],
+    "title": "Health, Wellness, and Fitness Assessments",
+    "chapter": "Chapter 11",
+    "id": "5ccc094f-a220-4a6f-afe5-174daed692fc"
+  },
+  {
+    "question": "What location on the body does NASM recommend for measuring the resting heart rate?",
+    "options": [
+      "Radial pulse",
+      "Carotid pulse",
+      "Pedal pulse",
+      "Femoral pulse"
+    ],
+    "answer": "Radial pulse",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 11"
+    ],
+    "title": "Health, Wellness, and Fitness Assessments",
+    "chapter": "Chapter 11",
+    "id": "068b12a5-64c1-4633-851d-7d24166c8ffe"
   }
 ]

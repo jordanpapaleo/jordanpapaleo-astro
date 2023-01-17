@@ -179,7 +179,7 @@ const Flashcards = (props) => {
         <CheckboxGroup
           label={`Filter: ${filters.join(' OR ')}`}
           options={tags.filter(({ value }) => {
-            return value !== 'vocab' && value !== 'favorites'
+            return value !== 'vocab' && value !== 'quiz' && value !== 'cpt'
           })}
           value={[]}
           inline

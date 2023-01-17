@@ -4,6 +4,7 @@ import cors from 'cors'
 import express from 'express'
 import fs from 'fs'
 import path from 'path'
+import lodash from 'lodash'
 
 const app = express()
 const port = 4210
@@ -29,12 +30,25 @@ const updateDb = (req, res, fileName) => {
       const allQuestions = [...dbQuestions]
 
       newQuestions.forEach(({ question: q1 }, i) => {
-        const isDup = allQuestions.some(({ question: q2 }) => q1 === q2)
-        if (isDup) return
-        allQuestions.push({
-          ...newQuestions[i],
-          id: uuidv4(),
-        })
+        const index = allQuestions.findIndex(({ question: q2 }) => q1 === q2)
+        if (index !== -1) {
+          const updatedQuestion = allQuestions[index]
+
+          // merge tags then get unique
+          updatedQuestion.tags = lodash.uniq([
+            ...updatedQuestion.tags,
+            ...newQuestions[i].tags,
+          ])
+
+          updatedQuestion.missed = newQuestions[i].missed
+
+          allQuestions[index] = updatedQuestion
+        } else {
+          allQuestions.push({
+            ...newQuestions[i],
+            id: uuidv4(),
+          })
+        }
       })
 
       fs.writeFile(fileName, JSON.stringify(allQuestions, null, 2), (err) => {
@@ -47,7 +61,7 @@ const updateDb = (req, res, fileName) => {
         } else {
           console.log('Success')
           res.status(200).send({
-            message: 'Success',
+            message: 'Success ' + new Date(),
           })
         }
       })
