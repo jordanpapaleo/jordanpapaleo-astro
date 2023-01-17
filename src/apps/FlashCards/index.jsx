@@ -54,8 +54,11 @@ const Flashcards = (props) => {
   }, [favorites])
 
   React.useEffect(() => {
+    const id = questions[cardIndex] ? questions[cardIndex].id : ''
+
     let filteredQuestions = [...initQuestions]
 
+    // Tag filters
     if (filters.length) {
       filteredQuestions = filteredQuestions.filter((question) => {
         if (!question.tags) return false
@@ -63,6 +66,7 @@ const Flashcards = (props) => {
       })
     }
 
+    // vocab and quiz filters
     if (filterVocab || filterQuizes) {
       filteredQuestions = filteredQuestions.filter((question) => {
         if (filterVocab && filterQuizes) {
@@ -77,14 +81,23 @@ const Flashcards = (props) => {
       })
     }
 
+    // starred
     if (filterFavorites) {
       filteredQuestions = filteredQuestions.filter((question) => {
         return favorites.includes(question.id)
       })
     }
 
-    setCardIndex(0)
+    try {
+      const index = filteredQuestions.findIndex(({ id: qid }) => id === qid)
+      setCardIndex(index === -1 ? 0 : index)
+    } catch (err) {
+      setCardIndex(0)
+    }
+
     setQuestions(filteredQuestions)
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filters, favorites, filterFavorites, filterVocab, filterQuizes])
 
   React.useEffect(() => {
@@ -138,9 +151,11 @@ const Flashcards = (props) => {
   const handleToggleFilterFavorite = () => {
     setFitlerFavorites(!filterFavorites)
   }
+
   const handleToggleFilterVocab = () => {
     setFilterVocab(!filterVocab)
   }
+
   const handleToggleFilterQuizes = () => {
     setFitlerQuizes(!filterQuizes)
   }
@@ -189,10 +204,10 @@ const Flashcards = (props) => {
         />
       </div>
 
-      <div className="mb-2">Cards: {questions.length}</div>
-
-      <div className={clsx('flex gap-2 w-[100%]', fullScreen && FS_CLASS)}>
-        <CardGutter>
+      <div
+        className={clsx('flex gap-2 w-full min-w-full', fullScreen && FS_CLASS)}
+      >
+        <CardGutter className="">
           <Button
             color="gray"
             className="flex-grow"
@@ -207,13 +222,21 @@ const Flashcards = (props) => {
           </Button>
         </CardGutter>
 
-        {questions
-          .filter((meh, i) => i === cardIndex)
-          .map((question) => (
-            <Card key={question.id} {...question} />
-          ))}
+        <div className="border flex-1 relative">
+          <small className="mb-2 absolute left-2 top-1">
+            {questions.length > 0
+              ? `${cardIndex + 1} of ${questions.length}`
+              : '0 of 0'}
+          </small>
 
-        <CardGutter>
+          {questions
+            .filter((meh, i) => i === cardIndex)
+            .map((question) => (
+              <Card {...question} key={question.id} />
+            ))}
+        </div>
+
+        <CardGutter className="">
           <Button
             color="gray"
             title="Next Question"
@@ -245,8 +268,8 @@ const Flashcards = (props) => {
   )
 }
 
-const CardGutter = ({ children }) => (
-  <div className="flex flex-col gap-2">{children}</div>
+const CardGutter = ({ children, className }) => (
+  <div className={clsx('flex flex-col gap-2', className)}>{children}</div>
 )
 
 const Card = ({ question, answer, tags = [] }) => {
@@ -255,8 +278,7 @@ const Card = ({ question, answer, tags = [] }) => {
   return (
     <button
       onClick={() => setShowAnswer(!showAnswer)}
-      style={{ borderRadius: '4px', borderWidth: 1 }}
-      className="border py-2 px-4 flex-1 relative"
+      className="py-2 px-4 relative w-full"
     >
       <h2 className="text-center">{question}</h2>
       <p className={clsx('leading-5 pb-4', !showAnswer && 'opacity-0')}>
