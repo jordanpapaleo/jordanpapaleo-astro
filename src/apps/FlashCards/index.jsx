@@ -1,6 +1,7 @@
 import React from 'react'
 import quiz from './db/quiz.json'
 import vocab from './db/vocab.json'
+import fav from './db/fav.json'
 import multiplication from './db/multiplication.json'
 import CheckboxGroup from '@componentsReact/CheckboxGroup'
 import Button from '@componentsReact/Button'
@@ -15,7 +16,7 @@ import ShuffleIcon from '@images/Shuffle'
 import { disableScroll, enableScroll } from '@common/scrollHandler'
 // import { AiFillStar, AiOutlineStar } from 'react-icons/ai'
 
-const initQuestions = [...vocab, ...quiz, ...multiplication]
+const initQuestions = [...fav, ...vocab, ...quiz, ...multiplication]
 
 const initTags = initQuestions.reduce((allTags, q) => {
   if (q.tags) {

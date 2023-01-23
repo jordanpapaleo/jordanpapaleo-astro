@@ -1,0 +1,490 @@
+[
+  {
+    "question": "Blood Pressure: Normal",
+    "answer": "<120 & <80",
+    "tags": [
+      "fav"
+    ],
+    "id": "b7766880-2766-4805-bd8c-ca6e79fdc7b0"
+  },
+  {
+    "question": "Blood Pressure: Elevated",
+    "answer": "120-129 & <80",
+    "tags": [
+      "fav"
+    ],
+    "id": "49c3fc53-b848-4196-a55a-1c1ec48cbfe3"
+  },
+  {
+    "question": "Blood Pressure: Stage 1 Hypertension",
+    "answer": "130-139 & 80-89",
+    "tags": [
+      "fav"
+    ],
+    "id": "fa9bd3b2-4de9-417e-b503-28c674975dae"
+  },
+  {
+    "question": "Blood Pressure: Stage 2 Hypertension",
+    "answer": ">=140 & >=90",
+    "tags": [
+      "fav"
+    ],
+    "id": "bd5b4f15-e17b-47eb-aed4-6d20eff5f245"
+  },
+  {
+    "question": "Blood Pressure: Hypertensive crisis",
+    "answer": ">=180 & >=120",
+    "tags": [
+      "fav"
+    ],
+    "id": "285026ee-032d-48e2-b5b7-7ad004069b6e"
+  },
+  {
+    "question": "BMI: Underweight",
+    "answer": "< 18.5",
+    "tags": [
+      "fav"
+    ],
+    "id": "79dec69a-2585-4b1b-b629-e95f18ebd17b"
+  },
+  {
+    "question": "BMI: Normal",
+    "answer": "18.5-24.9",
+    "tags": [
+      "fav"
+    ],
+    "id": "c46e594e-ef25-4ed3-aff3-687efcc30f28"
+  },
+  {
+    "question": "BMI: Overweight",
+    "answer": "25-29.9",
+    "tags": [
+      "fav"
+    ],
+    "id": "6aa25240-7114-421c-8407-f6838b1a33ed"
+  },
+  {
+    "question": "BMI: Obese",
+    "answer": "30-34.0",
+    "tags": [
+      "fav"
+    ],
+    "id": "a6383b0c-ddeb-4a4c-8df0-f9b2d5297834"
+  },
+  {
+    "question": "BMI: Obese 2",
+    "answer": "35-39.9",
+    "tags": [
+      "fav"
+    ],
+    "id": "a9f7ff63-9c4a-4525-b7a4-bcc8e0d7cca2"
+  },
+  {
+    "question": "BMI: Obese 3",
+    "answer": ">=40",
+    "tags": [
+      "fav"
+    ],
+    "id": "0db2742d-c52c-4891-b077-315886eb40cc"
+  },
+  {
+    "question": "Waist Circumference: Very Low",
+    "answer": "W <70cm & M < 80cm",
+    "tags": [
+      "fav"
+    ],
+    "id": "626368fb-3862-45aa-aba1-dce45277aabe"
+  },
+  {
+    "question": "Waist Circumference: Low",
+    "answer": "W 70-89cm & M 80-99cm",
+    "tags": [
+      "fav"
+    ],
+    "id": "3c770f37-8794-4693-b4a1-265541e97835"
+  },
+  {
+    "question": "Waist Circumference: High",
+    "answer": "W 90-109cm & M 100-120cm",
+    "tags": [
+      "fav"
+    ],
+    "id": "b60aedd1-014e-4ccf-a1c1-c32b6a16afca"
+  },
+  {
+    "question": "Waist Circumference: Very High",
+    "answer": "W >=120cm & M >120cm",
+    "tags": [
+      "fav"
+    ],
+    "id": "65dcfc05-260a-4aea-8251-46f2b337a3bd"
+  },
+  {
+    "question": "Waist Hip Ratio: Low",
+    "answer": "W < 0.8 & M <0.95",
+    "tags": [
+      "fav"
+    ],
+    "id": "3e3a6bb4-7e56-4716-a9bb-e963a8cbcfd4"
+  },
+  {
+    "question": "Waist Hip Ratio: Moderate",
+    "answer": "W 0.81-0.85 & M 0.96-1",
+    "tags": [
+      "fav"
+    ],
+    "id": "1b8b9f29-d975-4401-b744-28c3e43eea7b"
+  },
+  {
+    "question": "Waist Hip Ratio: High",
+    "answer": "W >0.86 & M >1",
+    "tags": [
+      "fav"
+    ],
+    "id": "ff053ace-7657-4506-aace-bc5d06360fe6"
+  },
+  {
+    "question": "Pes Planus Distortion",
+    "answer": "Pes planus (collasped arch) & knee valgus & adducted internal rotate hip (pigeon toe)",
+    "tags": [
+      "fav"
+    ],
+    "id": "c364bfd5-3c30-479e-aa49-32533090d8a9"
+  },
+  {
+    "question": "Pes Planus Distortion overactive",
+    "answer": "Gastro and soleus (calves) & Adductor complex (inner thigh) & Hip flexor)",
+    "tags": [
+      "fav"
+    ],
+    "id": "a5227fe4-f4b2-499a-b69b-082ab8ba17b9"
+  },
+  {
+    "question": "Pes Planus Distortion underactive",
+    "answer": "Anterior and posterior tibialis (shin) & Gluteus maximus and medius (booty)",
+    "tags": [
+      "fav"
+    ],
+    "id": "674b9a19-4103-4bfb-868e-964b1517d2a4"
+  },
+  {
+    "question": "Lower crossed syndrome",
+    "answer": "Anterior pevlic tilt & excessive lordosis (lumbar extension)",
+    "tags": [
+      "fav"
+    ],
+    "id": "aa025e72-2f72-4e99-aee0-be904490084e"
+  },
+  {
+    "question": "Lower crossed syndrome overactive",
+    "answer": "Hip flexor & lumbar extensors",
+    "tags": [
+      "fav"
+    ],
+    "id": "f8587219-2094-45d2-ad7f-505460a0f925"
+  },
+  {
+    "question": "Lower crossed syndrome underactive",
+    "answer": "Gluteus max and medius & hamstring complex & abdominals",
+    "tags": [
+      "fav"
+    ],
+    "id": "ad0227bd-9f29-41f7-9c1e-5772001caa25"
+  },
+  {
+    "question": "Upper crossed syndrome",
+    "answer": "Thoracic spine (hunch) & protracted and inernally rotated shoulders & head and neck jutted forward",
+    "tags": [
+      "fav"
+    ],
+    "id": "cd45c944-f9cb-4168-9c7e-9f565e70974b"
+  },
+  {
+    "question": "Upper crossed syndrome overactive",
+    "answer": "Pectoralis major & levator scapula and sternocldeidomoid (neck) & Upper trapezius",
+    "tags": [
+      "fav"
+    ],
+    "id": "28b09977-8c3c-40e1-bda8-93326bc0ee7a"
+  },
+  {
+    "question": "Upper crossed syndrome underactive",
+    "answer": "Middle and lower trapezius and rhomboids (mid back) & Deep cervical flexors (muscle deep within neck)",
+    "tags": [
+      "fav"
+    ],
+    "id": "c71c01bd-1a52-46bd-9c84-d0de5c451c27"
+  },
+  {
+    "question": "Overhead squat: ankles out overactive",
+    "answer": "Gastrocnemius/soleus (calves) & Hamstrings complex",
+    "tags": [
+      "fav"
+    ],
+    "id": "80bfb1ac-6994-425c-b917-6b34669a859c"
+  },
+  {
+    "question": "Overhead squat: ankles out underactiveactive",
+    "answer": "Anterior and posterior tibialis (shin muscles) & Gluteus maximus and medius",
+    "tags": [
+      "fav"
+    ],
+    "id": "348f919a-dca8-446b-99a2-73d26ac824f9"
+  },
+  {
+    "question": "Overhead squat: knee valgus overactive",
+    "answer": "Tensor fascia latae (TFL)(muscle near front of hip) & Adductor complex (inner thigh muscles)",
+    "tags": [
+      "fav"
+    ],
+    "id": "9e2f9d21-4e09-40aa-a7df-05c7d3e409f5"
+  },
+  {
+    "question": "Overhead squat: knee valgus underactive",
+    "answer": "Gluteus maximus and medius & Anterior and posterior tibialis",
+    "tags": [
+      "fav"
+    ],
+    "id": "cb1de7b0-6d6d-456f-916b-2914f60c0d85"
+  },
+  {
+    "question": "Overhead squat: low back arch overactive",
+    "answer": "Hip flexors (rectus femoris, psoas, TFL) & Lumbar extensors (low-back muscles) & Latissimus dorsi (large back muscle)",
+    "tags": [
+      "fav"
+    ],
+    "id": "fd5495c2-b459-4bfc-97cd-a5f3f2c79cf3"
+  },
+  {
+    "question": "Overhead squat: low back arch underactive",
+    "answer": "Gluteus maximus & Hamstrings complex & Abdominals",
+    "tags": [
+      "fav"
+    ],
+    "id": "073146bf-8200-4ab7-b655-399606a90bf9"
+  },
+  {
+    "question": "Overhead squat: forward lean arch overactive",
+    "answer": "Hip flexors & Gastrocnemius/soleus & Rectus abdominis and external obliques (superficial abdominal muscles)",
+    "tags": [
+      "fav"
+    ],
+    "id": "0f7397b3-5fdf-40e7-b8ce-484ba3f26abb"
+  },
+  {
+    "question": "Overhead squat: forward lean arch underactive",
+    "answer": "Gluteus maximus & Hamstrings complex & Lumbar extensors",
+    "tags": [
+      "fav"
+    ],
+    "id": "89bc5db3-f641-462f-8f70-8cc675a8c211"
+  },
+  {
+    "question": "Overhead squat: arms forward arch overactive",
+    "answer": "Latissimus dorsi & Pectoralis major and minor (chest muscles) & Teres major (posterior shoulder muscle)",
+    "tags": [
+      "fav"
+    ],
+    "id": "4aaa1afd-9c8f-46d7-b040-7d393dfe7d4e"
+  },
+  {
+    "question": "Overhead squat: arms forward arch underactive",
+    "answer": "Middle and lower trapezius (mid-back muscle) & Rhomboids (muscles near shoulder blades) & Posterior deltoids (back of shoulder muscles) & Portions of the rotator cuff (small muscles that stabilize the shoulder)",
+    "tags": [
+      "fav"
+    ],
+    "id": "ea5952ac-8ce4-4663-bd0b-951bb6a13953"
+  },
+  {
+    "question": "Single leg squat valgus overactive",
+    "answer": "Tensor fascia latae (TFL) & Adductor complex",
+    "tags": [
+      "fav"
+    ],
+    "id": "635790c9-7dd0-47af-ac19-ea0da216c818"
+  },
+  {
+    "question": "Single leg squat valgus underactive",
+    "answer": "Gluteus maximus and medius & Anterior and posterior tibialis",
+    "tags": [
+      "fav"
+    ],
+    "id": "beb396a9-14e3-418d-a27c-ce09d4b94821"
+  },
+  {
+    "question": "Push assessment low back arch overactive",
+    "answer": "Hip flexors (rectus femoris, psoas, TFL) & Lumbar extensors",
+    "tags": [
+      "fav"
+    ],
+    "id": "6e8e02a2-145c-4298-918a-290927807568"
+  },
+  {
+    "question": "Push assessment low back arch underactive",
+    "answer": "Gluteus maximus & Hamstrings complex & Abdominals",
+    "tags": [
+      "fav"
+    ],
+    "id": "2e0a4305-65f5-49ce-b167-83b88356ec37"
+  },
+  {
+    "question": "Push assessment Scapular elevation arch overactive",
+    "answer": "Levator scapulae (posterior neck muscles) & Upper trapezius",
+    "tags": [
+      "fav"
+    ],
+    "id": "169a8873-ab0a-4db2-bccb-d1a48218916d"
+  },
+  {
+    "question": "Push assessment Scapular elevation arch underactive",
+    "answer": "Lower trapezius",
+    "tags": [
+      "fav"
+    ],
+    "id": "5ad95161-d60d-428d-9b90-8864ef43fbfe"
+  },
+  {
+    "question": "Push assessment Head juts forward overactive",
+    "answer": "Levator scapulae & Sternocleidomastoid (anterior neck muscles)",
+    "tags": [
+      "fav"
+    ],
+    "id": "6e98600f-263d-4b88-93f1-21cb76539775"
+  },
+  {
+    "question": "Push assessment Head juts forward underactive",
+    "answer": "Deep cervical flexors (deep neck stabilizer muscles)",
+    "tags": [
+      "fav"
+    ],
+    "id": "c4095a72-8dc2-4db1-b2af-082331615581"
+  },
+  {
+    "question": "Pull assessment low back arch overactive",
+    "answer": "Hip flexors (rectus femoris, psoas, TFL) & Lumbar extensors",
+    "tags": [
+      "fav"
+    ],
+    "id": "ce8688cf-db18-470e-980f-a83a8a71857d"
+  },
+  {
+    "question": "Pull assessment low back arch underactive",
+    "answer": "Gluteus maximus & Hamstrings complex & Abdominals",
+    "tags": [
+      "fav"
+    ],
+    "id": "542bdda7-6f7f-4479-b48c-e624d055468d"
+  },
+  {
+    "question": "Pull assessment Scapular elevation arch overactive",
+    "answer": "Levator scapulae (posterior neck muscles) & Upper trapezius",
+    "tags": [
+      "fav"
+    ],
+    "id": "74defd2c-ca34-4e09-ad92-b7a389030a2b"
+  },
+  {
+    "question": "Pull assessment Scapular elevation arch underactive",
+    "answer": "Lower trapezius",
+    "tags": [
+      "fav"
+    ],
+    "id": "75f6bed7-d263-4e31-92b8-104a22cc9c13"
+  },
+  {
+    "question": "Pull assessment Head juts forward overactive",
+    "answer": "Levator scapulae & Sternocleidomastoid (anterior neck muscles)",
+    "tags": [
+      "fav"
+    ],
+    "id": "967f04c2-1f94-494a-8ed9-3a7173dd7858"
+  },
+  {
+    "question": "Pull assessment Head juts forward underactive",
+    "answer": "Deep cervical flexors (deep neck stabilizer muscles)",
+    "tags": [
+      "fav"
+    ],
+    "id": "92fb9d55-580f-4965-b973-744f8303c1fa"
+  },
+  {
+    "question": "Flexion v Extension",
+    "answer": "bending movement that decreases angel v straightening movement",
+    "tags": [
+      "fav"
+    ],
+    "id": "c3781742-ea38-4d29-bf5d-fe307d49fb7e"
+  },
+  {
+    "question": "Abduction v adduction",
+    "answer": "movement away from center line v towards centerline",
+    "tags": [
+      "fav"
+    ],
+    "id": "a734ea1e-5f09-4d01-9581-c54d7011d72b"
+  },
+  {
+    "question": "Eversion v Inversion",
+    "answer": "medial rotation of foot out v in",
+    "tags": [
+      "flex"
+    ],
+    "id": "414ea25d-3708-4e1c-b5c1-cd7671ec4893"
+  },
+  {
+    "question": "Sagittal plane",
+    "answer": "An imaginary bisector that divides the body into left and right halves",
+    "tags": [
+      "fav"
+    ],
+    "id": "a989011d-8fad-487b-a78a-92844f47dc7f"
+  },
+  {
+    "question": "Frontal plane",
+    "answer": "An imaginary bisector that divides the body into front and back halves. Movement in the frontal plane includes abduction, adduction, and side-to-side motions.",
+    "tags": [
+      "fav"
+    ],
+    "id": "48b57861-8b39-47f1-9452-3b619e8a6094"
+  },
+  {
+    "question": "Tranverse plane",
+    "answer": "An imaginary bisector that divides the body into top and bottom halves",
+    "tags": [
+      "fav"
+    ],
+    "id": "4a2088c1-5c35-4495-93cb-ea9441fd33ee"
+  },
+  {
+    "question": "Pronate v supinate",
+    "answer": "inward rotation v outward (remember holding soup)",
+    "tags": [
+      "fav"
+    ],
+    "id": "edc3ffc0-7c4d-4d82-bd1c-156b69d91d3b"
+  },
+  {
+    "question": "Retract v protract",
+    "answer": "toward midline v away",
+    "tags": [
+      "fav"
+    ],
+    "id": "e497f336-f964-45f4-8609-c388b7f09d32"
+  },
+  {
+    "question": "Elevate v depress",
+    "answer": "upward v downward",
+    "tags": [
+      "fav"
+    ],
+    "id": "0fbd1fc8-187a-4940-9d74-52dc4f87aa98"
+  },
+  {
+    "question": "Superior v inferion",
+    "answer": "upward v downward",
+    "tags": [
+      "fav"
+    ],
+    "id": "c4a1a170-3e05-4270-8910-efd5d177ce75"
+  }
+]

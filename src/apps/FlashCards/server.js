@@ -59,9 +59,9 @@ const updateDb = (req, res, fileName) => {
             err,
           })
         } else {
-          console.log('Success')
+          console.log('Success ' + new Date())
           res.status(200).send({
-            message: 'Success ' + new Date(),
+            message: 'Success',
           })
         }
       })

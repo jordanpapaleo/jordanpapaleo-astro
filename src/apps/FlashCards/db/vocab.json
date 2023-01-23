@@ -6850,5 +6850,173 @@
       "Chapter 11"
     ],
     "id": "4fe01e78-5651-41b2-ba19-d57db1eefa8d"
+  },
+  {
+    "chapter": "Chapter 12",
+    "title": "Posture, Movement, and Performance Assessments ",
+    "question": "Overhead squat assessment  (OHSA)",
+    "answer": "A movement assessment designed to assess dynamic posture, core stability, and neuromuscular control of the whole body during a squatting motion.\n",
+    "tags": [
+      "cpt",
+      "vocab",
+      "Chapter 12"
+    ],
+    "id": "fbe4b179-e0de-42dd-988d-d126c5f81010"
+  },
+  {
+    "chapter": "Chapter 12",
+    "title": "Posture, Movement, and Performance Assessments ",
+    "question": "Single-leg squat assessment",
+    "answer": "A movement assessment that assesses dynamic posture, lower-extremity strength, balance, and overall coordination in a single-limb stance.\n",
+    "tags": [
+      "cpt",
+      "vocab",
+      "Chapter 12"
+    ],
+    "id": "f937db06-8728-456e-a84c-23bbe62215e3"
+  },
+  {
+    "chapter": "Chapter 12",
+    "title": "Posture, Movement, and Performance Assessments ",
+    "question": "Pushing assessment",
+    "answer": "An assessment that challenges the upper extremities and trunk during a pushing movement to identify movement impairments and potential muscle imbalances.\n",
+    "tags": [
+      "cpt",
+      "vocab",
+      "Chapter 12"
+    ],
+    "id": "1b57d999-46a3-4456-85dd-c614e6cae2b4"
+  },
+  {
+    "chapter": "Chapter 12",
+    "title": "Posture, Movement, and Performance Assessments ",
+    "question": "Pulling assessment",
+    "answer": "An assessment that challenges the upper extremities and trunk during a pulling movement to identify movement impairments and potential muscle imbalances.\n",
+    "tags": [
+      "cpt",
+      "vocab",
+      "Chapter 12"
+    ],
+    "id": "c69ac4aa-bcf1-4523-afca-2d703eeb0997"
+  },
+  {
+    "chapter": "Chapter 12",
+    "title": "Posture, Movement, and Performance Assessments ",
+    "question": "Push-up test",
+    "answer": "A performance assessment that measures muscular endurance of the upper extremities during a pushing movement.\n",
+    "tags": [
+      "cpt",
+      "vocab",
+      "Chapter 12"
+    ],
+    "id": "568b20ae-00b2-4a92-8f64-448735851301"
+  },
+  {
+    "chapter": "Chapter 12",
+    "title": "Posture, Movement, and Performance Assessments ",
+    "question": "Bench press strength assessment",
+    "answer": "A performance assessment designed to estimate the one-repetition maximum of the bench press exercise.\n",
+    "tags": [
+      "cpt",
+      "vocab",
+      "Chapter 12"
+    ],
+    "id": "87bb890a-808e-4a5c-b7de-6d3011932a4b"
+  },
+  {
+    "chapter": "Chapter 12",
+    "title": "Posture, Movement, and Performance Assessments ",
+    "question": "Squat strength assessment",
+    "answer": "A performance assessment designed to estimate the one-repetition maximum of the squat exercise.\n",
+    "tags": [
+      "cpt",
+      "vocab",
+      "Chapter 12"
+    ],
+    "id": "9589f671-2c60-4550-907f-94320c118e3c"
+  },
+  {
+    "chapter": "Chapter 12",
+    "title": "Posture, Movement, and Performance Assessments ",
+    "question": "Vertical jump assessment",
+    "answer": "A performance assessment designed to test maximal jump height and lower extremity power.\n",
+    "tags": [
+      "cpt",
+      "vocab",
+      "Chapter 12"
+    ],
+    "id": "fdb03305-5da0-44ce-a55f-d3f561614cda"
+  },
+  {
+    "chapter": "Chapter 12",
+    "title": "Posture, Movement, and Performance Assessments ",
+    "question": "Long jump assessment",
+    "answer": "A performance assessment designed to test maximal jump distance and lower extremity power.\n",
+    "tags": [
+      "cpt",
+      "vocab",
+      "Chapter 12"
+    ],
+    "id": "cc639866-7e6e-4ba3-b64b-ebef1fec74a3"
+  },
+  {
+    "chapter": "Chapter 12",
+    "title": "Posture, Movement, and Performance Assessments ",
+    "question": "40-yard dash assessment",
+    "answer": "A performance assessment designed to test reaction capabilities, acceleration, and maximal speed.\n",
+    "tags": [
+      "cpt",
+      "vocab",
+      "Chapter 12"
+    ],
+    "id": "017c67ba-99e1-47a2-83ea-6734c3f8aec8"
+  },
+  {
+    "chapter": "Chapter 12",
+    "title": "Posture, Movement, and Performance Assessments ",
+    "question": "Lower extremity functional test (LEFT)",
+    "answer": "A performance assessment designed to test lateral speed and agility.\n",
+    "tags": [
+      "cpt",
+      "vocab",
+      "Chapter 12"
+    ],
+    "id": "567f96d5-eff6-42cc-9611-cf0106c7e79b"
+  },
+  {
+    "chapter": "Chapter 12",
+    "title": "Posture, Movement, and Performance Assessments ",
+    "question": "Pro shuttle (5-10-5) assessment",
+    "answer": "A performance assessment designed to test lateral acceleration, deceleration, agility, and control.\n",
+    "tags": [
+      "cpt",
+      "vocab",
+      "Chapter 12"
+    ],
+    "id": "a3e5b488-c483-4a41-ba60-cd45b3c14517"
+  },
+  {
+    "chapter": "Chapter 12",
+    "title": "Posture, Movement, and Performance Assessments ",
+    "question": "Prone",
+    "answer": "Lying facedown.\n",
+    "tags": [
+      "cpt",
+      "vocab",
+      "Chapter 12"
+    ],
+    "id": "2112f77c-64b4-4542-a481-fca1c6fe04d3"
+  },
+  {
+    "chapter": "Chapter 12",
+    "title": "Posture, Movement, and Performance Assessments ",
+    "question": "Supine",
+    "answer": "Lying faceup.\n",
+    "tags": [
+      "cpt",
+      "vocab",
+      "Chapter 12"
+    ],
+    "id": "abb87c52-32d0-4a68-b11c-bde296316bec"
   }
 ]

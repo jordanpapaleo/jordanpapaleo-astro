@@ -3,22 +3,7 @@ import path from 'path'
 import csv from 'csvtojson'
 import { v4 as uuidv4 } from 'uuid'
 
-const files = [
-  // 'multiplication',
-  // 'chapter1',
-  // 'chapter2',
-  // 'chapter3',
-  // 'chapter4',
-  // 'chapter5',
-  // 'chapter6',
-  // 'chapter7',
-  // 'chapter8',
-  'chapter9',
-  'chapter10',
-  // 'section1Quiz',
-  // 'section2Quiz',
-  'section3Quiz',
-]
+const files = ['fav']
 
 files.forEach((file) => {
   // Convert a csv file with csvtojson
@@ -41,7 +26,7 @@ files.forEach((file) => {
       var mappedJson = JSON.stringify(mappedJson, null, 2)
 
       fs.writeFile(
-        `src/apps/FlashCards/json/${file}.json`,
+        `src/apps/FlashCards/db/${file}.json`,
         mappedJson,
         'utf8',
         (err) => {

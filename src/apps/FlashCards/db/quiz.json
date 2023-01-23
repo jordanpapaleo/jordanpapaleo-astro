@@ -7624,7 +7624,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Chapter 11"
+      "Chapter 11",
+      "Section 4 Review"
     ],
     "title": "Health, Wellness, and Fitness Assessments",
     "chapter": "Chapter 11",
@@ -7643,7 +7644,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Chapter 11"
+      "Chapter 11",
+      "Section 4 Review"
     ],
     "title": "Health, Wellness, and Fitness Assessments",
     "chapter": "Chapter 11",
@@ -7662,7 +7664,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Chapter 11"
+      "Chapter 11",
+      "Section 4 Review"
     ],
     "title": "Health, Wellness, and Fitness Assessments",
     "chapter": "Chapter 11",
@@ -7681,7 +7684,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Chapter 11"
+      "Chapter 11",
+      "Section 4 Review"
     ],
     "title": "Health, Wellness, and Fitness Assessments",
     "chapter": "Chapter 11",
@@ -7700,7 +7704,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Chapter 11"
+      "Chapter 11",
+      "Section 4 Review"
     ],
     "title": "Health, Wellness, and Fitness Assessments",
     "chapter": "Chapter 11",
@@ -7719,7 +7724,8 @@
     "tags": [
       "cpt",
       "quiz",
-      "Chapter 11"
+      "Chapter 11",
+      "Section 4 Review"
     ],
     "title": "Health, Wellness, and Fitness Assessments",
     "chapter": "Chapter 11",
@@ -7762,5 +7768,1157 @@
     "title": "Health, Wellness, and Fitness Assessments",
     "chapter": "Chapter 11",
     "id": "068b12a5-64c1-4633-851d-7d24166c8ffe"
+  },
+  {
+    "question": "Which muscle would be considered underactive, leading to the excessive forward trunk lean during the overhead squat assessment?",
+    "options": [
+      "Hip flexor complex",
+      "Gastrocnemius and soleus",
+      "Gluteus maximus",
+      "Rectus abdominis"
+    ],
+    "answer": "Gluteus maximus",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "d21811cb-90e0-4fd8-b9b6-5c10b563afb9"
+  },
+  {
+    "question": "Which muscle would be considered underactive, leading to shoulder elevation during the pushing assessment?",
+    "options": [
+      "Lower trapezius",
+      "Cervical extensors",
+      "Serratus anterior",
+      "Upper trapezius"
+    ],
+    "answer": "Lower trapezius",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "395f6435-68a4-4b69-b98c-2bb130cbd885"
+  },
+  {
+    "question": "For which movement impairment would you see the knees bow outward?",
+    "options": [
+      "Knee dominance",
+      "Knee varus",
+      "Knee valgus",
+      "Excessive anterior pelvic tilt"
+    ],
+    "answer": "Knee varus",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12",
+      "Section 4 Review"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "7c4ebf81-2807-46ba-9b9b-1b9f15bb0b05"
+  },
+  {
+    "question": "Which of the following exercises is typically used to measure maximum strength of the lower extremities?",
+    "options": [
+      "Overhead squat",
+      "Squat",
+      "Single-leg squat",
+      "Lunge"
+    ],
+    "answer": "Squat",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "145b957e-3a5d-4722-936e-da166143a3c8"
+  },
+  {
+    "question": "Which of the following tests is designed to test reaction capabilities, acceleration, and maximal sprinting speed?",
+    "options": [
+      "Overhead squat",
+      "Lower extremity functional test (LEFT)",
+      "40-yard dash",
+      "Pro shuttle"
+    ],
+    "answer": "40-yard dash",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "6c410490-9e06-4dda-bb16-1e051eace93c"
+  },
+  {
+    "question": "Which muscle would be considered overactive, leading to the low back arching during the overhead squat assessment?",
+    "options": [
+      "Gluteus maximus",
+      "Hamstrings complex",
+      "Gluteus medius",
+      "Hip flexor complex"
+    ],
+    "answer": "Hip flexor complex",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12",
+      "Section 4 Review"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "9c0a6c39-936b-4cf0-94a7-f3e22f0b5f50"
+  },
+  {
+    "question": "Which muscles are typically overactive when the feet turn out?",
+    "options": [
+      "Upper trapezius",
+      "Gastrocnemius and soleus",
+      "Hip flexors",
+      "Adductor complex"
+    ],
+    "answer": "Gastrocnemius and soleus",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "5f5f9ede-ff71-4cee-80bf-21b347e4d18d"
+  },
+  {
+    "question": "Which movement assessment is a good assessment of a client's balance during movement?",
+    "options": [
+      "Overhead squat",
+      "Push-up test",
+      "40-yard dash",
+      "Single-leg squat"
+    ],
+    "answer": "Single-leg squat",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12",
+      "Section 4 Review"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "fcb30366-286f-42e4-a35b-3baa0c916130"
+  },
+  {
+    "question": "Which type of assessment assesses the alignment of the body while in motion?",
+    "options": [
+      "Dynamic posture assessment",
+      "Overhead squat assessment",
+      "Performance assessment",
+      "Static posture assessment"
+    ],
+    "answer": "Dynamic posture assessment",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "36655f67-9225-4c3f-b38c-3f7e1c57f287"
+  },
+  {
+    "question": "Which of the following tests is used to measure lower-extremity power?",
+    "options": [
+      "Lower extremity functional test (LEFT)",
+      "40-yard dash",
+      "Pro shuttle",
+      "Vertical jump"
+    ],
+    "answer": "Vertical jump",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12",
+      "Section 4 Review"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "6d480a9b-2923-49bb-aae7-4039b4407e3d"
+  },
+  {
+    "question": "Which muscle would be considered underactive, leading to the low back arching during the overhead squat assessment?",
+    "options": [
+      "Latissimus dorsi",
+      "Gluteus maximus",
+      "Hip flexor complex",
+      "Lumbar extensors"
+    ],
+    "answer": "Gluteus maximus",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12",
+      "Section 4 Review"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "eae2a71e-4d1a-4c5e-96c8-c1660432d431"
+  },
+  {
+    "question": "Which muscle would be considered underactive, leading to shoulder elevation during the pulling assessment?",
+    "options": [
+      "Cervical extensors",
+      "Serratus anterior",
+      "Upper trapezius",
+      "Lower trapezius"
+    ],
+    "answer": "Lower trapezius",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "38b0650b-fd72-4e47-9fdf-fcd00af9734d"
+  },
+  {
+    "question": "What do you visualize to detect the movement impairment of knee valgus?",
+    "options": [
+      "The knees bowing outward",
+      "An upright trunk and knees in front of toes",
+      "The knees collapsing inward",
+      "The hip shifting toward one side or the other"
+    ],
+    "answer": "The knees collapsing inward",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12",
+      "Section 4 Review"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "68355721-69b9-4ef2-90b7-79a7134063d8"
+  },
+  {
+    "question": "How often is it recommended to reassess clientele?",
+    "options": [
+      "Every year",
+      "Every 6 months",
+      "Every week",
+      "Every month"
+    ],
+    "answer": "Every month",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "09f528f0-4563-44f9-b375-8994f07c7537"
+  },
+  {
+    "question": "What do you visualize to detect the movement impairment shoulder elevation?",
+    "options": [
+      "The trunk leaning forward",
+      "The arms falling forward",
+      "The shoulders moving upward toward the ears",
+      "The scapula protruding excessively from the back"
+    ],
+    "answer": "The shoulders moving upward toward the ears",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "7d5190a5-bd67-482c-b622-fcb93d683ff2"
+  },
+  {
+    "question": "When is a muscle considered overactive?",
+    "options": [
+      "When it is in a state of elevated neural activity (compared to its antagonist muscle), which causes the muscle to be held in a chronic state of relaxation",
+      "When a muscle is elongated and in a state of reduced neural activity",
+      "When it is in a state of elevated neural activity (compared to its antagonist muscle), which causes the muscle to be held in a chronic state of contraction",
+      "When a muscle is experiencing neural inhibition and limited neuromuscular recruitment"
+    ],
+    "answer": "When it is in a state of elevated neural activity (compared to its antagonist muscle), which causes the muscle to be held in a chronic state of contraction",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12",
+      "Section 4 Review"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "ba332fd6-07af-4b57-b7bb-7d613be0114e"
+  },
+  {
+    "question": "How is lower crossed syndrome characterized?",
+    "options": [
+      "Anterior pelvic tilt and excessive kyphosis of the lumbar spine",
+      "Flat feet, knee valgus, and internally rotated and adducted hips",
+      "Posterior pelvic tilt and excessive lordosis of the lumbar spine",
+      "Anterior pelvic tilt and excessive lordosis of the lumbar spine"
+    ],
+    "answer": "Anterior pelvic tilt and excessive lordosis of the lumbar spine",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "cd5c61b9-99bb-48c7-bbaf-535e1ea4ed92"
+  },
+  {
+    "question": "Which muscle(s) may be overactive with knee valgus during the overhead squat?\n",
+    "options": [
+      "Tensor fascia latae and adductor complex\n",
+      "Gluteus maximus and medius\n",
+      "Hip flexors\n",
+      "Upper trapezius\n"
+    ],
+    "answer": "Tensor fascia latae and adductor complex\n",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "ab50f162-7c8b-4b3c-8def-09d2651190ce"
+  },
+  {
+    "question": "What depth is suggested for the overhead squat assessment?",
+    "options": [
+      "Femur parallel to ground",
+      "Knees to 45 degrees",
+      "Butt to heels",
+      "Full-depth squat"
+    ],
+    "answer": "Femur parallel to ground",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12",
+      "Section 4 Review"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "c6f29dea-ca04-4f24-9d37-ce8579283b34"
+  },
+  {
+    "question": "Which movement assessment is a global observation of the entire kinetic chain and recommended as the first movement assessment to use with all clients?",
+    "options": [
+      "Pulling assessment",
+      "Single-leg squat",
+      "Pushing assessment",
+      "Overhead squat"
+    ],
+    "answer": "Overhead squat",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12",
+      "Section 4 Review"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "9b7ac816-21bc-4ba6-bf8c-972beaf806d3"
+  },
+  {
+    "question": "Which muscles are typically underactive when the feet turn out?",
+    "options": [
+      "Anterior and posterior tibialis",
+      "Adductor complex",
+      "Abdominals",
+      "Upper trapezius"
+    ],
+    "answer": "Anterior and posterior tibialis",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "2287ab6c-c09c-4614-95fb-70caaae6d39e"
+  },
+  {
+    "question": "Which of the following tests is used to measure lateral speed and agility?",
+    "options": [
+      "Vertical jump",
+      "Lower extremity functional test (LEFT)",
+      "40-yard dash",
+      "Pro shuttle"
+    ],
+    "answer": "Lower extremity functional test (LEFT)",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "6513dc25-6a05-4765-a335-8277b09338f7"
+  },
+  {
+    "question": "Which postural distortion is characterized by anterior pelvic tilt and excessive lordosis (extension) of the lumbar spine?",
+    "options": [
+      "Pes planus distortion syndrome",
+      "Excessive pronation",
+      "Upper crossed syndrome",
+      "Lower crossed syndrome"
+    ],
+    "answer": "Lower crossed syndrome",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "5283398b-bb14-4ca2-a843-3cbf725080a4"
+  },
+  {
+    "question": "Which muscles are typically overactive in association with upper crossed syndrome?",
+    "options": [
+      "Hip flexors",
+      "Lower trapezius",
+      "Adductor complex",
+      "Upper trapezius"
+    ],
+    "answer": "Upper trapezius",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12",
+      "Section 4 Review"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "d7d4c677-9623-403b-8b50-c2e8b08fe2aa"
+  },
+  {
+    "question": "Which muscle would be considered overactive, leading to shoulder elevation during the pushing assessment?",
+    "options": [
+      "Latissimus dorsi",
+      "Upper trapezius",
+      "Infraspinatus",
+      "Lower trapezius"
+    ],
+    "answer": "Upper trapezius",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12",
+      "Section 4 Review"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "16be9e12-d1b5-41f1-9ad6-9cdc558370f3"
+  },
+  {
+    "question": "Which muscle would be considered underactive, leading to arms falling forward in the overhead squat assessment?",
+    "options": [
+      "Middle and lower trapezius",
+      "Pectoralis major",
+      "Latissimus dorsi",
+      "Teres major"
+    ],
+    "answer": "Middle and lower trapezius",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "0f609efb-98a1-4fe4-9160-6d857e565b09"
+  },
+  {
+    "question": "Which muscles are typically overactive in association with lower crossed syndrome?",
+    "options": [
+      "Adductor complex",
+      "Hip flexors and lumbar extensors",
+      "Abdominals",
+      "Upper trapezius"
+    ],
+    "answer": "Hip flexors and lumbar extensors",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12",
+      "Section 4 Review"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "3ec28192-0e7b-4412-abf7-c0b8a397e851"
+  },
+  {
+    "question": "Which of the following exercises is typically used to measure maximum strength of the upper extremities during a pushing movement?",
+    "options": [
+      "Bench press strength assessment",
+      "Overhead press assessment",
+      "Pulling assessment",
+      "Pushing assessment"
+    ],
+    "answer": "Bench press strength assessment",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Chapter 12"
+    ],
+    "title": "Posture, Movement, and Performance Assessments ",
+    "chapter": "Chapter 12",
+    "id": "60b56a45-d2f9-46d7-88b6-12dbbd7d1015"
+  },
+  {
+    "question": "When sequencing physiological assessments, which of the following would produce a better result if measured immediately after exercise rather than before exercise?",
+    "options": [
+      "Flexibility",
+      "Body composition",
+      "Blood pressure",
+      "Resting heart rate"
+    ],
+    "answer": "Flexibility",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "aa2784eb-3dc3-4d60-b153-23760d351510"
+  },
+  {
+    "question": "How can diastolic blood pressure be defined?\n",
+    "options": [
+      "The pressure in arteries and other blood vessels when the heart is at rest or between beats; the second (bottom) number recorded\n",
+      "The pressure in arteries and other blood vessels when the heart is contracting; the first (top) number recorded\n",
+      "The measurement of the number of times a heart beats within a specified time period (usually 1 minute)\n",
+      "The action of expanding the diameter of a blood vessel near the surface of the skin, which helps remove heat from the body\n"
+    ],
+    "answer": "The pressure in arteries and other blood vessels when the heart is at rest or between beats; the second (bottom) number recorded\n",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "05dcf70b-46fe-42cc-be48-f0763538298f"
+  },
+  {
+    "question": "What step cadence is used during the YMCA 3-minute step test?",
+    "options": [
+      "A cadence of 96 steps per minute",
+      "A cadence of 36 steps per minute",
+      "A cadence of 60 steps per minute",
+      "A cadence of 112 steps per minute"
+    ],
+    "answer": "A cadence of 96 steps per minute",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "581fdd16-3dff-479e-a724-1cd4dea7b412"
+  },
+  {
+    "question": "What principle is hydrostatic underwater weighing based upon?",
+    "options": [
+      "Archimedes' principle",
+      "All-or-nothing principle",
+      "Principle of specificity",
+      "Davis's principle"
+    ],
+    "answer": "Archimedes' principle",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "2be73549-6ad5-4a40-99ed-2ab1e09ee03f"
+  },
+  {
+    "question": "How many skinfold sites are measured when determining body composition using the Durnin-Womersley protocol?",
+    "options": [
+      "Four",
+      "Six",
+      "Seven",
+      "Three"
+    ],
+    "answer": "Four",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "d3042b97-1129-4012-9813-35b5fdb952fa"
+  },
+  {
+    "question": "Which muscles are typically underactive in association with pes planus distortion syndrome?",
+    "options": [
+      "Anterior and posterior tibialis, and gluteus maximus and medius",
+      "Adductor complex (inner thighs)",
+      "Hip flexors",
+      "Upper trapezius"
+    ],
+    "answer": "Anterior and posterior tibialis, and gluteus maximus and medius",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "77b4bd6d-0040-41af-b1cc-a324b93f7621"
+  },
+  {
+    "question": "What are the five kinetic chain checkpoints?",
+    "options": [
+      "Feet and ankles, knees, LPHC, shoulders, and head and neck",
+      "Feet, ankles, knees, abdomen, and chest",
+      "Feet, ankles, knees, torso, and neck",
+      "Feet and ankles, LPHC, shoulders, head, and neck"
+    ],
+    "answer": "Feet and ankles, knees, LPHC, shoulders, and head and neck",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "e00893f6-ba9c-4570-8832-b4604bf4c9e3"
+  },
+  {
+    "question": "Where is it most common to take an individual's circumference measurement to assess health risk?",
+    "options": [
+      "Waist",
+      "Hips",
+      "Thigh",
+      "Arm"
+    ],
+    "answer": "Waist",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "6e392be2-68dd-40ea-a6b8-4b3a756092d3"
+  },
+  {
+    "question": "What term refers to the ability of a test to produce consistent and repeatable results?",
+    "options": [
+      "Reliability",
+      "Relevance",
+      "Validity",
+      "Appropriateness"
+    ],
+    "answer": "Reliability",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "ab78809f-bf33-44cf-aa95-2704d94c712e"
+  },
+  {
+    "question": "Which muscle would be considered overactive, leading to the excessive forward trunk lean during the overhead squat assessment?",
+    "options": [
+      "Hip flexors",
+      "Gluteus maximus",
+      "Hamstrings complex",
+      "Gluteus medius"
+    ],
+    "answer": "Hip flexors",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "d5bb3e4f-68f1-4a7d-9eed-5e1150baf1d6"
+  },
+  {
+    "question": "If Joe takes a 6-second heart rate count on his client and notes 8 beats, what would his client’s heart rate be?",
+    "options": [
+      "80 beats per minute",
+      "72 beats per minute",
+      "66 beats per minute",
+      "64 beats per minute"
+    ],
+    "answer": "80 beats per minute",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "8bd26454-aa50-46df-84bb-770322c34205"
+  },
+  {
+    "question": "The standard Jackson and Pollock 3-Site protocol for women requires skinfold measurements at which of the following sites?",
+    "options": [
+      "Suprailiac, thigh, and triceps",
+      "Triceps, abdomen, and thigh",
+      "Chest, suprailiac, and abdomen",
+      "Abdomen, thigh, and suprailiac"
+    ],
+    "answer": "Suprailiac, thigh, and triceps",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "6e6ed85c-0960-42a4-95cf-18591af9531d"
+  },
+  {
+    "question": "Which skinfold sites are measured if determining body composition via the Durnin-Womersley protocol?",
+    "options": [
+      "Biceps, triceps, subscapular, and suprailiac",
+      "Triceps, abdomen, mid-axillary, and suprailiac",
+      "Triceps, subscapular, chest, and thigh",
+      "Biceps, mid-axillary, subscapular, and chest"
+    ],
+    "answer": "Biceps, triceps, subscapular, and suprailiac",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "0165fda8-1714-42f7-ad2f-9eb7d5164fa3"
+  },
+  {
+    "question": "Which muscles may be overactive with knee valgus during the overhead squat?",
+    "options": [
+      "Tensor fascia latae and adductor complex",
+      "Gluteus maximus and medius",
+      "Hip flexors",
+      "Upper trapezius"
+    ],
+    "answer": "Tensor fascia latae and adductor complex",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "0b365434-69ce-4e74-a24b-1b347917431b"
+  },
+  {
+    "question": "What best defines a Physical Activity Readiness Questionnaire (PAR-Q+)?",
+    "options": [
+      "A detailed questionnaire designed to assess an individual’s physical readiness to engage in structured exercise",
+      "A screening tool used to evaluate the benefits and the risks associated with starting any type of exercise that is strenuous in nature",
+      "A questionnaire with lists of questions that pertain to health history and habits, such as exercise history, eating behaviors, and general lifestyle",
+      "A screening where the results indicate a need for medical clearance,\nwhen one is not, in fact, needed"
+    ],
+    "answer": "A detailed questionnaire designed to assess an individual’s physical readiness to engage in structured exercise",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "b04adaa9-8b70-461f-b016-165ca4eedca9"
+  },
+  {
+    "question": "Which of the following waist-to-hip ratios (WHRs) places Amy (a female) in the high-risk category for cardiovascular disease?",
+    "options": [
+      "WHR of 0.88",
+      "WHR of 0.72",
+      "WHR of 0.78",
+      "WHR of 0.83"
+    ],
+    "answer": "WHR of 0.88",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "16025628-6c17-4212-815d-05bccaa37dd9"
+  },
+  {
+    "question": "Which muscles are typically underactive with knee valgus during the single-leg squat?",
+    "options": [
+      "Gluteus maximus and medius",
+      "Adductor complex",
+      "Tensor fascia latae",
+      "Lower trapezius"
+    ],
+    "answer": "Gluteus maximus and medius",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "e750c72c-0012-497f-8dfc-82db728fa9ec"
+  },
+  {
+    "question": "In which BMI category would you classify Vincent if he has a BMI of 27?",
+    "options": [
+      "Overweight",
+      "Healthy weight",
+      "Obese",
+      "Class II obesity"
+    ],
+    "answer": "Overweight",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "b56ab119-45f7-4d88-8464-3ab25910b780"
+  },
+  {
+    "question": "What is a body composition assessment technique that estimates body fat percentage by measuring the resistance to the flow of electrical currents introduced into the body?",
+    "options": [
+      "Bioelectrical impedance analysis (BIA)",
+      "Skinfold measurements",
+      "Anthropometry",
+      "Body mass index\n(BMI)"
+    ],
+    "answer": "Bioelectrical impedance analysis (BIA)",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "e212359b-91d5-40ab-95ef-5c5637ebd9ed"
+  },
+  {
+    "question": "Which type of assessment evaluates the position of the musculoskeletal system while the body is standing still?",
+    "options": [
+      "Static posture assessment",
+      "Overhead squat assessment",
+      "Dynamic posture assessment",
+      "Performance assessment"
+    ],
+    "answer": "Static posture assessment",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "4e9b882d-9ab7-4bbe-93ed-6eacbe3710a4"
+  },
+  {
+    "question": "Which type of assessment measures overall strength, stability, muscular endurance, and agility?",
+    "options": [
+      "Performance assessment",
+      "Overhead squat assessment",
+      "Dynamic posture assessment",
+      "Static posture assessment"
+    ],
+    "answer": "Performance assessment",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "ec84e3cb-2e4f-467b-bec3-37ed750342ce"
+  },
+  {
+    "question": "Which of the following exercises is typically used to measure muscular endurance of the upper extremities during a pushing movement?",
+    "options": [
+      "Push-up test",
+      "Pushing assessment",
+      "Bench press strength assessment",
+      "Overhead press"
+    ],
+    "answer": "Push-up test",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "fce020ae-0ba7-4da7-bc0c-8a9a0809351f"
+  },
+  {
+    "question": "Which of the following statements defines the chest skinfold location for men?\n",
+    "options": [
+      "A diagonal fold taken half the distance between the anterior axillary line and the nipple\n",
+      "A diagonal fold, 1 to 2 centimeters below the inferior angle of the scapula\n",
+      "A diagonal fold taken immediately superior to and in line with the natural angle of the iliac crest (top portion of the hip bone), aligned with the anterior axillary line\n",
+      "A vertical fold taken on the mid-axillary line at the level of the xiphoid process (which is typically just below the nipple line)\n"
+    ],
+    "answer": "A diagonal fold taken half the distance between the anterior axillary line and the nipple\n",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "a7598c3c-6d2b-4599-993f-d60d917ae443"
+  },
+  {
+    "question": "Which postural distortion is characterized by a forward head and rounded shoulders?",
+    "options": [
+      "Upper crossed syndrome",
+      "Pes planus distortion syndrome",
+      "Lower crossed syndrome",
+      "Knee valgus"
+    ],
+    "answer": "Upper crossed syndrome",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "da449e42-bb46-40e6-aca2-72ceb3fd9a34"
+  },
+  {
+    "question": "Which type of assessment is typically performed first in the assessment flow?",
+    "options": [
+      "Static posture",
+      "Single-leg squat",
+      "40-yard dash",
+      "Bench press strength"
+    ],
+    "answer": "Static posture",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "d2a6872a-f065-4344-80b5-f22e5a4b3f7a"
+  },
+  {
+    "question": "What are three postural distortion patterns to look for in static postural assessments?",
+    "options": [
+      "Pes planus distortion syndrome, lower crossed syndrome, and upper crossed syndrome",
+      "Pes planus distortion syndrome, knees cave inward, and arms fall forward",
+      "Knee dominance, upper crossed syndrome, and lower crossed syndrome",
+      "Low-back arches, shoulders elevate, and head juts forward"
+    ],
+    "answer": "Pes planus distortion syndrome, lower crossed syndrome, and upper crossed syndrome",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "db1fa61c-e1d8-4635-bcf8-706941784f2d"
+  },
+  {
+    "question": "How is upper crossed syndrome characterized?\n",
+    "options": [
+      "Forward head and protracted shoulders\n",
+      "Anterior pelvic tilt and excessive lordosis of the lumbar spine\n",
+      "Excessive forward lean and arms fall forward\n",
+      "Flat feet, knee valgus, and internally rotated and adducted hips\n"
+    ],
+    "answer": "Forward head and protracted shoulders\n",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "8b5c7660-664c-4fb3-8455-63351372dd08"
+  },
+  {
+    "question": "From the list of assessments provided, which should be conducted first to preserve its validity?",
+    "options": [
+      "Body composition",
+      "Cardiorespiratory fitness",
+      "Muscular fitness",
+      "Flexibility"
+    ],
+    "answer": "Body composition",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "c798fc59-1428-4751-aaeb-5f6ba50b5c16"
+  },
+  {
+    "question": "In most individuals, to what pressure is the blood pressure cuff inflated when measuring resting blood pressure?",
+    "options": [
+      "The cuff is inflated to a value of 20 to 30 mm Hg above the point at which the pulse can no longer be felt at the wrist.",
+      "The cuff is inflated to a value 70 to 80 mm Hg above the point at which the pulse can no longer be felt at the wrist.",
+      "The cuff is inflated to a value 45 to 55 mm Hg above the point at which the pulse can no longer be felt at the wrist.",
+      "The cuff is inflated to a value 5 to 10 mm Hg above the point at which the pulse can no longer be felt at the wrist."
+    ],
+    "answer": "The cuff is inflated to a value of 20 to 30 mm Hg above the point at which the pulse can no longer be felt at the wrist.",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "56145578-b84c-4ec8-975e-770f104f30f3"
+  },
+  {
+    "question": "Which muscles are typically underactive in association with upper crossed syndrome?",
+    "options": [
+      "Lower trapezius",
+      "Upper trapezius",
+      "Hip flexors",
+      "Abdominals"
+    ],
+    "answer": "Lower trapezius",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "a0a053ba-334f-43bf-b316-557db87d583f"
+  },
+  {
+    "question": "Which test would you select as the most appropriate when attempting to measure the overall fitness level of a fit college-aged athlete who competes on the school’s rugby team?",
+    "options": [
+      "The 1.5-mile (2.4-km) run test",
+      "YMCA 3-minute step test",
+      "Rockport 1-mile walk test",
+      "The talk test"
+    ],
+    "answer": "The 1.5-mile (2.4-km) run test",
+    "missed": false,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "df20007b-5300-4ead-908b-bbd367835d89"
+  },
+  {
+    "question": "Which term defines the degree to which a test specifically measures what it is intended to measure?",
+    "options": [
+      "Validity",
+      "Appropriateness",
+      "Reliability",
+      "Relevance"
+    ],
+    "answer": "Validity",
+    "missed": true,
+    "tags": [
+      "cpt",
+      "quiz",
+      "Section 4 Review"
+    ],
+    "title": "Review",
+    "chapter": "Section 4 Review",
+    "id": "ae10e583-6c6a-4f39-a319-526036678469"
   }
 ]
