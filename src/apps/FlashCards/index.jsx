@@ -16,23 +16,31 @@ import ShuffleIcon from '@images/Shuffle'
 import { disableScroll, enableScroll } from '@common/scrollHandler'
 // import { AiFillStar, AiOutlineStar } from 'react-icons/ai'
 
-const initQuestions = [...fav, ...vocab, ...quiz, ...multiplication]
+const initQuestions = [
+  ...fav,
+  // ...vocab, ...quiz,
+  ...multiplication,
+]
 
-const initTags = initQuestions.reduce((allTags, q) => {
-  if (q.tags) {
-    q.tags.forEach((t) => {
-      const plop = allTags.some(({ name }) => name === t)
-      if (!plop) {
-        allTags.push({
-          name: t,
-          value: t,
-        })
-      }
-    })
-  }
+const getTags = (questions) => {
+  return questions.reduce((allTags, q) => {
+    if (q.tags) {
+      q.tags.forEach((t) => {
+        const plop = allTags.some(({ name }) => name === t)
+        if (!plop) {
+          allTags.push({
+            name: t,
+            value: t,
+          })
+        }
+      })
+    }
 
-  return allTags
-}, [])
+    return allTags
+  }, [])
+}
+
+const initTags = getTags(initQuestions)
 
 const Flashcards = (props) => {
   const [cardIndex, setCardIndex] = React.useState(0)
@@ -40,14 +48,28 @@ const Flashcards = (props) => {
   const [questions, setQuestions] = React.useState(initQuestions)
   const [fullScreen, setFullScreen] = React.useState(false)
   const [favorites, setFavorites] = React.useState([])
-  const [filterFavorites, setFitlerFavorites] = React.useState(false)
+  const [filterFavorites, setFilterFavorites] = React.useState(false)
   const [filterVocab, setFilterVocab] = React.useState(false)
   const [filterQuizes, setFitlerQuizes] = React.useState(false)
-  const [tags] = React.useState(initTags)
+  const [tags, setTags] = React.useState(initTags)
 
   React.useEffect(() => {
     const favs = localStorage.getItem('fc_favorites')
     setFavorites(favs ? JSON.parse(favs) : [])
+
+    Promise.all([
+      fetch('http://localhost:4210/vocab').then((res) => res.json()),
+      fetch('http://localhost:4210/quiz').then((res) => res.json()),
+    ])
+      .then((data) => {
+        const questions = data.flat()
+        const tags = getTags(questions)
+        setQuestions([...initQuestions, ...questions])
+        setTags([...initTags, ...tags])
+      })
+      .catch((err) => {
+        console.log(err)
+      })
   }, [])
 
   React.useEffect(() => {
@@ -150,7 +172,7 @@ const Flashcards = (props) => {
   }
 
   const handleToggleFilterFavorite = () => {
-    setFitlerFavorites(!filterFavorites)
+    setFilterFavorites(!filterFavorites)
   }
 
   const handleToggleFilterVocab = () => {
