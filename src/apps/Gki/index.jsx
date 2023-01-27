@@ -6,13 +6,11 @@ import Button from '@componentsReact/Button'
 import { v4 as uuidv4 } from 'uuid'
 import { format } from 'date-fns'
 
-const customFetch = async (options = {}) => {
+const customFetch = (options = {}) => {
   return fetch(`https://jp-api.vercel.app/api/gki`, {
-    headers,
     ...options,
   })
     .then((res) => res.json())
-    .then(({ record }) => record)
     .catch((err) => {
       console.log(err)
     })
@@ -39,9 +37,11 @@ const GkiApp = (props) => {
   const [ketones, setKetones] = React.useState('')
   const [user, setUser] = React.useState('Jordan')
 
-  async function getData() {
-    const data = await customFetch({ method: 'GET' })
-    setResults(data)
+  function getData() {
+    customFetch({ method: 'GET' }).then((data) => {
+      console.log({ data })
+      if (data) setResults(data)
+    })
   }
 
   React.useEffect(() => {
