@@ -6,15 +6,8 @@ import Button from '@componentsReact/Button'
 import { v4 as uuidv4 } from 'uuid'
 import { format } from 'date-fns'
 
-const customFetch = async (url, options = {}) => {
-  const baseUrl = 'https://api.jsonbin.io/v3/b'
-  const headers = await new Headers({
-    'Content-Type': 'application/json',
-    'X-Master-Key':
-      '$2b$10$55J3oFkvZPXLu7ULHrVf0OC4LXq0Iuu3raq8TXcbK.oKa9h0GTSy6',
-  })
-
-  return fetch(`${baseUrl}/${url}`, {
+const customFetch = async (options = {}) => {
+  return fetch(`https://jp-api.vercel.app/api/gki`, {
     headers,
     ...options,
   })
@@ -23,14 +16,6 @@ const customFetch = async (url, options = {}) => {
     .catch((err) => {
       console.log(err)
     })
-}
-
-const Api = {
-  get: (url) => customFetch(url, { method: 'GET' }),
-  post: (url, data) =>
-    customFetch(url, { method: 'POST', body: JSON.stringify(data) }),
-  put: (url, data) =>
-    customFetch(url, { method: 'PUT', body: JSON.stringify(data) }),
 }
 
 const getGki = (glucose, ketones) => {
@@ -49,14 +34,13 @@ const getGki = (glucose, ketones) => {
 }
 
 const GkiApp = (props) => {
-  const path = '637e664b2b3499323b093247'
   const [results, setResults] = React.useState([])
   const [glucose, setGlucose] = React.useState('')
   const [ketones, setKetones] = React.useState('')
   const [user, setUser] = React.useState('Jordan')
 
   async function getData() {
-    const data = await Api.get(path)
+    const data = await customFetch({ method: 'GET' })
     setResults(data)
   }
 
@@ -78,7 +62,8 @@ const GkiApp = (props) => {
 
       const updatedResults = [result, ...results]
 
-      Api.put(path, updatedResults)
+      customFetch({ method: 'PUT', body: JSON.stringify(updatedResults) })
+
       setResults(updatedResults)
       setKetones('')
       setGlucose('')
