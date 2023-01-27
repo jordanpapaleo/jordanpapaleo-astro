@@ -52,14 +52,19 @@ const Flashcards = (props) => {
   const [filterVocab, setFilterVocab] = React.useState(false)
   const [filterQuizes, setFitlerQuizes] = React.useState(false)
   const [tags, setTags] = React.useState(initTags)
+  const [loading, setLoading] = React.useState(true)
 
   React.useEffect(() => {
     const favs = localStorage.getItem('fc_favorites')
     setFavorites(favs ? JSON.parse(favs) : [])
 
     Promise.all([
-      fetch('http://localhost:4210/vocab').then((res) => res.json()),
-      fetch('http://localhost:4210/quiz').then((res) => res.json()),
+      fetch('https://jp-api.vercel.app/api/flashcards/vocab').then((res) =>
+        res.json(),
+      ),
+      fetch('https://jp-api.vercel.app/api/flashcards/quiz').then((res) =>
+        res.json(),
+      ),
     ])
       .then((data) => {
         const questions = data.flat()
@@ -69,6 +74,9 @@ const Flashcards = (props) => {
       })
       .catch((err) => {
         console.log(err)
+      })
+      .finally(() => {
+        setLoading(false)
       })
   }, [])
 
@@ -214,17 +222,21 @@ const Flashcards = (props) => {
           />
         </div>
 
-        <CheckboxGroup
-          label={`Filter: ${filters.join(' OR ')}`}
-          options={tags.filter(({ value }) => {
-            return value !== 'vocab' && value !== 'quiz' && value !== 'cpt'
-          })}
-          value={[]}
-          inline
-          onChange={(e) => {
-            handleFilter(e.target.checked, e.target.value)
-          }}
-        />
+        {loading ? (
+          <div>Loading</div>
+        ) : (
+          <CheckboxGroup
+            label={`Filter: ${filters.join(' OR ')}`}
+            options={tags.filter(({ value }) => {
+              return value !== 'vocab' && value !== 'quiz' && value !== 'cpt'
+            })}
+            value={[]}
+            inline
+            onChange={(e) => {
+              handleFilter(e.target.checked, e.target.value)
+            }}
+          />
+        )}
       </div>
 
       <div
