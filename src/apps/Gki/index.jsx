@@ -8,6 +8,9 @@ import { format } from 'date-fns'
 
 const customFetch = (options = {}) => {
   return fetch(`https://jp-api.vercel.app/api/gki`, {
+    headers: {
+      'content-type': 'application/json;charset=UTF-8',
+    },
     ...options,
   })
     .then((res) => res.json())
