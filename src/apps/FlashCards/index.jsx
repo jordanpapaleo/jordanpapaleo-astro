@@ -16,7 +16,7 @@ import ShuffleIcon from '@images/Shuffle'
 import { disableScroll, enableScroll } from '@common/scrollHandler'
 // import { AiFillStar, AiOutlineStar } from 'react-icons/ai'
 
-const initQuestions = [
+const localQuestions = [
   ...fav,
   // ...vocab, ...quiz,
   ...multiplication,
@@ -40,12 +40,13 @@ const getTags = (questions) => {
   }, [])
 }
 
-const initTags = getTags(initQuestions)
+const initTags = getTags(localQuestions)
 
 const Flashcards = (props) => {
   const [cardIndex, setCardIndex] = React.useState(0)
   const [filters, setFilters] = React.useState([])
-  const [questions, setQuestions] = React.useState(initQuestions)
+  const [initQuestions, setInitQuestions] = React.useState([])
+  const [questions, setQuestions] = React.useState([])
   const [fullScreen, setFullScreen] = React.useState(false)
   const [favorites, setFavorites] = React.useState([])
   const [filterFavorites, setFilterFavorites] = React.useState(false)
@@ -69,7 +70,8 @@ const Flashcards = (props) => {
       .then((data) => {
         const questions = data.flat()
         const tags = getTags(questions)
-        setQuestions([...initQuestions, ...questions])
+        setInitQuestions([...questions, ...localQuestions])
+        setQuestions([...questions, ...localQuestions])
         setTags([...initTags, ...tags])
       })
       .catch((err) => {
