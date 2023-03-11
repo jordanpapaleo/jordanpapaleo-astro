@@ -6,14 +6,16 @@ import Layout from '@layouts/Layout.astro'
 
 <Layout title="Jordan Papaleo: Welcome" fullscreen>
   <main
-    class="bg-center bg-no-repeat bg-black05 bg-cover bg-fixed text-white items-center flex flex-col text-center w-screen h-screen py-10"
+    class="flex h-screen w-screen flex-col items-center bg-black05 bg-cover bg-fixed bg-center bg-no-repeat py-10 text-center text-white"
   >
-    <h1>Jordan Papaleo</h1>
+    <h1 class="mt-0 text-xl font-medium uppercase leading-4 tracking-widest">
+      Jordan Papaleo
+    </h1>
 
-    <div class="flex-1 flex flex-col items-center justify-center">
-      <h2>Engineer Leader</h2>
+    <div class="flex flex-1 flex-col items-center justify-center">
+      <h2 class="mb-8 -tracking-wide">Engineer Leader</h2>
 
-      <p>
+      <p class="mb-12 text-lg leading-7 text-white">
         Son, husband, father,<br />
         Twirling my manly mustache,<br />
         Awed by creation
@@ -31,16 +33,7 @@ import Layout from '@layouts/Layout.astro'
     background-image: url('/images/cover_background.jpg');
   }
 
-  h1 {
-    @apply uppercase mt-0 leading-4 font-medium tracking-widest text-xl;
-  }
-
   h2 {
     font-size: clamp(2rem, 10vw, 10rem);
-    @apply -tracking-wide mb-8;
-  }
-
-  main p {
-    @apply text-lg leading-7 mb-12 text-white;
   }
 </style>

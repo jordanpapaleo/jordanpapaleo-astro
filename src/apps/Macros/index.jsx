@@ -145,7 +145,7 @@ const MacroApp = (props) => {
         Carbs are set to 50g for all cases following low carb recommendations
       </p>
 
-      <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 ">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 ">
         <form
           id="macros"
           className="flex flex-col gap-4"
@@ -193,7 +193,7 @@ const MacroApp = (props) => {
           />
 
           <small
-            className="text-copy-light dark:dm-text-copy-light"
+            className="dark:dm-text-copy-light text-copy-light"
             style={{ lineHeight: 1 }}
           >
             Sedentary is minimal activity
@@ -216,11 +216,11 @@ const MacroApp = (props) => {
         </form>
 
         <div>
-          <pre className="p-4 bg-primary-ultraLight dark:bg-dm-copy-light">
+          <pre className="bg-primary-ultraLight p-4 dark:bg-dm-copy-light">
             {JSON.stringify(formState, null, 2)}
           </pre>
           <hr />
-          <pre className="p-4 bg-primary-ultraLight dark:bg-dm-copy-light">
+          <pre className="bg-primary-ultraLight p-4 dark:bg-dm-copy-light">
             {JSON.stringify(macros, null, 2)}
           </pre>
         </div>

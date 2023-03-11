@@ -1,0 +1,11 @@
+---
+import { SITE } from 'src/config'
+import Heading from '@components/Heading.astro'
+import Layout from '@layouts/Layout.astro'
+import WorkoutLog from '@apps/WorkoutLog'
+---
+
+<Layout title={`${SITE.title}: Workout Log`}>
+  <Heading level="h1">Workout Log</Heading>
+  <WorkoutLog client:load />
+</Layout>
