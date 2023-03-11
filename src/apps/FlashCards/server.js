@@ -14,6 +14,29 @@ app.use(cors())
 
 app.get('/', (req, res) => res.send('NASM'))
 
+const readFile = (req, res, fileName) => {
+  fs.readFile(fileName, 'utf8', (err, jsonString) => {
+    if (err) {
+      console.log(err)
+      res.status(500).send({
+        message: 'Db Read fail',
+        err,
+      })
+    }
+
+    try {
+      const dbQuestions = JSON.parse(jsonString)
+      res.status(200).send(jsonString)
+    } catch (err) {
+      console.log(err)
+      res.status(500).send({
+        message: 'Parse JSON error',
+        err,
+      })
+    }
+  })
+}
+
 const updateDb = (req, res, fileName) => {
   fs.readFile(fileName, 'utf8', (err, jsonString) => {
     if (err) {
@@ -75,8 +98,16 @@ const updateDb = (req, res, fileName) => {
   })
 }
 
+app.get('/vocab', (req, res) => {
+  readFile(req, res, './db/vocab.json')
+})
+
 app.post('/vocab', jsonParser, (req, res) => {
   updateDb(req, res, './db/vocab.json')
+})
+
+app.get('/quiz', (req, res) => {
+  readFile(req, res, './db/quiz.json')
 })
 
 app.post('/quiz', jsonParser, (req, res) => {
