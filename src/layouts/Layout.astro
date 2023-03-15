@@ -52,7 +52,7 @@ const { activeNav, title, fullscreen } = Astro.props
         <slot />
       </div>
     ) : (
-      <div id="wrapper">
+      <div id="wrapper" class="w-full">
         <PageHeading activeNav={activeNav} />
         <main class="flex-1">
           <slot />
@@ -67,16 +67,16 @@ const { activeNav, title, fullscreen } = Astro.props
 <style>
   html,
   body {
-    @apply m-0 p-0 flex flex-col;
+    @apply m-0 flex flex-col p-0;
   }
 
   body {
-    @apply font-sans text-base text-copy bg-background;
-    @apply dark:text-dm-copy dark:bg-dm-background;
+    @apply bg-background font-sans text-base text-copy;
+    @apply dark:bg-dm-background dark:text-dm-copy;
   }
 
   #wrapper {
-    @apply mx-auto max-w-4xl min-h-screen pr-4 pl-4 flex flex-col;
+    @apply mx-auto flex min-h-screen max-w-4xl flex-col pr-4 pl-4;
   }
 </style>
 
@@ -97,7 +97,7 @@ const { activeNav, title, fullscreen } = Astro.props
   h4,
   button,
   [astro-icon] {
-    @apply ease-out transition-colors duration-300;
+    @apply transition-colors duration-300 ease-out;
   }
 
   *:focus {
@@ -107,7 +107,7 @@ const { activeNav, title, fullscreen } = Astro.props
   p,
   ul,
   ol {
-    @apply font-serif mb-4 text-p text-copy;
+    @apply mb-4 font-serif text-p text-copy;
     @apply dark:text-dm-copy;
   }
 
@@ -115,11 +115,11 @@ const { activeNav, title, fullscreen } = Astro.props
   ul,
   ol,
   li {
-    @apply leading-6 m-0 p-0;
+    @apply m-0 p-0 leading-6;
   }
 
   a {
-    @apply text-link text-center font-bold font-sans uppercase cursor-pointer;
+    @apply cursor-pointer text-center font-sans text-link font-bold uppercase;
   }
 
   a,
@@ -136,6 +136,6 @@ const { activeNav, title, fullscreen } = Astro.props
   }
 
   pre {
-    @apply p-3 my-3;
+    @apply my-3 p-3;
   }
 </style>

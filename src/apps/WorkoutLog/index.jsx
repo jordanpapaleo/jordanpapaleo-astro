@@ -51,185 +51,156 @@ const WorkoutLog = () => {
     name: 'Chest',
   })
 
-  const [exercises, setExercises] = React.useState([])
+  const [sets, setSets] = React.useState([])
 
-  const addExercise = (exerciseOption) => {
-    const exerciseId = uuidv4()
-    setExercises([
-      ...exercises,
+  const addNewSet = (e) => {
+    const exerciseName = e.target.value
+    const exercise = exerciseOptions.find(
+      ({ label }) => label === e.target.value,
+    )
+
+    setSets([
+      ...sets,
       {
-        name: exerciseOption.label,
-        id: exerciseOption.value,
-        tempo: '',
+        id: uuidv4(), // unique id for this specificy entry
+        liftId: uuidv4(), // shared id to group set
+        exerciseId: exercise.value, // id of the exercise from the db
+        name: exercise.label, // name of the exercise from the db
+        reps: '',
         rest: '',
-        sets: [
-          {
-            id: uuidv4(),
-            weight: '',
-            reps: '',
-          },
-        ],
+        set: 0,
+        tempo: '',
+        weight: '',
       },
     ])
   }
 
-  const addSet = (exerciseId) => {
-    const i = exercises.findIndex((exercise) => exercise.id === exerciseId)
+  /* add the new set at the last entry of the set Id */
+  const appendSet = (exerciseName, exerciseId, liftId, set) => {
+    const lastSetForLift = sets.filter((s) => s.liftId === liftId).pop()
+    setSets(
+      sets
+        .map((s) => {
+          if (s.id !== lastSetForLift.id) return s
 
-    if (i !== -1) {
-      setExercises([
-        ...exercises.slice(0, i),
-        {
-          ...exercises[i],
-          sets: [
-            ...exercises[i].sets,
+          return [
+            s,
             {
               id: uuidv4(),
-              weight: '',
+              liftId: liftId,
+              exerciseId: exerciseId,
+              name: exerciseName,
               reps: '',
+              rest: '',
+              set: set + 1,
+              tempo: '',
+              weight: '',
             },
-          ],
-        },
-        ...exercises.slice(i + 1),
-      ])
-    } else {
-      console.log('Hmmmm, no exercise found')
-    }
-  }
-
-  const updateExercise = (exerciseId, prop) => (e) => {
-    const i = exercises.findIndex((exercise) => exercise.id === exerciseId)
-
-    if (i !== -1) {
-      setExercises([
-        ...exercises.slice(0, i),
-        {
-          ...exercises[i],
-          [prop]: e.target.value,
-        },
-        ...exercises.slice(i + 1),
-      ])
-    }
-  }
-
-  const updateSet = (exerciseId, setId, prop) => (e) => {
-    const exerciseI = exercises.findIndex(
-      (exercise) => exercise.id === exerciseId,
+          ]
+        })
+        .flat(),
     )
+  }
 
-    if (exerciseI !== -1) {
-      const selectedExercise = exercises[exerciseI]
-      const setI = selectedExercise.sets.findIndex((set) => set.id === setId)
+  const updateExercise = (id, field) => (e) => {
+    const i = sets.findIndex((s) => s.id === id)
 
-      if (setI !== -1) {
-        const selectedSet = selectedExercise.sets[setI]
-
-        setExercises([
-          ...exercises.slice(0, exerciseI),
-          {
-            ...selectedExercise,
-            sets: [
-              ...selectedExercise.sets.slice(0, setI),
-              {
-                ...selectedSet,
-                [prop]: e.target.value,
-              },
-              ...selectedExercise.sets.slice(setI + 1),
-            ],
-          },
-          ...exercises.slice(exerciseI + 1),
-        ])
-      }
-    }
+    setSets(
+      sets.map((s) => {
+        // eslint-disable-next-line prettier/prettier
+        return s.id === id
+          ? { ...s, [field]: e.target.value }
+          : s
+      }),
+    )
   }
 
   const completeWorkout = (e) => {
     e.preventDefault()
     console.log({
       ...workout,
-      exercises,
+      sets,
     })
   }
 
   return (
-    <div>
-      <form className="grid grid-cols-1 gap-4">
-        <TextInput
-          label={<small>{workout.date}</small>}
-          placeholder="Workout Name"
-          value={workout.name}
-          onChange={(e) => {
-            setWorkout({
-              ...workout,
-              name: e.target.value,
-            })
-          }}
-        />
+    <form className="grid w-full grid-cols-1 gap-4">
+      <TextInput
+        label={<small>{workout.date}</small>}
+        placeholder="Workout Name"
+        value={workout.name}
+        onChange={(e) => {
+          setWorkout({
+            ...workout,
+            name: e.target.value,
+          })
+        }}
+      />
 
-        {exercises.map((exercise, i) => (
-          <div key={i} className="grid grid-cols-1 gap-4">
-            <div className="border-t-4" />
-            <strong className="flex gap-4">{exercise.name}</strong>
-            <div className="grid grid-cols-2 gap-4">
-              <TextInput
-                onChange={updateExercise(exercise.id, 'tempo')}
-                placeholder="Tempo"
-                value={exercise.tempo}
-              />
-              <TextInput
-                onChange={updateExercise(exercise.id, 'rest')}
-                placeholder="Rest"
-                value={exercise.rest}
-              />
-            </div>
-
-            <div className="border-b-2" />
-
-            {exercise.sets.map((set) => (
-              <div className="grid grid-cols-2 gap-4" key={set.id}>
-                <TextInput
-                  onChange={updateSet(exercise.id, set.id, 'weight')}
-                  placeholder="Weight"
-                  value={set.weight}
-                />
-                <TextInput
-                  onChange={updateSet(exercise.id, set.id, 'reps')}
-                  placeholder="Reps"
-                  value={set.reps}
-                />
+      {sets.map((s, i) => (
+        <div key={i} className="grid grid-cols-1 gap-3">
+          {/* only show the name if its not a duplicate like adding a set */}
+          {s.set === 0 && (
+            <div className="grid grid-cols-1 gap-2">
+              <strong className="flex gap-4 uppercase">{s.name}</strong>
+              <div className="grid grid-cols-4 gap-2">
+                <small>Weight</small>
+                <small>Reps</small>
+                <small>Rest</small>
+                <small>Tempo</small>
               </div>
-            ))}
+            </div>
+          )}
 
+          <div className="grid grid-cols-4 gap-2">
+            <TextInput
+              onChange={updateExercise(s.id, 'weight')}
+              placeholder="Weight"
+              value={s.weight}
+            />
+            <TextInput
+              onChange={updateExercise(s.id, 'reps')}
+              placeholder="Reps"
+              value={s.reps}
+            />
+            <TextInput
+              onChange={updateExercise(s.id, 'rest')}
+              placeholder="Rest"
+              value={s.rest}
+            />
+            <TextInput
+              onChange={updateExercise(s.id, 'tempo')}
+              placeholder="Tempo"
+              value={s.tempo}
+            />
+          </div>
+
+          {(!sets[i + 1] || s.liftId !== sets[i + 1]?.liftId) && (
             <div>
               <Button
                 color="gray"
                 onClick={() => {
-                  addSet(exercise.id)
+                  appendSet(s.name, s.exerciseId, s.liftId, s.set)
                 }}
               >
                 + Set
               </Button>
             </div>
-          </div>
-        ))}
+          )}
+        </div>
+      ))}
 
-        {exercises.length > 0 && <div className="border-t-4" />}
+      <Select
+        onChange={addNewSet}
+        options={[{ label: '+ Exercise', value: 0 }, ...exerciseOptions]}
+        value={''}
+        readOnly
+      />
 
-        <Select
-          placeholder="+ Exercise"
-          onChange={addExercise}
-          options={exerciseOptions}
-          inputId="addExercise"
-          id="addExercise"
-          instanceId="addExercise"
-          value={[]}
-        />
-
-        <Button color="success" type="submit" onClick={completeWorkout}>
-          Complete Workout
-        </Button>
-      </form>
-    </div>
+      <Button color="success" type="submit" onClick={completeWorkout}>
+        Complete Workout
+      </Button>
+    </form>
   )
 }
 
