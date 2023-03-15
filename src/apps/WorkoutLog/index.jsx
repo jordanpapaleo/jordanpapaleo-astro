@@ -47,8 +47,8 @@ const exerciseOptions = EXERCISES.map((ex) => ({
 const WorkoutLog = () => {
   const [workout, setWorkout] = React.useState({
     date: format(new Date(), 'MM/dd/yyyy'),
-    id: uuidv4(),
-    name: 'Chest',
+    workoutId: uuidv4(),
+    name: '',
   })
 
   const [sets, setSets] = React.useState([])
@@ -117,10 +117,12 @@ const WorkoutLog = () => {
 
   const completeWorkout = (e) => {
     e.preventDefault()
-    console.log({
-      ...workout,
-      sets,
-    })
+    console.log(
+      sets.map((s) => ({
+        ...workout,
+        ...s,
+      })),
+    )
   }
 
   return (
