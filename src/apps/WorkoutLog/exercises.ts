@@ -1,4 +1,4 @@
-const EXERCISES = [
+const exercises = [
   {
     id: 'ae43aa99-897e-4171-ad49-aa3f2d0548cc',
     name: 'Squats',
@@ -50,4 +50,4 @@ const EXERCISES = [
   },
 ]
 
-export default EXERCISES
+export default exercises
