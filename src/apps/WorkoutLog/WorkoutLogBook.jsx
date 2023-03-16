@@ -125,8 +125,8 @@ const WorkoutLogBook = ({ exercises: initExercises }) => {
                 <strong className="flex gap-4 uppercase">{s.name}</strong>
                 <div className="grid grid-cols-4 gap-2">
                   <small>Weight</small>
-                  <small>Reps (sec)</small>
-                  <small>Rest</small>
+                  <small>Reps</small>
+                  <small>Rest (sec)</small>
                   <small>Tempo</small>
                 </div>
               </div>
