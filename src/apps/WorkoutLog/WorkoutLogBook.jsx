@@ -45,7 +45,15 @@ const WorkoutLogBook = ({ exercises: initExercises }) => {
   }
 
   /* add the new set at the last entry of the set Id */
-  const appendSet = (exerciseName, exerciseId, liftId, set) => {
+  const appendSet = (
+    exerciseName,
+    exerciseId,
+    liftId,
+    set,
+    rest,
+    tempo,
+    weight,
+  ) => {
     const lastSetForLift = sets.filter((s) => s.liftId === liftId).pop()
     setSets(
       sets
@@ -56,14 +64,14 @@ const WorkoutLogBook = ({ exercises: initExercises }) => {
             s,
             {
               id: uuidv4(),
-              liftId: liftId,
+              liftId,
               exerciseId: exerciseId,
               name: exerciseName,
               reps: '',
-              rest: '',
+              rest,
               set: set + 1,
-              tempo: '',
-              weight: '',
+              tempo,
+              weight,
             },
           ]
         })
@@ -117,7 +125,7 @@ const WorkoutLogBook = ({ exercises: initExercises }) => {
                 <strong className="flex gap-4 uppercase">{s.name}</strong>
                 <div className="grid grid-cols-4 gap-2">
                   <small>Weight</small>
-                  <small>Reps</small>
+                  <small>Reps (sec)</small>
                   <small>Rest</small>
                   <small>Tempo</small>
                 </div>
@@ -129,16 +137,19 @@ const WorkoutLogBook = ({ exercises: initExercises }) => {
                 onChange={updateExercise(s.id, 'weight')}
                 placeholder="Weight"
                 value={s.weight}
+                type="number"
               />
               <TextInput
                 onChange={updateExercise(s.id, 'reps')}
                 placeholder="Reps"
                 value={s.reps}
+                type="number"
               />
               <TextInput
                 onChange={updateExercise(s.id, 'rest')}
                 placeholder="Rest"
                 value={s.rest}
+                type="number"
               />
               <TextInput
                 onChange={updateExercise(s.id, 'tempo')}
@@ -152,7 +163,15 @@ const WorkoutLogBook = ({ exercises: initExercises }) => {
                 <Button
                   color="gray"
                   onClick={() => {
-                    appendSet(s.name, s.exerciseId, s.liftId, s.set)
+                    appendSet(
+                      s.name,
+                      s.exerciseId,
+                      s.liftId,
+                      s.set,
+                      s.rest,
+                      s.tempo,
+                      s.weight,
+                    )
                   }}
                 >
                   + Set
