@@ -31,24 +31,26 @@ const OneRepMaxCalc = () => {
   return (
     <div>
       <h2>
-        1RM Calc <small>({state.method})</small>
+        1RM Calc <small>(lombardi method)</small>
       </h2>
-      <TextInput
-        label="Weight"
-        placeholder="Weight"
-        value={state.weight}
-        onChange={(e) => {
-          setState({ weight: e.target.value })
-        }}
-      />
-      <TextInput
-        label="Reps"
-        placeholder="Reps"
-        value={state.reps}
-        onChange={(e) => {
-          setState({ reps: e.target.value })
-        }}
-      />
+      <div className="flex gap-4">
+        <TextInput
+          label="Weight"
+          placeholder="Weight"
+          value={state.weight}
+          onChange={(e) => {
+            setState({ weight: e.target.value })
+          }}
+        />
+        <TextInput
+          label="Reps"
+          placeholder="Reps"
+          value={state.reps}
+          onChange={(e) => {
+            setState({ reps: e.target.value })
+          }}
+        />
+      </div>
       {/* eslint-disable-next-line prettier/prettier */}
       {(!!state.weight && !!state.reps && !!state.oneRepMax) && (
         <table>
@@ -69,13 +71,20 @@ const OneRepMaxCalc = () => {
         </table>
       )}
 
-      <ul>
-        <li>Strength: 95% 1-3 reps</li>
-        <li>Power: 90% 3-4 reps 2-3min rest</li>
-        <li>Muscle: 80% 8-12 reps 60s rest</li>
-        <li>Endurance: 70% 12-20 reps</li>
-        <li>Explosive Power: 50% 3-4 reps</li>
-      </ul>
+      <pre>
+        {/* eslint-disable-next-line prettier/prettier */}
+        Strength:  95% 1-3 reps <br />
+        {/* eslint-disable-next-line prettier/prettier */}
+        Power:     90% 3-4 reps 2-3 min rest
+        <br />
+        {/* eslint-disable-next-line prettier/prettier */}
+        Muscle:    80% 8-12 reps 60s rest
+        <br />
+        Endurance: 70% 12-20 reps
+        <br />
+        Exp Power: 50% 3-4 reps
+        <br />
+      </pre>
     </div>
   )
 }
