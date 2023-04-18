@@ -465,11 +465,19 @@
   },
   {
     "question": "Retract v protract",
-    "answer": "toward midline v away",
+    "answer": "scapula moves back, toward midline v scapula moves forward and to the side",
     "tags": [
       "fav"
     ],
     "id": "e497f336-f964-45f4-8609-c388b7f09d32"
+  },
+  {
+    "question": "Medial v lateral",
+    "answer": "toward midline v away",
+    "tags": [
+      "fav"
+    ],
+    "id": "e497f336-f964-45f4-8609-4488b7f09d32"
   },
   {
     "question": "Elevate v depress",
@@ -480,11 +488,79 @@
     "id": "0fbd1fc8-187a-4940-9d74-52dc4f87aa98"
   },
   {
-    "question": "Superior v inferion",
+    "question": "Superior v inferior",
     "answer": "upward v downward",
     "tags": [
       "fav"
     ],
     "id": "c4a1a170-3e05-4270-8910-efd5d177ce75"
+  },
+  {
+    "question": "Rhomboid",
+    "answer": "Inferior to upper traps, medial to scapula, retracts scapula",
+    "tags": [
+      "fav",
+      "muscles"
+    ],
+    "id": "c4a1a170-3e05-4270-8910-efd5d177ce76"
+  },
+  {
+    "question": "Levator Scapula",
+    "answer": "Located beneath traps beneath and sternocleidomastoid, attaches cervical (neck) spine to scapula, elevates scapula",
+    "tags": [
+      "fav",
+      "muscles"
+    ],
+    "id": "c4a1a170-3e05-4270-8910-efd5d177ce77"
+  },
+  {
+    "question": "Deep Cervical Flexor",
+    "answer": "Neck core muscles, over active results in forward head lean",
+    "tags": [
+      "fav",
+      "muscles"
+    ],
+    "id": "c4a1a170-3e05-4270-8910-efd5d177ce78"
+  },
+  {
+    "question": "Tensor fascia latae",
+    "answer": "Hip muscle from hip to head of femur. Always hurts on me",
+    "tags": [
+      "fav",
+      "muscles"
+    ],
+    "id": "c4a1a170-3e05-4270-8910-efd5d177c458"
+  },
+  {
+    "question": "Agonist muscle",
+    "answer": "he prime movers",
+    "tags": ["fav", "muscles"],
+    "id": "56ac830c-21f4-43d8-9b88-573619110c28"
+  },
+  {
+    "question": "Synergist muscle",
+    "answer": "assists the agonist muscle (primary mover) for a specific action",
+    "tags": ["fav", "muscles"],
+    "id": "beca11ef-c550-43a6-b3ab-d66c77b6fb91"
+  },
+  {
+    "question": "Antagonist muscle",
+    "answer": "oppose or resist the movements of the agonists",
+    "tags": ["fav", "muscles"],
+    "id": "56ac830c-21f4-43d8-9b88-573619110c28"
+  },
+  {
+    "question": "Reciprocal Inhibitation",
+    "answer": "the relaxation of muscles on one side of a joint to accommodate contraction on the other side, ex: bis and tris",
+    "tags": [
+      "fav"
+    ],
+    "id": "v4a1a170-3e05-4270-8910-efd5d177c458"
+  },
+  {
+    "question": "Altered Reciprocal Inhibition",
+    "answer": "When a muscle is overactive and messes up balance resulting increased neuro drive to one muscle",
+    "tags": ["fav"],
+    "id": "97b447ac-0839-4369-bd6b-b4214f73ea1e"
   }
 ]

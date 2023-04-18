@@ -1,6 +1,6 @@
 import React from 'react'
 import exercises from './exercises'
-import FeatureFlag from './FeatureFlag'
+import FeatureFlag, { FeatureFlagProvider } from './FeatureFlag'
 import OneRepMaxCalc from './OneRepMaxCalc'
 import WorkoutLogBook from './WorkoutLogBook'
 import OptLog from './OptLog'
@@ -8,7 +8,7 @@ import Timer from './Timer'
 
 const WorkoutLog = () => {
   return (
-    <>
+    <FeatureFlagProvider>
       <FeatureFlag name="timer">
         <Timer />
       </FeatureFlag>
@@ -22,7 +22,7 @@ const WorkoutLog = () => {
       <FeatureFlag name="oneRepMaxCalc">
         <OneRepMaxCalc />
       </FeatureFlag>
-    </>
+    </FeatureFlagProvider>
   )
 }
 

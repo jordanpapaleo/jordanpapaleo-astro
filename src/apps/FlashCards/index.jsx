@@ -242,7 +242,7 @@ const Flashcards = (props) => {
       </div>
 
       <div
-        className={clsx('flex gap-2 w-full min-w-full', fullScreen && FS_CLASS)}
+        className={clsx('flex w-full min-w-full gap-2', fullScreen && FS_CLASS)}
       >
         <CardGutter className="">
           <Button
@@ -259,8 +259,8 @@ const Flashcards = (props) => {
           </Button>
         </CardGutter>
 
-        <div className="border flex-1 relative">
-          <small className="mb-2 absolute left-2 top-1">
+        <div className="relative flex-1 border">
+          <small className="absolute left-2 top-1 mb-2">
             {questions.length > 0
               ? `${cardIndex + 1} of ${questions.length}`
               : '0 of 0'}
@@ -315,22 +315,24 @@ const Card = ({ question, answer, tags = [] }) => {
   return (
     <button
       onClick={() => setShowAnswer(!showAnswer)}
-      className="py-2 px-4 relative w-full"
+      className="relative w-full py-2 px-4"
     >
       <h2 className="text-center">{question}</h2>
-      <p className={clsx('leading-5 pb-4', !showAnswer && 'opacity-0')}>
+      <p className={clsx('pb-4 leading-5', !showAnswer && 'opacity-0')}>
         {answer}
       </p>
 
-      <small className="flex gap-1 absolute left-1 bottom-1">
-        {tags.map((t, i) => (
-          <span
-            key={i}
-            className="inline-block px-1 border border-primary-light bg-primary-ultraLight text-xs text-primary"
-          >
-            {t}
-          </span>
-        ))}
+      <small className="absolute left-1 bottom-1 flex gap-1">
+        {tags
+          .filter((t) => t !== 'cpt')
+          .map((t, i) => (
+            <span
+              key={i}
+              className="inline-block border border-primary-light bg-primary-ultraLight px-1 text-xs text-primary"
+            >
+              {t}
+            </span>
+          ))}
       </small>
     </button>
   )
