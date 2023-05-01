@@ -1,0 +1,266 @@
+[
+  {
+    "question": "Pes Planus Distortion",
+    "answer": "Pes planus (collasped arch) & knee valgus & adducted internal rotate hip (pigeon toe)",
+    "tags": [
+      "assess"
+    ],
+    "id": "c364bfd5-3c30-479e-aa49-32533090d8a9"
+  },
+  {
+    "question": "Pes Planus Distortion overactive",
+    "answer": "Gastro and soleus (calves) & Adductor complex (inner thigh) & Hip flexor)",
+    "tags": [
+      "assess"
+    ],
+    "id": "a5227fe4-f4b2-499a-b69b-082ab8ba17b9"
+  },
+  {
+    "question": "Pes Planus Distortion underactive",
+    "answer": "Anterior and posterior tibialis (shin) & Gluteus maximus and medius (booty)",
+    "tags": [
+      "assess"
+    ],
+    "id": "674b9a19-4103-4bfb-868e-964b1517d2a4"
+  },
+  {
+    "question": "Lower crossed syndrome",
+    "answer": "Anterior pevlic tilt & excessive lordosis (lumbar extension)",
+    "tags": [
+      "assess"
+    ],
+    "id": "aa025e72-2f72-4e99-aee0-be904490084e"
+  },
+  {
+    "question": "Lower crossed syndrome overactive",
+    "answer": "Hip flexor & lumbar extensors",
+    "tags": [
+      "assess"
+    ],
+    "id": "f8587219-2094-45d2-ad7f-505460a0f925"
+  },
+  {
+    "question": "Lower crossed syndrome underactive",
+    "answer": "Gluteus max and medius & hamstring complex & abdominals",
+    "tags": [
+      "assess"
+    ],
+    "id": "ad0227bd-9f29-41f7-9c1e-5772001caa25"
+  },
+  {
+    "question": "Upper crossed syndrome",
+    "answer": "Thoracic spine (hunch) & protracted and inernally rotated shoulders & head and neck jutted forward",
+    "tags": [
+      "assess"
+    ],
+    "id": "cd45c944-f9cb-4168-9c7e-9f565e70974b"
+  },
+  {
+    "question": "Upper crossed syndrome overactive",
+    "answer": "Pectoralis major & levator scapula and sternocldeidomoid (neck) & Upper trapezius",
+    "tags": [
+      "assess"
+    ],
+    "id": "28b09977-8c3c-40e1-bda8-93326bc0ee7a"
+  },
+  {
+    "question": "Upper crossed syndrome underactive",
+    "answer": "Middle and lower trapezius and rhomboids (mid back) & Deep cervical flexors (muscle deep within neck)",
+    "tags": [
+      "assess"
+    ],
+    "id": "c71c01bd-1a52-46bd-9c84-d0de5c451c27"
+  },
+  {
+    "question": "Overhead squat: ankles out overactive",
+    "answer": "Gastrocnemius/soleus (calves) & Hamstrings complex",
+    "tags": [
+      "assess"
+    ],
+    "id": "80bfb1ac-6994-425c-b917-6b34669a859c"
+  },
+  {
+    "question": "Overhead squat: ankles out underactiveactive",
+    "answer": "Anterior and posterior tibialis (shin muscles) & Gluteus maximus and medius",
+    "tags": [
+      "assess"
+    ],
+    "id": "348f919a-dca8-446b-99a2-73d26ac824f9"
+  },
+  {
+    "question": "Overhead squat: knee valgus overactive",
+    "answer": "Tensor fascia latae (TFL)(muscle near front of hip) & Adductor complex (inner thigh muscles)",
+    "tags": [
+      "assess"
+    ],
+    "id": "9e2f9d21-4e09-40aa-a7df-05c7d3e409f5"
+  },
+  {
+    "question": "Overhead squat: knee valgus underactive",
+    "answer": "Gluteus maximus and medius & Anterior and posterior tibialis",
+    "tags": [
+      "assess"
+    ],
+    "id": "cb1de7b0-6d6d-456f-916b-2914f60c0d85"
+  },
+  {
+    "question": "Overhead squat: low back arch overactive",
+    "answer": "Hip flexors (rectus femoris, psoas, TFL) & Lumbar extensors (low-back muscles) & Latissimus dorsi (large back muscle)",
+    "tags": [
+      "assess"
+    ],
+    "id": "fd5495c2-b459-4bfc-97cd-a5f3f2c79cf3"
+  },
+  {
+    "question": "Overhead squat: low back arch underactive",
+    "answer": "Gluteus maximus & Hamstrings complex & Abdominals",
+    "tags": [
+      "assess"
+    ],
+    "id": "073146bf-8200-4ab7-b655-399606a90bf9"
+  },
+  {
+    "question": "Overhead squat: forward lean arch overactive",
+    "answer": "Hip flexors & Gastrocnemius/soleus & Rectus abdominis and external obliques (superficial abdominal muscles)",
+    "tags": [
+      "assess"
+    ],
+    "id": "0f7397b3-5fdf-40e7-b8ce-484ba3f26abb"
+  },
+  {
+    "question": "Overhead squat: forward lean arch underactive",
+    "answer": "Gluteus maximus & Hamstrings complex & Lumbar extensors",
+    "tags": [
+      "assess"
+    ],
+    "id": "89bc5db3-f641-462f-8f70-8cc675a8c211"
+  },
+  {
+    "question": "Overhead squat: arms forward arch overactive",
+    "answer": "Latissimus dorsi & Pectoralis major and minor (chest muscles) & Teres major (posterior shoulder muscle)",
+    "tags": [
+      "assess"
+    ],
+    "id": "4aaa1afd-9c8f-46d7-b040-7d393dfe7d4e"
+  },
+  {
+    "question": "Overhead squat: arms forward arch underactive",
+    "answer": "Middle and lower trapezius (mid-back muscle) & Rhomboids (muscles near shoulder blades) & Posterior deltoids (back of shoulder muscles) & Portions of the rotator cuff (small muscles that stabilize the shoulder)",
+    "tags": [
+      "assess"
+    ],
+    "id": "ea5952ac-8ce4-4663-bd0b-951bb6a13953"
+  },
+  {
+    "question": "Single leg squat valgus overactive",
+    "answer": "Tensor fascia latae (TFL) & Adductor complex",
+    "tags": [
+      "assess"
+    ],
+    "id": "635790c9-7dd0-47af-ac19-ea0da216c818"
+  },
+  {
+    "question": "Single leg squat valgus underactive",
+    "answer": "Gluteus maximus and medius & Anterior and posterior tibialis",
+    "tags": [
+      "assess"
+    ],
+    "id": "beb396a9-14e3-418d-a27c-ce09d4b94821"
+  },
+  {
+    "question": "Push assessment low back arch overactive",
+    "answer": "Hip flexors (rectus femoris, psoas, TFL) & Lumbar extensors",
+    "tags": [
+      "assess"
+    ],
+    "id": "6e8e02a2-145c-4298-918a-290927807568"
+  },
+  {
+    "question": "Push assessment low back arch underactive",
+    "answer": "Gluteus maximus & Hamstrings complex & Abdominals",
+    "tags": [
+      "assess"
+    ],
+    "id": "2e0a4305-65f5-49ce-b167-83b88356ec37"
+  },
+  {
+    "question": "Push assessment Scapular elevation arch overactive",
+    "answer": "Levator scapulae (posterior neck muscles) & Upper trapezius",
+    "tags": [
+      "assess"
+    ],
+    "id": "169a8873-ab0a-4db2-bccb-d1a48218916d"
+  },
+  {
+    "question": "Push assessment Scapular elevation arch underactive",
+    "answer": "Lower trapezius",
+    "tags": [
+      "assess"
+    ],
+    "id": "5ad95161-d60d-428d-9b90-8864ef43fbfe"
+  },
+  {
+    "question": "Push assessment Head juts forward overactive",
+    "answer": "Levator scapulae & Sternocleidomastoid (anterior neck muscles)",
+    "tags": [
+      "assess"
+    ],
+    "id": "6e98600f-263d-4b88-93f1-21cb76539775"
+  },
+  {
+    "question": "Push assessment Head juts forward underactive",
+    "answer": "Deep cervical flexors (deep neck stabilizer muscles)",
+    "tags": [
+      "assess"
+    ],
+    "id": "c4095a72-8dc2-4db1-b2af-082331615581"
+  },
+  {
+    "question": "Pull assessment low back arch overactive",
+    "answer": "Hip flexors (rectus femoris, psoas, TFL) & Lumbar extensors",
+    "tags": [
+      "assess"
+    ],
+    "id": "ce8688cf-db18-470e-980f-a83a8a71857d"
+  },
+  {
+    "question": "Pull assessment low back arch underactive",
+    "answer": "Gluteus maximus & Hamstrings complex & Abdominals",
+    "tags": [
+      "assess"
+    ],
+    "id": "542bdda7-6f7f-4479-b48c-e624d055468d"
+  },
+  {
+    "question": "Pull assessment Scapular elevation arch overactive",
+    "answer": "Levator scapulae (posterior neck muscles) & Upper trapezius",
+    "tags": [
+      "assess"
+    ],
+    "id": "74defd2c-ca34-4e09-ad92-b7a389030a2b"
+  },
+  {
+    "question": "Pull assessment Scapular elevation arch underactive",
+    "answer": "Lower trapezius",
+    "tags": [
+      "assess"
+    ],
+    "id": "75f6bed7-d263-4e31-92b8-104a22cc9c13"
+  },
+  {
+    "question": "Pull assessment Head juts forward overactive",
+    "answer": "Levator scapulae & Sternocleidomastoid (anterior neck muscles)",
+    "tags": [
+      "assess"
+    ],
+    "id": "967f04c2-1f94-494a-8ed9-3a7173dd7858"
+  },
+  {
+    "question": "Pull assessment Head juts forward underactive",
+    "answer": "Deep cervical flexors (deep neck stabilizer muscles)",
+    "tags": [
+      "assess"
+    ],
+    "id": "92fb9d55-580f-4965-b973-744f8303c1fa"
+  }
+]

@@ -1,8 +1,7 @@
 import React from 'react'
-import quiz from './db/quiz.json'
-import vocab from './db/vocab.json'
+import assess from './db/assess.json'
+import muscles from './db/muscles.json'
 import fav from './db/fav.json'
-import multiplication from './db/multiplication.json'
 import CheckboxGroup from '@componentsReact/CheckboxGroup'
 import Button from '@componentsReact/Button'
 import clsx from 'clsx'
@@ -18,8 +17,10 @@ import { disableScroll, enableScroll } from '@common/scrollHandler'
 
 const localQuestions = [
   ...fav,
+  ...assess,
+  ...muscles,
   // ...vocab, ...quiz,
-  ...multiplication,
+  // ...multiplication,
 ]
 
 const getTags = (questions) => {
@@ -63,9 +64,9 @@ const Flashcards = (props) => {
       fetch('https://jp-api.vercel.app/api/flashcards/vocab').then((res) =>
         res.json(),
       ),
-      fetch('https://jp-api.vercel.app/api/flashcards/quiz').then((res) =>
-        res.json(),
-      ),
+      // fetch('https://jp-api.vercel.app/api/flashcards/quiz').then((res) =>
+      //   res.json(),
+      // ),
     ])
       .then((data) => {
         const questions = data.flat()
