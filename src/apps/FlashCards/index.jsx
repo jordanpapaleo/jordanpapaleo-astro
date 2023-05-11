@@ -2,17 +2,18 @@ import React from 'react'
 import assess from './db/assess.json'
 import muscles from './db/muscles.json'
 import fav from './db/fav.json'
-import CheckboxGroup from '@componentsReact/CheckboxGroup'
+import { disableScroll, enableScroll } from '@common/scrollHandler'
 import Button from '@componentsReact/Button'
-import clsx from 'clsx'
-import ExpandIcon from '@images/Expand'
-import CompressIcon from '@images/Collapse'
-import ChevronRightIcon from '@images/ChevronRight'
+import CheckboxGroup from '@componentsReact/CheckboxGroup'
 import ChevronLeftIcon from '@images/ChevronLeft'
-import StarIcon from '@images/Star'
+import ChevronRightIcon from '@images/ChevronRight'
+import clsx from 'clsx'
+import CompressIcon from '@images/Collapse'
+import ExpandIcon from '@images/Expand'
 import OutlineStarIcon from '@images/OutlineStar'
 import ShuffleIcon from '@images/Shuffle'
-import { disableScroll, enableScroll } from '@common/scrollHandler'
+import StarIcon from '@images/Star'
+
 // import { AiFillStar, AiOutlineStar } from 'react-icons/ai'
 
 const localQuestions = [
@@ -55,6 +56,7 @@ const Flashcards = (props) => {
   const [filterQuizes, setFitlerQuizes] = React.useState(false)
   const [tags, setTags] = React.useState(initTags)
   const [loading, setLoading] = React.useState(true)
+  const [showFilters, setShowFilters] = React.useState(false)
 
   React.useEffect(() => {
     const favs = localStorage.getItem('fc_favorites')
@@ -64,9 +66,9 @@ const Flashcards = (props) => {
       fetch('https://jp-api.vercel.app/api/flashcards/vocab').then((res) =>
         res.json(),
       ),
-      // fetch('https://jp-api.vercel.app/api/flashcards/quiz').then((res) =>
-      //   res.json(),
-      // ),
+      fetch('https://jp-api.vercel.app/api/flashcards/quiz').then((res) =>
+        res.json(),
+      ),
     ])
       .then((data) => {
         const questions = data.flat()
@@ -204,30 +206,42 @@ const Flashcards = (props) => {
   return (
     <>
       <div className="mb-2">
-        <div className="flex gap-4">
-          <CheckboxGroup
-            options={[{ name: '⭐', value: 'favorite' }]}
-            value={[]}
-            inline
-            onChange={handleToggleFilterFavorite}
-          />
-          <CheckboxGroup
-            options={[{ name: 'Vocab', value: 'vocab' }]}
-            value={[]}
-            inline
-            onChange={handleToggleFilterVocab}
-          />
-          <CheckboxGroup
-            options={[{ name: 'Quiz', value: 'quiz' }]}
-            value={[]}
-            inline
-            onChange={handleToggleFilterQuizes}
-          />
-        </div>
+        <Button
+          className="mb-4"
+          size="xs"
+          color="gray"
+          onClick={(e) => {
+            setShowFilters(!showFilters)
+          }}
+        >
+          Toggle Filters
+        </Button>
 
-        {loading ? (
-          <div>Loading</div>
-        ) : (
+        {showFilters && (
+          <div className="flex gap-4">
+            <CheckboxGroup
+              options={[{ name: '⭐', value: 'favorite' }]}
+              value={[]}
+              inline
+              onChange={handleToggleFilterFavorite}
+            />
+            <CheckboxGroup
+              options={[{ name: 'Vocab', value: 'vocab' }]}
+              value={[]}
+              inline
+              onChange={handleToggleFilterVocab}
+            />
+            <CheckboxGroup
+              options={[{ name: 'Quiz', value: 'quiz' }]}
+              value={[]}
+              inline
+              onChange={handleToggleFilterQuizes}
+            />
+          </div>
+        )}
+
+        {showFilters && loading && <div>Loading</div>}
+        {showFilters && !loading && (
           <CheckboxGroup
             label={`Filter: ${filters.join(' OR ')}`}
             options={tags.filter(({ value }) => {
