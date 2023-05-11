@@ -206,46 +206,74 @@ const Flashcards = (props) => {
   return (
     <>
       <div className="mb-2">
-        <Button
-          className="mb-4"
-          size="xs"
-          color="gray"
-          onClick={(e) => {
-            setShowFilters(!showFilters)
-          }}
-        >
-          Toggle Filters
-        </Button>
+        <div className="flex gap-4">
+          <Button
+            className="mb-4"
+            size="xs"
+            color="gray"
+            onClick={(e) => {
+              setShowFilters(!showFilters)
+            }}
+          >
+            Toggle Filters
+          </Button>
 
-        {showFilters && (
-          <div className="flex gap-4">
-            <CheckboxGroup
-              options={[{ name: '⭐', value: 'favorite' }]}
-              value={[]}
-              inline
-              onChange={handleToggleFilterFavorite}
-            />
-            <CheckboxGroup
-              options={[{ name: 'Vocab', value: 'vocab' }]}
-              value={[]}
-              inline
-              onChange={handleToggleFilterVocab}
-            />
-            <CheckboxGroup
-              options={[{ name: 'Quiz', value: 'quiz' }]}
-              value={[]}
-              inline
-              onChange={handleToggleFilterQuizes}
-            />
-          </div>
-        )}
+          <CheckboxGroup
+            options={[{ name: '⭐', value: 'favorite' }]}
+            value={[]}
+            inline
+            onChange={handleToggleFilterFavorite}
+          />
+          <CheckboxGroup
+            options={[{ name: 'Vocab', value: 'vocab' }]}
+            value={[]}
+            inline
+            onChange={handleToggleFilterVocab}
+          />
+          <CheckboxGroup
+            options={[{ name: 'Quiz', value: 'quiz' }]}
+            value={[]}
+            inline
+            onChange={handleToggleFilterQuizes}
+          />
+        </div>
 
         {showFilters && loading && <div>Loading</div>}
         {showFilters && !loading && (
           <CheckboxGroup
             label={`Filter: ${filters.join(' OR ')}`}
             options={tags.filter(({ value }) => {
-              return value !== 'vocab' && value !== 'quiz' && value !== 'cpt'
+              return (
+                value !== 'vocab' &&
+                value !== 'quiz' &&
+                value !== 'cpt' &&
+                (value === 'fav' ||
+                  value === 'muscles' ||
+                  value === 'flexibility' ||
+                  value === 'assess')
+              )
+            })}
+            value={[]}
+            inline
+            onChange={(e) => {
+              handleFilter(e.target.checked, e.target.value)
+            }}
+          />
+        )}
+
+        {showFilters && !loading && (
+          <CheckboxGroup
+            label={`Filter: ${filters.join(' OR ')}`}
+            options={tags.filter(({ value }) => {
+              return (
+                value !== 'vocab' &&
+                value !== 'quiz' &&
+                value !== 'cpt' &&
+                value !== 'fav' &&
+                value !== 'muscles' &&
+                value !== 'flexibility' &&
+                value !== 'assess'
+              )
             })}
             value={[]}
             inline

@@ -164,7 +164,7 @@
     "question": "Eversion v Inversion",
     "answer": "medial rotation of foot out v in",
     "tags": [
-      "flex"
+      "fav"
     ],
     "id": "414ea25d-3708-4e1c-b5c1-cd7671ec4893"
   },
@@ -293,60 +293,5 @@
     "answer": "1 set 10-15reps for 3-10 exercises | mimic movements | ex: leg swing, jumping jacks",
     "tags": ["fav", "flexibility"],
     "id": "6ea5738a-f21d-4157-80da-8c216a40eaff"
-  },
-  {
-    "question": "Synergistic dominance",
-    "answer": "Synergist muscle compensates for weak agonist",
-    "tags": ["fav"],
-    "id": "04835ce7-fdc2-4e7f-9fba-2095af409d3e"
-  },
-  {
-    "question": "",
-    "answer": "",
-    "tags": ["fav", "distortion patters"],
-    "id": "a33f5335-8f54-4e9b-b9d3-7e35b13cd995"
-  },
-
-  {
-    "question": "",
-    "answer": "",
-    "tags": ["fav"],
-    "id": "68caa59a-4628-4da6-9455-aa442e1ceb2a"
-  },
-  {
-    "question": "",
-    "answer": "",
-    "tags": ["fav"],
-    "id": "272ceb53-c388-4ad3-87c8-cc105813bb62"
-  },
-  {
-    "question": "",
-    "answer": "",
-    "tags": ["fav"],
-    "id": "03a21ca3-fd11-4dac-9380-090918660188"
-  },
-   {
-    "question": "",
-    "answer": "",
-    "tags": ["fav"],
-    "id": "8113a711-e40b-4949-afc0-2695fc3a271b"
-  },
-   {
-    "question": "",
-    "answer": "",
-    "tags": ["fav"],
-    "id": "dc5bfe66-3270-49d5-ba45-cc2c573249b1"
-  },
-   {
-    "question": "",
-    "answer": "",
-    "tags": ["fav"],
-    "id": "5518aa24-2b20-4266-8d30-b3a14d3bd6fe"
-  },
-  {
-    "question": "",
-    "answer": "",
-    "tags": ["fav"],
-    "id": "692b27b1-13af-48c4-ba20-4fdc65fc4fd9"
   }
 ]
