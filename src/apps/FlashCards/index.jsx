@@ -23,10 +23,9 @@ const localQuestions = [
   ...fav,
   ...assess,
   ...muscles,
-  ...nasmCptQuiz,
+  // ...nasmCptQuiz,
   ...nasmCptVocab,
   ...nasmPesVocab,
-  // ...multiplication,
 ]
 
 const getTags = (questions) => {
