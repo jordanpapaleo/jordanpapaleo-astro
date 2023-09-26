@@ -18,7 +18,7 @@ const Select = ({
         className="w-full"
         onChange={onChange}
         placeholder={placeholder}
-        value={value}
+        // value={value}
         {...rest}
       >
         {options.map((option) => (

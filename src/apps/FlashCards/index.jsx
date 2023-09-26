@@ -2,6 +2,9 @@ import React from 'react'
 import assess from './db/assess.json'
 import muscles from './db/muscles.json'
 import fav from './db/fav.json'
+import nasmCptQuiz from './db/nasmCptQuiz.json'
+import nasmCptVocab from './db/nasmCptVocab.json'
+import nasmPesVocab from './db/nasmPesVocab.json'
 import { disableScroll, enableScroll } from '@common/scrollHandler'
 import Button from '@componentsReact/Button'
 import CheckboxGroup from '@componentsReact/CheckboxGroup'
@@ -20,7 +23,9 @@ const localQuestions = [
   ...fav,
   ...assess,
   ...muscles,
-  // ...vocab, ...quiz,
+  ...nasmCptQuiz,
+  ...nasmCptVocab,
+  ...nasmPesVocab,
   // ...multiplication,
 ]
 
@@ -47,8 +52,8 @@ const initTags = getTags(localQuestions)
 const Flashcards = (props) => {
   const [cardIndex, setCardIndex] = React.useState(0)
   const [filters, setFilters] = React.useState([])
-  const [initQuestions, setInitQuestions] = React.useState([])
-  const [questions, setQuestions] = React.useState([])
+  const [initQuestions, setInitQuestions] = React.useState(localQuestions)
+  const [questions, setQuestions] = React.useState(localQuestions)
   const [fullScreen, setFullScreen] = React.useState(false)
   const [favorites, setFavorites] = React.useState([])
   const [filterFavorites, setFilterFavorites] = React.useState(false)
@@ -58,32 +63,40 @@ const Flashcards = (props) => {
   const [loading, setLoading] = React.useState(true)
   const [showFilters, setShowFilters] = React.useState(false)
 
-  React.useEffect(() => {
-    const favs = localStorage.getItem('fc_favorites')
-    setFavorites(favs ? JSON.parse(favs) : [])
+  // setInitQuestions([...localQuestions])
+  // setQuestions([...localQuestions])
+  // setTags([...tags])
 
-    Promise.all([
-      fetch('https://jp-api.vercel.app/api/flashcards/vocab').then((res) =>
-        res.json(),
-      ),
-      fetch('https://jp-api.vercel.app/api/flashcards/quiz').then((res) =>
-        res.json(),
-      ),
-    ])
-      .then((data) => {
-        const questions = data.flat()
-        const tags = getTags(questions)
-        setInitQuestions([...questions, ...localQuestions])
-        setQuestions([...questions, ...localQuestions])
-        setTags([...initTags, ...tags])
-      })
-      .catch((err) => {
-        console.log(err)
-      })
-      .finally(() => {
-        setLoading(false)
-      })
-  }, [])
+  // React.useEffect(() => {
+  //   const favs = localStorage.getItem('fc_favorites')
+  //   setFavorites(favs ? JSON.parse(favs) : [])
+  //   // const tags = getTags(localQuestions)
+  //   setInitQuestions([...localQuestions])
+  //   setQuestions([...localQuestions])
+  //   setTags([...tags])
+
+  //   // Promise.all([
+  //   //   fetch('https://jp-api.vercel.app/api/flashcards/vocab').then((res) =>
+  //   //     res.json(),
+  //   //   ),
+  //   //   fetch('https://jp-api.vercel.app/api/flashcards/quiz').then((res) =>
+  //   //     res.json(),
+  //   //   ),
+  //   // ])
+  //   //   .then((data) => {
+  //   //     const questions = data.flat()
+  //   //     const tags = getTags(questions)
+  //   //     setInitQuestions([...questions, ...localQuestions])
+  //   //     setQuestions([...questions, ...localQuestions])
+  //   //     setTags([...initTags, ...tags])
+  //   //   })
+  //   //   .catch((err) => {
+  //   //     console.log(err)
+  //   //   })
+  //   //   .finally(() => {
+  //   //     setLoading(false)
+  //   //   })
+  // }, [])
 
   React.useEffect(() => {
     localStorage.setItem('fc_favorites', JSON.stringify(favorites))

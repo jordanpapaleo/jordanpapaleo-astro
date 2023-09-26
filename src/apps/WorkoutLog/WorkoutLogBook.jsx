@@ -7,7 +7,10 @@ import TextInput from '@componentsReact/TextInput'
 import { v4 as uuidv4 } from 'uuid'
 import { format } from 'date-fns'
 
-const WorkoutLogBook = ({ exercises: initExercises }) => {
+const WorkoutLogBook = ({
+  exerciseDb: initExercises,
+  workout: initWorkout,
+}) => {
   const [workout, setWorkout] = React.useState({
     date: format(new Date(), 'MM/dd/yyyy'),
     workoutId: uuidv4(),
@@ -188,9 +191,11 @@ const WorkoutLogBook = ({ exercises: initExercises }) => {
           readOnly
         />
 
-        <Button color="success" type="submit" onClick={completeWorkout}>
-          Complete Workout
-        </Button>
+        <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
+          <Button type="submit" onClick={completeWorkout}>
+            Complete Workout
+          </Button>
+        </div>
       </form>
     </>
   )

@@ -2,9 +2,9 @@ import React from 'react'
 
 const features = {
   oneRepMaxCalc: { enabled: false, createdAt: '03/15/2023' },
-  optLog: { enabled: false, createdAt: '03/15/2023' },
+  optLog: { enabled: true, createdAt: '03/15/2023' },
   workoutLog: { enabled: true, createdAt: '03/15/2023' },
-  // timer: { enabled: true, createdAt: '03/24/2023' },
+  timer: { enabled: false, createdAt: '03/24/2023' },
 }
 
 export const FeatureFlagContext = React.createContext({})
