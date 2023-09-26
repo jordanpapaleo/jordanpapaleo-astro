@@ -3,7 +3,7 @@ import path from 'path'
 import csv from 'csvtojson'
 import { v4 as uuidv4 } from 'uuid'
 
-const files = ['fav']
+const files = ['pes']
 
 files.forEach((file) => {
   // Convert a csv file with csvtojson

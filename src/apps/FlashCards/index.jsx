@@ -4,7 +4,7 @@ import muscles from './db/muscles.json'
 import fav from './db/fav.json'
 import nasmCptQuiz from './db/nasmCptQuiz.json'
 import nasmCptVocab from './db/nasmCptVocab.json'
-import nasmPesVocab from './db/nasmPesVocab.json'
+import pes from './db/pes.json'
 import { disableScroll, enableScroll } from '@common/scrollHandler'
 import Button from '@componentsReact/Button'
 import CheckboxGroup from '@componentsReact/CheckboxGroup'
@@ -25,7 +25,7 @@ const localQuestions = [
   ...muscles,
   // ...nasmCptQuiz,
   ...nasmCptVocab,
-  ...nasmPesVocab,
+  ...pes,
 ]
 
 const getTags = (questions) => {
@@ -42,7 +42,7 @@ const getTags = (questions) => {
       })
     }
 
-    return allTags
+    return allTags.filter((tag) => !tag.name.includes('Chapter'))
   }, [])
 }
 
@@ -59,43 +59,39 @@ const Flashcards = (props) => {
   const [filterVocab, setFilterVocab] = React.useState(false)
   const [filterQuizes, setFitlerQuizes] = React.useState(false)
   const [tags, setTags] = React.useState(initTags)
-  const [loading, setLoading] = React.useState(true)
+  const [loading, setLoading] = React.useState(false)
   const [showFilters, setShowFilters] = React.useState(false)
 
-  // setInitQuestions([...localQuestions])
-  // setQuestions([...localQuestions])
-  // setTags([...tags])
+  React.useEffect(() => {
+    const favs = localStorage.getItem('fc_favorites')
+    setFavorites(favs ? JSON.parse(favs) : [])
+    /* const tags = getTags(localQuestions)
+    setInitQuestions([...localQuestions])
+    setQuestions([...localQuestions])
+    setTags([...tags])
 
-  // React.useEffect(() => {
-  //   const favs = localStorage.getItem('fc_favorites')
-  //   setFavorites(favs ? JSON.parse(favs) : [])
-  //   // const tags = getTags(localQuestions)
-  //   setInitQuestions([...localQuestions])
-  //   setQuestions([...localQuestions])
-  //   setTags([...tags])
-
-  //   // Promise.all([
-  //   //   fetch('https://jp-api.vercel.app/api/flashcards/vocab').then((res) =>
-  //   //     res.json(),
-  //   //   ),
-  //   //   fetch('https://jp-api.vercel.app/api/flashcards/quiz').then((res) =>
-  //   //     res.json(),
-  //   //   ),
-  //   // ])
-  //   //   .then((data) => {
-  //   //     const questions = data.flat()
-  //   //     const tags = getTags(questions)
-  //   //     setInitQuestions([...questions, ...localQuestions])
-  //   //     setQuestions([...questions, ...localQuestions])
-  //   //     setTags([...initTags, ...tags])
-  //   //   })
-  //   //   .catch((err) => {
-  //   //     console.log(err)
-  //   //   })
-  //   //   .finally(() => {
-  //   //     setLoading(false)
-  //   //   })
-  // }, [])
+    Promise.all([
+      fetch('https://jp-api.vercel.app/api/flashcards/vocab').then((res) =>
+        res.json(),
+      ),
+      fetch('https://jp-api.vercel.app/api/flashcards/quiz').then((res) =>
+        res.json(),
+      ),
+    ])
+      .then((data) => {
+        const questions = data.flat()
+        const tags = getTags(questions)
+        setInitQuestions([...questions, ...localQuestions])
+        setQuestions([...questions, ...localQuestions])
+        setTags([...initTags, ...tags])
+      })
+      .catch((err) => {
+        console.log(err)
+      })
+      .finally(() => {
+        setLoading(false)
+      }) */
+  }, [])
 
   React.useEffect(() => {
     localStorage.setItem('fc_favorites', JSON.stringify(favorites))
@@ -236,7 +232,7 @@ const Flashcards = (props) => {
             inline
             onChange={handleToggleFilterFavorite}
           />
-          <CheckboxGroup
+          {/* <CheckboxGroup
             options={[{ name: 'Vocab', value: 'vocab' }]}
             value={[]}
             inline
@@ -247,7 +243,7 @@ const Flashcards = (props) => {
             value={[]}
             inline
             onChange={handleToggleFilterQuizes}
-          />
+          /> */}
         </div>
 
         {showFilters && loading && <div>Loading</div>}

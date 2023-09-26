@@ -1,0 +1,306 @@
+[
+  {
+    "question": "Integrated training",
+    "answer": "train with optimal posture in all planes of motion to develop high levels of dynamic flexibility, core, strength, neuromuscular control, power, speed/agility/quickness, and functional strength",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "93ab35d5-79bf-41ce-bdf2-e632fbd0ef1b"
+  },
+  {
+    "question": "Functional continuum",
+    "answer": "all three planes of motion, multidimensional movement, entire muscle-contraction spectrum, entire contraction-velocity spectrum, all acute variables manipulated",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "b32b1d4a-5154-4be5-af16-d14eb059df66"
+  },
+  {
+    "question": "Neuromuscular efficiency",
+    "answer": "ability of neuromuscular system to produce and reduce forces, and stabilize the entire HMS Stabilization strength, ability of stabilizing muscles to provide dynamic stabilization and postural equilibrium during functional activities",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "c7cda3b3-119c-44f0-b7fa-49a18ffdc21d"
+  },
+  {
+    "question": "Force-couple",
+    "answer": "muscles working together to produce movement around a joint (agonists, synergists, antagonists)",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "2eaaea03-0c66-444d-850d-f927ba500a3f"
+  },
+  {
+    "question": "Integrated sports performance program",
+    "answer": "flexibility, metabolic energy system, core, balance, plyometric, speed/agility/quickness, resistance, and sport-specific training",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "9dc31add-a98d-4dd4-a892-4deac4f5b19c"
+  },
+  {
+    "question": "Exercise selection criteria",
+    "answer": "safe, challenging, progressive, systematic, proprioceptively enriched, activity-specific",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "a34137ab-c743-4304-8cb9-755ab895f5df"
+  },
+  {
+    "question": "Exercise selection variables",
+    "answer": "plane of motion, body position, base of support, lower/upper extremity symmetry, external resistance, balance modality",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "5ddd496c-b96b-411a-a06a-b2c1513bbf2d"
+  },
+  {
+    "question": "Exercise progression continuum",
+    "answer": "progress exercises from: slow to fast, known to unknown, stable to unstable, controlled to dynamic functional movement, low to high force, correct execution to increased intensity",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "f69ee8a1-ea43-4e42-a2f1-4de98e3e41f2"
+  },
+  {
+    "question": "Phase 1: Stabilization Endurance",
+    "answer": "increase stabilization strength, develop optimal nervous-muscular system communication; proprioceptive progressions; correct muscle imbalances; increase flexibility, joint and postural stabilization",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "dbcb672f-e693-436b-b303-0cf77d150d46"
+  },
+  {
+    "question": "Phase 2: Strength Endurance",
+    "answer": "continue enhancing stabilization strength and endurance while increasing prime mover strength",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "0afd546c-8e56-49ac-81af-0eb97b350bcf"
+  },
+  {
+    "question": "Phase 3: Hypertrophy",
+    "answer": "maximize muscle growth",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "5e24a532-6499-474d-93db-3118279bdc3d"
+  },
+  {
+    "question": "Phase 4: Maximal Strength",
+    "answer": "maximize prime mover strength",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "e41a7ba9-70c2-4784-a86d-162755f0e3a5"
+  },
+  {
+    "question": "Phase 5: Power",
+    "answer": "enhance prime mover strength while improving rate of force production",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "be0d9216-aa2f-43e7-9b89-98023bd95d98"
+  },
+  {
+    "question": "Phase 6: Maximal Power",
+    "answer": "produce maximal acceleration and rate of force production; reserved for high-level athletes",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "dc1a494a-31e7-4fa9-a3e2-5e585c8f2a82"
+  },
+  {
+    "question": "Lever I",
+    "answer": "Teeter-totter Flexion-extension of the head",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "1b32306e-58e9-44c2-ac59-cf190ffc3e72"
+  },
+  {
+    "question": "Leverl II",
+    "answer": "Wheelbarrow Dorsiflexion-rising up on tiptoes",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "7271c0af-d2db-425a-b790-f83e76b0a603"
+  },
+  {
+    "question": "Lever III",
+    "answer": "Lifting a shovel Forearm flexion",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "06d1551b-31ec-4d44-8ced-1ae936bccde8"
+  },
+  {
+    "question": "Length-tension relationship",
+    "answer": "resting length of a muscle and the tension it can produce at that length",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "ae2a30e9-2c4f-4e86-8c54-5f36488d8c54"
+  },
+  {
+    "question": "Force-velocity curve",
+    "answer": "muscles’ ability to produce tension at differing shortening velocities",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "1d1ceff4-038f-4348-8796-642a470ab269"
+  },
+  {
+    "question": "Rate of force production",
+    "answer": "how quickly a muscle can generate force",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "412531a0-99e2-4943-bf46-d0dd2598c28a"
+  },
+  {
+    "question": "Behavioral properties of muscle",
+    "answer": "extensibility, elasticity, irritability, ability to develop tension",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "c189a9f1-b6ae-4f7e-825e-4a9c49427a79"
+  },
+  {
+    "question": "Local muscular system",
+    "answer": "stabilization system; muscles connect directly to spine; transverse abdominis, multifidus, internal obliques, diaphragm, pelvic floor muscles",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "9d0f094c-cbc8-4333-a22b-252a18610bca"
+  },
+  {
+    "question": "Peripheral joint support system",
+    "answer": "appendicular skeletal muscle; poor force production; isolated stabilization function; rotator cuff, gluteus medius (posterior fibers), vastus medialis oblique",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "fe1efd30-e7fb-457f-9be2-fa7f84dcbdc0"
+  },
+  {
+    "question": "Global muscular system",
+    "answer": "movement musculature; four distinct subsystems",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "2df70f5d-1e3c-47e9-b44e-e691fa69a2ad"
+  },
+  {
+    "question": "Deep longitudinal subsystem (DLS)",
+    "answer": "transmits force between trunk and ground; erector spinae, thoracolumbar fascia, sacrotuberous ligament, biceps femoris, peroneus longus",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "9bafdf06-13d9-456e-8286-78b20db5519c"
+  },
+  {
+    "question": "Posterior oblique subsystem (POS)",
+    "answer": "transfers force from transverse to sagittal plane; works synergistically with DLS; important for rotational activities; latissimus dorsi and contralateral gluteus maximus, cross-body bridge through thoracolumbar fascia",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "4048b4ef-f920-483f-a62a-11a76a1a0c6b"
+  },
+  {
+    "question": "Anterior oblique subsystem (AOS)",
+    "answer": "similar to POS on front side of body; internal and external obliques, adductor complex, hip external rotators",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "31085618-0cd1-4a31-b658-d34802839fa1"
+  },
+  {
+    "question": "Lateral subsystem",
+    "answer": "frontal plane and pelvo-femoral stability; gluteus medius, tensor fascia latae, adductor complex, quadratus lumborum",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "22a3f66b-9984-4c73-8acf-2d257564f1f5"
+  },
+  {
+    "question": "Proprioception",
+    "answer": "cumulative neural input from sensory afferents to the CNS",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "3a095f8f-2413-475a-bed9-8bef8dfc9775"
+  },
+  {
+    "question": "Internal feedback",
+    "answer": "information provided by length-tension relationships, force-couple relationships, and arthrokinematics to monitor movement and environment",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "c5127b86-797f-46ae-a1c0-608bd6d671ff"
+  },
+  {
+    "question": "External feedback",
+    "answer": "information provided by an external source",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "2aa2a777-d7c6-462a-855a-720c7b66e701"
+  },
+  {
+    "question": "Knowledge of results",
+    "answer": "informs athlete about the outcome of performance",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "472496d0-2cf3-4620-8906-aa6888cc1962"
+  },
+  {
+    "question": "Knowledge of performance",
+    "answer": "informs athlete about the quality of movement during exercise",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "3410453b-89d7-4293-8034-0f8f8a0456fb"
+  },
+  {
+    "question": "Sensorimotor integration",
+    "answer": "ability of CNS to gather and interpret information to execute the proper motor response",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "b12ec545-a963-4c5a-b68c-0dd6a984a42d"
+  },
+  {
+    "question": "Motor behavior",
+    "answer": "motor response to internal and external stimuli",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "b63ffe90-36d4-4369-9b97-16a4c3ad586f"
+  },
+  {
+    "question": "Motor control",
+    "answer": "how the CNS integrates sensory information with previous experience to produce a motor response",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "a9d1dd7f-4275-449a-b1ee-2061f7f52230"
+  },
+  {
+    "question": "Motor learning",
+    "answer": "integration of motor control with practice and experience; creates relatively permanent change in ability to produce skilled movement",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "a5bc02ec-4b87-4296-ac5a-97e49877494f"
+  },
+  {
+    "question": "Motor development",
+    "answer": "change in motor behavior over a lifetime",
+    "tags": [
+      "nasm-pes"
+    ],
+    "id": "277ecf37-7087-4926-bd20-d070d537ab70"
+  }
+]
