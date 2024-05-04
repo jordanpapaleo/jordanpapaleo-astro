@@ -1,8 +1,7 @@
 import React from 'react'
-import quiz from './db/quiz.json'
-import vocab from './db/vocab.json'
-import fav from './db/fav.json'
-import multiplication from './db/multiplication.json'
+// import quiz from './db/quiz.json'
+// import vocab from './db/vocab.json'
+// import fav from './db/fav.json'
 import CheckboxGroup from '@componentsReact/CheckboxGroup'
 import Button from '@componentsReact/Button'
 import clsx from 'clsx'
@@ -17,62 +16,42 @@ import { disableScroll, enableScroll } from '@common/scrollHandler'
 // import { AiFillStar, AiOutlineStar } from 'react-icons/ai'
 
 const localQuestions = [
-  ...fav,
+  // ...fav,
   // ...vocab, ...quiz,
-  ...multiplication,
 ]
 
-const getTags = (questions) => {
-  return questions.reduce((allTags, q) => {
-    if (q.tags) {
-      q.tags.forEach((t) => {
-        const plop = allTags.some(({ name }) => name === t)
-        if (!plop) {
-          allTags.push({
-            name: t,
-            value: t,
-          })
-        }
-      })
-    }
-
-    return allTags
-  }, [])
-}
-
-const initTags = getTags(localQuestions)
+const getUrl = (local) =>
+  local ? 'http://localhost:3002' : 'https://jp-api-v2.vercel.app'
 
 const Flashcards = (props) => {
-  const [cardIndex, setCardIndex] = React.useState(0)
-  const [filters, setFilters] = React.useState([])
-  const [initQuestions, setInitQuestions] = React.useState([])
+  const [loading, setLoading] = React.useState(true)
   const [questions, setQuestions] = React.useState([])
-  const [fullScreen, setFullScreen] = React.useState(false)
-  const [favorites, setFavorites] = React.useState([])
-  const [filterFavorites, setFilterFavorites] = React.useState(false)
+  const [vocabQuestions, setVocabQuestions] = React.useState([])
+  const [quizQuestions, setQuizQuestions] = React.useState([])
+  const [cardIndex, setCardIndex] = React.useState(0)
   const [filterVocab, setFilterVocab] = React.useState(false)
   const [filterQuizes, setFitlerQuizes] = React.useState(false)
-  const [tags, setTags] = React.useState(initTags)
-  const [loading, setLoading] = React.useState(true)
+  const [fullScreen, setFullScreen] = React.useState(false)
+  const [favorites, setFavorites] = React.useState([])
+  const [filters, setFilters] = React.useState([])
+  const [filterFavorites, setFilterFavorites] = React.useState(false)
+  const [filterCerts, setFilterCerts] = React.useState([])
 
   React.useEffect(() => {
     const favs = localStorage.getItem('fc_favorites')
     setFavorites(favs ? JSON.parse(favs) : [])
 
+    const url = getUrl(false)
+
     Promise.all([
-      fetch('https://jp-api.vercel.app/api/flashcards/vocab').then((res) =>
-        res.json(),
-      ),
-      fetch('https://jp-api.vercel.app/api/flashcards/quiz').then((res) =>
-        res.json(),
-      ),
+      fetch(`${url}/api/flashcards/vocab`).then((res) => res.json()),
+      fetch(`${url}/api/flashcards/quiz`).then((res) => res.json()),
     ])
-      .then((data) => {
-        const questions = data.flat()
-        const tags = getTags(questions)
-        setInitQuestions([...questions, ...localQuestions])
-        setQuestions([...questions, ...localQuestions])
-        setTags([...initTags, ...tags])
+      .then(([vocabRes, quizRes]) => {
+        console.log({ vocabRes, quizRes })
+        setVocabQuestions(vocabRes)
+        setQuizQuestions(quizRes)
+        setQuestions([...vocabRes, ...quizRes])
       })
       .catch((err) => {
         console.log(err)
@@ -87,51 +66,28 @@ const Flashcards = (props) => {
   }, [favorites])
 
   React.useEffect(() => {
-    const id = questions[cardIndex] ? questions[cardIndex].id : ''
+    let filteredQuestions = [...vocabQuestions, ...quizQuestions]
 
-    let filteredQuestions = [...initQuestions]
-
-    // Tag filters
-    if (filters.length) {
-      filteredQuestions = filteredQuestions.filter((question) => {
-        if (!question.tags) return false
-        return question?.tags.some((t) => filters.includes(t))
-      })
+    // Basic question type filtering
+    if ((filterVocab && filterQuizes) || (!filterVocab && !filterQuizes)) {
+      // do nothing as this is a non filtering condition
+    } else if (filterVocab) {
+      filteredQuestions = vocabQuestions
+    } else if (filterQuizes) {
+      filteredQuestions = quizQuestions
     }
 
-    // vocab and quiz filters
-    if (filterVocab || filterQuizes) {
+    console.log(filterCerts)
+    if (filterCerts.length === 0 || filterCerts.length === 3) {
+      // do nothing as this is a non filtering condition
+    } else if (filterCerts.length > 0) {
       filteredQuestions = filteredQuestions.filter((question) => {
-        if (filterVocab && filterQuizes) {
-          return (
-            question.tags.includes('vocab') || question.tags.includes('quiz')
-          )
-        } else if (filterVocab) {
-          return question.tags.includes('vocab')
-        } else if (filterQuizes) {
-          return question.tags.includes('quiz')
-        }
+        return filterCerts.includes(question.cert)
       })
-    }
-
-    // starred
-    if (filterFavorites) {
-      filteredQuestions = filteredQuestions.filter((question) => {
-        return favorites.includes(question.id)
-      })
-    }
-
-    try {
-      const index = filteredQuestions.findIndex(({ id: qid }) => id === qid)
-      setCardIndex(index === -1 ? 0 : index)
-    } catch (err) {
-      setCardIndex(0)
     }
 
     setQuestions(filteredQuestions)
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filters, favorites, filterFavorites, filterVocab, filterQuizes])
+  }, [filterVocab, filterQuizes, filterCerts, filterFavorites])
 
   React.useEffect(() => {
     if (fullScreen) {
@@ -140,14 +96,6 @@ const Flashcards = (props) => {
       enableScroll()
     }
   }, [fullScreen])
-
-  const handleFilter = (checked, value) => {
-    if (checked) {
-      setFilters([...filters, value])
-    } else {
-      setFilters(filters.filter((f) => f !== value))
-    }
-  }
 
   const shuffle = () => {
     const shuffled = [...questions].sort(() => (Math.random() > 0.5 ? 1 : -1))
@@ -181,16 +129,32 @@ const Flashcards = (props) => {
     }
   }
 
-  const handleToggleFilterFavorite = () => {
-    setFilterFavorites(!filterFavorites)
+  const handleFilter = (checked, value) => {
+    if (checked) {
+      setFilters([...filters, value])
+    } else {
+      setFilters(filters.filter((f) => f !== value))
+    }
   }
 
-  const handleToggleFilterVocab = () => {
-    setFilterVocab(!filterVocab)
+  const handleToggleCert = (checked, value) => {
+    if (checked) {
+      setFilterCerts([...filterCerts, value])
+    } else {
+      setFilterCerts(filterCerts.filter((f) => f !== value))
+    }
   }
 
-  const handleToggleFilterQuizes = () => {
-    setFitlerQuizes(!filterQuizes)
+  const handleToggleFilterFavorite = (e) => {
+    setFilterFavorites(e.target.checked)
+  }
+
+  const handleToggleFilterVocab = (e) => {
+    setFilterVocab(e.target.checked)
+  }
+
+  const handleToggleFilterQuizes = (e) => {
+    setFitlerQuizes(e.target.checked)
   }
 
   const handleFullScreen = () => {
@@ -222,65 +186,78 @@ const Flashcards = (props) => {
             inline
             onChange={handleToggleFilterQuizes}
           />
+          |
+          <CheckboxGroup
+            options={[
+              { name: 'NASM CPT', value: 'NASM CPT' },
+              { name: 'NASM PES', value: 'NASM PES' },
+              { name: 'NASM Nutrition', value: 'NASM Nutrition' },
+            ]}
+            value={[]}
+            inline
+            onChange={(e) => {
+              handleToggleCert(e.target.checked, e.target.value)
+            }}
+          />
         </div>
 
-        {loading ? (
+        {/* {loading ? (
           <div>Loading</div>
         ) : (
           <CheckboxGroup
             label={`Filter: ${filters.join(' OR ')}`}
-            options={tags.filter(({ value }) => {
-              return value !== 'vocab' && value !== 'quiz' && value !== 'cpt'
-            })}
+            options={[]}
             value={[]}
             inline
             onChange={(e) => {
               handleFilter(e.target.checked, e.target.value)
             }}
           />
-        )}
+        )} */}
       </div>
 
-      <div
-        className={clsx('flex gap-2 w-full min-w-full', fullScreen && FS_CLASS)}
-      >
-        <CardGutter className="">
-          <Button
-            color="gray"
-            className="flex-grow"
-            title="Previous Question"
-            onClick={handlePrev}
-          >
-            <ChevronLeftIcon />
-          </Button>
+      <div className={clsx('flex flex-col gap-2', fullScreen && FS_CLASS)}>
+        <div className={clsx('flex gap-2 flex-1 w-full min-w-full')}>
+          <CardGutter className="flex-col">
+            <Button
+              color="gray"
+              className="flex-grow"
+              title="Previous Question"
+              onClick={handlePrev}
+            >
+              <ChevronLeftIcon />
+            </Button>
+          </CardGutter>
 
-          <Button color="gray" onClick={shuffle} title="Shuffle Questions">
-            <ShuffleIcon />
-          </Button>
-        </CardGutter>
+          <div className="border flex-1 relative min-h-[200px]">
+            <small className="mb-2 absolute left-2 top-1">
+              {questions.length > 0
+                ? `${cardIndex + 1} of ${questions.length}`
+                : '0 of 0'}
+            </small>
 
-        <div className="border flex-1 relative">
-          <small className="mb-2 absolute left-2 top-1">
-            {questions.length > 0
-              ? `${cardIndex + 1} of ${questions.length}`
-              : '0 of 0'}
-          </small>
+            {questions
+              .filter((meh, i) => i === cardIndex)
+              .map((question) => (
+                <Card {...question} key={question.id} />
+              ))}
+          </div>
 
-          {questions
-            .filter((meh, i) => i === cardIndex)
-            .map((question) => (
-              <Card {...question} key={question.id} />
-            ))}
+          <CardGutter className="flex-col">
+            <Button
+              color="gray"
+              title="Next Question"
+              className="flex-grow"
+              onClick={handleNext}
+            >
+              <ChevronRightIcon />
+            </Button>
+          </CardGutter>
         </div>
 
-        <CardGutter className="">
-          <Button
-            color="gray"
-            title="Next Question"
-            className="flex-grow"
-            onClick={handleNext}
-          >
-            <ChevronRightIcon />
+        <CardGutter className="flex-row justify-center">
+          <Button color="gray" onClick={shuffle} title="Shuffle Questions">
+            <ShuffleIcon />
           </Button>
 
           <Button color="gray" title="Up vote" onClick={handleFavorite}>
@@ -306,31 +283,30 @@ const Flashcards = (props) => {
 }
 
 const CardGutter = ({ children, className }) => (
-  <div className={clsx('flex flex-col gap-2', className)}>{children}</div>
+  <div className={clsx('flex items-center gap-4', className)}>{children}</div>
 )
 
-const Card = ({ question, answer, tags = [] }) => {
+const Card = ({ question, answer, ...rest }) => {
   const [showAnswer, setShowAnswer] = React.useState(false)
 
   return (
     <button
       onClick={() => setShowAnswer(!showAnswer)}
-      className="py-2 px-4 relative w-full"
+      className="py-4 px-8 lg:px-16 relative w-full h-full"
     >
-      <h2 className="text-center">{question}</h2>
-      <p className={clsx('leading-5 pb-4', !showAnswer && 'opacity-0')}>
-        {answer}
-      </p>
+      {showAnswer ? (
+        <div className="leading-5 text-lg text-left">{answer}</div>
+      ) : (
+        <h2 className="text-center">{question}</h2>
+      )}
+
+      <small className="flex gap-1 absolute top-1 right-1">
+        <strong>{rest.cert}</strong>
+      </small>
 
       <small className="flex gap-1 absolute left-1 bottom-1">
-        {tags.map((t, i) => (
-          <span
-            key={i}
-            className="inline-block px-1 border border-primary-light bg-primary-ultraLight text-xs text-primary"
-          >
-            {t}
-          </span>
-        ))}
+        <strong>{rest.source}</strong>
+        {rest.topic}
       </small>
     </button>
   )
